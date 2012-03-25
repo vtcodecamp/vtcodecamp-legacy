@@ -41,9 +41,22 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
+  file { "/etc/httpd/conf/httpd.conf":
+    require => Package["httpd"],
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/httpd.conf",
+    notify => Service["httpd"],
+  }
+
   service { "httpd":
     ensure => running,
-    require => Package["httpd"]
+    require => [
+      Package["httpd"],
+      File["/etc/httpd/conf/httpd.conf"],
+    ],
   }
 }
 
