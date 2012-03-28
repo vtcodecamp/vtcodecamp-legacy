@@ -3,7 +3,11 @@
 This is the source code for the vtcodecamp.org website.
 
 ## Developing
- 
+
+Development of this web application is done using 
+[VirtualBox](https://www.virtualbox.org/) and [Vagrant](http://vagrantup.com/). 
+To set up your own local development environment:
+
 1. Install [VirtualBox](https://www.virtualbox.org/)
 2. Install [Vagrant](http://vagrantup.com/)
 3. Add the [Minimal CentOS 6.0](http://vagrantbox.es/55/) box (if not already on your system):  
