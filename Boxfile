@@ -5,6 +5,7 @@ web1:
     - memcache
     - xml
   php_display_errors: "0"
+  php_display_startup_errors = "0"
   php_error_reporting = 22527
   php_short_open_tag = "1"
 cache1:
