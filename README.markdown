@@ -15,3 +15,15 @@ and [Vagrant](http://vagrantup.com/). To set up your own local development envir
 `vagrant up`
 5. The project should now be available on `localhost` port `2611`:  
 `http://localhost:2611/`
+
+## Deploying
+
+This web application is configured for deployment on [Pagoda Box](http://pagodabox.com/). 
+This is configured through the file named `Boxfile`. See Pagoda Box's help documentation on 
+[Understanding the Boxfile](http://help.pagodabox.com/customer/portal/articles/175475-understanding-the-boxfile).
+
+If you are an application collaborator, then deploying is simply a matter of pushing
+your clone of the Git repository for this project. For example, add 
+`git@git.pagodabox.com:vtcodecamp-dev.git` as a remote repository and push the 
+`master` branch to this repository in order to deploy to the `vtcodecamp-dev.pagodabox.com` 
+environment. Again, this will only work of your are a collaborator on this application.
