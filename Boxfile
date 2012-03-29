@@ -2,3 +2,4 @@ web1:
   document_root: public
   php_extensions:
     - apc
+    - memcache
