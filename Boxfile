@@ -3,3 +3,5 @@ web1:
   php_extensions:
     - apc
     - memcache
+cache1:
+  type: memcached
