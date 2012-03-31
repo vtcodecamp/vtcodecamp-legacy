@@ -9,6 +9,7 @@
         }
     ],
     "require": {
+        "pear-zf2/Zend_Debug": "*",
         "pear-zf2/Zend_Mvc": "*"
     }
 }
