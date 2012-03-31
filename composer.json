@@ -1,6 +1,9 @@
 {
     "repositories": [
         {
+            "packagist": false
+        },
+        {
             "type": "pear",
             "url": "http://packages.zendframework.com"
         }
