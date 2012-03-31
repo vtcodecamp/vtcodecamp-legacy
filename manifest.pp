@@ -86,6 +86,12 @@ class minimal-centos-60 {
       Exec["/usr/bin/pear config-set auto_discover 1"]
     ]
   }
+
+  exec { "/usr/bin/phing -f /vagrant/build.xml build":
+    require => [
+      Exec["/usr/bin/pear upgrade pear.phing.info/phing"],
+    ]
+  }
 }
 
 include minimal-centos-60
