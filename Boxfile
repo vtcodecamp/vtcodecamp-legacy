@@ -10,10 +10,6 @@ web1:
   php_error_reporting: 22527
   php_short_open_tag: "1"
   after_build:
-    - "phing -verbose build"
-  before_deploy:
-    - "phing -verbose release"
-  after_deploy:
-    - "phing -verbose run"
+    - "php composer.phar install"
 cache1:
   type: memcached
