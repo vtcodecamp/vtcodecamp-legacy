@@ -68,6 +68,17 @@ class minimal-centos-60 {
       File["/etc/httpd/conf/httpd.conf"],
     ],
   }
+
+  exec {"/usr/bin/pear upgrade":
+    require => Package["php-pear"]
+  }
+
+  exec { "/usr/bin/pear config-set auto_discover 1":
+    require => [
+      Package["php-pear"],
+      Exec["/usr/bin/pear upgrade"]
+    ]
+  }
 }
 
 include minimal-centos-60
