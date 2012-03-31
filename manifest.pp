@@ -13,6 +13,12 @@ class minimal-centos-60 {
     notify => Service["httpd"],
   }
 
+  package { "php-devel":
+    require => Package["php"],
+    ensure => latest,
+    notify => Service["httpd"],
+  }
+
   package { "php-pecl-apc":
     require => Package["php"],
     ensure => latest,
@@ -51,6 +57,16 @@ class minimal-centos-60 {
     notify => Service["httpd"],
   }
 
+  file { "/etc/php.d/xdebug.ini":
+    require => Package["php"],
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/php.d/xdebug.ini",
+    notify => Service["httpd"],
+  }
+
   file { "/etc/httpd/conf/httpd.conf":
     require => Package["httpd"],
     ensure => file,
@@ -67,6 +83,16 @@ class minimal-centos-60 {
       Package["httpd"],
       File["/etc/httpd/conf/httpd.conf"],
     ],
+  }
+
+  exec {"/usr/bin/pecl upgrade":
+    require => Package["php-pear"],
+    notify => Service["httpd"],
+  }
+
+  exec { "/usr/bin/pecl upgrade pecl.php.net/xdebug":
+    require => Exec["/usr/bin/pecl upgrade"],
+    notify => Service["httpd"],
   }
 
   exec {"/usr/bin/pear upgrade":
