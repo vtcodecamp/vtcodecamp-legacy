@@ -53,7 +53,7 @@ class minimal-centos-60 {
     owner => root,
     group => root,
     mode => 0644,
-    source => "/vagrant/php.ini",
+    source => "/vagrant/etc/php.ini",
     notify => Service["httpd"],
   }
 
@@ -63,7 +63,7 @@ class minimal-centos-60 {
     owner => root,
     group => root,
     mode => 0644,
-    source => "/vagrant/php.d/xdebug.ini",
+    source => "/vagrant/etc/php.d/xdebug.ini",
     notify => Service["httpd"],
   }
 
@@ -73,7 +73,7 @@ class minimal-centos-60 {
     owner => root,
     group => root,
     mode => 0644,
-    source => "/vagrant/httpd.conf",
+    source => "/vagrant/etc/httpd/conf/httpd.conf",
     notify => Service["httpd"],
   }
 
