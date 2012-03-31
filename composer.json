@@ -11,5 +11,13 @@
     "require": {
         "pear-zf2/Zend_Debug": "*",
         "pear-zf2/Zend_Mvc": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Zend": [
+                "vendor/pear-zf2/Zend_Debug/php/",
+                "vendor/pear-zf2/Zend_Mvc/php/"
+            ]
+        }
     }
 }
