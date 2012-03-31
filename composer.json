@@ -14,7 +14,9 @@
         "pear-zf2/Zend_Debug": "*",
         "pear-zf2/Zend_Di": "*",
         "pear-zf2/Zend_EventManager": "*",
-        "pear-zf2/Zend_Mvc": "*"
+        "pear-zf2/Zend_Module": "*",
+        "pear-zf2/Zend_Mvc": "*",
+        "pear-zf2/Zend_Stdlib": "*"
     },
     "autoload": {
         "psr-0": {
@@ -24,7 +26,9 @@
                 "vendor/pear-zf2/Zend_Debug/php/",
                 "vendor/pear-zf2/Zend_Di/php/",
                 "vendor/pear-zf2/Zend_EventManager/php/",
-                "vendor/pear-zf2/Zend_Mvc/php/"
+                "vendor/pear-zf2/Zend_Module/php/",
+                "vendor/pear-zf2/Zend_Mvc/php/",
+                "vendor/pear-zf2/Zend_Stdlib/php/"
             ]
         }
     }
