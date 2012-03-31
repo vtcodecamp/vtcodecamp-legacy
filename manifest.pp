@@ -79,6 +79,13 @@ class minimal-centos-60 {
       Exec["/usr/bin/pear upgrade"]
     ]
   }
+
+  exec { "/usr/bin/pear upgrade pear.phing.info/phing":
+    require => [
+      Exec["/usr/bin/pear upgrade"],
+      Exec["/usr/bin/pear config-set auto_discover 1"]
+    ]
+  }
 }
 
 include minimal-centos-60
