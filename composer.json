@@ -1,14 +1,12 @@
 {
     "repositories": [
         {
-            "packagist": false
-        },
-        {
             "type": "pear",
             "url": "http://packages.zendframework.com"
         }
     ],
     "require": {
+        "twig/twig": "1.6.3",
         "pear-zf2/Zend_Debug": "*"
     },
     "autoload": {
