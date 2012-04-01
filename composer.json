@@ -9,26 +9,12 @@
         }
     ],
     "require": {
-        "pear-zf2/Zend_Code": "*",
-        "pear-zf2/Zend_Config": "*",
-        "pear-zf2/Zend_Debug": "*",
-        "pear-zf2/Zend_Di": "*",
-        "pear-zf2/Zend_EventManager": "*",
-        "pear-zf2/Zend_Module": "*",
-        "pear-zf2/Zend_Mvc": "*",
-        "pear-zf2/Zend_Stdlib": "*"
+        "pear-zf2/Zend_Debug": "*"
     },
     "autoload": {
         "psr-0": {
             "Zend": [
-                "vendor/pear-zf2/Zend_Code/php/",
-                "vendor/pear-zf2/Zend_Config/php/",
-                "vendor/pear-zf2/Zend_Debug/php/",
-                "vendor/pear-zf2/Zend_Di/php/",
-                "vendor/pear-zf2/Zend_EventManager/php/",
-                "vendor/pear-zf2/Zend_Module/php/",
-                "vendor/pear-zf2/Zend_Mvc/php/",
-                "vendor/pear-zf2/Zend_Stdlib/php/"
+                "vendor/pear-zf2/Zend_Debug/php/"
             ]
         }
     }
