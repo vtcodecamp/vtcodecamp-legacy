@@ -7,7 +7,7 @@
   </target>
   <target name="prepare">
   </target>
-  <target name="build" depends="clean,prepare">
+  <target name="build">
     <echo msg="Building dependencies through Composer…" />
     <exec command="php composer.phar install" />
   </target>
