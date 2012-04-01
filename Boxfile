@@ -13,3 +13,6 @@ web1:
     - "php composer.phar install"
 cache1:
   type: memcached
+global:
+  env:
+    - TWIG_CACHE: var/twig

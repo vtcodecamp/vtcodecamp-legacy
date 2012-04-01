@@ -47,6 +47,24 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
+  file { "/etc/environment":
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/etc/environment",
+    notify => Service["httpd"],
+  }
+
+  file { "/etc/sysconfig/httpd":
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/etc/sysconfig/httpd",
+    notify => Service["httpd"],
+  }
+
   file { "/etc/php.ini":
     require => Package["php"],
     ensure => file,
