@@ -33,4 +33,4 @@
 TWIG_CACHE=/tmp/twig
 TWIG_DEBUG=1
 
-export TWIG_CACHE 
+export TWIG_CACHE TWIG_DEBUG
