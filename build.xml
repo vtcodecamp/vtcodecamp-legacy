@@ -4,6 +4,7 @@
   <target name="clean">
     <delete file="composer.lock" />
     <delete dir="vendor" />
+    <delete dir="env.TWIG_CACHE" />
   </target>
   <target name="prepare">
   </target>
