@@ -9,7 +9,7 @@
   </target>
   <target name="build">
     <echo msg="Building dependencies through Composer…" />
-    <exec command="php composer.phar install" />
+    <exec command="php composer.phar update" />
   </target>
   <target name="release">
   </target>
