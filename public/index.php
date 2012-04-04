@@ -12,7 +12,9 @@ $twig = new Twig_Environment($loader, $twigConfig['environment']);
 
 $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     try {
-        $template = $twig->loadTemplate('pages/' . $id . '.html');
+        $templateName = 'pages/' . $id . '.html';
+        $template = $twig->loadTemplate($templateName);
+        $app->lastModified(filemtime($twig->getCacheFilename($templateName)));
     } catch (Twig_Error_Loader $ex) {
         $app->pass();
     }
