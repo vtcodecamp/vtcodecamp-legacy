@@ -47,6 +47,10 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
+  package { "git":
+    ensure => latest,
+  }
+
   file { "/etc/environment":
     ensure => file,
     owner => root,
