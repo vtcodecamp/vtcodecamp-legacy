@@ -5,7 +5,7 @@ if (false !== $cache && '/' != $cache[0]) {
 }
 return array(
     'paths'         => array(
-        APPLICATION_ROOT . '/public',
+        APPLICATION_ROOT . '/templates',
     ),
     'environment'   => array(
         'cache'             => $cache,
