@@ -6,6 +6,7 @@ web1:
     - memcache
     - xml
     - zip
+  php_date_timezone: "UTC"
   php_auto_globals_jit: "1"
   php_display_errors: "0"
   php_display_startup_errors: "0"
