@@ -11,6 +11,7 @@
     ],
     "require": {
         "slim/slim": "dev-master",
+        "slim/extras": "1.0.2",
         "pear-zf2/Zend_Debug": "2.0.0beta3",
         "twig/twig": "1.6.3"
     },

@@ -10,6 +10,8 @@ $twigConfig = include APPLICATION_ROOT . '/config/twig.php';
 $loader = new Twig_Loader_Filesystem($twigConfig['paths']);
 $twig = new Twig_Environment($loader, $twigConfig['environment']);
 
+$twig->addExtension(new Twig_Extensions_Slim());
+
 $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     try {
         $templateName = 'pages/' . $id . '.html';
@@ -22,7 +24,7 @@ $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     ));
     $app->etag(md5($content));
     echo $content;
-});
+})->name('page');
 
 $app->notFound(function () use ($app, $twig) {
     $template = $twig->loadTemplate('error/404.html');
