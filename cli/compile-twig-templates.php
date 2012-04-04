@@ -17,7 +17,7 @@ $twig = new Twig_Environment($loader, $twigConfig['environment']);
 foreach ($twigConfig['paths'] as $path) {
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
     while ($iterator->valid()) {
-        if (!$iterator->isDot()) {
+        if (!$iterator->isDot() && !$iterator->isDir()) {
             $twig->loadTemplate($iterator->getSubPathName());
         }
         $iterator->next();
