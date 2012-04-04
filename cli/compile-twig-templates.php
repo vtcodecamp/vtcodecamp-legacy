@@ -13,6 +13,7 @@ $loader = new Twig_Loader_Filesystem($twigConfig['paths']);
 echo 'Cache: '. $twigConfig['environment']['cache'] . PHP_EOL;
 echo 'Debug: '. $twigConfig['environment']['debug'] . PHP_EOL;
 $twig = new Twig_Environment($loader, $twigConfig['environment']);
+$twig->addExtension(new Twig_Extensions_Slim());
 
 foreach ($twigConfig['paths'] as $path) {
     $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
