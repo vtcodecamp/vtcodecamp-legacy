@@ -1,13 +1,18 @@
 {
     "repositories": [
         {
+            "type": "vcs",
+            "url": "https://github.com/bradley-holt/Slim"
+        },
+        {
             "type": "pear",
             "url": "http://packages.zendframework.com"
         }
     ],
     "require": {
-        "twig/twig": "1.6.3",
-        "pear-zf2/Zend_Debug": "*"
+        "slim/slim": "dev-master",
+        "pear-zf2/Zend_Debug": "2.0.0beta3",
+        "twig/twig": "1.6.3"
     },
     "autoload": {
         "psr-0": {
