@@ -12,10 +12,4 @@ return array(
         'debug'             => (boolean)getenv('TWIG_DEBUG'),
         'strict_variables'  => true,
     ),
-    'templates'     => array(
-        'index.html',
-        'attend/index.html',
-        'speak/index.html',
-        'sponsor/index.html',
-    ),
 );

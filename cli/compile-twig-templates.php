@@ -14,8 +14,14 @@ echo 'Cache: '. $twigConfig['environment']['cache'] . PHP_EOL;
 echo 'Debug: '. $twigConfig['environment']['debug'] . PHP_EOL;
 $twig = new Twig_Environment($loader, $twigConfig['environment']);
 
-foreach ($twigConfig['templates'] as $templateName) {
-    $twig->loadTemplate($templateName);
+foreach ($twigConfig['paths'] as $path) {
+    $iterator = new RecursiveIteratorIterator(new RecursiveDirectoryIterator($path));
+    while ($iterator->valid()) {
+        if (!$iterator->isDot()) {
+            $twig->loadTemplate($iterator->getSubPathName());
+        }
+        $iterator->next();
+    }
 }
 
 exit(0);
