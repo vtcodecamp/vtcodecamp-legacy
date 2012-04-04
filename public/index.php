@@ -26,6 +26,10 @@ $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     $content = $template->render(array(
     ));
     $app->etag(md5($content));
+    $maxAge = 0;
+    $expires = time() + $maxAge;
+    $app->response()->header('Cache-Control', 'max-age=' . $maxAge . ', must-revalidate');
+    $app->response()->header('Expires', date(DATE_RFC1123, $expires));
     echo $content;
 })->name('page');
 
