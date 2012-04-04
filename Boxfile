@@ -2,6 +2,7 @@ web1:
   document_root: public
   php_extensions:
     - apc
+    - mcrypt
     - memcache
     - xml
     - zip
