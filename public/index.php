@@ -11,6 +11,10 @@ $loader = new Twig_Loader_Filesystem($twigConfig['paths']);
 $twig = new Twig_Environment($loader, $twigConfig['environment']);
 $twig->addExtension(new Twig_Extensions_Slim());
 
+$app->get('/', function () use ($app)  {
+    $app->pass();
+})->name('home');
+
 $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     try {
         $templateName = 'pages/' . $id . '.html';
