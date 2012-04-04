@@ -136,9 +136,6 @@ class minimal-centos-60 {
   }
 
   exec { "/usr/bin/phing -f /vagrant/build.xml build":
-    require => [
-      Exec["/usr/bin/pear upgrade pear.phing.info/phing"],
-    ]
   }
 }
 
