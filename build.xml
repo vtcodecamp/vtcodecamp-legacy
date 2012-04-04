@@ -11,8 +11,6 @@
   <target name="build">
     <echo msg="Building dependencies through Composer..." />
     <exec command="php composer.phar update" logoutput="true" checkreturn="true" />
-    <echo msg="Compiling Twig templates..." />
-    <exec command="php cli/compile-twig-templates.php" logoutput="true" checkreturn="true" />
   </target>
   <target name="release">
   </target>
