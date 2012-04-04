@@ -4,5 +4,16 @@
 </head>
 <body>
 {% block content %}{% endblock %}
+<footer>
+    <nav>
+        <h1><a href="{{ urlFor('page', {'id': 'index'}) }}" id="vermont-code-camp-logo">Vermont Code Camp</a></h1>
+        <ul>
+            <li><a href="{{ urlFor('page', {'id': 'index'}) }}">Overview</a></li>
+            <li><a href="{{ urlFor('page', {'id': 'attend'}) }}">Attend</a></li>
+            <li><a href="{{ urlFor('page', {'id': 'speak'}) }}">Speak</a></li>
+            <li><a href="{{ urlFor('page', {'id': 'sponsor'}) }}">Sponsor</a></li>
+        </ul>
+    </nav>
+</footer>
 </body>
 </html>
