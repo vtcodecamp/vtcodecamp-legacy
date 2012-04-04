@@ -14,7 +14,7 @@ $app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
     try {
         $template = $twig->loadTemplate('pages/' . $id . '.html');
     } catch (Twig_Error_Loader $ex) {
-      $app->pass();
+        $app->pass();
     }
     $content = $template->render(array(
     ));
