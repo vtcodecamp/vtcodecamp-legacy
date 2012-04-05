@@ -110,32 +110,38 @@ class minimal-centos-60 {
   exec {"/usr/bin/pecl upgrade":
     require => Package["php-pear"],
     notify => Service["httpd"],
+    timeout => 0,
   }
 
   exec { "/usr/bin/pecl upgrade pecl.php.net/xdebug":
     require => Exec["/usr/bin/pecl upgrade"],
     notify => Service["httpd"],
+    timeout => 0,
   }
 
   exec {"/usr/bin/pear upgrade":
-    require => Package["php-pear"]
+    require => Package["php-pear"],
+    timeout => 0,
   }
 
   exec { "/usr/bin/pear config-set auto_discover 1":
     require => [
       Package["php-pear"],
       Exec["/usr/bin/pear upgrade"]
-    ]
+    ],
+    timeout => 0,
   }
 
   exec { "/usr/bin/pear upgrade pear.phing.info/phing":
     require => [
       Exec["/usr/bin/pear upgrade"],
       Exec["/usr/bin/pear config-set auto_discover 1"]
-    ]
+    ],
+    timeout => 0,
   }
 
   exec { "/usr/bin/phing -f /vagrant/build.xml build":
+    timeout => 0,
   }
 }
 
