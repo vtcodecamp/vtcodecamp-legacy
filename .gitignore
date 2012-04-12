@@ -4,4 +4,5 @@
 .settings
 .vagrant
 composer.lock
+reports/
 vendor/
