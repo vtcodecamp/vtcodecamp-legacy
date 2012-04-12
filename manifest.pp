@@ -132,6 +132,14 @@ class minimal-centos-60 {
     timeout => 0,
   }
 
+  exec { "/usr/bin/pear upgrade pear.phpunit.de/PHPUnit":
+    require => [
+      Exec["/usr/bin/pear upgrade"],
+      Exec["/usr/bin/pear config-set auto_discover 1"]
+    ],
+    timeout => 0,
+  }
+
   exec { "/usr/bin/pear upgrade pear.phing.info/phing":
     require => [
       Exec["/usr/bin/pear upgrade"],
