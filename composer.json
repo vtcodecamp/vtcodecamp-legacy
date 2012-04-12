@@ -17,6 +17,7 @@
     },
     "autoload": {
         "psr-0": {
+            "VtCodeCamp": "src",
             "Zend": [
                 "vendor/pear-zf2/Zend_Debug/php/"
             ]
