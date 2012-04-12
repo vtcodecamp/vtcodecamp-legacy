@@ -8,6 +8,32 @@
   </target>
   <target name="prepare">
   </target>
+  <target name="test">
+    <coverage-setup database="./reports/coverage.db">
+      <fileset dir="./src">
+        <include name="**/*.php"/>
+      </fileset>
+    </coverage-setup>
+    <phpunit
+      bootstrap="./tests/bootstrap.php"
+      codecoverage="true"
+      haltonerror="true"
+    >
+      <formatter todir="./reports" type="xml" />
+      <batchtest>
+         <fileset dir="./tests">
+           <include name="**/*Test*.php" />
+         </fileset>
+      </batchtest>
+    </phpunit>
+    <phpunitreport
+      infile="./reports/testsuites.xml" 
+      todir="./reports/tests" 
+    />
+    <coverage-report outfile="./reports/coverage.xml">
+      <report todir="./reports/coverage" />
+    </coverage-report>
+  </target>
   <target name="build">
     <echo msg="Building dependencies through Composer..." />
     <exec command="php composer.phar update" logoutput="true" checkreturn="true" />
