@@ -84,10 +84,12 @@ class Session
      * Set Title
      * 
      * @param string $value
+     * @return VtCodeCamp\Session
      */
     public function setTitle($value)
     {
         $this->title = (string)$value;
+        return $this;
     }
 
     /**
@@ -104,10 +106,12 @@ class Session
      * Set Description
      * 
      * @param VtCodeCamp\Text $value
+     * @return VtCodeCamp\Session
      */
     public function setDescription(Text $value)
     {
         $this->description = $value;
+        return $this;
     }
 
     /**
@@ -124,10 +128,12 @@ class Session
      * Set Event
      * 
      * @param VtCodeCamp\Event $value
+     * @return VtCodeCamp\Session
      */
     public function setEvent(Event $value)
     {
         $this->event = $value;
+        return $this;
     }
 
     /**
@@ -144,10 +150,12 @@ class Session
      * Set Track
      * 
      * @param VtCodeCamp\Track $value
+     * @return VtCodeCamp\Session
      */
     public function setTrack(Track $value)
     {
         $this->track = $value;
+        return $this;
     }
 
     /**
@@ -164,10 +172,12 @@ class Session
      * Set Space
      * 
      * @param VtCodeCamp\Space $value
+     * @return VtCodeCamp\Session
      */
     public function setSpace(Space $value)
     {
         $this->space = $value;
+        return $this;
     }
 
     /**
@@ -184,10 +194,12 @@ class Session
      * Set Time Period
      * 
      * @param VtCodeCamp\TimePeriod $value
+     * @return VtCodeCamp\Session
      */
     public function setTimePeriod(TimePeriod $value)
     {
         $this->timePeriod = $value;
+        return $this;
     }
 
     /**
@@ -204,9 +216,11 @@ class Session
      * Add Speaker
      * 
      * @param VtCodeCamp\Person $value
+     * @return VtCodeCamp\Session
      */
     public function addSpeaker(Person $value)
     {
         $this->speakers[] = $value;
+        return $this;
     }
 }
