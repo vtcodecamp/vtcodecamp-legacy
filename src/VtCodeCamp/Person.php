@@ -59,10 +59,12 @@ class Person
      * Set Name
      * 
      * @param string $value
+     * @return VtCodeCamp\Person
      */
     public function setName($value)
     {
         $this->name = (string)$value;
+        return $this;
     }
 
     /**
@@ -79,10 +81,12 @@ class Person
      * Set Twitter Username
      * 
      * @param string $value
+     * @return VtCodeCamp\Person
      */
     public function setTwitterUsername($value)
     {
         $this->twitterUsername = (string)$value;
+        return $this;
     }
 
     /**
@@ -99,9 +103,11 @@ class Person
      * Set Bio
      * 
      * @param VtCodeCamp\Text $value
+     * @return VtCodeCamp\Person
      */
     public function setBio(Text $value)
     {
         $this->bio = $value;
+        return $this;
     }
 }
