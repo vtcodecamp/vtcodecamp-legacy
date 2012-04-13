@@ -2,14 +2,15 @@
 
 namespace VtCodeCamp;
 
-use \DateTime,
+use VtCodeCamp\ArraySerializable,
+    \DateTime,
     \DateTimeZone;
 
 /**
  * @category    VtCodeCamp
  * @package     VtCodeCamp_TimePeriod
  */
-class TimePeriod
+class TimePeriod implements ArraySerializable
 {
     /**
      * @var \DateTime
@@ -48,5 +49,20 @@ class TimePeriod
     public function getEnd()
     {
         return clone $this->end;
+    }
+
+    public function arraySerialize()
+    {
+        return array(
+            'start' => $this->getStart()->format('c'),
+            'end'   => $this->getEnd()->format('c'),
+        );
+    }
+
+    public static function arrayDeserialize($array)
+    {
+        $start = new DateTime($array['start']);
+        $end = new DateTime($array['end']);
+        return new TimePeriod($start, $end);
     }
 }

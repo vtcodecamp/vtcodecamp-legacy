@@ -2,13 +2,15 @@
 
 namespace VtCodeCamp;
 
-use VtCodeCamp\Text;
+use VtCodeCamp\ArraySerializable,
+    VtCodeCamp\Text,
+    VtCodeCamp\Text\Markdown;
 
 /**
  * @category    VtCodeCamp
  * @package     VtCodeCamp_Person
  */
-class Person
+class Person implements ArraySerializable
 {
     /**
      * @var string
@@ -109,5 +111,37 @@ class Person
     {
         $this->bio = $value;
         return $this;
+    }
+
+    public function arraySerialize()
+    {
+        $array = array(
+            'id'    => $this->getId(),
+        );
+        if (null !== $this->getName()) {
+            $array['name'] = $this->getName();
+        }
+        if (null !== $this->getTwitterUsername()) {
+            $array['twitter_username'] = $this->getTwitterUsername();
+        }
+        if (null !== $this->getBio()) {
+            $array['bio'] = $this->getBio()->arraySerialize();
+        }
+        return $array;
+    }
+
+    public static function arrayDeserialize($array)
+    {
+        $person = new Person($array['id']);
+        if (isset($array['name'])) {
+            $person->setName($array['name']);
+        }
+        if (isset($array['twitter_username'])) {
+            $person->setTwitterUsername($array['twitter_username']);
+        }
+        if (isset($array['bio'])) {
+            $person->setBio(Markdown::arrayDeserialize($array['bio']));
+        }
+        return $person;
     }
 }

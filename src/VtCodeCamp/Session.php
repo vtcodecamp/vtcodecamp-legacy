@@ -3,17 +3,19 @@
 namespace VtCodeCamp;
 
 use VtCodeCamp\Text,
+    VtCodeCamp\Text\Markdown,
     VtCodeCamp\Event,
     VtCodeCamp\Track,
     VtCodeCamp\Space,
     VtCodeCamp\TimePeriod,
-    VtCodeCamp\Person;
+    VtCodeCamp\Person,
+    VtCodeCamp\ArraySerializable;
 
 /**
  * @category    VtCodeCamp
  * @package     VtCodeCamp_Session
  */
-class Session
+class Session implements ArraySerializable
 {
     /**
      * @var string
@@ -222,5 +224,67 @@ class Session
     {
         $this->speakers[] = $value;
         return $this;
+    }
+
+    public function arraySerialize()
+    {
+        $array = array(
+            'id'    => $this->getId(),
+        );
+        if (null !== $this->getTitle()) {
+            $array['title'] = $this->getTitle();
+        }
+        if (null !== $this->getDescription()) {
+            $array['description'] = $this->getDescription()->arraySerialize();
+        }
+        if (null !== $this->getEvent()) {
+            $array['event'] = $this->getEvent()->arraySerialize();
+        }
+        if (null !== $this->getTrack()) {
+            $array['track'] = $this->getTrack()->arraySerialize();
+        }
+        if (null !== $this->getSpace()) {
+            $array['space'] = $this->getSpace()->arraySerialize();
+        }
+        if (null !== $this->getTimePeriod()) {
+            $array['time_period'] = $this->getTimePeriod()->arraySerialize();
+        }
+        $speakers = $this->getSpeakers();
+        if (count($speakers) > 0) {
+			/* @var $speaker VtCodeCamp\Person */
+            foreach ($speakers as $speaker) {
+                $array['speakers'][] = $speaker->arraySerialize();
+            }
+        }
+        return $array;
+    }
+
+    public static function arrayDeserialize($array)
+    {
+        $session = new Session($array['id']);
+        if (isset($array['title'])) {
+            $session->setTitle($array['title']);
+        }
+        if (isset($array['description'])) {
+            $session->setDescription(Markdown::arrayDeserialize($array['description']));
+        }
+        if (isset($array['event'])) {
+            $session->setEvent(Event::arrayDeserialize($array['event']));
+        }
+        if (isset($array['track'])) {
+            $session->setTrack(Track::arrayDeserialize($array['track']));
+        }
+        if (isset($array['space'])) {
+            $session->setSpace(Space::arrayDeserialize($array['space']));
+        }
+        if (isset($array['time_period'])) {
+            $session->setTimePeriod(TimePeriod::arrayDeserialize($array['time_period']));
+        }
+        if (isset($array['speakers'])) {
+            foreach ($array['speakers'] as $speakerArray) {
+                $session->addSpeaker(Person::arrayDeserialize($speakerArray));
+            }
+        }
+        return $session;
     }
 }

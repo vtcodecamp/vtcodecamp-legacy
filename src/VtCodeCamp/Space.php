@@ -2,11 +2,13 @@
 
 namespace VtCodeCamp;
 
+use VtCodeCamp\ArraySerializable;
+
 /**
  * @category    VtCodeCamp
  * @package     VtCodeCamp_Space
  */
-class Space
+class Space implements ArraySerializable
 {
     /**
      * @var string
@@ -26,5 +28,18 @@ class Space
     public function getName()
     {
         return $this->name;
+    }
+
+    public function arraySerialize()
+    {
+        return array(
+            'name'  => $this->getName(),
+        );
+    }
+
+    public static function arrayDeserialize($array)
+    {
+        $name = $array['name'];
+        return new Space($name);
     }
 }

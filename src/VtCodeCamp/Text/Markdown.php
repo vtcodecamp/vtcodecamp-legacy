@@ -16,11 +16,12 @@ class Markdown implements Text
      */
     private $text;
 
-    private $html = null;
+    private $html;
 
-    public function __construct($text)
+    public function __construct($text, $html = null)
     {
         $this->text = (string)$text;
+        $this->html = $html;
     }
 
     /**
@@ -45,5 +46,23 @@ class Markdown implements Text
             $this->html = $parser->transformMarkdown($this->text);
         }
         return $this->html;
+    }
+
+    public function arraySerialize()
+    {
+        return array(
+            'text'  => $this->renderText(),
+            'html'  => $this->renderHtml(),
+        );
+    }
+
+    public static function arrayDeserialize($array)
+    {
+        $text = $array['text'];
+        $html = null;
+        if (isset($array['html'])) {
+            $html = $array['html'];
+        }
+        return new Markdown($text, $html);
     }
 }
