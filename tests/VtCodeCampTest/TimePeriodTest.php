@@ -12,7 +12,7 @@ class TimePeriodTest extends \PHPUnit_Framework_TestCase
         $start = new DateTime('2011-09-10 08:00:00.000 EDT');
         $end = new DateTime('2011-09-10 08:45:00.000 EDT');
         $timePeriod = new TimePeriod($start, $end);
-        $this->assertEquals($start, $timePeriod->getStart());
+        $this->assertEquals($start->format('U'), $timePeriod->getStart()->format('U'));
     }
 
     public function testEnd()
@@ -20,6 +20,6 @@ class TimePeriodTest extends \PHPUnit_Framework_TestCase
         $start = new DateTime('2011-09-10 08:00:00.000 EDT');
         $end = new DateTime('2011-09-10 08:45:00.000 EDT');
         $timePeriod = new TimePeriod($start, $end);
-        $this->assertEquals($end, $timePeriod->getEnd());
+        $this->assertEquals($end->format('U'), $timePeriod->getEnd()->format('U'));
     }
 }
