@@ -16,7 +16,7 @@ class TimePeriod
     private $start;
 
     /**
-     * @var DateTime
+     * @var \DateTime
      */
     private $end;
 
