@@ -57,7 +57,7 @@ class Session
 
     public function __construct($id)
     {
-        $this->_id = (string)$id;
+        $this->id = (string)$id;
     }
 
     /**
@@ -67,7 +67,7 @@ class Session
      */
     public function getId()
     {
-        return $this->_id;
+        return $this->id;
     }
 
     /**

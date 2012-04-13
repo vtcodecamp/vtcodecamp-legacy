@@ -32,7 +32,7 @@ class Person
 
     public function __construct($id)
     {
-        $this->_id = (string)$id;
+        $this->id = (string)$id;
     }
 
     /**
@@ -42,7 +42,7 @@ class Person
      */
     public function getId()
     {
-        return $this->_id;
+        return $this->id;
     }
 
     /**
