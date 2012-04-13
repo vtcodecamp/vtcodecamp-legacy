@@ -2,7 +2,8 @@
 
 namespace VtCodeCamp;
 
-use \DateTime;
+use \DateTime,
+    \DateTimeZone;
 
 /**
  * @category    VtCodeCamp
@@ -24,6 +25,9 @@ class TimePeriod
     {
         $this->start = clone $start;
         $this->end = clone $end;
+        $timezone = new DateTimeZone('UTC');
+        $this->start->setTimezone($timezone);
+        $this->end->setTimezone($timezone);
     }
 
     /**
