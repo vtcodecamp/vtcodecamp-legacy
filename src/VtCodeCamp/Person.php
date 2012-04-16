@@ -116,7 +116,7 @@ class Person implements ArraySerializable
     public function arraySerialize()
     {
         $array = array(
-            'id'    => $this->getId(),
+            '_id'    => $this->getId(),
         );
         if (null !== $this->getName()) {
             $array['name'] = $this->getName();
@@ -132,7 +132,7 @@ class Person implements ArraySerializable
 
     public static function arrayDeserialize($array)
     {
-        $person = new Person($array['id']);
+        $person = new Person($array['_id']);
         if (isset($array['name'])) {
             $person->setName($array['name']);
         }
