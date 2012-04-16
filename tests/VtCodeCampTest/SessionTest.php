@@ -84,8 +84,8 @@ EOD;
     public function testTimePeriod()
     {
         $timePeriod = new TimePeriod(
-            new DateTime('2011-09-10 08:00:00.000 EDT'),
-            new DateTime('2011-09-10 08:45:00.000 EDT')
+            new DateTime('2011-09-10 10:15:00.000 EDT'),
+            new DateTime('2011-09-10 11:15:00.000 EDT')
         );
         $this->session->setTimePeriod($timePeriod);
         $this->assertEquals($timePeriod, $this->session->getTimePeriod());
