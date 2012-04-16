@@ -25,6 +25,11 @@ class Session implements ArraySerializable
     /**
      * @var string
      */
+    private $rev;
+
+    /**
+     * @var string
+     */
     private $title;
 
     /**
@@ -70,6 +75,28 @@ class Session implements ArraySerializable
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Get Rev
+     * 
+     * @return string
+     */
+    public function getRev()
+    {
+        return $this->rev;
+    }
+
+    /**
+     * Set Rev
+     * 
+     * @param string $value
+     * @return VtCodeCamp\Session
+     */
+    public function setRev($value)
+    {
+        $this->rev = (string)$value;
+        return $this;
     }
 
     /**
@@ -229,8 +256,11 @@ class Session implements ArraySerializable
     public function arraySerialize()
     {
         $array = array(
-            'id'    => $this->getId(),
+            '_id'    => $this->getId(),
         );
+        if (null !== $this->getRev()) {
+            $array['_rev'] = $this->getRev();
+        }
         if (null !== $this->getTitle()) {
             $array['title'] = $this->getTitle();
         }
@@ -261,7 +291,10 @@ class Session implements ArraySerializable
 
     public static function arrayDeserialize($array)
     {
-        $session = new Session($array['id']);
+        $session = new Session($array['_id']);
+        if (isset($array['_rev'])) {
+            $session->setRev($array['_rev']);
+        }
         if (isset($array['title'])) {
             $session->setTitle($array['title']);
         }

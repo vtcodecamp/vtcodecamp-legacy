@@ -96,4 +96,18 @@ EOD;
         $this->setExpectedException('VtCodeCamp\Exception\ClientError\Conflict');
         $this->sessionRepository->post($this->session);
     }
+
+    public function testPostAndPut()
+    {
+        $this->sessionRepository->post($this->session);
+        $this->sessionRepository->put($this->session);
+    }
+
+    public function testPostAndPutConflict()
+    {
+        $originalSession = clone $this->session;
+        $this->sessionRepository->post($this->session);
+        $this->setExpectedException('VtCodeCamp\Exception\ClientError\Conflict');
+        $this->sessionRepository->put($originalSession);
+    }
 }

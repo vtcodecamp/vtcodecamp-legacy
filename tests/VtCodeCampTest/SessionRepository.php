@@ -17,6 +17,34 @@ class SessionRepository implements \VtCodeCamp\SessionRepository
      */
     private $sessionData;
 
+    private function checkExists($id)
+    {
+        if (!isset($this->sessionData[$id])) {
+            throw new NotFound();
+        }
+    }
+
+    private function checkRev(Session $session)
+    {
+        if (!isset($this->sessionData[$session->getId()])) {
+            return;
+        }
+        if ($session->getRev() !== $this->sessionData[$session->getId()]['_rev']) {
+            throw new Conflict();
+        }
+    }
+
+    private function incrementRev(Session $session)
+    {
+        $increment = 0;
+        if (null !== $session->getRev()) {
+            $revParts = explode('-', $session->getRev());
+            $increment = $revParts[0];
+        }
+        $increment++;
+        $session->setRev($increment . '-' . md5(json_encode($session->arraySerialize())));
+    }
+
     /**
      * Get
      * 
@@ -25,9 +53,7 @@ class SessionRepository implements \VtCodeCamp\SessionRepository
      */
     public function get($id)
     {
-        if (!isset($this->sessionData[$id])) {
-            throw new NotFound();
-        }
+        $this->checkExists($id);
         return Session::arrayDeserialize($this->sessionData[$id]);
     }
 
@@ -41,6 +67,7 @@ class SessionRepository implements \VtCodeCamp\SessionRepository
         if (isset($this->sessionData[$session->getId()])) {
             throw new Conflict();
         }
+        $this->incrementRev($session);
         $this->sessionData[$session->getId()] = $session->arraySerialize();
     }
 
@@ -51,6 +78,8 @@ class SessionRepository implements \VtCodeCamp\SessionRepository
      */
     public function put(Session $session)
     {
+        $this->checkRev($session);
+        $this->incrementRev($session);
         $this->sessionData[$session->getId()] = $session->arraySerialize();
     }
 
@@ -61,6 +90,8 @@ class SessionRepository implements \VtCodeCamp\SessionRepository
      */
     public function delete(Session $session)
     {
+        $this->checkExists($session->getId());
+        $this->checkRev($session);
         unset($this->sessionData[$session->getId()]);
     }
 }
