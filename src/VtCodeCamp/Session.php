@@ -77,6 +77,12 @@ class Session implements ArraySerializable
         return $this->id;
     }
 
+    public function setId($value)
+    {
+        $this->id = (string)$value;
+        return $this;
+    }
+
     /**
      * Get Rev
      * 
