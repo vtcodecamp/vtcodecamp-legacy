@@ -10,7 +10,9 @@ use VtCodeCamp\Session,
     DateTime,
     VtCodeCamp\TimePeriod,
     VtCodeCamp\Person,
-    VtCodeCampTest\SessionRepository;
+    Doctrine\CouchDB\CouchDBClient,
+    Doctrine\CouchDB\View\FolderDesignDocument,
+    VtCodeCamp\SessionRepository;
 
 class SessionRepositoryTest extends \PHPUnit_Framework_TestCase
 {
@@ -20,9 +22,30 @@ class SessionRepositoryTest extends \PHPUnit_Framework_TestCase
     private $session;
 
     /**
+     * @var string
+     */
+    private $testDbName;
+
+    /**
+     * @var Doctrine\CouchDB\CouchDBClient
+     */
+    private $couchDbClient;
+
+    /**
      * @var VtCodeCamp\SessionRepository
      */
     private $sessionRepository;
+
+    private function createCouchDbViews()
+    {
+        $dir = new \DirectoryIterator(APPLICATION_ROOT . '/couch');
+        foreach ($dir as $fileinfo) {
+            if (!$fileinfo->isDot()) {
+                $designDoc = new FolderDesignDocument($fileinfo->getPathname());
+                $this->couchDbClient->createDesignDocument($fileinfo->getFilename(), $designDoc);
+            }
+        }
+    }
 
     public function setUp()
     {
@@ -65,7 +88,19 @@ EOD;
                 new DateTime('2011-09-10 11:15:00.000 EDT')
             ))
             ->addSpeaker($sessionSpeaker);
-        $this->sessionRepository = new SessionRepository();
+        //TODO: Configure Sag
+        $this->testDbName = uniqid('test_');
+        $this->couchDbClient = CouchDBClient::create(array(
+            'dbname'    => $this->testDbName,
+        ));
+        $this->couchDbClient->createDatabase($this->testDbName);
+        $this->createCouchDbViews();
+        $this->sessionRepository = new SessionRepository($this->couchDbClient);
+    }
+
+    public function tearDown()
+    {
+        $this->couchDbClient->deleteDatabase($this->testDbName);
     }
 
     public function testPostAndGet()
@@ -92,9 +127,10 @@ EOD;
 
     public function testPostTwice()
     {
+        $originalSession = clone $this->session;
         $this->sessionRepository->post($this->session);
         $this->setExpectedException('VtCodeCamp\Exception\ClientError\Conflict');
-        $this->sessionRepository->post($this->session);
+        $this->sessionRepository->post($originalSession);
     }
 
     public function testPostAndPut()
@@ -109,5 +145,27 @@ EOD;
         $this->sessionRepository->post($this->session);
         $this->setExpectedException('VtCodeCamp\Exception\ClientError\Conflict');
         $this->sessionRepository->put($originalSession);
+    }
+
+    public function testIndexByEventAndSpace()
+    {
+        /* @var $session VtCodeCamp\Session */
+        foreach (Sessions::all() as $session) {
+            $this->sessionRepository->post($session);
+        }
+        $vtCodeCamp2011Event = new Event('Vermont Code Camp 2011');
+        $roomOneSpace = new Space('Room 1');
+        $roomTwoSpace = new Space('Room 2');
+        $roomThreeSpace = new Space('Room 3');
+        $roomFourSpace = new Space('Room 4');
+        $speakerRoomSpace = new Space('Speaker Room');
+        $sessions = $this->sessionRepository->indexByEventAndSpace($vtCodeCamp2011Event);
+        $this->assertCount(1, $sessions);
+        $this->assertCount(5, $sessions[$vtCodeCamp2011Event->getName()]);
+        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomOneSpace->getName()]);
+        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomTwoSpace->getName()]);
+        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomThreeSpace->getName()]);
+        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomFourSpace->getName()]);
+        $this->assertCount(2, $sessions[$vtCodeCamp2011Event->getName()][$speakerRoomSpace->getName()]);
     }
 }
