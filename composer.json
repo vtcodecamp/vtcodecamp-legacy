@@ -5,10 +5,6 @@
             "url": "https://github.com/bradley-holt/Slim"
         },
         {
-            "type": "vcs",
-            "url": "https://github.com/bradley-holt/sag"
-        },
-        {
             "type": "pear",
             "url": "http://packages.zendframework.com"
         }
@@ -16,7 +12,7 @@
     "require": {
         "slim/slim": "dev-master",
         "slim/extras": "1.0.2",
-        "sag/sag": "dev-master",
+        "doctrine/couchdb": "dev-master",
         "pear-zf2/Zend_Debug": "2.0.0beta3",
         "twig/twig": "1.6.3",
         "dflydev/markdown": "1.0.2"
