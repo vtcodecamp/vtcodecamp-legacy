@@ -51,6 +51,20 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
+  file { "/etc/yum.repos.d/cloudant.repo":
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/etc/yum.repos.d/cloudant.repo",
+  }
+
+  package { "bigcouch":
+    require => File["/etc/yum.repos.d/cloudant.repo"],
+    ensure => latest,
+    notify => Service["bigcouch"],
+  }
+
   file { "/etc/environment":
     ensure => file,
     owner => root,
@@ -97,6 +111,11 @@ class minimal-centos-60 {
     mode => 0644,
     source => "/vagrant/etc/httpd/conf/httpd.conf",
     notify => Service["httpd"],
+  }
+
+  service { "bigcouch":
+    ensure => running,
+    require => Package["bigcouch"]
   }
 
   service { "httpd":
