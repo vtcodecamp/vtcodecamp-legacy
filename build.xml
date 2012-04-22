@@ -17,7 +17,7 @@
     <phpunit
       bootstrap="./tests/bootstrap.php"
       codecoverage="true"
-      haltonerror="true"
+      haltonerror="false"
     >
       <formatter todir="./reports" type="xml" />
       <batchtest>
