@@ -1,7 +1,7 @@
 <?php
 defined('APPLICATION_ROOT')
     || define('APPLICATION_ROOT', realpath(dirname(__FILE__) . '/../'));
-require APPLICATION_ROOT . '/vendor/.composer/autoload.php';
+require APPLICATION_ROOT . '/vendor/autoload.php';
 
 $slimConfig = include APPLICATION_ROOT . '/config/slim.php';
 $app = new Slim($slimConfig);
