@@ -51,6 +51,20 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
+  file { "/etc/yum.repos.d/cloudant.repo":
+    ensure => file,
+    owner => root,
+    group => root,
+    mode => 0644,
+    source => "/vagrant/etc/yum.repos.d/cloudant.repo",
+  }
+
+  package { "bigcouch":
+    require => File["/etc/yum.repos.d/cloudant.repo"],
+    ensure => latest,
+    notify => Service["bigcouch"],
+  }
+
   file { "/etc/environment":
     ensure => file,
     owner => root,
@@ -99,6 +113,11 @@ class minimal-centos-60 {
     notify => Service["httpd"],
   }
 
+  service { "bigcouch":
+    ensure => running,
+    require => Package["bigcouch"]
+  }
+
   service { "httpd":
     ensure => running,
     require => [
@@ -128,6 +147,14 @@ class minimal-centos-60 {
     require => [
       Package["php-pear"],
       Exec["/usr/bin/pear upgrade"]
+    ],
+    timeout => 0,
+  }
+
+  exec { "/usr/bin/pear upgrade pear.phpunit.de/PHPUnit":
+    require => [
+      Exec["/usr/bin/pear upgrade"],
+      Exec["/usr/bin/pear config-set auto_discover 1"]
     ],
     timeout => 0,
   }
