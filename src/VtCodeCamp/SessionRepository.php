@@ -6,7 +6,7 @@ use VtCodeCamp\Session,
     VtCodeCamp\Exception\ClientError\NotFound,
     VtCodeCamp\Exception\ClientError\Conflict,
     Doctrine\CouchDB\CouchDBClient,
-    Doctrine\CouchDB\View\FolderDesignDocument,
+    Doctrine\CouchDB\View\Query,
     Doctrine\CouchDB\HTTP\HTTPException;
 
 /**
@@ -33,8 +33,12 @@ class SessionRepository
      */
     public function indexByEventAndSpace(Event $event)
     {
-        $designDoc = new FolderDesignDocument(APPLICATION_ROOT . '/couch/schedule');
-        $viewQuery = $this->couchDbClient->createViewQuery('schedule', 'event', $designDoc);
+        $viewQuery = new Query(
+            $this->couchDbClient->getHttpClient(),
+            $this->couchDbClient->getDatabase(),
+            'schedule',
+            'event'
+        );
         $viewQuery->setStartKey(array($event->getName()));
         $viewQuery->setReduce(false);
         $results = $viewQuery->execute();
