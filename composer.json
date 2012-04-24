@@ -1,29 +1,15 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/bradley-holt/Slim"
-        },
-        {
-            "type": "pear",
-            "url": "http://packages.zendframework.com"
-        }
-    ],
     "require": {
-        "slim/slim": "dev-master",
-        "slim/extras": "1.0.2",
+        "silex/silex": "dev-master",
         "doctrine/couchdb": "dev-master",
-        "pear-zf2/Zend_Debug": "2.0.0beta3",
         "twig/twig": "1.6.3",
+        "symfony/twig-bridge": "2.0.12",
         "dflydev/markdown": "1.0.2"
     },
     "autoload": {
         "psr-0": {
             "VtCodeCamp": "src",
-            "VtCodeCampTest": "tests",
-            "Zend": [
-                "vendor/pear-zf2/Zend_Debug/php/"
-            ]
+            "VtCodeCampTest": "tests"
         }
     }
 }
