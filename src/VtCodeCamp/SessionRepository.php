@@ -26,7 +26,7 @@ class SessionRepository
     }
 
     /**
-     * Index By Event
+     * Index By Event And Space
      * 
      * @param VtCodeCamp\Event $event
      * @return array
