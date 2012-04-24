@@ -3,48 +3,71 @@ defined('APPLICATION_ROOT')
     || define('APPLICATION_ROOT', realpath(dirname(__FILE__) . '/../'));
 require APPLICATION_ROOT . '/vendor/autoload.php';
 
-$slimConfig = include APPLICATION_ROOT . '/config/slim.php';
-$app = new Slim($slimConfig);
+use Silex\Application,
+    Silex\Provider\TwigServiceProvider,
+    Silex\Provider\UrlGeneratorServiceProvider,
+    Silex\Provider\SymfonyBridgesServiceProvider,
+    Symfony\Component\HttpFoundation\Request,
+    Symfony\Component\HttpFoundation\Response;
+
+$silexConfig = include APPLICATION_ROOT . '/config/silex.php';
+$app = new Application();
+$app['debug'] = $silexConfig['debug'];
 
 $twigConfig = include APPLICATION_ROOT . '/config/twig.php';
-$loader = new Twig_Loader_Filesystem($twigConfig['paths']);
-$twig = new Twig_Environment($loader, $twigConfig['environment']);
-$twig->addExtension(new Twig_Extensions_Slim());
+$app->register(new TwigServiceProvider(), array(
+    'twig.path'       => $twigConfig['paths'],
+    'twig.options'    => $twigConfig['environment'],
+));
 
-$app->get('/', function () use ($app)  {
-    $app->pass();
-})->name('home');
+$app->register(new UrlGeneratorServiceProvider());
 
-$app->get('/(:id)/', function ($id = 'index') use ($app, $twig)  {
+$app->register(new Silex\Provider\SymfonyBridgesServiceProvider());
+
+$app->get('/{id}', function (Application $app, Request $request, $id) {
+    $id = rtrim($id, '/');
+    /* @var $twig Twig_Environment */
+    $twig = $app['twig'];
+    $response = new Response();
     try {
         $templateName = 'pages/' . $id . '.html';
         $template = $twig->loadTemplate($templateName);
-        $app->lastModified(filemtime($twig->getCacheFilename($templateName)));
+        $lastModified = new \DateTime('@' . filemtime($twig->getCacheFilename($templateName)));
+        $response->setLastModified($lastModified);
     } catch (Twig_Error_Loader $ex) {
-        $app->pass();
+        $app->abort(404);
     }
     $content = $template->render(array(
     ));
-    $app->etag(md5($content));
+    $response->setEtag(md5($content));
     $maxAge = 0;
-    $expires = time() + $maxAge;
-    $app->response()->header('Cache-Control', 'max-age=' . $maxAge . ', must-revalidate');
-    $app->response()->header('Expires', date(DATE_RFC1123, $expires));
-    echo $content;
-})->name('page');
+    $maxAgeDateInterval = new \DateInterval('PT' . $maxAge . 'S');
+    $expires = new \DateTime();
+    $expires->add($maxAgeDateInterval);
+    $response->setMaxAge($maxAge);
+    $response->setSharedMaxAge($maxAge);
+    $response->setPublic();
+    $response->headers->addCacheControlDirective('must-revalidate');
+    $response->setExpires($expires);
+    $response->setContent($content);
+    if ($response->isNotModified($request)) {
+        $response->setNotModified();
+    }
+    return $response;
+})->assert('id', '.+')->value('id', 'index')->bind('page');
 
-$app->notFound(function () use ($app, $twig) {
-    $template = $twig->loadTemplate('error/404.html');
+$app->error(function (\Exception $ex, $code) use ($app) {
+    /* @var $twig Twig_Environment */
+    $twig = $app['twig'];
+    $template = null;
+    try {
+        $template = $twig->loadTemplate('error/' . $code . '.html');
+    } catch (Twig_Error_Loader $ex) {
+        $template = $twig->loadTemplate('error/500.html');
+    }
     $content = $template->render(array(
     ));
-    echo $content;
-});
-
-$app->error(function () use ($app, $twig) {
-    $template = $twig->loadTemplate('error/500.html');
-    $content = $template->render(array(
-    ));
-    echo $content;
+    return new Response($content, $code);
 });
 
 $app->run();
