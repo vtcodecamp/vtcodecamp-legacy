@@ -74,7 +74,8 @@ Information Systems, both from Worcester Polytechnic Institute.
 EOD;
         $sessionSpeaker = new Person(uniqid());
         $sessionSpeaker
-            ->setName('Chris Bowen')
+            ->setFirstName('Chris')
+            ->setLastName('Bowen')
             ->setTwitterUsername('ChrisBowen')
             ->setBio(new Markdown($sessionSpeakerBioText));
         $this->session

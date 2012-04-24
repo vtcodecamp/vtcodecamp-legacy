@@ -64,7 +64,8 @@ class Sessions
         );
         $daneMorgridgeSpeaker =  array(
             '_id'               => '4f8da5835eaee',
-            'name'              => 'Dane Morgridge',
+            'first_name'        => 'Dane',
+            'last_name'         => 'Morgridge',
             'twitter_username'  => 'danemorgridge',
             'bio'               => array(
                 'text'          => <<<'EOD'
@@ -81,7 +82,8 @@ EOD
         );
         $reneChurchillSpeaker =  array(
             '_id'               => '4f8da5835ebf4',
-            'name'              => 'Rene Churchill',
+            'first_name'        => 'Rene',
+            'last_name'         => 'Churchill',
             'bio'               => array(
                 'text'          => <<<'EOD'
 Rene has been programming in a wide variety of languages for over 20 years, 
@@ -93,7 +95,8 @@ EOD
         );
         $joshSledSpeaker =  array(
             '_id'               => '4f8da5835ed43',
-            'name'              => 'Josh Sled',
+            'first_name'        => 'Josh',
+            'last_name'         => 'Sled',
             'twitter_username'  => 'joshsled',
             'bio'               => array(
                 'text'          => <<<'EOD'
@@ -108,7 +111,8 @@ EOD
         );
         $etienneTremblaySpeaker =  array(
             '_id'               => '4f8da5835ed80',
-            'name'              => 'Etienne Tremblay',
+            'first_name'        => 'Etienne',
+            'last_name'         => 'Tremblay',
             'twitter_username'  => 'tegaaa',
             'bio'               => array(
                 'text'          => <<<'EOD'
@@ -123,7 +127,8 @@ EOD
         );
         $mattVanHornSpeaker =  array(
             '_id'               => '4f8da5835eeb4',
-            'name'              => 'Matt Van Horn',
+            'first_name'        => 'Matt Van',
+            'last_name'         => 'Horn',
             'twitter_username'  => 'phpn00b',
             'bio'               => array(
                 'text'          => <<<'EOD'
@@ -138,7 +143,8 @@ EOD
         );
         $vincentGrondinSpeaker =  array(
             '_id'               => '4f8da5835ef55',
-            'name'              => 'Vincent Grondin',
+            'first_name'        => 'Vincent',
+            'last_name'         => 'Grondin',
             'bio'               => array(
                 'text'          => <<<'EOD'
 Vincent Grondin has 13 years of experience in the software developement field 
@@ -198,7 +204,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835f299',
-                            'name'              => 'Bill Wilder',
+                            'first_name'        => 'Bill',
+                            'last_name'         => 'Wilder',
                             'twitter_username'  => 'codingoutloud',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -257,7 +264,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835f516',
-                            'name'              => 'Jack Corbett',
+                            'first_name'        => 'Jack',
+                            'last_name'         => 'Corbett',
                             'twitter_username'  => 'unclebiguns',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -303,7 +311,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835f675',
-                            'name'              => 'Everett McKay',
+                            'first_name'        => 'Everett',
+                            'last_name'         => 'McKay',
                             'twitter_username'  => 'UXDesignEdge',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -348,7 +357,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835f82c',
-                            'name'              => 'John Garland',
+                            'first_name'        => 'John',
+                            'last_name'         => 'Garland',
                             'twitter_username'  => 'DotNetGator',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -391,7 +401,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835fa4c',
-                            'name'              => 'Chris Bowen',
+                            'first_name'        => 'Chris',
+                            'last_name'         => 'Bowen',
                             'twitter_username'  => 'ChrisBowen',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -432,7 +443,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835fb71',
-                            'name'              => 'David Howell',
+                            'first_name'        => 'David',
+                            'last_name'         => 'Howell',
                             'twitter_username'  => 'dehowell',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -468,7 +480,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5835fe32',
-                            'name'              => 'Eric Smith',
+                            'first_name'        => 'Eric',
+                            'last_name'         => 'Smith',
                             'twitter_username'  => 'thinkingeric',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -541,7 +554,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da58360217',
-                            'name'              => 'Christian Cote',
+                            'first_name'        => 'Christian',
+                            'last_name'         => 'Cote',
                             'twitter_username'  => 'Christian_SQL',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -578,7 +592,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da5836033c',
-                            'name'              => 'Jonathan Phillips',
+                            'first_name'        => 'Jonathan',
+                            'last_name'         => 'Phillips',
                             'twitter_username'  => 'hobopuma',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -697,7 +712,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da583609f0',
-                            'name'              => 'Jim O’Neil',
+                            'first_name'        => 'Jim',
+                            'last_name'         => 'O’Neil',
                             'twitter_username'  => 'jimoneil',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -735,7 +751,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da58360b14',
-                            'name'              => 'Kevin Thorley',
+                            'first_name'        => 'Kevin',
+                            'last_name'         => 'Thorley',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
 Senior software engineer working at [Dealer.com](http://www.dealer.com/) with 10 
@@ -791,7 +808,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da58360db6',
-                            'name'              => 'Maxime Rouiller',
+                            'first_name'        => 'Maxime',
+                            'last_name'         => 'Rouiller',
                             'twitter_username'  => 'MaximRouiller',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -835,7 +853,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da58360eda',
-                            'name'              => 'Maura Wilder',
+                            'first_name'        => 'Maura',
+                            'last_name'         => 'Wilder',
                             'twitter_username'  => 'squdgy',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -848,7 +867,8 @@ EOD
                         ),
                         array(
                             '_id'               => '4f8da58360f69',
-                            'name'              => 'Joan Wortman',
+                            'first_name'        => 'Joan',
+                            'last_name'         => 'Wortman',
                             'twitter_username'  => 'zizzp',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -884,7 +904,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da583721e8',
-                            'name'              => 'John Zablocki',
+                            'first_name'        => 'John',
+                            'last_name'         => 'Zablocki',
                             'twitter_username'  => 'CodeVoyeur',
                             'bio'               => array(
                                 'text'          => <<<'EOD'
@@ -984,7 +1005,8 @@ EOD
                     'speakers'      => array(
                         array(
                             '_id'               => '4f8da58372cb6',
-                            'name'              => 'Rob Friesel',
+                            'first_name'        => 'Rob',
+                            'last_name'         => 'Friesel',
                             'twitter_username'  => 'founddrama',
                             'bio'               => array(
                                 'text'          => <<<'EOD'

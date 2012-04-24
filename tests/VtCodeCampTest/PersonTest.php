@@ -28,11 +28,27 @@ class PersonTest extends \PHPUnit_Framework_TestCase
         $this->assertEquals($this->personId, $this->person->getId());
     }
 
-    public function testName()
+    public function testFirstName()
     {
-        $name = 'Chris Bowen';
-        $this->person->setName($name);
-        $this->assertEquals($name, $this->person->getName());
+        $firstName = 'Chris';
+        $this->person->setFirstName($firstName);
+        $this->assertEquals($firstName, $this->person->getFirstName());
+    }
+
+    public function testLastName()
+    {
+        $lastName = 'Bowen';
+        $this->person->setLastName($lastName);
+        $this->assertEquals($lastName, $this->person->getLastName());
+    }
+
+    public function testFullName()
+    {
+        $firstName = 'Chris';
+        $lastName = 'Bowen';
+        $this->person->setFirstName($firstName);
+        $this->person->setLastName($lastName);
+        $this->assertEquals($firstName . ' ' . $lastName, $this->person->getFullName());
     }
 
     public function testTwitterUsername()

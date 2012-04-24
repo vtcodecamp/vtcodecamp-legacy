@@ -94,7 +94,7 @@ EOD;
     public function testSpeakers()
     {
         $person = new Person(uniqid());
-        $person->setName('Chris Bowen')->setTwitterUsername('ChrisBowen');
+        $person->setFirstName('Chris')->setLastName('Bowen')->setTwitterUsername('ChrisBowen');
         $this->session->addSpeaker($person);
         $this->assertContains($person, $this->session->getSpeakers());
     }
