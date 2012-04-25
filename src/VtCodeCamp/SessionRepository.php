@@ -45,7 +45,7 @@ class SessionRepository
         $results = $viewQuery->execute();
         $sessions = array();
         foreach ($results as $row) {
-            $sessions[$row['key'][0]][$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
+            $sessions[$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
         }
         return $sessions;
     }

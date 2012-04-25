@@ -161,12 +161,11 @@ EOD;
         $roomFourSpace = new Space('Room 4');
         $speakerRoomSpace = new Space('Speaker Room');
         $sessions = $this->sessionRepository->indexByEventAndSpace($vtCodeCamp2011Event);
-        $this->assertCount(1, $sessions);
-        $this->assertCount(5, $sessions[$vtCodeCamp2011Event->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomOneSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomTwoSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomThreeSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomFourSpace->getName()]);
-        $this->assertCount(2, $sessions[$vtCodeCamp2011Event->getName()][$speakerRoomSpace->getName()]);
+        $this->assertCount(5, $sessions);
+        $this->assertCount(6, $sessions[$roomOneSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomTwoSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomThreeSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomFourSpace->getName()]);
+        $this->assertCount(2, $sessions[$speakerRoomSpace->getName()]);
     }
 }
