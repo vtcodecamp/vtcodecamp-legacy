@@ -1068,6 +1068,16 @@ EOD
                     ),
                 )
             ),
+            Session::arrayDeserialize(
+                array(
+                    '_id'           => '4f9743f2a24d9',
+                    'title'         => 'Raffle',
+                    'event'         => $vtCodeCamp2011Event,
+                    'time_period'   => array(
+                        'start'         => '2011-09-10 17:30:00.000 EDT',
+                    ),
+                )
+            ),
         );
     }
 }
