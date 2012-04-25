@@ -231,7 +231,13 @@ EOD;
             new DateTime('2011-09-10 17:30:00.000 EDT')
         );
         $sessions = $this->sessionRepository->indexByEventAndTimePeriod($vtCodeCamp2011Event);
-        $this->assertCount(11, $sessions);
+        $this->assertCount(12, $sessions);
+        $this->assertCount(5, $sessions[0]);
+        $this->assertEquals('Room 1: .NET', $sessions[0]['Room 1']);
+        $this->assertEquals('Room 2: Web', $sessions[0]['Room 2']);
+        $this->assertEquals('Room 3: Data & More', $sessions[0]['Room 3']);
+        $this->assertEquals('Room 4: Patterns & Practices', $sessions[0]['Room 4']);
+        $this->assertEquals('Speaker Room', $sessions[0]['Speaker Room']);
         $this->assertCount(1, $sessions[$registrationTimePeriod->getStart()->format('c')]);
         $this->assertCount(1, $sessions[$welcomeTimePeriod->getStart()->format('c')]);
         $this->assertCount(4, $sessions[$firstTimePeriod->getStart()->format('c')]);

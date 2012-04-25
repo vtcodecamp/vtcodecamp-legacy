@@ -94,13 +94,36 @@ class SessionRepository
         $viewQuery->setReduce(false);
         $results = $viewQuery->execute();
         $sessions = array();
+        $headers = array();
         foreach ($results as $row) {
             if (isset($row['key'][2])) {
-                $sessions[$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
+                $session = Session::arrayDeserialize($row['value']);
+                $sessions[$row['key'][1]][$row['key'][2]] = $session;
+                $trackName = null;
+                if (null !== $session->getTrack()) {
+                    $trackName = $session->getTrack()->getName();
+                }
+                if (isset($headers[$session->getSpace()->getName()])) {
+                    if ($trackName !== $headers[$session->getSpace()->getName()][1]) {
+                        $headers[$session->getSpace()->getName()][1] = null;
+                    }
+                } else {
+                    $headers[$session->getSpace()->getName()] = array(
+                        $session->getSpace()->getName(),
+                        $trackName
+                    );
+                }
             } else {
                 $sessions[$row['key'][1]][] = Session::arrayDeserialize($row['value']);
             }
         }
+        foreach ($headers as $space => $header) {
+            if (null === $header[1]) {
+                unset($header[1]);
+            }
+            $headers[$space] = implode(': ', $header);
+        }
+        array_unshift($sessions, $headers);
         return $sessions;
     }
 
