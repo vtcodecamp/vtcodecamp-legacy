@@ -39,7 +39,8 @@ class SessionRepository
             'schedule',
             'event'
         );
-        $viewQuery->setStartKey(array($event->getName()));
+        $viewQuery->setStartKey(array($event->getName(), null, null));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass()));
         $viewQuery->setReduce(false);
         $results = $viewQuery->execute();
         $sessions = array();
