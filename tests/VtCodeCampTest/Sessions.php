@@ -127,8 +127,8 @@ EOD
         );
         $mattVanHornSpeaker =  array(
             '_id'               => '4f8da5835eeb4',
-            'first_name'        => 'Matt Van',
-            'last_name'         => 'Horn',
+            'first_name'        => 'Matt',
+            'last_name'         => 'Van Horn',
             'twitter_username'  => 'phpn00b',
             'bio'               => array(
                 'text'          => <<<'EOD'
