@@ -51,6 +51,31 @@ class SessionRepository
     }
 
     /**
+     * Index By Event And Speaker
+     * 
+     * @param VtCodeCamp\Event $event
+     * @return array
+     */
+    public function indexByEventAndSpeaker(Event $event)
+    {
+        $viewQuery = new Query(
+            $this->couchDbClient->getHttpClient(),
+            $this->couchDbClient->getDatabase(),
+            'schedule',
+            'event_speaker'
+        );
+        $viewQuery->setStartKey(array($event->getName()));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass(), new \stdClass()));
+        $viewQuery->setReduce(false);
+        $results = $viewQuery->execute();
+        $speakers = array();
+        foreach ($results as $row) {
+            $speakers[$row['key'][3]] = Person::arrayDeserialize($row['value']);
+        }
+        return $speakers;
+    }
+
+    /**
      * Get
      * 
      * @param string $id

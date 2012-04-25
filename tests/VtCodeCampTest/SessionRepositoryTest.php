@@ -168,4 +168,15 @@ EOD;
         $this->assertCount(6, $sessions[$roomFourSpace->getName()]);
         $this->assertCount(2, $sessions[$speakerRoomSpace->getName()]);
     }
+
+    public function testIndexByEventAndSpeaker()
+    {
+        /* @var $session VtCodeCamp\Session */
+        foreach (Sessions::all() as $session) {
+            $this->sessionRepository->post($session);
+        }
+        $vtCodeCamp2011Event = new Event('Vermont Code Camp 2011');
+        $speakers = $this->sessionRepository->indexByEventAndSpeaker($vtCodeCamp2011Event);
+        $this->assertCount(22, $speakers);
+    }
 }
