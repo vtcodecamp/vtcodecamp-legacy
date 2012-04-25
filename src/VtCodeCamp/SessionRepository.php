@@ -76,6 +76,35 @@ class SessionRepository
     }
 
     /**
+     * Index By Event And Time Period
+     * 
+     * @param VtCodeCamp\Event $event
+     * @return array
+     */
+    public function indexByEventAndTimePeriod(Event $event)
+    {
+        $viewQuery = new Query(
+            $this->couchDbClient->getHttpClient(),
+            $this->couchDbClient->getDatabase(),
+            'schedule',
+            'event_time'
+        );
+        $viewQuery->setStartKey(array($event->getName(), null, null));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass()));
+        $viewQuery->setReduce(false);
+        $results = $viewQuery->execute();
+        $sessions = array();
+        foreach ($results as $row) {
+            if (isset($row['key'][2])) {
+                $sessions[$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
+            } else {
+                $sessions[$row['key'][1]][] = Session::arrayDeserialize($row['value']);
+            }
+        }
+        return $sessions;
+    }
+
+    /**
      * Get
      * 
      * @param string $id
