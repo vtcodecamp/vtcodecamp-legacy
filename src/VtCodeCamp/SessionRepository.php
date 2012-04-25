@@ -26,7 +26,7 @@ class SessionRepository
     }
 
     /**
-     * Index By Event
+     * Index By Event And Space
      * 
      * @param VtCodeCamp\Event $event
      * @return array
@@ -37,15 +37,93 @@ class SessionRepository
             $this->couchDbClient->getHttpClient(),
             $this->couchDbClient->getDatabase(),
             'schedule',
-            'event'
+            'event_space'
         );
-        $viewQuery->setStartKey(array($event->getName()));
+        $viewQuery->setStartKey(array($event->getName(), null, null));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass()));
         $viewQuery->setReduce(false);
         $results = $viewQuery->execute();
         $sessions = array();
         foreach ($results as $row) {
-            $sessions[$row['key'][0]][$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
+            $sessions[$row['key'][1]][$row['key'][2]] = Session::arrayDeserialize($row['value']);
         }
+        return $sessions;
+    }
+
+    /**
+     * Index By Event And Speaker
+     * 
+     * @param VtCodeCamp\Event $event
+     * @return array
+     */
+    public function indexByEventAndSpeaker(Event $event)
+    {
+        $viewQuery = new Query(
+            $this->couchDbClient->getHttpClient(),
+            $this->couchDbClient->getDatabase(),
+            'schedule',
+            'event_speaker'
+        );
+        $viewQuery->setStartKey(array($event->getName()));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass(), new \stdClass()));
+        $viewQuery->setReduce(false);
+        $results = $viewQuery->execute();
+        $speakers = array();
+        foreach ($results as $row) {
+            $speakers[$row['key'][3]] = Person::arrayDeserialize($row['value']);
+        }
+        return $speakers;
+    }
+
+    /**
+     * Index By Event And Time Period
+     * 
+     * @param VtCodeCamp\Event $event
+     * @return array
+     */
+    public function indexByEventAndTimePeriod(Event $event)
+    {
+        $viewQuery = new Query(
+            $this->couchDbClient->getHttpClient(),
+            $this->couchDbClient->getDatabase(),
+            'schedule',
+            'event_time'
+        );
+        $viewQuery->setStartKey(array($event->getName(), null, null));
+        $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass()));
+        $viewQuery->setReduce(false);
+        $results = $viewQuery->execute();
+        $sessions = array();
+        $headers = array();
+        foreach ($results as $row) {
+            if (isset($row['key'][2])) {
+                $session = Session::arrayDeserialize($row['value']);
+                $sessions[$row['key'][1]][$row['key'][2]] = $session;
+                $trackName = null;
+                if (null !== $session->getTrack()) {
+                    $trackName = $session->getTrack()->getName();
+                }
+                if (isset($headers[$session->getSpace()->getName()])) {
+                    if ($trackName !== $headers[$session->getSpace()->getName()][1]) {
+                        $headers[$session->getSpace()->getName()][1] = null;
+                    }
+                } else {
+                    $headers[$session->getSpace()->getName()] = array(
+                        $session->getSpace()->getName(),
+                        $trackName
+                    );
+                }
+            } else {
+                $sessions[$row['key'][1]][] = Session::arrayDeserialize($row['value']);
+            }
+        }
+        foreach ($headers as $space => $header) {
+            if (null === $header[1]) {
+                unset($header[1]);
+            }
+            $headers[$space] = implode(': ', $header);
+        }
+        array_unshift($sessions, $headers);
         return $sessions;
     }
 

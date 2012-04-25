@@ -20,7 +20,12 @@ class Person implements ArraySerializable
     /**
      * @var string
      */
-    private $name;
+    private $firstName;
+
+    /**
+     * @var string
+     */
+    private $lastName;
 
     /**
      * @var string
@@ -48,25 +53,52 @@ class Person implements ArraySerializable
     }
 
     /**
-     * Get Name
+     * Get First Name
      * 
      * @return string
      */
-    public function getName()
+    public function getFirstName()
     {
-        return $this->name;
+        return $this->firstName;
     }
 
     /**
-     * Set Name
+     * Set First Name
      * 
      * @param string $value
      * @return VtCodeCamp\Person
      */
-    public function setName($value)
+    public function setFirstName($value)
     {
-        $this->name = (string)$value;
+        $this->firstName = (string)$value;
         return $this;
+    }
+
+    /**
+     * Get Last Name
+     * 
+     * @return string
+     */
+    public function getLastName()
+    {
+        return $this->lastName;
+    }
+
+    /**
+     * Set Last Name
+     * 
+     * @param string $value
+     * @return VtCodeCamp\Person
+     */
+    public function setLastName($value)
+    {
+        $this->lastName = (string)$value;
+        return $this;
+    }
+
+    public function getFullName()
+    {
+        return $this->getFirstName() . ' ' . $this->getLastName();
     }
 
     /**
@@ -118,8 +150,11 @@ class Person implements ArraySerializable
         $array = array(
             '_id'    => $this->getId(),
         );
-        if (null !== $this->getName()) {
-            $array['name'] = $this->getName();
+        if (null !== $this->getFirstName()) {
+            $array['first_name'] = $this->getFirstName();
+        }
+        if (null !== $this->getLastName()) {
+            $array['last_name'] = $this->getLastName();
         }
         if (null !== $this->getTwitterUsername()) {
             $array['twitter_username'] = $this->getTwitterUsername();
@@ -133,8 +168,11 @@ class Person implements ArraySerializable
     public static function arrayDeserialize($array)
     {
         $person = new Person($array['_id']);
-        if (isset($array['name'])) {
-            $person->setName($array['name']);
+        if (isset($array['first_name'])) {
+            $person->setFirstName($array['first_name']);
+        }
+        if (isset($array['last_name'])) {
+            $person->setLastName($array['last_name']);
         }
         if (isset($array['twitter_username'])) {
             $person->setTwitterUsername($array['twitter_username']);

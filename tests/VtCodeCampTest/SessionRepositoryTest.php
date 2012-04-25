@@ -74,7 +74,8 @@ Information Systems, both from Worcester Polytechnic Institute.
 EOD;
         $sessionSpeaker = new Person(uniqid());
         $sessionSpeaker
-            ->setName('Chris Bowen')
+            ->setFirstName('Chris')
+            ->setLastName('Bowen')
             ->setTwitterUsername('ChrisBowen')
             ->setBio(new Markdown($sessionSpeakerBioText));
         $this->session
@@ -160,12 +161,93 @@ EOD;
         $roomFourSpace = new Space('Room 4');
         $speakerRoomSpace = new Space('Speaker Room');
         $sessions = $this->sessionRepository->indexByEventAndSpace($vtCodeCamp2011Event);
-        $this->assertCount(1, $sessions);
-        $this->assertCount(5, $sessions[$vtCodeCamp2011Event->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomOneSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomTwoSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomThreeSpace->getName()]);
-        $this->assertCount(6, $sessions[$vtCodeCamp2011Event->getName()][$roomFourSpace->getName()]);
-        $this->assertCount(2, $sessions[$vtCodeCamp2011Event->getName()][$speakerRoomSpace->getName()]);
+        $this->assertCount(5, $sessions);
+        $this->assertCount(6, $sessions[$roomOneSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomTwoSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomThreeSpace->getName()]);
+        $this->assertCount(6, $sessions[$roomFourSpace->getName()]);
+        $this->assertCount(2, $sessions[$speakerRoomSpace->getName()]);
+    }
+
+    public function testIndexByEventAndSpeaker()
+    {
+        /* @var $session VtCodeCamp\Session */
+        foreach (Sessions::all() as $session) {
+            $this->sessionRepository->post($session);
+        }
+        $vtCodeCamp2011Event = new Event('Vermont Code Camp 2011');
+        $speakers = $this->sessionRepository->indexByEventAndSpeaker($vtCodeCamp2011Event);
+        $this->assertCount(22, $speakers);
+    }
+
+    public function testIndexByEventAndTimePeriod()
+    {
+        /* @var $session VtCodeCamp\Session */
+        foreach (Sessions::all() as $session) {
+            $this->sessionRepository->post($session);
+        }
+        $vtCodeCamp2011Event = new Event('Vermont Code Camp 2011');
+        $registrationTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 08:00:00.000 EDT'),
+            new DateTime('2011-09-10 08:45:00.000 EDT')
+        );
+        $welcomeTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 08:45:00.000 EDT'),
+            new DateTime('2011-09-10 09:00:00.000 EDT')
+        );
+        $firstTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 09:00:00.000 EDT'),
+            new DateTime('2011-09-10 10:00:00.000 EDT')
+        );
+        $secondTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 10:15:00.000 EDT'),
+            new DateTime('2011-09-10 11:15:00.000 EDT')
+        );
+        $thirdTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 11:30:00.000 EDT'),
+            new DateTime('2011-09-10 12:30:00.000 EDT')
+        );
+        $lunchTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 12:30:00.000 EDT'),
+            new DateTime('2011-09-10 13:30:00.000 EDT')
+        );
+        $fourthTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 13:30:00.000 EDT'),
+            new DateTime('2011-09-10 14:30:00.000 EDT')
+        );
+        $fifthTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 14:45:00.000 EDT'),
+            new DateTime('2011-09-10 15:45:00.000 EDT')
+        );
+        $snacksTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 15:45:00.000 EDT'),
+            new DateTime('2011-09-10 16:15:00.000 EDT')
+        );
+        $sixthTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 16:15:00.000 EDT'),
+            new DateTime('2011-09-10 17:15:00.000 EDT')
+        );
+        $raffleTimePeriod = new TimePeriod(
+            new DateTime('2011-09-10 17:30:00.000 EDT')
+        );
+        $sessions = $this->sessionRepository->indexByEventAndTimePeriod($vtCodeCamp2011Event);
+        $this->assertCount(12, $sessions);
+        $this->assertCount(5, $sessions[0]);
+        $this->assertEquals('Room 1: .NET', $sessions[0]['Room 1']);
+        $this->assertEquals('Room 2: Web', $sessions[0]['Room 2']);
+        $this->assertEquals('Room 3: Data & More', $sessions[0]['Room 3']);
+        $this->assertEquals('Room 4: Patterns & Practices', $sessions[0]['Room 4']);
+        $this->assertEquals('Speaker Room', $sessions[0]['Speaker Room']);
+        $this->assertCount(1, $sessions[$registrationTimePeriod->getStart()->format('c')]);
+        $this->assertCount(1, $sessions[$welcomeTimePeriod->getStart()->format('c')]);
+        $this->assertCount(4, $sessions[$firstTimePeriod->getStart()->format('c')]);
+        $this->assertCount(4, $sessions[$secondTimePeriod->getStart()->format('c')]);
+        $this->assertCount(5, $sessions[$thirdTimePeriod->getStart()->format('c')]);
+        $this->assertCount(1, $sessions[$lunchTimePeriod->getStart()->format('c')]);
+        $this->assertCount(5, $sessions[$fourthTimePeriod->getStart()->format('c')]);
+        $this->assertCount(4, $sessions[$fifthTimePeriod->getStart()->format('c')]);
+        $this->assertCount(1, $sessions[$snacksTimePeriod->getStart()->format('c')]);
+        $this->assertCount(4, $sessions[$sixthTimePeriod->getStart()->format('c')]);
+        $this->assertCount(1, $sessions[$raffleTimePeriod->getStart()->format('c')]);
     }
 }
