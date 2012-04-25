@@ -22,13 +22,15 @@ class TimePeriod implements ArraySerializable
      */
     private $end;
 
-    public function __construct(DateTime $start, DateTime $end)
+    public function __construct(DateTime $start, DateTime $end = null)
     {
-        $this->start = clone $start;
-        $this->end = clone $end;
         $timezone = new DateTimeZone('UTC');
+        $this->start = clone $start;
         $this->start->setTimezone($timezone);
-        $this->end->setTimezone($timezone);
+        if (null !== $end) {
+            $this->end = clone $end;
+            $this->end->setTimezone($timezone);
+        }
     }
 
     /**
@@ -48,21 +50,30 @@ class TimePeriod implements ArraySerializable
      */
     public function getEnd()
     {
+        if (null === $this->end) {
+            return null;
+        }
         return clone $this->end;
     }
 
     public function arraySerialize()
     {
-        return array(
+        $array = array(
             'start' => $this->getStart()->format('c'),
-            'end'   => $this->getEnd()->format('c'),
         );
+        if (null !== $this->getEnd()) {
+            $array['end'] = $this->getEnd()->format('c');
+        }
+        return $array;
     }
 
     public static function arrayDeserialize($array)
     {
         $start = new DateTime($array['start']);
-        $end = new DateTime($array['end']);
+        $end = null;
+        if (isset($array['end'])) {
+            $end = new DateTime($array['end']);
+        }
         return new TimePeriod($start, $end);
     }
 }
