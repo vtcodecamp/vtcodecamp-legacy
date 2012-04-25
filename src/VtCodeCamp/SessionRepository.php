@@ -37,7 +37,7 @@ class SessionRepository
             $this->couchDbClient->getHttpClient(),
             $this->couchDbClient->getDatabase(),
             'schedule',
-            'event'
+            'event_space'
         );
         $viewQuery->setStartKey(array($event->getName(), null, null));
         $viewQuery->setEndKey(array($event->getName(), new \stdClass(), new \stdClass()));
