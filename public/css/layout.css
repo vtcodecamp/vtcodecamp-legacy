@@ -39,3 +39,8 @@ body > footer {
     background: transparent url(/images/vermont-code-camp.svg) no-repeat 0 0;
     text-indent: -999em;
 }
+.hasSVG svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
