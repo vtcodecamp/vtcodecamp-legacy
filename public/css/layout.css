@@ -5,3 +5,37 @@ body {
     color: black;
     text-align: center;
 }
+#content {
+    width: 920px;
+    margin: 0 auto;
+    padding: 1.0em 20px 2.0em;
+    border: 1px solid black;
+    text-align: left;
+}
+article,
+aside {
+    background-color: #DDD;
+    border-top: 2px solid white;
+}
+article,
+aside {
+    padding: 1.0em 4.0em 3.6em 2.0em;
+}
+body > footer {
+    position: fixed;
+    width: 20.0em;
+    top: 5.0em;
+    right: 0;
+    padding: 1.0em 2.0em 1.0em 3.0em;
+    background-color: #888;
+}
+#vermont-code-camp-logo {
+    position: relative;
+    width: 200px;
+    height: 33px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent url(/images/vermont-code-camp.svg) no-repeat 0 0;
+    text-indent: -999em;
+}
