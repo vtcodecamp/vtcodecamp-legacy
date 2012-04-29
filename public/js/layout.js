@@ -8,15 +8,28 @@ $(document).ready(function() {
             }
         });
     });
-    if ($("footer#ribbon").length > 0) {
-        var elementToReplace = $("footer#ribbon").get(0);
+    $("#ribbon").mouseover(function() {
+        $(this).stop().animate({
+            "backgroundColor": "blue"
+        }, 200);
+    }).mouseout(function() {
+        $(this).stop().animate({
+            "backgroundColor": "green"
+        }, 200);
+    });
+    if ($("#ribbon h1").length > 0) {
+        var elementToReplace = $("#ribbon h1").get(0);
         var canvasWidth = $(elementToReplace).innerWidth();
         var canvasHeight = $(elementToReplace).innerHeight();
         var canvasPadding = 20;
+        var canvasNotchWidth = canvasWidth * 0.05;
         var canvas = $("<canvas width=\"" + (canvasWidth + (canvasPadding * 2)) + "\" height=\"" + (canvasHeight + canvasPadding) + "\" class=\"ribbon\" />").prependTo(elementToReplace).css({
             "left": "+=" + (-canvasPadding) + "px"
         }).get(0);
         if (canvas.getContext) {
+            $(elementToReplace).css({
+                "paddingRight": "+=" + canvasNotchWidth + "px"
+            });
             var ctx = canvas.getContext("2d");
             var lineargradient = ctx.createLinearGradient(0, 0, 0, canvasHeight);
             lineargradient.addColorStop(0, "#555");
@@ -28,9 +41,9 @@ $(document).ready(function() {
             ctx.shadowOffsetY = 5;
             ctx.beginPath();
             ctx.moveTo(canvasPadding, 0);
-            ctx.lineTo(canvasPadding + canvasWidth, 0);
-            ctx.lineTo(canvasPadding + canvasWidth, canvasHeight);
-            ctx.lineTo(canvasPadding + (canvasWidth / 2), canvasHeight * 0.85);
+            ctx.lineTo(canvasPadding + canvasWidth + canvasNotchWidth, 0);
+            ctx.lineTo(canvasPadding + canvasWidth, canvasHeight / 2);
+            ctx.lineTo(canvasPadding + canvasWidth + canvasNotchWidth, canvasHeight);
             ctx.lineTo(canvasPadding, canvasHeight);
             ctx.closePath();
             ctx.fill();
