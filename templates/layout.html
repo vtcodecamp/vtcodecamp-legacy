@@ -3,19 +3,30 @@
     <title>{{ block('title') }} :: Vermont Code Camp</title>
     <link href="/css/reset.css" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/layout.css" rel="stylesheet" type="text/css" media="handheld, all" />
+    <link href="/css/content.css" rel="stylesheet" type="text/css" media="handheld, all" />
+    <script src="/js/html5shiv.js" type="text/javascript"></script>
+    <script src="/js/html5shiv-printshiv.js" type="text/javascript"></script>
+    <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.svg.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.svganim.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.ba-hashchange.min.js" type="text/javascript"></script>
+    <script src="/js/jquery.smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="/js/layout.js" type="text/javascript"></script>
 </head>
 <body>
-{% block content %}{% endblock %}
-<footer>
+<header id="ribbon">
     <nav>
-        <h1><a href="{{ path('page') }}" id="vermont-code-camp-logo">Vermont Code Camp</a></h1>
+        <h1><a href="{{ path('page') }}" id="vermont-code-camp-logo" data-svg-replace="true">Vermont Code Camp</a></h1>
         <ul>
-            <li><a href="{{ path('page') }}">Overview</a></li>
-            <li><a href="{{ path('page', {'id': 'attend/'}) }}">Attend</a></li>
-            <li><a href="{{ path('page', {'id': 'speak/'}) }}">Speak</a></li>
-            <li><a href="{{ path('page', {'id': 'sponsor/'}) }}">Sponsor</a></li>
+            <li><a href="#attend" data-anchor="attend">Attend</a></li>
+            <li><a href="#speak" data-anchor="speak">Speak</a></li>
+            <li><a href="#sponsor" data-anchor="sponsor">Sponsor</a></li>
         </ul>
     </nav>
+</header>
+{% block content %}{% endblock %}
+<footer>
+    <p>A special thanks to <a href="http://www.flickr.com/photos/42504188@N03/">Rob Hale</a> and <a href="http://www.flickr.com/photos/daveburkevt/">Dave Burke</a> for permission to use their photography of Vermont Code Camp.</p>
 </footer>
 </body>
 </html>

@@ -1,0 +1,70 @@
+h1,
+p,
+ul,
+ol,
+dl,
+table {
+    margin-top: 1.0em;
+}
+h1,
+p,
+li,
+dt,
+dd {
+    font-size: 1.6em;
+    line-height: 1.2;
+}
+h1,
+h1 a {
+    color: #333;
+}
+h1 {
+    font-size: 2.4em;
+    font-weight: bold;
+}
+#content section > header h1,
+#content section > header h1 a {
+    color: white;
+    color: rgba(255, 255, 255, 0.1);
+}
+#content section > header h1 {
+    position: absolute;
+    width: 98%;
+    bottom: 0;
+    margin-top: 0;
+    padding: 0.05em 1%;
+    font-size: 8.0em;
+    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.8);
+    z-index: 4;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+    margin-top: 0;
+}
+li {
+    margin-top: 0.4em;
+    margin-left: 1.0em;
+}
+li li {
+    font-size: 1.0em;
+}
+ul li {
+    list-style-type: disc;
+}
+ol li {
+    list-style-type: decimal;
+}
+strong {
+    font-weight: bold;
+}
+em {
+    font-style: italic;
+}
+#content section > header img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    z-index: 3;
+}
