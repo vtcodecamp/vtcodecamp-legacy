@@ -37,6 +37,10 @@ aside {
     width: 100%;
     top: 2.0em;
     left: 0;
+    text-align: left;
+    z-index: 10;
+}
+#ribbon nav {
     background-color: #1595D3;
     background: transparent -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 130, 192, 0.8)), to(rgba(0, 130, 192, 0.9)));
     background: transparent -webkit-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
@@ -44,8 +48,9 @@ aside {
     background: transparent -ms-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
     background: transparent -o-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
-    text-align: left;
-    z-index: 10;
+}
+#ribbon-nav {
+    z-index: -1;
 }
 #ribbon a {
     color: white;
