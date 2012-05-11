@@ -22,20 +22,23 @@ h1 {
     font-size: 2.4em;
     font-weight: bold;
 }
-#content section > header h1,
-#content section > header h1 a {
-    color: white;
-    color: rgba(255, 255, 255, 0.1);
+#content section.anchor {
+    margin-bottom: 150px;
 }
-#content section > header h1 {
+#content section.anchor > header h1,
+#content section.anchor > header h1 a {
+    color: white;
+}
+#content section.anchor > header h1 {
     position: absolute;
-    width: 98%;
-    bottom: 0;
-    margin-top: 0;
-    padding: 0.05em 1%;
-    font-size: 8.0em;
-    text-shadow: 0 0 0.2em rgba(0, 0, 0, 0.8);
-    z-index: 4;
+    width: 90%;
+    height: 80px;
+    margin-top: -100px;
+    padding: 20px 5% 0;
+    background-color: #555;
+    font-size: 6.0em;
+    text-align: center;
+    text-transform: uppercase;
 }
 ul ul,
 ul ol,
@@ -62,9 +65,8 @@ strong {
 em {
     font-style: italic;
 }
-#content section > header img {
+#content section.anchor > header img {
     width: 100%;
     height: auto;
     margin-top: 0;
-    z-index: 3;
 }
