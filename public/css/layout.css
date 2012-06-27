@@ -1,111 +1,143 @@
 body {
-    background-color: #AAA;
-    background-image: url(/images/background-hatching.svg), -webkit-gradient(linear, 0% 0%, 0% 100%, from(#AAA), to(#BBB));
-    background-image: url(/images/background-hatching.svg), -webkit-linear-gradient(top, #AAA, #BBB);
-    background-image: url(/images/background-hatching.svg), -moz-linear-gradient(top, #AAA, #BBB);
-    background-image: url(/images/background-hatching.svg), -ms-linear-gradient(top, #AAA, #BBB);
-    background-image: url(/images/background-hatching.svg), -o-linear-gradient(top, #AAA, #BBB);
+    background-color: #F5F5F5;
     background-repeat: repeat;
     background-position: center center;
-    font-family: Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
     color: black;
     text-align: center;
 }
-#content {
-    min-width: 920px;
-    max-width: 1280px;
-    margin: 0 auto;
-    padding-bottom: 2.0em;
-    text-align: left;
-}
-#content section > header {
+#content,
+header.page {
     position: relative;
+    z-index: 5;
 }
-article,
-aside {
-    margin-top: 0.2em;
-    background-color: #DDD;
-    background-color: rgba(255, 255, 255, 0.6);
-}
-article,
-aside {
-    padding: 1.0em 4.0em 3.6em 2.0em;
-}
-#ribbon {
-    position: absolute;
-    width: 100%;
-    top: 2.0em;
-    left: 0;
+#content,
+header.page nav,
+footer.page {
+    width: 920px;
+    _width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
     text-align: left;
-    z-index: 10;
 }
-#ribbon nav {
+#content {
+    padding: 0 20px 4.0em;
+    background-color: white;
+}
+header.page,
+.no-cssgradients header.page {
     background-color: #1595D3;
-    background: transparent -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(0, 130, 192, 0.8)), to(rgba(0, 130, 192, 0.9)));
-    background: transparent -webkit-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
-    background: transparent -moz-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
-    background: transparent -ms-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
-    background: transparent -o-linear-gradient(top, rgba(0, 130, 192, 0.8), rgba(0, 130, 192, 0.9));
+}
+header.page {
+    z-index: 8;
+    overflow: hidden;
+    padding-top: 2.0em;
+    padding-bottom: 2.0em;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(0, 0, 0, 0.2)));
+    background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
+    -moz-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
 }
-#ribbon-nav {
-    z-index: -1;
+header.page nav {
+    text-align: center;
 }
-#ribbon a {
-    color: white;
-    text-decoration: none;
-}
-#ribbon a:hover,
-#ribbon a:focus {
-    text-decoration: underline;
-}
-#ribbon h1,
-#ribbon ul,
-#ribbon li {
-    display: inline-block;
-    margin-top: 0;
-    vertical-align: middle;
-}
-#ribbon h1 {
+header.page nav li {
+    display: inline;
+    margin-left: 1.0em;
     margin-right: 1.0em;
-    padding: 2.0em 3.0em;
-    background-color: #333;
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#555), to(#333));
-    background-image: -webkit-linear-gradient(top, #555, #333);
-    background-image: -moz-linear-gradient(top, #555, #333);
-    background-image: -ms-linear-gradient(top, #555, #333);
-    background-image: -o-linear-gradient(top, #555, #333);
-    box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
-    font-size: 1.0em;
-}
-#ribbon h1 canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
+    font-size: 1.8em;
+    list-style: none;
 }
 #vermont-code-camp-logo {
     position: relative;
-    width: 200px;
-    height: 33px;
+    width: 400px;
+    height: 66px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background: transparent url(/images/vermont-code-camp.svg) no-repeat 0 0;
+    margin: 0 auto 1.0em;
+    background: transparent url(/images/vermont-code-camp-logo-400x66.png) no-repeat 0 0;
+    _background-image: url(/images/vermont-code-camp-logo-1595D3-400x66.png);
     text-indent: -999em;
 }
-#ribbon li {
-    margin: 0.1em 0.6em 0;
-    font-size: 2.1em;
-    list-style: none;
+header.page nav a {
+    color: white;
+    text-decoration: none;
 }
-.hasSVG svg {
-    position: absolute;
-    top: 0;
-    left: 0;
+header.page nav a:hover,
+header.page nav a:focus {
+    color: white;
+    text-decoration: underline;
 }
-@media all and (min-height: 640px) {
-    #ribbon {
-        position: fixed;
-    }
+.anchor,
+.anchor aside,
+.anchor article {
+    overflow: hidden;
+}
+.anchor {
+    display: block;
+    clear: both;
+    margin-top: 5.0em;
+    margin-bottom: 8.0em;
+}
+.anchor header h1,
+.no-cssgradients .anchor header h1 {
+    _position: relative;
+    background-color: #BBB;
+}
+.anchor header h1 {
+    margin: 1.0em 0 0.6em;
+    padding: 0.5em 20px 0.4em;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    font-size: 2.0em;
+    color: white;
+    text-align: center;
+}
+.anchor header img {
+    float: left;
+    margin-top: 2.0em;
+    margin-bottom: 2.0em;
+    *margin-bottom: 0;
+}
+.anchor aside {
+    width: 440px;
+    _width: 480px;
+    margin-top: 2.0em;
+    margin-bottom: 2.0em;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2.0em;
+    background-color: #EEE;
+    -moz-border-radius: 0.6em;
+    -webkit-border-radius: 0.6em;
+    border-radius: 0.6em;
+    font-size: 0.9em;
+}
+.anchor aside h1 {
+    font-size: 2.0em;
+}
+.anchor article {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+    clear: right;
+}
+footer.page {
+    padding-top: 1.8em;
+    padding-bottom: 5.0em;
+    font-size: 0.8em;
+    text-align: center;
+}
+footer.page p,
+footer.page a {
+    color: #999;
+}
+footer.page p {
+    margin-top: 0.2em;
 }
