@@ -8,7 +8,7 @@ body {
     text-align: center;
 }
 #content,
-header.page {
+.page {
     position: relative;
     z-index: 5;
 }
@@ -19,10 +19,10 @@ footer.page {
     _width: 960px;
     overflow: hidden;
     margin: 0 auto;
+    padding: 0 20px 4.0em;
     text-align: left;
 }
 #content {
-    padding: 0 20px 4.0em;
     background-color: white;
 }
 header.page,
@@ -30,7 +30,6 @@ header.page,
     background-color: #1595D3;
 }
 header.page {
-    z-index: 8;
     overflow: hidden;
     padding-top: 2.0em;
     padding-bottom: 2.0em;
@@ -42,8 +41,10 @@ header.page {
     -moz-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    z-index: 8;
 }
 header.page nav {
+    padding-bottom: 2.0em;
     text-align: center;
 }
 header.page nav li {
@@ -58,7 +59,7 @@ header.page nav li {
     width: 400px;
     height: 66px;
     display: block;
-    margin: 0 auto 1.0em;
+    margin: 0 auto;
     background: transparent url(/images/vermont-code-camp-logo-400x66.png) no-repeat 0 0;
     _background-image: url(/images/vermont-code-camp-logo-1595D3-400x66.png);
     text-indent: -999em;
@@ -71,6 +72,74 @@ header.page nav a:hover,
 header.page nav a:focus {
     color: white;
     text-decoration: underline;
+}
+header.page .event,
+header.page .meta {
+    display: inline-block;
+    vertical-align: middle;
+}
+header.page .event {
+    margin-right: 22.0em;
+}
+header.page .meta {
+    margin-left: 4.0em;
+    font-size: 1.4em;
+    color: #EEE;
+}
+header.page .meta .date-time,
+header.page .meta .location {
+    display: inline-block;
+    margin: 0 0.3em;
+    vertical-align: middle;
+}
+header.page .meta .day,
+header.page .meta .month,
+header.page .meta .date,
+header.page .meta .time {
+    display: block;
+    line-height: 1.0;
+    text-transform: uppercase;
+}
+header.page .meta .day,
+header.page .meta .time {
+    font-size: 0.8em;
+}
+header.page .meta .day {
+    margin-bottom: 0.3em;
+}
+header.page .meta .month,
+header.page .meta .date {
+    border: 2px solid #EEE;
+    font-weight: bold;
+    color: #EEE;
+}
+header.page .meta .month {
+    padding: 0.3em 0.4em 0.2em;
+    background-color: #EEE;
+    border-bottom: none;
+    font-size: 1.3em;
+    color: #1595D3;
+}
+header.page .meta .date {
+    font-size: 2.5em;
+    padding: 0.2em 0.4em;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+}
+header.page .meta .time {
+    margin-top: 0.3em;
+}
+header.page .meta .location {
+    font-size: 1.5em;
+    line-height: 1.1;
+    text-align: left;
+}
+header.page nav ul {
+    display: inline-block;
+    margin-top: 2.0em;
 }
 .anchor,
 .anchor aside,
@@ -134,10 +203,43 @@ footer.page {
     font-size: 0.8em;
     text-align: center;
 }
+footer.page > * {
+    margin-left: 10.0em;
+    margin-right: 10.0em;
+}
 footer.page p,
 footer.page a {
     color: #999;
 }
 footer.page p {
     margin-top: 0.2em;
+}
+@media all and (max-width: 480px) {
+    #content,
+    .page {
+        font-size: 1.5em;
+    }
+    header.page {
+        width: 920px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .anchor header img,
+    .anchor article {
+        float: none;
+    }
+    .anchor header img {
+        width: 100%;
+        height: auto;
+    }
+    .anchor aside,
+    .anchor article {
+        width: auto;
+    }
+}
+@media all and (min-height: 720px) {
+    header.page {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
 }

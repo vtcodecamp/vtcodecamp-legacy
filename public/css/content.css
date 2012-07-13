@@ -39,6 +39,12 @@ ol ul,
 ol ol {
     margin-top: 0;
 }
+li,
+dt,
+dd {
+    margin-top: 0.1em;
+    line-height: 1.1;
+}
 li {
     margin-top: 0.6em;
     margin-left: 1.5em;
@@ -51,6 +57,13 @@ ul li {
 }
 ol li {
     list-style-type: decimal;
+}
+dt {
+    margin-top: 0.9em;
+    font-size: 1.0em;
+    font-weight: bold;
+    color: #666;
+    text-transform: uppercase;
 }
 strong {
     font-weight: bold;
