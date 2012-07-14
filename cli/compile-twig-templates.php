@@ -21,8 +21,6 @@ $app->register(new TwigServiceProvider(), array(
 
 $app->register(new UrlGeneratorServiceProvider());
 
-$app->register(new Silex\Provider\SymfonyBridgesServiceProvider());
-
 /* @var $twig Twig_Environment */
 $twig = $app['twig'];
 
