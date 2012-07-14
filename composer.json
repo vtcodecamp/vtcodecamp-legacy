@@ -1,11 +1,10 @@
 {
     "require": {
         "silex/silex": "dev-master",
-        "doctrine/couchdb": "dev-master",
         "twig/twig": "1.8.*",
-        "symfony/twig-bridge": "2.1.*",
-        "dflydev/markdown": "1.0.*"
+        "symfony/twig-bridge": "2.1.*"
     },
+    "minimum-stability": "beta",
     "autoload": {
         "psr-0": {
             "VtCodeCamp": "src",

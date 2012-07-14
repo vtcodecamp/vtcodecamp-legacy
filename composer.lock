@@ -1,53 +1,9 @@
 {
-    "hash": "f645ef6cd6b985bc7da4713c0e8915e3",
+    "hash": "ec655b327c34bac6a88bed13d04c04cd",
     "packages": [
         {
-            "package": "dflydev/markdown",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "dflydev/markdown",
-            "version": "dev-master",
-            "source-reference": "b0a6ee857b53228c07b9b631aea5c7a690c33da2",
-            "commit-date": "1338238334"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "alias-pretty-version": "2.3.x-dev",
-            "alias-version": "2.3.9999999.9999999-dev"
-        },
-        {
-            "package": "doctrine/common",
-            "version": "dev-master",
-            "source-reference": "ee3aeae972386d761d8358bab3d67e246f4261ba",
-            "commit-date": "1342078708"
-        },
-        {
-            "package": "doctrine/couchdb",
-            "version": "dev-master",
-            "source-reference": "cff7652ccdcb72f573fbdf698a7649aa9f126745",
-            "commit-date": "1336376539"
-        },
-        {
             "package": "pimple/pimple",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
-        },
-        {
-            "package": "pimple/pimple",
-            "version": "dev-master",
-            "source-reference": "d2cfa2f02f50abef65c238747c753a5f6786f6be",
-            "commit-date": "1341139100"
-        },
-        {
-            "package": "silex/silex",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
+            "version": "1.0.0"
         },
         {
             "package": "silex/silex",
@@ -56,16 +12,24 @@
             "commit-date": "1342208524"
         },
         {
-            "package": "symfony/symfony",
-            "version": "dev-master",
-            "alias-pretty-version": "2.1.x-dev",
-            "alias-version": "2.1.9999999.9999999-dev"
+            "package": "symfony/event-dispatcher",
+            "version": "v2.1.0-BETA2"
         },
         {
-            "package": "symfony/symfony",
-            "version": "dev-master",
-            "source-reference": "36d12dde5b050363d9bf0548b98c44cd622669d3",
-            "commit-date": "1342282240"
+            "package": "symfony/http-foundation",
+            "version": "v2.1.0-BETA2"
+        },
+        {
+            "package": "symfony/http-kernel",
+            "version": "v2.1.0-BETA2"
+        },
+        {
+            "package": "symfony/routing",
+            "version": "v2.1.0-BETA2"
+        },
+        {
+            "package": "symfony/twig-bridge",
+            "version": "v2.1.0-BETA2"
         },
         {
             "package": "twig/twig",
@@ -76,9 +40,8 @@
     "aliases": [
 
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "beta",
     "stability-flags": {
-        "silex/silex": 20,
-        "doctrine/couchdb": 20
+        "silex/silex": 20
     }
 }
