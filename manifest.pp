@@ -3,6 +3,10 @@ class minimal-centos-60 {
     ensure => "present",
   }
 
+  exec {"/usr/bin/yum update --quiet --assumeyes":
+    timeout => 0,
+  }
+
   package { "httpd":
     ensure => latest,
   }
