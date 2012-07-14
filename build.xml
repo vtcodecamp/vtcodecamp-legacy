@@ -36,7 +36,7 @@
   </target>
   <target name="build">
     <echo msg="Building dependencies through Composer..." />
-    <exec command="php composer.phar update" logoutput="true" checkreturn="true" />
+    <exec command="php composer.phar install" logoutput="true" checkreturn="true" />
   </target>
   <target name="release">
   </target>
