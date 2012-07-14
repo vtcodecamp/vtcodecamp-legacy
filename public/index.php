@@ -22,8 +22,6 @@ $app->register(new TwigServiceProvider(), array(
 
 $app->register(new UrlGeneratorServiceProvider());
 
-$app->register(new Silex\Provider\SymfonyBridgesServiceProvider());
-
 $app->get('/{id}', function (Application $app, Request $request, $id) {
     $id = rtrim($id, '/');
     /* @var $twig Twig_Environment */
