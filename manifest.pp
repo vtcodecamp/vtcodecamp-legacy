@@ -168,6 +168,7 @@ class minimal-centos-60 {
   }
 
   exec { "/usr/bin/phing -f /vagrant/build.xml build":
+    logoutput => on_failure,
     timeout => 0,
   }
 }
