@@ -23,7 +23,7 @@ class CompileTwigTemplates extends Command
     protected function configure()
     {
         $this->setName('twig:compile');
-        $this->setDescription('Compile Twig Templates');
+        $this->setDescription('Compile twig templates');
     }
 
     protected function execute(InputInterface $input, OutputInterface $output)
