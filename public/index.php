@@ -6,7 +6,6 @@ require APPLICATION_ROOT . '/vendor/autoload.php';
 use Silex\Application,
     Silex\Provider\TwigServiceProvider,
     Silex\Provider\UrlGeneratorServiceProvider,
-    Silex\Provider\SymfonyBridgesServiceProvider,
     Symfony\Component\HttpFoundation\Request,
     Symfony\Component\HttpFoundation\Response;
 
