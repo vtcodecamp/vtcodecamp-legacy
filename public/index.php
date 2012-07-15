@@ -21,6 +21,27 @@ $app->register(new TwigServiceProvider(), array(
 
 $app->register(new UrlGeneratorServiceProvider());
 
+$app->after(function (Request $request, Response $response) {
+    if (!$request->isMethod('GET') && $response->isOk()) {
+        return;
+    }
+    $response->setEtag(md5($response->getContent()));
+    //TODO: Make configurable
+    $maxAge = 0;
+    $maxAgeDateInterval = new \DateInterval('PT' . $maxAge . 'S');
+    $expires = new \DateTime();
+    $expires->add($maxAgeDateInterval);
+    $response->setMaxAge($maxAge);
+    $response->setSharedMaxAge($maxAge);
+    $response->setPublic();
+    $response->headers->addCacheControlDirective('must-revalidate');
+    $response->setExpires($expires);
+    $response->setVary(array('Accept', 'Accept-Encoding', 'Accept-Language', 'Cookie'));
+    if ($response->isNotModified($request)) {
+        $response->setNotModified();
+    }
+});
+
 $app->get('/{id}', function (Application $app, Request $request, $id) {
     $id = rtrim($id, '/');
     /* @var $twig Twig_Environment */
@@ -36,20 +57,7 @@ $app->get('/{id}', function (Application $app, Request $request, $id) {
     }
     $content = $template->render(array(
     ));
-    $response->setEtag(md5($content));
-    $maxAge = 0;
-    $maxAgeDateInterval = new \DateInterval('PT' . $maxAge . 'S');
-    $expires = new \DateTime();
-    $expires->add($maxAgeDateInterval);
-    $response->setMaxAge($maxAge);
-    $response->setSharedMaxAge($maxAge);
-    $response->setPublic();
-    $response->headers->addCacheControlDirective('must-revalidate');
-    $response->setExpires($expires);
     $response->setContent($content);
-    if ($response->isNotModified($request)) {
-        $response->setNotModified();
-    }
     return $response;
 })->assert('id', '.+')->value('id', 'index')->bind('page');
 
