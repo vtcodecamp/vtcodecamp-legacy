@@ -62,6 +62,9 @@ $app->get('/{id}', function (Application $app, Request $request, $id) {
 })->assert('id', '.+')->value('id', 'index')->bind('page');
 
 $app->error(function (\Exception $ex, $code) use ($app) {
+    if ($app['debug'] && 500 == $code) {
+        return;
+    }
     /* @var $twig Twig_Environment */
     $twig = $app['twig'];
     $template = null;
