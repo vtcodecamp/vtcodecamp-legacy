@@ -7,7 +7,8 @@ use Silex\Application,
     Silex\Provider\TwigServiceProvider,
     Silex\Provider\UrlGeneratorServiceProvider,
     Symfony\Component\HttpFoundation\Request,
-    Symfony\Component\HttpFoundation\Response;
+    Symfony\Component\HttpFoundation\Response,
+    Symfony\Component\HttpKernel\Exception\HttpException;
 
 $silexConfig = include APPLICATION_ROOT . '/config/silex.php';
 $app = new Application();
@@ -65,6 +66,12 @@ $app->error(function (\Exception $ex, $code) use ($app) {
     if ($app['debug'] && 500 == $code) {
         return;
     }
+    $headers = array();
+    if ($ex instanceof HttpException) {
+        /* @var $httpException /Symfony\Component\HttpKernel\Exception\HttpException */
+        $httpException = $ex;
+        $headers = $httpException->getHeaders();
+    }
     /* @var $twig Twig_Environment */
     $twig = $app['twig'];
     $template = null;
@@ -74,8 +81,9 @@ $app->error(function (\Exception $ex, $code) use ($app) {
         $template = $twig->loadTemplate('error/500.html');
     }
     $content = $template->render(array(
+        'headers'   => $headers,
     ));
-    return new Response($content, $code);
+    return new Response($content, $code, $headers);
 });
 
 $app->run();
