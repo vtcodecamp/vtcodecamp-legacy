@@ -2,9 +2,10 @@
     "require": {
         "silex/silex": "dev-master",
         "twig/twig": "1.8.*",
-        "symfony/twig-bridge": "2.1.*"
+        "symfony/twig-bridge": "2.1.*",
+        "cilex/cilex": "1.0.*"
     },
-    "minimum-stability": "beta",
+    "minimum-stability": "dev",
     "autoload": {
         "psr-0": {
             "VtCodeCamp": "src",
