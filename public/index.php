@@ -27,7 +27,7 @@ $app->after(function (Request $request, Response $response) {
     }
     $response->setEtag(md5($response->getContent()));
     //TODO: Make configurable
-    $maxAge = 0;
+    $maxAge = 60;
     $maxAgeDateInterval = new \DateInterval('PT' . $maxAge . 'S');
     $expires = new \DateTime();
     $expires->add($maxAgeDateInterval);
