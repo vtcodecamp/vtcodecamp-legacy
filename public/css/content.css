@@ -88,12 +88,39 @@ a:focus {
     color: #666;
     text-decoration: underline;
 }
+.button,
+.button:hover,
+.button:focus {
+    color: white;
+    text-decoration: none;
+}
+.button {
+    display: inline-block;
+    padding: 0.5em 1.0em;
+    background-color: #003A69;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(transparent));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), transparent);
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), transparent);
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), transparent);
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), transparent);
+    -moz-border-radius: 0.4em;
+    -webkit-border-radius: 0.4em;
+    border-radius: 0.4em;
+}
+.button:hover,
+.button:focus {
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.2)), to(rgba(255, 255, 255, 0.1)));
+    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.1));
+}
 .flag {
     padding: 0.1em 0.3em;
-    background-color: #AAA;
-    -moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-    border-radius: 0.3em;
+    background-color: #BBB;
+    -moz-border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+    border-radius: 0.2em;
     font-size: 0.8em;
     font-style: normal;
     color: white;

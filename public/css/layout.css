@@ -18,7 +18,7 @@ footer.page {
     width: 920px;
     overflow: hidden;
     margin: 0 auto;
-    padding: 0 20px 4.0em;
+    padding: 0 20px;
     text-align: left;
 }
 #content {
@@ -30,8 +30,8 @@ header.page,
 }
 header.page {
     overflow: hidden;
-    padding-top: 2.0em;
-    padding-bottom: 2.0em;
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(0, 0, 0, 0.2)));
     background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
     background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
@@ -42,17 +42,6 @@ header.page {
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     z-index: 8;
 }
-header.page nav {
-    padding-bottom: 2.0em;
-    text-align: center;
-}
-header.page nav li {
-    display: inline;
-    margin-left: 1.0em;
-    margin-right: 1.0em;
-    font-size: 1.8em;
-    list-style: none;
-}
 #vermont-code-camp-logo {
     position: relative;
     width: 400px;
@@ -62,6 +51,20 @@ header.page nav li {
     background: transparent url(/images/vermont-code-camp-logo-400x66.png) no-repeat 0 0;
     _background-image: url(/images/vermont-code-camp-logo-1595D3-400x66.png);
     text-indent: -999em;
+}
+header.page nav {
+    padding-bottom: 2.0em;
+    text-align: left;
+}
+header.page nav ul {
+    display: inline-block;
+    margin-top: 1.4em;
+}
+header.page nav li {
+    display: inline;
+    margin: 0 1.0em;
+    font-size: 2.0em;
+    list-style: none;
 }
 header.page nav a {
     color: white;
@@ -76,12 +79,12 @@ header.page .event,
 header.page .meta {
     display: inline-block;
     vertical-align: middle;
+    text-align: center;
 }
 header.page .event {
-    margin-right: 22.0em;
+    margin-right: 20.0em;
 }
 header.page .meta {
-    margin-left: 4.0em;
     font-size: 1.4em;
     color: #EEE;
 }
@@ -136,10 +139,6 @@ header.page .meta .location {
     line-height: 1.1;
     text-align: left;
 }
-header.page nav ul {
-    display: inline-block;
-    margin-top: 2.0em;
-}
 .anchor,
 .anchor aside,
 .anchor article {
@@ -148,8 +147,8 @@ header.page nav ul {
 .anchor {
     display: block;
     clear: both;
-    margin-top: 5.0em;
-    margin-bottom: 8.0em;
+    margin-top: 2.0em;
+    margin-bottom: 6.0em;
 }
 .anchor header h1,
 .no-cssgradients .anchor header h1 {
@@ -196,9 +195,51 @@ header.page nav ul {
     float: right;
     clear: right;
 }
+.anchor article.sponsors {
+    width: auto;
+    float: none;
+    clear: both;
+    text-align: center;
+}
+.anchor article.sponsors h1 {
+    font-size: 1.6em;
+    color: #AAA;
+    text-transform: uppercase;
+}
+.anchor article.sponsors li {
+    width: 200px;
+    display: inline-block;
+    margin: 0 0.6em 1.6em;
+    font-size: 1.5em;
+    list-style: none;
+    vertical-align: middle;
+}
+.anchor article.sponsors li small {
+    display: block;
+    margin-top: 0.3em;
+    color: #888;
+}
+.logo {
+    display: block;
+    margin: 0 auto 0.3em;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    text-indent: -999em;
+}
+.logo.uvm {
+    width: 150px;
+    height: 54px;
+    background-image: url(/media/sponsors/uvm-logo-150x54.jpg);
+}
+.logo.found-line {
+    width: 150px;
+    height: 56px;
+    background-image: url(/media/sponsors/found-line-logo-150x56.jpg);
+}
 footer.page {
     padding-top: 1.8em;
-    padding-bottom: 5.0em;
+    padding-bottom: 8.0em;
     font-size: 0.8em;
     text-align: center;
 }
@@ -214,14 +255,16 @@ footer.page p {
     margin-top: 0.2em;
 }
 @media all and (max-width: 480px) {
-    #content,
-    .page {
+    #content {
         font-size: 1.5em;
     }
     header.page {
         width: 920px;
         padding-left: 20px;
         padding-right: 20px;
+    }
+    .anchor header h1 {
+        font-size: 1.0em;
     }
     .anchor header img,
     .anchor article {
@@ -236,9 +279,18 @@ footer.page p {
         width: auto;
     }
 }
-@media all and (min-height: 720px) {
+@media all and (min-height: 721px) and (min-width: 1025px) {
     header.page {
         position: fixed;
         width: 100%;
         bottom: 0;
+    }
+    .anchor {
+        margin-top: 0;
+        padding-top: 1.0em;
+    }
+    footer.page {
+        padding-bottom: 25.0em;
+        background-color: white;
+    }
 }
