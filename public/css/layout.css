@@ -16,7 +16,6 @@ body {
 header.page nav,
 footer.page {
     width: 920px;
-    _width: 960px;
     overflow: hidden;
     margin: 0 auto;
     padding: 0 20px 4.0em;
