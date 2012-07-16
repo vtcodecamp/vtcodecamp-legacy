@@ -56,7 +56,10 @@ $app->get('/{id}', function (Application $app, Request $request, $id) {
     } catch (Twig_Error_Loader $ex) {
         $app->abort(404);
     }
+    //TODO: DRY this up
+    $ga = include APPLICATION_ROOT . '/config/google-analytics.php';
     $content = $template->render(array(
+        'ga'        => $ga,
     ));
     $response->setContent($content);
     return $response;
@@ -80,8 +83,11 @@ $app->error(function (\Exception $ex, $code) use ($app) {
     } catch (Twig_Error_Loader $ex) {
         $template = $twig->loadTemplate('error/500.html');
     }
+    //TODO: DRY this up
+    $ga = include APPLICATION_ROOT . '/config/google-analytics.php';
     $content = $template->render(array(
         'headers'   => $headers,
+        'ga'        => $ga,
     ));
     return new Response($content, $code, $headers);
 });
