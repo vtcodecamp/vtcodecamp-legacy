@@ -17,4 +17,11 @@ $(document).ready(function() {
         $($(this).attr("href")).trigger("scrollTo");
         return false;
     });
+    $(window).hashchange(function(e) {
+        if ("" != location.hash) {
+            $(location.hash).trigger("scrollTo");
+        } else {
+            $.smoothScroll(0);
+        }
+    });
 });
