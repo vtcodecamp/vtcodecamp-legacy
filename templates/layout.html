@@ -1,7 +1,16 @@
 <html class="no-js">
 <head>
-    <title>{{ block('title') }} :: Vermont Code Camp</title>
-    <meta name="description" content="{{ block('description') }}">
+{% set primaryTitle = 'Vermont Code Camp' %}
+{% set secondaryTitle = block('title') %}
+{% if secondaryTitle is not empty %}
+    <title>{{ secondaryTitle }} :: {{ primaryTitle }}</title>
+{% else %}
+    <title>primaryTitle</title>
+{% endif %}
+{% set description = block('description') %}
+{% if description is not empty %}
+    <meta name="description" content="{{ description }}">
+{% endif %}
     <link rel="profile" href="http://microformats.org/profile/hcalendar">
     <link href="/css/reset.css" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/layout.css" rel="stylesheet" type="text/css" media="handheld, all" />
