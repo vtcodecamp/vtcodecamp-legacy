@@ -77,6 +77,7 @@ th {
     background-color: #CCC;
     font-size: 1.1em;
     font-weight: bold;
+    vertical-align: bottom;
 }
 tr:nth-child(even) td {
     background-color: #EEE;
