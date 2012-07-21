@@ -69,7 +69,7 @@ dt {
 }
 th,
 td {
-    padding: 0.4em 10px;
+    padding: 0.5em 10px 0.4em;
     border: 1px solid #BBB;
     text-align: left;
 }
