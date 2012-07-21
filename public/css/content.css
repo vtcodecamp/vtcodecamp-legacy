@@ -13,7 +13,9 @@ h2,
 p,
 li,
 dt,
-dd {
+dd,
+th,
+td {
     font-size: 1.6em;
     line-height: 1.3;
 }
@@ -64,6 +66,20 @@ dt {
     font-weight: bold;
     color: #666;
     text-transform: uppercase;
+}
+th,
+td {
+    padding: 0.4em 10px;
+    border: 1px solid #BBB;
+    text-align: left;
+}
+th {
+    background-color: #CCC;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+tr:nth-child(even) td {
+    background-color: #EEE;
 }
 strong {
     font-weight: bold;
