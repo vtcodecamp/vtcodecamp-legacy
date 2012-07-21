@@ -254,6 +254,20 @@ footer.page a {
 footer.page p {
     margin-top: 0.2em;
 }
+#error #content,
+#error header.page nav {
+    text-align: center;
+}
+#error #content,
+#error footer.page {
+    background-color: transparent;
+}
+#error #content {
+    width: 500px;
+    padding: 4.0em 230px 20.0em;
+    font-size: 1.2em;
+    text-align: center;
+}
 @media all and (max-width: 480px) {
     #content {
         font-size: 1.5em;
@@ -292,5 +306,9 @@ footer.page p {
     footer.page {
         padding-bottom: 25.0em;
         background-color: white;
+    }
+    #error #content {
+        padding-top: 10.0em;
+        padding-bottom: 1.0em;
     }
 }

@@ -1,6 +1,7 @@
 #content,
 header.page nav,
-footer.page {
+footer.page,
+#error #content {
     _width: 960px;
 }
 header.page .event,
