@@ -146,3 +146,25 @@ a:focus {
     font-style: normal;
     color: white;
 }
+table.schedule th.track {
+    font-size: 1.4em;
+}
+table.schedule td.timespan,
+tr:nth-child(even) td.timespan {
+    background-color: #F5F5F5;
+}
+table.schedule td.timespan {
+    font-size: 1.3em;
+}
+table.schedule .speaker,
+table.schedule .speaker a {
+    color: #777;
+}
+table.schedule .speaker a:hover,
+table.schedule .speaker a:focus {
+    color: #999;
+}
+table.schedule .room,
+table.schedule .speaker {
+    display: block;
+}
