@@ -3,42 +3,55 @@ class minimal-centos-60 {
     ensure => "present",
   }
 
+  package { "epel-release":
+    provider => rpm,
+    ensure => installed,
+    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/epel-release-6-5.noarch.rpm"
+  }
+
+  package { "ius-release":
+    require => Package["epel-release"],
+    provider => rpm,
+    ensure => installed,
+    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-10.ius.el6.noarch.rpm"
+  }
+
   package { "httpd":
     ensure => latest,
   }
 
-  package { "php":
+  package { "php54":
     require => Package["httpd"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php-devel":
-    require => Package["php"],
+  package { "php54-devel":
+    require => Package["php54"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php-pecl-apc":
-    require => Package["php"],
+  package { "php54-pecl-apc":
+    require => Package["php54"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php-pecl-memcache":
-    require => Package["php"],
+  package { "php54-pecl-memcache":
+    require => Package["php54"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php-pear":
-    require => Package["php"],
+  package { "php54-pear":
+    require => Package["php54"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php-xml":
-    require => Package["php"],
+  package { "php54-xml":
+    require => Package["php54"],
     ensure => latest,
     notify => Service["httpd"],
   }
@@ -84,7 +97,7 @@ class minimal-centos-60 {
   }
 
   file { "/etc/php.ini":
-    require => Package["php"],
+    require => Package["php54"],
     ensure => file,
     owner => root,
     group => root,
@@ -94,7 +107,7 @@ class minimal-centos-60 {
   }
 
   file { "/etc/php.d/xdebug.ini":
-    require => Package["php"],
+    require => Package["php54"],
     ensure => file,
     owner => root,
     group => root,
@@ -127,7 +140,7 @@ class minimal-centos-60 {
   }
 
   exec {"/usr/bin/pecl upgrade":
-    require => Package["php-pear"],
+    require => Package["php54-pear"],
     notify => Service["httpd"],
     timeout => 0,
   }
@@ -139,13 +152,13 @@ class minimal-centos-60 {
   }
 
   exec {"/usr/bin/pear upgrade":
-    require => Package["php-pear"],
+    require => Package["php54-pear"],
     timeout => 0,
   }
 
   exec { "/usr/bin/pear config-set auto_discover 1":
     require => [
-      Package["php-pear"],
+      Package["php54-pear"],
       Exec["/usr/bin/pear upgrade"]
     ],
     timeout => 0,
