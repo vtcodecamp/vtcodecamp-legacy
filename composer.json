@@ -1,7 +1,7 @@
 {
     "require": {
         "silex/silex": "dev-master",
-        "twig/twig": "1.8.*",
+        "twig/twig": "1.9.*",
         "symfony/twig-bridge": "2.1.*",
         "cilex/cilex": "1.0.*"
     },
