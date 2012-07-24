@@ -1,5 +1,5 @@
 {
-    "hash": "893584f8d3ed4d36cfd0dbde6083f869",
+    "hash": "72ceaf4c6778d4d3bf543028031fde87",
     "packages": [
         {
             "package": "cilex/cilex",
@@ -24,12 +24,6 @@
             "version": "dev-master",
             "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
             "commit-date": "1343051648"
-        },
-        {
-            "package": "silex/silex",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
         },
         {
             "package": "silex/silex",
@@ -147,7 +141,15 @@
         },
         {
             "package": "twig/twig",
-            "version": "v1.8.3"
+            "version": "dev-master",
+            "alias-pretty-version": "1.9.x-dev",
+            "alias-version": "1.9.9999999.9999999-dev"
+        },
+        {
+            "package": "twig/twig",
+            "version": "dev-master",
+            "source-reference": "657de7bdeb680815e0df95f63da9f81e1533d2ea",
+            "commit-date": "1342953178"
         }
     ],
     "packages-dev": null,
