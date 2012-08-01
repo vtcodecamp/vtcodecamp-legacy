@@ -244,6 +244,11 @@ header.page .meta .location {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
+.logo.logicnp-software {
+    width: 150px;
+    height: 39px;
+    background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
+}
 footer.page {
     padding-top: 1.8em;
     padding-bottom: 8.0em;
