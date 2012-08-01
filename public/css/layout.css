@@ -219,6 +219,13 @@ header.page .meta .location {
     margin-top: 0.3em;
     color: #888;
 }
+.anchor article.sponsors a {
+    text-decoration: none;
+}
+.anchor article.sponsors a:hover,
+.anchor article.sponsors a:focus {
+    text-decoration: underline;
+}
 .logo {
     display: block;
     margin: 0 auto 0.3em;
@@ -227,15 +234,20 @@ header.page .meta .location {
     background-position: 0 0;
     text-indent: -999em;
 }
-.logo.uvm {
+.logo.the-university-of-vermont {
     width: 150px;
     height: 54px;
-    background-image: url(/media/sponsors/uvm-logo-150x54.jpg);
+    background-image: url(/media/sponsors/The-University-of-Vermont-logo-150x54.jpg);
 }
 .logo.found-line {
     width: 150px;
     height: 56px;
-    background-image: url(/media/sponsors/found-line-logo-150x56.jpg);
+    background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
+}
+.logo.logicnp-software {
+    width: 150px;
+    height: 39px;
+    background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
 footer.page {
     padding-top: 1.8em;
