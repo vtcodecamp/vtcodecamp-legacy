@@ -240,6 +240,7 @@ header.page .meta .callout {
     text-decoration: underline;
 }
 .logo {
+    width: 150px;
     display: block;
     margin: 0 auto 0.3em;
     background-color: transparent;
@@ -248,17 +249,30 @@ header.page .meta .callout {
     text-indent: -999em;
 }
 .logo.the-university-of-vermont {
-    width: 150px;
     height: 54px;
     background-image: url(/media/sponsors/The-University-of-Vermont-logo-150x54.jpg);
 }
 .logo.found-line {
-    width: 150px;
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
+.logo.apprenda {
+    height: 40px;
+    background-image: url(/media/sponsors/Apprenda-logo-150x40.jpg);
+}
+.logo.jetbrains {
+    height: 58px;
+    background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
+}
+.logo.green-mountain-coffee-roasters {
+    height: 89px;
+    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
+}
+.logo.oreilly-media {
+    height: 27px;
+    background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
+}
 .logo.logicnp-software {
-    width: 150px;
     height: 39px;
     background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
