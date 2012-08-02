@@ -26,3 +26,7 @@ header.page .meta .callout {
 .anchor {
     margin-top: 3.0em;
 }
+.anchor article.sponsors ul {
+    width: 100%;
+    overflow: hidden;
+}
