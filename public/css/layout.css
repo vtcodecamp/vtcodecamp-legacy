@@ -82,14 +82,15 @@ header.page .meta {
     text-align: center;
 }
 header.page .event {
-    margin-right: 20.0em;
+    margin-right: 15.0em;
 }
 header.page .meta {
     font-size: 1.4em;
     color: #EEE;
 }
 header.page .meta .date-time,
-header.page .meta .location {
+header.page .meta .location,
+header.page .meta .callout {
     display: inline-block;
     margin: 0 0.3em;
     vertical-align: middle;
@@ -138,6 +139,18 @@ header.page .meta .location {
     font-size: 1.5em;
     line-height: 1.1;
     text-align: left;
+}
+header.page .meta .callout {
+    margin-bottom: 0.4em;
+    padding: 0.4em;
+    background-color: #C2652D;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+.svg header.page .meta .callout.arrow-right {
+    padding-right: 0.8em;
+    background: transparent url(/images/callout-arrow-right.svg) no-repeat center center;
+    background-size: 100% 100%;
 }
 .anchor,
 .anchor aside,
