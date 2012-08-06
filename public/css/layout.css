@@ -256,6 +256,10 @@ header.page .meta .callout {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
+.logo.mywebgrocer {
+    height: 42px;
+    background-image: url(/media/sponsors/MyWebGrocer-logo-150x42.jpg);
+}
 .logo.green-mountain-coffee-roasters {
     height: 89px;
     background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
