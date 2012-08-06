@@ -256,6 +256,14 @@ header.page .meta .callout {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
+.logo.mywebgrocer {
+    height: 42px;
+    background-image: url(/media/sponsors/MyWebGrocer-logo-150x42.jpg);
+}
+.logo.green-mountain-coffee-roasters {
+    height: 89px;
+    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
+}
 .logo.apprenda {
     height: 40px;
     background-image: url(/media/sponsors/Apprenda-logo-150x40.jpg);
@@ -263,10 +271,6 @@ header.page .meta .callout {
 .logo.jetbrains {
     height: 58px;
     background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
-}
-.logo.green-mountain-coffee-roasters {
-    height: 89px;
-    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
 }
 .logo.oreilly-media {
     height: 27px;
