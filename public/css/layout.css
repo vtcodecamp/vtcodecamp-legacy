@@ -22,6 +22,7 @@ footer.page {
     text-align: left;
 }
 #content {
+    padding-bottom: 3.0em;
     background-color: white;
 }
 header.page,
