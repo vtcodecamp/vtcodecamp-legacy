@@ -14,8 +14,10 @@ $(document).ready(function() {
         });
     });
     $("a[data-anchor]").click(function() {
-        $($(this).attr("href")).trigger("scrollTo");
-        return false;
+        if ("/" == window.location.pathname) {
+            $("#" + $(this).data("anchor")).trigger("scrollTo");
+            return false;
+        }
     });
     $(window).hashchange(function(e) {
         if ("" != location.hash) {
