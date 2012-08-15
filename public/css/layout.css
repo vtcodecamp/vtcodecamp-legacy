@@ -285,6 +285,49 @@ header.page .meta .callout {
     height: 39px;
     background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
+#event,
+#event a {
+    color: #888;
+}
+#event {
+    display: inline-block;
+    margin: 5.0em 0 2.0em -30px;
+    padding: 1.0em 10.0em 0.8em 30px;
+    background-color: #DDD;
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(0, #EEE), to(90%, #DDD));
+    background-image: -webkit-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -moz-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -ms-linear-gradient(top, #EEE 0, #DDD 90%);
+    background-image: -o-linear-gradient(top, #EEE 0, #DDD 90%);
+    -moz-border-radius: 1.0em;
+    -webkit-border-radius: 1.0em;
+    border-radius: 1.0em;
+    -moz-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+#event h1,
+#event ul,
+#event li {
+    display: inline-block;
+    margin-top: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+#event h1,
+#event h1 a {
+    color: #AAA;
+}
+#event h1 {
+    font-size: 6.0em;
+}
+#event li {
+    margin-left: 1.0em;
+    list-style: none;
+}
+#event a {
+    text-decoration: none;
+}
 footer.page {
     padding-top: 1.8em;
     padding-bottom: 8.0em;
