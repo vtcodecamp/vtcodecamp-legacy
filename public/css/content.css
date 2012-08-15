@@ -1,5 +1,6 @@
 h1,
 h2,
+h3,
 p,
 ul,
 ol,
@@ -10,28 +11,40 @@ img {
 }
 h1,
 h2,
+h3,
 p,
 li,
 dt,
-dd {
+dd,
+th,
+td {
     font-size: 1.6em;
     line-height: 1.3;
 }
 h1,
 h1 a,
 h2,
-h2 a {
+h2 a,
+h3,
+h3 a {
     color: #333;
 }
 h1,
-h2 {
+h2,
+h3 {
     font-weight: bold;
 }
 h1 {
     font-size: 3.0em;
 }
-h1 {
-    font-size: 2.6em;
+h2 {
+    font-size: 2.2em;
+}
+h3 {
+    margin-top: 1.4em;
+}
+h3 + * {
+    margin-top: 0.6em;
 }
 ul ul,
 ul ol,
@@ -64,6 +77,22 @@ dt {
     font-weight: bold;
     color: #666;
     text-transform: uppercase;
+}
+th,
+td {
+    padding: 0.4em 10px;
+    border: 1px solid #BBB;
+    text-align: left;
+}
+th {
+    padding-top: 0.6em;
+    background-color: #CCC;
+    font-size: 1.1em;
+    font-weight: bold;
+    vertical-align: bottom;
+}
+tr:nth-child(even) td {
+    background-color: #EEE;
 }
 strong {
     font-weight: bold;
@@ -127,4 +156,26 @@ a:focus {
     font-size: 0.8em;
     font-style: normal;
     color: white;
+}
+table.schedule th.track {
+    font-size: 1.4em;
+}
+table.schedule td.timespan,
+tr:nth-child(even) td.timespan {
+    background-color: #F5F5F5;
+}
+table.schedule td.timespan {
+    font-size: 1.3em;
+}
+table.schedule .speaker,
+table.schedule .speaker a {
+    color: #777;
+}
+table.schedule .speaker a:hover,
+table.schedule .speaker a:focus {
+    color: #999;
+}
+table.schedule .room,
+table.schedule .speaker {
+    display: block;
 }

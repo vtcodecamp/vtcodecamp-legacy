@@ -30,3 +30,15 @@ header.page .meta .callout {
     width: 100%;
     overflow: hidden;
 }
+#event {
+    overflow: hidden;
+}
+#event h1,
+#event ul,
+#event li {
+    float: left;
+    clear: none;
+}
+#event ul {
+    margin-top: 3.0em;
+}
