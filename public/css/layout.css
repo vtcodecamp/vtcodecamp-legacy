@@ -285,6 +285,10 @@ header.page .meta .callout {
     height: 39px;
     background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
+.logo.code-magazine {
+    height: 55px;
+    background-image: url(/media/sponsors/CODE-Magazine-logo-150x55.jpg);
+}
 #event,
 #event a {
     color: #888;
