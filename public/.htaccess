@@ -1,4 +1,5 @@
 RedirectMatch ^/2011/?$ /2011/schedule
+RedirectMatch ^/2012/?$ /2012/schedule
 
 <IfModule mod_rewrite.c>
     Options -MultiViews
