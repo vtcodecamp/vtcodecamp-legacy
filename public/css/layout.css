@@ -277,6 +277,10 @@ header.page .meta .callout {
     height: 36px;
     background-image: url(/media/sponsors/Pluralsight-logo-150x36.jpg);
 }
+.logo.gibraltar-software {
+    height: 46px;
+    background-image: url(/media/sponsors/Gibraltar-Software-logo-150x46.jpg);
+}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
