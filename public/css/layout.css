@@ -293,6 +293,10 @@ header.page .meta .callout {
     height: 55px;
     background-image: url(/media/sponsors/CODE-Magazine-logo-150x55.jpg);
 }
+.logo.huagati {
+    height: 55px;
+    background-image: url(/media/sponsors/Huagati-logo-150x55.jpg);
+}
 #event,
 #event a {
     color: #888;
