@@ -281,6 +281,10 @@ header.page .meta .callout {
     height: 46px;
     background-image: url(/media/sponsors/Gibraltar-Software-logo-150x46.jpg);
 }
+.logo.champlain-college {
+    height: 48px;
+    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
+}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
