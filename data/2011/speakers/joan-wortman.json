@@ -1,0 +1,10 @@
+{
+  "slug": "joan-wortman",
+  "firstName": "Joan",
+  "lastName": "Wortman",
+  "bio": "Joan Wortman is a UI architect and developer with over 15 years experience creating web based business applications. She is a self-professed JavaScript junkie and all around UI generalist.",
+  "_links": {
+    "self": { "href": "/2011/speakers/joan-wortman" },
+    "twitter": { "href": "http://twitter.com/zizzp", "title": "zizzp" }
+  }
+}

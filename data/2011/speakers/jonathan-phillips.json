@@ -1,0 +1,10 @@
+{
+  "slug": "jonathan-phillips",
+  "firstName": "Jonathan",
+  "lastName": "Phillips",
+  "bio": "Jonathan Phillips is a Technical Director at [Dealer.com](http://www.dealer.com/). Jonathan has been doing User Interface development for 13 years and has worked at a number of startups in Colorado before moving to Vermont in 2008.",
+  "_links": {
+    "self": { "href": "/2011/speakers/jonathan-phillips" },
+    "twitter": { "href": "http://twitter.com/hobopuma", "title": "hobopuma" }
+  }
+}

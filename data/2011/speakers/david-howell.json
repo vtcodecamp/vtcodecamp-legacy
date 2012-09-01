@@ -1,0 +1,10 @@
+{
+  "slug": "david-howell",
+  "firstName": "David",
+  "lastName": "Howell",
+  "bio": "David Howell is a software engineer at [Dealer.com](http://www.dealer.com/). He has worked on software problems in data analysis for six years, first in experimental particle physics and more recently as a software developer at Wolfram Research and [wolframalpha.com](http://www.wolframalpha.com/).",
+  "_links": {
+    "self": { "href": "/2011/speakers/david-howell" },
+    "twitter": { "href": "http://twitter.com/dehowell", "title": "dehowell" }
+  }
+}

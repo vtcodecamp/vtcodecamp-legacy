@@ -1,0 +1,10 @@
+{
+  "slug": "josh-sled",
+  "firstName": "Josh",
+  "lastName": "Sled",
+  "bio": "Josh is a Burlington, VT based software developer. A professional Java developer, Josh has a career spanning point-of-sale biometric processing systems, public-facing social-networking websites, Enterprise-installed monitoring tools and open-source solutions for accounting and Homebrewing beer. Implementation languages have ranged from C to Java, Python, javascript, bash and even tcl and elisp, when pressed.",
+  "_links": {
+    "self": { "href": "/2011/speakers/josh-sled" },
+    "twitter": { "href": "http://twitter.com/joshsled", "title": "joshsled" }
+  }
+}

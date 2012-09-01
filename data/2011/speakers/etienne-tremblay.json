@@ -1,0 +1,10 @@
+{
+  "slug": "etienne-tremblay",
+  "firstName": "Etienne",
+  "lastName": "Tremblay",
+  "bio": "Etienne Tremblay is an Associate Director in charge of the Microsoft technologies center at Fujitsu Canada in Montreal. He has over 20 years of experience in the IT industry and he specialized in Microsoft technologies in the last 12 years, specifically in managing the development process, he also has expertise in the mining and manufacturing industries. He has spoken at various events since 2005 and a Microsoft ALM MVP.",
+  "_links": {
+    "self": { "href": "/2011/speakers/etienne-tremblay" },
+    "twitter": { "href": "http://twitter.com/tegaaa", "title": "tegaaa" }
+  }
+}
