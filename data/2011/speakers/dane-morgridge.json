@@ -1,0 +1,10 @@
+{
+  "slug": "dane-morgridge",
+  "firstName": "Dane",
+  "lastName": "Morgridge",
+  "twitterUsername": "danemorgridge",
+  "bio": "Dane Morgridge has been a programmer for 10+ years and has worked with numerous technologies in this time. His current passions are Ruby on Rails & C++. In addition to software development, he is the host of the Community Megaphone Podcast, plays the drums and also enjoys dabbling in graphic design, video special effects and hockey. When not with his family he is usually learning some new technology or working on some side projects. He can be reached through [http://www.danemorgridge.com](http://danemorgridge.com/) or on Twitter @[danemorgridge](http://twitter.com/danemorgridge).",
+  "_links": {
+    "self": { "href": "/2011/speakers/dane-morgridge" }
+  }
+}
