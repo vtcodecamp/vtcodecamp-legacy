@@ -1,0 +1,18 @@
+{
+  "slug": "html5-a-practical-first-look",
+  "title": "HTML5 – A Practical First Look",
+  "description": "It seems that HTML5 (or at least discussion of it) is everywhere these days. Let's delve into why it, and related web standards, are getting so much attention. We'll look at HTML5′s new options and elements as well as other specifications like CSS3, ECMAScript5, SVG, and beyond. And because knowing what's new is only half the battle, we'll also discuss practical techniques for implementing features today while accommodating a variety of browsers and clients that may not fully support these new options.",
+  "_links": {
+    "self": { "href": "/2011/sessions/html5-a-practical-first-look" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/1015" },
+    "speaker": [
+      { "href": "/2011/speakers/chris-bowen" }
+    ],
+    "resource": [
+      { "href": "http://blogs.msdn.com/b/cbowen/archive/2011/07/13/list-of-html5-presentation-resources.aspx" }
+    ]
+  }
+}

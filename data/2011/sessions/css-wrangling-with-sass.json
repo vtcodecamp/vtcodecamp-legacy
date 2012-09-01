@@ -1,0 +1,19 @@
+{
+  "slug": "css-wrangling-with-sass",
+  "title": "CSS Wrangling with SASS",
+  "description": "Sass is an extension of CSS3 that adds power and elegance to the basic language. It allows you to use variables, nested rules, mixins, inline imports, and more, all with a fully CSS-compatible syntax. (With a little help from Ruby) This talk will cover an overview of what Sass is, how to get it, run it, and use it, and show some examples of its magic.",
+  "_links": {
+    "self": { "href": "/2011/sessions/css-wrangling-with-sass" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/1615" },
+    "speaker": [
+      { "href": "/2011/speakers/rob-friesel" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass" },
+      { "href": "https://github.com/founddrama/vt-code-camp" }
+    ]
+  }
+}

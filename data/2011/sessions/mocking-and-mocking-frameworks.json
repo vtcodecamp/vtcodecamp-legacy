@@ -1,0 +1,15 @@
+{
+  "slug": "mocking-and-mocking-frameworks",
+  "title": "Mocking and Mocking Frameworks",
+  "description": "Being able to understand why it's important to unit test your application is one thing… Being able to acknowledge that proper unit testing inevitably comes with mocking is another good leap in the right direction… But the real challenge is to decide which mocking framework will you utilize <em>if any</em> and what are the pitfalls one must not fall into when choosing a mocking framework… Join me in an exploration of 3 mocking frameworks (MOQ, JustMock, Isolator) and decide for yourself which one you prefer. In this session we will also compare the \"do it yourself\" mocking with the power of mocking frameworks… This session requires working knowledge of Lambdas.",
+  "_links": {
+    "self": { "href": "/2011/sessions/mocking-and-mocking-frameworks" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/1445" },
+    "speaker": [
+      { "href": "/2011/speakers/vincent-grondin" }
+    ]
+  }
+}

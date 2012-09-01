@@ -1,0 +1,15 @@
+{
+  "slug": "testable-entity-framework",
+  "title": "EFing with Code First",
+  "description": "Code First is the newest and coolest feature of Entity Framework and really allows users to approach development in an more Behavior Driven Development and Test Driven Development style than previously allowed. In this session I'll give a quick intro to Code First and how you can get started using it. I'll even show off a bit of BDD and TDD goodness.",
+  "_links": {
+    "self": { "href": "/2011/sessions/testable-entity-framework" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/1130" },
+    "speaker": [
+      { "href": "/2011/speakers/dane-morgridge" }
+    ]
+  }
+}

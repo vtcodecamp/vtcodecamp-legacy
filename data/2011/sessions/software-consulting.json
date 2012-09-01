@@ -1,0 +1,14 @@
+{
+  "slug": "software-consulting",
+  "title": "Software Consulting",
+  "description": "Are you smart, organized, creative, and can think quickly on your feet? Want to make more money than your boss (or his boss for that matter) doing the same job you already love? If so then perhaps it is time for you to consider becoming a consultant. I am going to break things down about what consulting is really all about and how to make your clients never want to build anything ever again with out you. We will talk negotiating pay, finding clients, working for / with consulting firms, getting a cut of the larger pie, making your clients dreams come true, and most importantly how to deal with and keep clients.",
+  "_links": {
+    "self": { "href": "/2011/sessions/software-consulting" },
+    "event": { "href": "/2011/" },
+    "space": { "href": "/2011/spaces/speaker-room" },
+    "timePeriod": { "href": "/2011/time-periods/1330" },
+    "speaker": [
+      { "href": "/2011/speakers/matt-van-horn" }
+    ]
+  }
+}

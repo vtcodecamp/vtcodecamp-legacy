@@ -1,0 +1,18 @@
+{
+  "slug": "cloud-computing-smorgasbord",
+  "title": "Sampling from the Cloud Computing Smorgasbord",
+  "description": "Though it's been around for several years, \"cloud computing\" is rapidly evolving, and a crisp, universal definition continues to elude us. In this session, we'll focus not on definitions but on the concrete: the services you should look for in a cloud provider. Although the content will highlight the service offerings of Windows Azure; we'll also include discussion of other cloud vendor offerings in a compare/contrast fashion.",
+  "_links": {
+    "self": { "href": "/2011/sessions/cloud-computing-smorgasbord" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/1330" },
+    "speaker": [
+      { "href": "/2011/speakers/jim-oneil" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/jimoneil/sampling-from-the-cloud-smorgasbord" }
+    ]
+  }
+}

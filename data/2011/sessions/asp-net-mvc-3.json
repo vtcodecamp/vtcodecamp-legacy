@@ -1,0 +1,15 @@
+{
+  "slug": "asp-net-mvc-3",
+  "title": "Building a Real World Application with MVC 3",
+  "description": "From input validation, to routing we will build an application that will allow you to understand to bend MVC 3 to your needs. You'll see how to quickly setup a new site, hook it up with the new Entity Framework 4.1 templates and create some views with the Razor view engine. We'll cover as much as possible for the short time we have together and get you excited with MVC. Questions and discussions are encouraged but learning is guaranteed.",
+  "_links": {
+    "self": { "href": "/2011/sessions/asp-net-mvc-3" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/1445" },
+    "speaker": [
+      { "href": "/2011/speakers/maxime-rouiller" }
+    ]
+  }
+}

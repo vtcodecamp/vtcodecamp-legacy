@@ -1,0 +1,18 @@
+{
+  "slug": "functional-programming",
+  "title": "What is Functional Programming?",
+  "description": "The challenges of concurrent and parallel processing as well as the addition of functional programming features onto imperative languages have sparked an increased interest in functional programming. We'll explore the foundations of functional programming, how it is different from imperative programming, and assess the claims made about it.",
+  "_links": {
+    "self": { "href": "/2011/sessions/functional-programming" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/1015" },
+    "speaker": [
+      { "href": "/2011/speakers/eric-smith" }
+    ],
+    "resource": [
+      { "href": "http://www.whatisfp.net/" }
+    ]
+  }
+}

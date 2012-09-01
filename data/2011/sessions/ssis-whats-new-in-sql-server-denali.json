@@ -1,0 +1,15 @@
+{
+  "slug": "ssis-whats-new-in-sql-server-denali",
+  "title": "SSIS: What's new in SQL Server Denali?",
+  "description": "This session will demonstrate SQL Server Denali's new features such as Server Deployment Model, Environments, etc. All these novelties will be shown by migrating a 2008 SSIS solution to Denali.",
+  "_links": {
+    "self": { "href": "/2011/sessions/ssis-whats-new-in-sql-server-denali" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/1130" },
+    "speaker": [
+      { "href": "/2011/speakers/christian-cote" }
+    ]
+  }
+}

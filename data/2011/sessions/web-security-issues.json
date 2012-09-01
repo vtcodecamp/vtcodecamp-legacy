@@ -1,0 +1,18 @@
+{
+  "slug": "web-security-issues",
+  "title": "Web Security Issues",
+  "description": "Examples of poor programming practices and how to exploit them so you can understand how to prevent these attacks. The examples are in PHP, but most attacks are language neutral.",
+  "_links": {
+    "self": { "href": "/2011/sessions/web-security-issues" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/1330" },
+    "speaker": [
+      { "href": "/2011/speakers/rene-churchill" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/rchurchill/web-security-9243493" }
+    ]
+  }
+}

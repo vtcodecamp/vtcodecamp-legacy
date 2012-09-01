@@ -1,0 +1,18 @@
+{
+  "slug": "silverlight-development-wp-7-1",
+  "title": "What's New in WP 7.1 Silverlight Development",
+  "description": "The new Windows Phone 7.1 platform, codenamed \"Mango\", features were unveiled this past April, and the developer tools were released in May. With over 500 new features included in this release, there is a tremendous amount of new functionality for developers. This presentation will review many of these new features and show how they can be used to build the next generation of Windows Phone applications.",
+  "_links": {
+    "self": { "href": "/2011/sessions/silverlight-development-wp-7-1" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/1015" },
+    "speaker": [
+      { "href": "/2011/speakers/john-garland" }
+    ],
+    "resource": [
+      { "href": "https://skydrive.live.com/?cid=511766c2b5c5bdd3&sc=documents&uc=2&id=511766C2B5C5BDD3%21720" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "dependency-injection",
+  "title": "Dependency Injection",
+  "description": "This talk will describe the what, why and how one would use Dependency Injection (DI) as a technique for building systems. We'll talk about what DI (and Inversion of Control (IoC)) are, why it's popular, and what the pros and cons of the approach are. We'll look at specific examples where DI helps solve real-world problems. Examples will be primarily in a modern high-level language like C#/Java, but we'll explicitly talk about DI in the context of multiple languages and systems.",
+  "_links": {
+    "self": { "href": "/2011/sessions/dependency-injection" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/1615" },
+    "speaker": [
+      { "href": "/2011/speakers/josh-sled" }
+    ]
+  }
+}
