@@ -8,7 +8,6 @@ header.page .event,
 header.page .meta,
 header.page .meta .date-time,
 header.page .meta .location,
-header.page .meta .callout,
 .anchor article.sponsors li {
     float: left;
     clear: none;
@@ -18,10 +17,6 @@ header.page .event {
 }
 header.page .meta .location {
     margin-top: 1.5em;
-}
-header.page .meta .callout {
-    margin-top: 3.0em;
-    margin-right: 0.4em;
 }
 .anchor {
     margin-top: 3.0em;
