@@ -3,7 +3,8 @@
         "silex/silex": "dev-master",
         "twig/twig": "1.9.*",
         "symfony/twig-bridge": "2.1.*",
-        "cilex/cilex": "1.0.*"
+        "cilex/cilex": "1.0.*",
+        "zircote/Hal": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
