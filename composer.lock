@@ -1,5 +1,5 @@
 {
-    "hash": "72ceaf4c6778d4d3bf543028031fde87",
+    "hash": "09f48aa404d83a1217cef4229ae46544",
     "packages": [
         {
             "package": "cilex/cilex",
@@ -34,8 +34,8 @@
         {
             "package": "silex/silex",
             "version": "dev-master",
-            "source-reference": "ee00393c33b3de861082602747a84d49897b9315",
-            "commit-date": "1344077943"
+            "source-reference": "52c6480be194825489f316d30855645dafa7fae4",
+            "commit-date": "1346332220"
         },
         {
             "package": "symfony/class-loader",
@@ -46,8 +46,8 @@
         {
             "package": "symfony/class-loader",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1342347231"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346082709"
         },
         {
             "package": "symfony/console",
@@ -58,8 +58,8 @@
         {
             "package": "symfony/console",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1343512949"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/event-dispatcher",
@@ -70,8 +70,8 @@
         {
             "package": "symfony/event-dispatcher",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1342739894"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/finder",
@@ -82,8 +82,8 @@
         {
             "package": "symfony/finder",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1343512949"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/http-foundation",
@@ -94,8 +94,8 @@
         {
             "package": "symfony/http-foundation",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1344071918"
+            "source-reference": "c61c023d2e9e9ad2edcc9227bd0ec5f79d616e18",
+            "commit-date": "1346312580"
         },
         {
             "package": "symfony/http-kernel",
@@ -106,8 +106,8 @@
         {
             "package": "symfony/http-kernel",
             "version": "dev-master",
-            "source-reference": "0d0ee371ab0425f3399dba9e25d7ad98ca5c0d62",
-            "commit-date": "1344074675"
+            "source-reference": "aeffdc93a69b65dad2f61c917f73c84b8e387ba4",
+            "commit-date": "1346143430"
         },
         {
             "package": "symfony/process",
@@ -118,8 +118,8 @@
         {
             "package": "symfony/process",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1343512949"
+            "source-reference": "9d4ac6860929f84e68732d1793cd2edb0881d955",
+            "commit-date": "1346330945"
         },
         {
             "package": "symfony/routing",
@@ -130,8 +130,8 @@
         {
             "package": "symfony/routing",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1343744077"
+            "source-reference": "475c0550543c882a7e31b9aca7a5dc0615f59547",
+            "commit-date": "1346394981"
         },
         {
             "package": "symfony/twig-bridge",
@@ -142,8 +142,8 @@
         {
             "package": "symfony/twig-bridge",
             "version": "dev-master",
-            "source-reference": "v2.1.0-RC1",
-            "commit-date": "1343236543"
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "twig/twig",
@@ -154,8 +154,14 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "51c866f415bbee670cd9ba13591307bce8dabdca",
-            "commit-date": "1343464333"
+            "source-reference": "459720ff3b74ee0c0d159277c6f2f5df89d8a4f6",
+            "commit-date": "1346397138"
+        },
+        {
+            "package": "zircote/Hal",
+            "version": "dev-master",
+            "source-reference": "82e0c3f868b1e17f75828f11dc52b9764c7d747a",
+            "commit-date": "1341872495"
         }
     ],
     "packages-dev": null,
@@ -164,6 +170,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silex/silex": 20
+        "silex/silex": 20,
+        "zircote/hal": 20
     }
 }
