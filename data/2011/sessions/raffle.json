@@ -4,6 +4,6 @@
   "_links": {
     "self": { "href": "/2011/sessions/raffle" },
     "event": { "href": "/2011/" },
-    "timePeriod": { "href": "/2011/time-periods/1730" },
+    "timePeriod": { "href": "/2011/time-periods/1730" }
   }
 }
