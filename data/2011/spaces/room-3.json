@@ -2,6 +2,7 @@
   "slug": "room-3",
   "title": "Room 3",
   "_links": {
-    "self": { "href": "/2011/spaces/room-3" }
+    "self": { "href": "/2011/spaces/room-3" },
+    "track": { "href": "/2011/tracks/data-and-more" }
   }
 }
