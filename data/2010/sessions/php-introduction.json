@@ -1,0 +1,16 @@
+{
+  "slug": "php-introduction",
+  "title": "Tech for Devs: Introduction to PHP",
+  "description": "PHP is a programming language well suited for building web scripts and web applications. We will talk briefly about the history of PHP. You will learn how to write a basic PHP script, declare variables, comment your code, use primitive data types, use operators, write conditionals, use iterators, and take advantage of data structures such as arrays. Available IDEs, frameworks, and other PHP tools such as PEAR will be discussed. You will see some practical examples of how PHP is used to solve real-world problems.",
+  "_links": {
+    "self": { "href": "/2010/sessions/php-introduction" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/open-source" },
+    "space": { "href": "/2010/spaces/room-4" },
+    "timePeriod": { "href": "/2010/time-periods/0900" },
+    "speaker": [
+      { "href": "/2010/speakers/bradley-holt" },
+      { "href": "/2010/speakers/matthew-weier-ophinney" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "cloud-software-fail",
+  "title": "How to Fail Miserably as a Cloud Software Provider: A Business Perspective",
+  "description": "The supply side economics of the software business have changed. While many cloud solutions and services can provide a lower capital investment in moving applications to the cloud, the ongoing costs of operating as a SaaS provider are often overlooked. Software companies still face many challenges today in moving to the SaaS business model, and transforming their business to one of ongoing service delivery. This session will explore the key business and technical ingredients for success as a SaaS provider, and you'll learn why architecture still reigns in the Cloud.",
+  "_links": {
+    "self": { "href": "/2010/sessions/cloud-software-fail" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/1030" },
+    "speaker": [
+      { "href": "/2010/speakers/jesse-kliza" }
+    ]
+  }
+}
