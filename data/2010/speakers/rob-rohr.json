@@ -1,0 +1,10 @@
+{
+  "slug": "rob-rohr",
+  "firstName": "Rob",
+  "lastName": "Rohr",
+  "bio": "Rob Rohr has been a developer for the School of Business Administration at the University of Vermont for the past 14 years. Rob has dipped his coding toe in the seas of content management, ink/touch development, mobile development, PowerShell and functional programming and likes to share the programming weirdness that he has encountered along the way. Rob can be found on Twitter as @[rob_rohr](http://twitter.com/rob_rohr).",
+  "_links": {
+    "self": { "href": "/2010/speakers/rob-rohr" },
+    "twitter": { "href": "http://twitter.com/rob_rohr", "title": "rob_rohr" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "christian-cote",
+  "firstName": "Christian",
+  "lastName": "Coté",
+  "bio": "Christian blogs at [http://bi-blogger.typepad.com/](http://bi-blogger.typepad.com/) and can be found on Twitter as @[Christian_SQL](http://twitter.com/Christian_SQL).</a>",
+  "_links": {
+    "self": { "href": "/2010/speakers/christian-cote" },
+    "twitter": { "href": "http://twitter.com/Christian_SQL", "title": "Christian_SQL" }
+  }
+}

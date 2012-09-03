@@ -1,0 +1,9 @@
+{
+  "slug": "everett-mckay",
+  "firstName": "Everett",
+  "lastName": "McKay",
+  "bio": "Everett McKay is the principal of [UX Design Edge](http://www.uxdesignedge.com/), a user experience design consulting and training firm specializing in helping non-designers based in St. Albans. Previously, he was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the [Windows User Experience Interaction Guidelines](http://msdn.microsoft.com/en-us/library/aa511258.aspx).",
+  "_links": {
+    "self": { "href": "/2010/speakers/everett-mckay" }
+  }
+}

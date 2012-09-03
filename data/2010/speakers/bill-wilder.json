@@ -1,0 +1,10 @@
+{
+  "slug": "bill-wilder",
+  "firstName": "Bill",
+  "lastName": "Wilder",
+  "bio": "Bill Wilder has been a professional software developer for more than 20 years. Last year he founded the Boston Azure User Group, an in-person cloud computing community which gets together monthly to learn about Windows Azure through prepared talks and hands-on coding. Bill is especially excited about the Boston Azure Project, a collaborative Windows Azure coding project just starting up in the Boston Azure community. Bill is an active community speaker, blogger ([blog.codingoutloud.com](http://blog.codingoutloud.com/)), and tweeter (@[codingoutloud](http://twitter.com/codingoutloud)) on technology matters and soft skills for technologists, and is also a member of Boston West Toastmasters. Separately, Bill has a day job as an enterprise architect focusing on Microsoft development technologies, including .NET.",
+  "_links": {
+    "self": { "href": "/2010/speakers/bill-wilder" },
+    "twitter": { "href": "http://twitter.com/codingoutloud", "title": "codingoutloud" }
+  }
+}

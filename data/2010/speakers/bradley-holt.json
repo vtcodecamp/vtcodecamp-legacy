@@ -1,0 +1,10 @@
+{
+  "slug": "bradley-holt",
+  "firstName": "Bradley",
+  "lastName": "Holt",
+  "bio": "Bradley Holt is a web developer, entrepreneur, community facilitator, and an advocate of free/open source software, open standards, and open content (e.g. Creative Commons). He is the co-founder of [Found Line](http://foundline.com/), a Burlington-based creative studio with capabilities in web development, graphic design, and marketing strategy. He has ten years of experience with PHP and MySQL and is a Zend Certified Engineer in Zend Framework (ZCE-ZF) with three years of experience building Zend Framework applications. He is also a contributor of source code and bug reports to Zend Framework and an active member of the PHP community. He organizes the [Burlington, VT PHP Users Group](http://groups.google.com/group/burlington-vt-php). Bradley blogs at [bradley-holt.com](http://bradley-holt.com/) and can be found on Twitter as @[BradleyHolt](http://twitter.com/BradleyHolt).",
+  "_links": {
+    "self": { "href": "/2010/speakers/bradley-holt" },
+    "twitter": { "href": "http://twitter.com/BradleyHolt", "title": "BradleyHolt" }
+  }
+}

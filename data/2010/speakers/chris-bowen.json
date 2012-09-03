@@ -1,0 +1,10 @@
+{
+  "slug": "chris-bowen",
+  "firstName": "Chris",
+  "lastName": "Bowen",
+  "bio": "Chris Bowen ([http://blogs.msdn.com/cbowen](http://blogs.msdn.com/cbowen)) is a Developer Evangelist with Microsoft, covering the Northeastern US. An architect and developer with over 17 years of experience, he joined Microsoft after holding senior positions at companies including Monster.com, VistaPrint, Staples, and IDX Systems, as well as consulting with others. He is coauthor of "Essential Windows Communication Foundation" and "Professional Visual Studio 2005 Team System" and holds an M.S. in Computer Science and a B.S. in Management Information Systems, both from Worcester Polytechnic Institute. Chris can be found on Twitter as @[ChrisBowen](http://twitter.com/ChrisBowen).",
+  "_links": {
+    "self": { "href": "/2010/speakers/chris-bowen" },
+    "twitter": { "href": "http://twitter.com/ChrisBowen", "title": "ChrisBowen" }
+  }
+}
