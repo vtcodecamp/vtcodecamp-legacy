@@ -21,6 +21,7 @@ $app->register(new TwigServiceProvider(), array(
 ));
 
 $app->register(new UrlGeneratorServiceProvider());
+$app->register(new SilexExtension\MarkdownExtension());
 
 $app->after(function (Request $request, Response $response) {
     if (!$request->isMethod('GET') && $response->isOk()) {
