@@ -1,5 +1,5 @@
 {
-    "hash": "09f48aa404d83a1217cef4229ae46544",
+    "hash": "5228d0c31f1ac207912d0b616cb41b6b",
     "packages": [
         {
             "package": "cilex/cilex",
@@ -14,6 +14,24 @@
             "commit-date": "1343745749"
         },
         {
+            "package": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source-reference": "605b1b8b5a7bc8daf9111fb35483e5708e30de35",
+            "commit-date": "1346249247"
+        },
+        {
+            "package": "fate/silex-extensions",
+            "version": "dev-master",
+            "source-reference": "686eca24e1e09b05fd9b75447678bb0eca795d24",
+            "commit-date": "1344586528"
+        },
+        {
+            "package": "knplabs/knp-markdown-bundle",
+            "version": "dev-master",
+            "source-reference": "d0fac3f6d2ac502386ee73def9cf900029e1d353",
+            "commit-date": "1339679093"
+        },
+        {
             "package": "pimple/pimple",
             "version": "dev-master",
             "alias-pretty-version": "1.0.x-dev",
@@ -24,12 +42,6 @@
             "version": "dev-master",
             "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
             "commit-date": "1343051648"
-        },
-        {
-            "package": "silex/silex",
-            "version": "dev-master",
-            "alias-pretty-version": "1.0.x-dev",
-            "alias-version": "1.0.9999999.9999999-dev"
         },
         {
             "package": "silex/silex",
@@ -50,6 +62,18 @@
             "commit-date": "1346082709"
         },
         {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/config",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
             "package": "symfony/console",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -62,6 +86,18 @@
             "commit-date": "1345643321"
         },
         {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "dev-master",
+            "source-reference": "3adaf5f41b1dfa17b1b6c75559be77df938abcb5",
+            "commit-date": "1346406727"
+        },
+        {
             "package": "symfony/event-dispatcher",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -69,6 +105,18 @@
         },
         {
             "package": "symfony/event-dispatcher",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/filesystem",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/filesystem",
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
             "commit-date": "1345643321"
@@ -84,6 +132,18 @@
             "version": "dev-master",
             "source-reference": "v2.1.0-RC2",
             "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "dev-master",
+            "source-reference": "5ed23dadfb0b98b602d7d96e2775534d69246589",
+            "commit-date": "1346235859"
         },
         {
             "package": "symfony/http-foundation",
@@ -134,6 +194,30 @@
             "commit-date": "1346394981"
         },
         {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "dev-master",
+            "alias-pretty-version": "2.1.x-dev",
+            "alias-version": "2.1.9999999.9999999-dev"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "dev-master",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1346140482"
+        },
+        {
             "package": "symfony/twig-bridge",
             "version": "dev-master",
             "alias-pretty-version": "2.1.x-dev",
@@ -171,6 +255,8 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "silex/silex": 20,
-        "zircote/hal": 20
+        "zircote/hal": 20,
+        "fate/silex-extensions": 20,
+        "knplabs/knp-markdown-bundle": 20
     }
 }
