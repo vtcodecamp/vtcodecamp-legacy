@@ -1,0 +1,8 @@
+{
+  "slug": "room-2",
+  "title": "Room 2",
+  "_links": {
+    "self": { "href": "/2010/spaces/room-2" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" }
+  }
+}
