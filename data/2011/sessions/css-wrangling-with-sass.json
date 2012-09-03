@@ -12,8 +12,8 @@
       { "href": "/2011/speakers/rob-friesel" }
     ],
     "resource": [
-      { "href": "http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass" },
-      { "href": "https://github.com/founddrama/vt-code-camp" }
+      { "href": "http://www.slideshare.net/founddrama/wrangling-the-css-beast-with-sass", "title": "Slides" },
+      { "href": "https://github.com/founddrama/vt-code-camp", "title": "Code" }
     ]
   }
 }

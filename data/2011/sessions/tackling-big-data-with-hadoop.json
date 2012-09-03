@@ -12,8 +12,8 @@
       { "href": "/2011/speakers/david-howell" }
     ],
     "resource": [
-      { "href": "http://www.slideshare.net/poorlytrainedape/tackling-big-data-with-hadoop-9212076" },
-      { "href": "https://github.com/dehowell/hadoop-crypto-demo" }
+      { "href": "http://www.slideshare.net/poorlytrainedape/tackling-big-data-with-hadoop-9212076", "title": "Slides" },
+      { "href": "https://github.com/dehowell/hadoop-crypto-demo", "title": "Code" }
     ]
   }
 }

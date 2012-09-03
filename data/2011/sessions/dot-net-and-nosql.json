@@ -12,8 +12,8 @@
       { "href": "/2011/speakers/john-zablocki" }
     ],
     "resource": [
-      { "href": "http://www.codevoyeur.com/Presentations.aspx#dotnetcouch" },
-      { "href": "https://bitbucket.org/johnzablocki/codevoyeur-samples/src/1328aee331b5/src/PresentationSamples/NoSQLAndDotNet/CouchDBQuickStart/" }
+      { "href": "http://www.codevoyeur.com/Presentations.aspx#dotnetcouch", "title": "Slides" },
+      { "href": "https://bitbucket.org/johnzablocki/codevoyeur-samples/src/1328aee331b5/src/PresentationSamples/NoSQLAndDotNet/CouchDBQuickStart/", "title": "Code" }
     ]
   }
 }
