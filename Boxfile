@@ -20,3 +20,4 @@ cache1:
 global:
   env:
     - TWIG_CACHE: var/twig
+    - DATA_CACHE: var/data
