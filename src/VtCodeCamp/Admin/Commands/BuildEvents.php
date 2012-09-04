@@ -171,7 +171,6 @@ class BuildEvents extends Command
                 if (!is_dir($dataConfig['cache'] . $eventHref . 'schedule')) {
                     mkdir($dataConfig['cache'] . $eventHref . 'schedule');
                 }
-                //TODO: Enforce that all sessions with a room with a track are in that track
                 ksort($spacesArray);
                 foreach ($spacesArray as $spaceSlug => $space) {
                     $schedule->setEmbedded('space', $space);
@@ -184,6 +183,11 @@ class BuildEvents extends Command
                     foreach ($sessionsBySpace as $spaceSlug => $session) {
                         if (is_string($spaceSlug)) {
                             $space = clone $spacesArray[$spaceSlug];
+                            $spaceArray = $space->toArray();
+                            $sessionArray = $session->toArray();
+                            if (isset($spaceArray['_embedded']['track']) && ($spaceArray['_embedded']['track']['slug'] !== $sessionArray['_embedded']['track']['slug'])) {
+                                throw new \RuntimeException('The session\'s track (' . $sessionArray['_embedded']['track']['slug'] . ') must be the same as its space\'s track (' . $spaceArray['_embedded']['track']['slug'] . '), if defined.');
+                            }
                             $timePeriod->setEmbedded('space', $space);
                             $space->setEmbedded('session', $session, true);
                         } else {
@@ -323,13 +327,17 @@ class BuildEvents extends Command
                 if (!is_dir($dataConfig['cache'] . $eventHref . 'sessions')) {
                     mkdir($dataConfig['cache'] . $eventHref . 'sessions');
                 }
-                //TODO: Enforce that all sessions with a room with a track are in that track
                 ksort($sessionsBySpaceArray);
                 foreach ($sessionsBySpaceArray as $spaceSlug => $sessionsByTimePeriodArray) {
                     $space = $spacesArray[$spaceSlug];
                     $sessions->setEmbedded('space', $space);
                     ksort($sessionsByTimePeriodArray);
                     foreach ($sessionsByTimePeriodArray as $sessionResource) {
+                        $spaceArray = $space->toArray();
+                        $sessionArray = $sessionResource->toArray();
+                        if (isset($spaceArray['_embedded']['track']) && ($spaceArray['_embedded']['track']['slug'] !== $sessionArray['_embedded']['track']['slug'])) {
+                            throw new \RuntimeException('The session\'s track (' . $sessionArray['_embedded']['track']['slug'] . ') must be the same as its space\'s track (' . $spaceArray['_embedded']['track']['slug'] . '), if defined.');
+                        }
                         $space->setEmbedded('session', $sessionResource);
                     }
                 }
