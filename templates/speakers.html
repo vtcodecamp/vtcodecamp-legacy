@@ -8,8 +8,8 @@
 <section id="content">
 {% include 'includes/event.html' %}
     <h1>Speakers</h1>
-    <p>Read more about the {{ event.title }} speakers.</p>
 {% if speakers._embedded.speaker is defined %}
+    <p>Read more about the {{ event.title }} speakers.</p>
     {% for speaker in speakers._embedded.speaker %}
     <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}{% if speaker._links.twitter is defined %} (@<a href="{{ speaker._links.twitter.href|raw }}">{{ speaker._links.twitter.title }}</a>){% endif %}</h2>
     {{ speaker.bio|markdown }}
@@ -22,6 +22,8 @@
     </ul>
         {% endif %}
     {% endfor %}
+{% else %}
+    <p>The speakers for {{ event.title }} have yet to be published.</p>
 {% endif %}
 </section>
 {% endblock %}

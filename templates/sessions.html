@@ -8,8 +8,8 @@
 <section id="content">
 {% include 'includes/event.html' %}
     <h1>Sessions</h1>
-    <p>Read more about the sessions of {{ event.title }}.</p>
 {% if sessions._embedded.space is defined %}
+    <p>Read more about the sessions of {{ event.title }}.</p>
     {% for space in sessions._embedded.space %}
         {% if space._embedded.track is defined %}
     <h2 id="{{ space.slug }}">{{ space._embedded.track.title }} <small>({{ space.title }})</small></h2>
@@ -33,6 +33,8 @@
             {% endif %}
         {% endfor %}
     {% endfor %}
+{% else %}
+    <p>The sessions for {{ event.title }} have yet to be published.</p>
 {% endif %}
 </section>
 {% endblock %}
