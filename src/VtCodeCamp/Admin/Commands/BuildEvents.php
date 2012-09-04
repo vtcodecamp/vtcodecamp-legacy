@@ -180,9 +180,10 @@ class BuildEvents extends Command
                     $timePeriod = $timePeriodsArray[$timePeriodSlug];
                     $schedule->setEmbedded('timePeriod', $timePeriod);
                     ksort($sessionsBySpace);
-                    foreach ($sessionsBySpace as $spaceSlug => $session) {
-                        if (is_string($spaceSlug)) {
-                            $space = clone $spacesArray[$spaceSlug];
+                    foreach ($spacesArray as $spaceSlug => $space) {
+                        $space = clone $spacesArray[$spaceSlug];
+                        if (isset($sessionsBySpace[$spaceSlug])) {
+                            $session = $sessionsBySpace[$spaceSlug];
                             $spaceArray = $space->toArray();
                             $sessionArray = $session->toArray();
                             if (isset($spaceArray['_embedded']['track']) && ($spaceArray['_embedded']['track']['slug'] !== $sessionArray['_embedded']['track']['slug'])) {
@@ -191,6 +192,11 @@ class BuildEvents extends Command
                             $timePeriod->setEmbedded('space', $space);
                             $space->setEmbedded('session', $session, true);
                         } else {
+                            $timePeriod->setEmbedded('space', $space);
+                        }
+                    }
+                    foreach ($sessionsBySpace as $spaceSlug => $session) {
+                        if (!is_string($spaceSlug)) {
                             $timePeriod->setEmbedded('session', $session, true);
                         }
                     }
