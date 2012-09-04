@@ -1,14 +1,7 @@
 {
   "slug": "olap",
   "title": "MS Business Intelligence Fundamentals: Developing OLAP Cubes in SSAS 2008 R2",
-  "description": "This session focuses on the OLAP functionality of SQL Server Analysis Services 2008 R2, exploring the process of developing basic SSAS cubes and dimensions. You will learn how to extend the Unified Dimensional Model (UDM) with KPIs, actions, translations, and perspectives. And finely process and deploy SSAS database and objects into MS SQL Server 2008. We will learn how to:
-
-* Create Data Sources and Data Source Views
-* Create and Modifying SSAS Cubes
-* Create and Modifying Dimensions
-* Create Measure Groups and Measures
-* Create KPIs, Actions, Translations, and Perspectives
-* Process and Deploy SSAS Databases and Objects",
+  "description": "This session focuses on the OLAP functionality of SQL Server Analysis Services 2008 R2, exploring the process of developing basic SSAS cubes and dimensions. You will learn how to extend the Unified Dimensional Model (UDM) with KPIs, actions, translations, and perspectives. And finely process and deploy SSAS database and objects into MS SQL Server 2008. We will learn how to:\n\n* Create Data Sources and Data Source Views\n* Create and Modifying SSAS Cubes\n* Create and Modifying Dimensions\n* Create Measure Groups and Measures\n* Create KPIs, Actions, Translations, and Perspectives\n* Process and Deploy SSAS Databases and Objects",
   "_links": {
     "self": { "href": "/2010/sessions/olap" },
     "event": { "href": "/2010/" },

@@ -1,7 +1,7 @@
 {
   "slug": "webmatrix",
   "title": "Enter the WebMatrix: ASP.NET, PHP, Open Source and the Web",
-  "description": "WebMatrix Beta is a free tool for easily developing ASP.NET and PHP web applications. You can start with an open source application (WordPress, DotNetNuke, Joomla, etc.) and customize it, or create your site from scratch. We'll take a look at installing, coding, data, testing, and deployment. We'll also delve into some of the related tech like ASP.NET Web Pages and the new "Razor" view engine.",
+  "description": "WebMatrix Beta is a free tool for easily developing ASP.NET and PHP web applications. You can start with an open source application (WordPress, DotNetNuke, Joomla, etc.) and customize it, or create your site from scratch. We'll take a look at installing, coding, data, testing, and deployment. We'll also delve into some of the related tech like ASP.NET Web Pages and the new \"Razor\" view engine.",
   "_links": {
     "self": { "href": "/2010/sessions/webmatrix" },
     "event": { "href": "/2010/" },
