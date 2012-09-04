@@ -1,0 +1,52 @@
+{% extends "layouts/default.html" %}
+
+{% block title %}{{ event.slug }} Schedule{% endblock %}
+
+{% block description %}{{ event.description }}{% endblock %}
+
+{% block content %}
+<section id="content">
+{% include 'includes/event.html' %}
+    <h1>Schedule</h1>
+    {{ event.description|markdown }}
+{% if event._links.registration is defined %}
+    <p><a href="{{ event._links.registration.href|raw }}">Register for {{ event.title }}.</a></p>
+{% else %}
+{% endif %}
+{% if schedule._embedded.space is defined %}
+    <table class="schedule">
+        <thead>
+            <tr>
+                <th scope="col" class="timespan">Time</th>
+    {% for space in schedule._embedded.space %}
+        {% if space._embedded.track is defined %}
+                <th scope="col" class="track">{{ space._embedded.track.title }} <small class="room">{{ space.title }}</small></th>
+        {% else %}
+                <th scope="col" class="track"><small class="room">{{ space.title }}</small></th>
+        {% endif %}
+    {% endfor %}
+            </tr>
+        </thead>
+        <tbody>
+    {% for timePeriod in schedule._embedded.timePeriod %}
+            <tr id="{{ timePeriod.slug }}">
+                <td scope="row" class="timespan">{{ timePeriod.start|date("g:ia", "America/New_York") }}-{{ timePeriod.end|date("g:ia", "America/New_York") }}</td>
+        {% if timePeriod._embedded.session is defined %}
+                <td colspan="{{ schedule._embedded.space|length }}">{{ timePeriod._embedded.session.title }}</td>
+        {% elseif timePeriod._embedded.space is defined %}
+            {% for space in schedule._embedded.space %}
+                {% if timePeriod._embedded.space[loop.index0] is defined and space.slug == timePeriod._embedded.space[loop.index0].slug %}
+                    {% set space = timePeriod._embedded.space[loop.index0] %}
+                <td><a href="{{ path('sessions', {'year': event.slug}) }}#{{ space._embedded.session.slug|url_encode() }}">{{ space._embedded.session.title }}</a>{% if space._embedded.session._embedded.speaker is defined%} <small class="speaker">{% for speaker in space._embedded.session._embedded.speaker %}<a href="{{ path('speakers', {'year': event.slug}) }}#{{ speaker.slug|url_encode() }}">{{ speaker.firstName }} {{ speaker.lastName }}</a>{% if not loop.last %}/{% endif %}{% endfor %}</small>{% endif %}</td>
+                {% else %}
+                <td>&nbsp;</td>
+                {% endif %}
+            {% endfor %}
+        {% endif %}
+            </tr>
+    {% endfor %}
+        </tbody>
+    </table>
+{% endif %}
+</section>
+{% endblock %}
