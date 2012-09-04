@@ -272,6 +272,10 @@ header.page .meta .location {
     height: 48px;
     background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
 }
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
+}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
