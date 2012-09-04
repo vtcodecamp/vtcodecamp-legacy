@@ -184,6 +184,15 @@ class minimal-centos-60 {
     logoutput => on_failure,
     timeout => 0,
   }
+
+  exec { "/usr/bin/php /vagrant/admin.php events:build":
+    require => Exec["/usr/bin/phing -f /vagrant/build.xml build"],
+    environment => [
+      "DATA_CACHE=/tmp/data",
+    ],
+    logoutput => on_failure,
+    timeout => 0,
+  }
 }
 
 include minimal-centos-60
