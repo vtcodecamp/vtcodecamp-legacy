@@ -211,7 +211,7 @@ header.page .meta .location {
     width: 200px;
     display: inline-block;
     margin: 0 0.6em 1.6em;
-    font-size: 1.5em;
+    font-size: 1.4em;
     list-style: none;
     vertical-align: middle;
 }
@@ -271,6 +271,10 @@ header.page .meta .location {
 .logo.champlain-college {
     height: 48px;
     background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
+}
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
 }
 .logo.oreilly-media {
     height: 27px;
