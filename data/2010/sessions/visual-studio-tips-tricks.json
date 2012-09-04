@@ -1,0 +1,15 @@
+{
+  "slug": "visual-studio-tips-tricks",
+  "title": "Visual Studio Tips & Tricks",
+  "description": "Visual Studio 2010 represents the first complete rewrite of Visual Studio since the creation of .NET. It presents several new ways to make your life as a developer more efficient, and is a great time to look back at the myriad of features from earlier versions of Visual Studio. You'll see keyboard shortcuts, new dialogs, hidden features of dialogs, debugging enhancements, focusing on the gems that are getting the least attention. Searching and navigating code gets extra time because it's such an important part of your everyday coding.  You'll see macros in action and learn a bit about custom start pages and extensions. This talk focuses on making you more efficient in Visual Studio Professional edition and above in Visual Studio 2010, but many of the features are available in Visual Studio 2008 and lower versions. Come to this talk to learn how to shave hours off your coding experience.",
+  "_links": {
+    "self": { "href": "/2010/sessions/visual-studio-tips-tricks" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/1230" },
+    "speaker": [
+      { "href": "/2010/speakers/kathleen-dollard" }
+    ]
+  }
+}

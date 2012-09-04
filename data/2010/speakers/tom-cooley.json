@@ -1,0 +1,10 @@
+{
+  "slug": "tom-cooley",
+  "firstName": "Tom",
+  "lastName": "Cooley",
+  "bio": "Tom Cooley is the Principal Software Architect for [MyWebGrocer](http://mywebgrocer.com/) in Colchester, VT. He has been designing and developing enterprise software systems for more than 20 years. His focus is on object-oriented design and on mentoring developers to use and understand both software and architectural design patterns and principles. He is the co-leader of the VT SQL Server User Group and a presenter at code camps and user group events. Tom can be found on Twitter as @[tom_cooley](http://twitter.com/tom_cooley).",
+  "_links": {
+    "self": { "href": "/2010/speakers/tom-cooley" },
+    "twitter": { "href": "http://twitter.com/tom_cooley", "title": "tom_cooley" }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "silverlight-part-2",
+  "title": "Building Applications in Silverlight 4 – Part 2",
+  "description": "With the release of Silverlight 4 more and more developers are looking to develop in Silverlight, especially with the introduction of Windows Phone 7. In this presentation anyone starting out, or even currently developing with Silverlight, will learn important information regarding this development platform, as well as look into how to create data-driven applications with Silverlight.",
+  "_links": {
+    "self": { "href": "/2010/sessions/silverlight-part-2" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/1030" },
+    "speaker": [
+      { "href": "/2010/speakers/carl-bergenhem" }
+    ]
+  }
+}

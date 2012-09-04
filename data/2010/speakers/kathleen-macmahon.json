@@ -1,0 +1,10 @@
+{
+  "slug": "kathleen-macmahon",
+  "firstName": "Kathleen",
+  "lastName": "MacMahon",
+  "bio": "Kathleen MacMahon is a Software Development Manager for [Harmony Information Systems](http://www.harmonyis.com/) with over ten years development experience. Current project is a an Enterprise Software Solution, developed in Silverlight 4.0, .NET 4.0 and WCF RIA Services. Kathleen can be found on Twitter as @[kmacmahon](http://twitter.com/kmacmahon).",
+  "_links": {
+    "self": { "href": "/2010/speakers/kathleen-macmahon" },
+    "twitter": { "href": "http://twitter.com/kmacmahon", "title": "kmacmahon" }
+  }
+}

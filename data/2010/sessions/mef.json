@@ -1,0 +1,15 @@
+{
+  "slug": "mef",
+  "title": "Managed Extensibility Framework",
+  "description": "Composable applications are made of building blocks – like Legos. Composability is an extension of many ideas that have fueled architecture evolution in the last twenty years, including isolation, the creation of tiers, and testable applications. Silverlight and .NET now contain the Managed Extensibility Framework or MEF to provide composability. MEF is available in .NET 3.5 and Silverlight 3.0 via downloads and in the box for .NET 4.0 and Silverlight 4.0. In the first part of this talk, I'll cover what composability is and the three broad categories – extensions, fully composed applications, and architecturally composed applications.  The second part of the talk dives into the technical aspects of MEF and how to use it. MEF itself is fully extensible with many possible models for defining composition parts. I'll skip the theoretical approaches and stick with the mainstream attributed model. You'll learn how to incorporate this attributed model into your own applications to define and retrieve parts. The end of the talk will briefly cover the challenges of debugging MEF, including an introduction to stable composition and its implications. You'll leave understanding when MEF might be a good fit for your applications today and insight into how profoundly composability is likely to change architectures in the relatively near future.",
+  "_links": {
+    "self": { "href": "/2010/sessions/mef" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" },
+    "space": { "href": "/2010/spaces/room-2" },
+    "timePeriod": { "href": "/2010/time-periods/1345" },
+    "speaker": [
+      { "href": "/2010/speakers/kathleen-dollard" }
+    ]
+  }
+}

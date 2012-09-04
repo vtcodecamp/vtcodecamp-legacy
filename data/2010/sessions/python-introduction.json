@@ -1,0 +1,15 @@
+{
+  "slug": "python-introduction",
+  "title": "Tech for Devs: Introduction to Python",
+  "description": "An introduction to the Python programming language.",
+  "_links": {
+    "self": { "href": "/2010/sessions/python-introduction" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/open-source" },
+    "space": { "href": "/2010/spaces/room-4" },
+    "timePeriod": { "href": "/2010/time-periods/1700" },
+    "speaker": [
+      { "href": "/2010/speakers/nowell-strite" }
+    ]
+  }
+}

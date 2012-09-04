@@ -1,0 +1,15 @@
+{
+  "slug": "windows-phone-silverlight",
+  "title": "Windows Phone Development with Silverlight",
+  "description": "Microsoft's upcoming entry into the new-generation smart-phone market features Silverlight as the platform for application development. This presentation will go over the fundamentals of using Silverlight to develop rich, interactive applications for this emerging platform.",
+  "_links": {
+    "self": { "href": "/2010/sessions/windows-phone-silverlight" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" },
+    "space": { "href": "/2010/spaces/room-2" },
+    "timePeriod": { "href": "/2010/time-periods/1700" },
+    "speaker": [
+      { "href": "/2010/speakers/john-garland" }
+    ]
+  }
+}

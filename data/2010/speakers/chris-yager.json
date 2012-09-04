@@ -1,0 +1,9 @@
+{
+  "slug": "chris-yager",
+  "firstName": "Chris",
+  "lastName": "Yager",
+  "bio": "Chris Yager is a technical lead at [Dealer.com](http://www.dealer.com/). He previously spent mover than ten years at IBM as a Senior I/T Specialist.",
+  "_links": {
+    "self": { "href": "/2010/speakers/chris-yager" }
+  }
+}

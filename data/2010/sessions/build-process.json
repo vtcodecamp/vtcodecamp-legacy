@@ -1,0 +1,15 @@
+{
+  "slug": "build-process",
+  "title": "Get a Handle on Your Build Process",
+  "description": "The choice of tools and processes surrounding your application deployment process can have major impacts on development time, deployment speed, and disaster recovery. This session will focus on [Dealer.com](http://www.dealer.com/)'s migration to Git, Maven, Hudson, and a new branching strategy for consistent, repeatable, speedy builds.",
+  "_links": {
+    "self": { "href": "/2010/sessions/build-process" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/1230" },
+    "speaker": [
+      { "href": "/2010/speakers/chris-yager" }
+    ]
+  }
+}
