@@ -256,6 +256,10 @@ header.page .meta .location {
     height: 40px;
     background-image: url(/media/sponsors/Apprenda-logo-150x40.jpg);
 }
+.logo.telerik {
+    height: 59px;
+    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
+}
 .logo.jetbrains {
     height: 58px;
     background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
