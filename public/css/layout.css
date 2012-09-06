@@ -252,6 +252,14 @@ header.page .meta .location {
     height: 89px;
     background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
 }
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
+}
+.logo.champlain-college {
+    height: 48px;
+    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
+}
 .logo.apprenda {
     height: 40px;
     background-image: url(/media/sponsors/Apprenda-logo-150x40.jpg);
@@ -260,6 +268,10 @@ header.page .meta .location {
     height: 58px;
     background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
 }
+.logo.telerik {
+    height: 59px;
+    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
+}
 .logo.pluralsight {
     height: 36px;
     background-image: url(/media/sponsors/Pluralsight-logo-150x36.jpg);
@@ -267,14 +279,6 @@ header.page .meta .location {
 .logo.gibraltar-software {
     height: 46px;
     background-image: url(/media/sponsors/Gibraltar-Software-logo-150x46.jpg);
-}
-.logo.champlain-college {
-    height: 48px;
-    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
-}
-.logo.vermont-tech-jam {
-    height: 90px;
-    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
 }
 .logo.oreilly-media {
     height: 27px;
