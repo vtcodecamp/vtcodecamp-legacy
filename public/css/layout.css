@@ -292,6 +292,10 @@ header.page .meta .location {
     height: 55px;
     background-image: url(/media/sponsors/Huagati-logo-150x55.jpg);
 }
+.logo.devexpress {
+    height: 28px;
+    background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
+}
 #event,
 #event a {
     color: #888;
