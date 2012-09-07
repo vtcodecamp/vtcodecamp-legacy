@@ -304,6 +304,10 @@ header.page .meta .location {
     height: 32px;
     background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
 }
+.logo.c2 {
+    height: 86px;
+    background-image: url(/media/sponsors/C2-logo-150x86.jpg);
+}
 #event,
 #event a {
     color: #888;
