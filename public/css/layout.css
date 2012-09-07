@@ -300,6 +300,14 @@ header.page .meta .location {
     height: 28px;
     background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
 }
+.logo.apress {
+    height: 32px;
+    background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
+}
+.logo.c2 {
+    height: 86px;
+    background-image: url(/media/sponsors/C2-logo-150x86.jpg);
+}
 #event,
 #event a {
     color: #888;
