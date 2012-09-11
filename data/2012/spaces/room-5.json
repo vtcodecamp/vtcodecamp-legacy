@@ -1,0 +1,8 @@
+{
+  "slug": "room-5",
+  "title": "Room 5",
+  "_links": {
+    "self": { "href": "/2012/spaces/room-5" },
+    "track": { "href": "/2012/tracks/data" }
+  }
+}
