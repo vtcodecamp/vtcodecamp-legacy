@@ -11,6 +11,7 @@
       { "href": "/2012/categories/business" }
     ],
     "timePeriod": { "href": "/2012/time-periods/1130" },
+    "level": { "href": "/2012/levels/200" },
     "speaker": [
       { "href": "/2012/speakers/christian-cote" }
     ]

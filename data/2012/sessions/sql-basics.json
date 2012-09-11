@@ -8,6 +8,7 @@
     "track": { "href": "/2012/tracks/data" },
     "space": { "href": "/2012/spaces/room-5" },
     "timePeriod": { "href": "/2012/time-periods/1445" },
+    "level": { "href": "/2012/levels/100" },
     "speaker": [
       { "href": "/2012/speakers/rene-churchill" }
     ]

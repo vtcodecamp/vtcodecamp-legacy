@@ -7,6 +7,7 @@
     "event": { "href": "/2012/" },
     "space": { "href": "/2012/spaces/parlor" },
     "timePeriod": { "href": "/2012/time-periods/0900" },
+    "level": { "href": "/2012/levels/300" },
     "speaker": [
       { "href": "/2012/speakers/jeffrey-fritz" }
     ]
