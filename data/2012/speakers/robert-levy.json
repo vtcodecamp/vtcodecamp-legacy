@@ -1,0 +1,10 @@
+{
+  "slug": "robert-levy",
+  "firstName": "Robert",
+  "lastName": "Levy",
+  "bio": "A long-time fan of Lisp as well as functional programming, I have specialized professionally in Clojure in recent years, including various free software contributions and personal projects, a large-scale mobile content adaptation platform at Akamai, and now high-performance PV energy monitoring and data processing systems at Draker Labs.",
+  "_links": {
+    "self": { "href": "/2012/speakers/robert-levy" },
+    "twitter": { "href": "http://twitter.com/rplevy", "title": "rplevy" }
+  }
+}

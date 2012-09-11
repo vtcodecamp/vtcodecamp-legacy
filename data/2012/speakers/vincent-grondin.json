@@ -1,0 +1,9 @@
+{
+  "slug": "vincent-grondin",
+  "firstName": "Vincent",
+  "lastName": "Grondin",
+  "bio": "I have over 14 years of experience in the software development field and I've been using .NET in enterprise projects over 9 years now. I was involved in many enterprise projects for large corporations like Desjardins, Domtar, Cascades and Alcoa but I was also part of a few projects for various government branches. I like to learn new technologies related to .NET, use the new tools that are designed for .NET and I love to share it all with my peers. Yes, I'm a confessed .NET addict and I'm currently working at Fujitsu as a Senior Consultant and received an MVP award in C# from Microsoft.",
+  "_links": {
+    "self": { "href": "/2012/speakers/vincent-grondin" }
+  }
+}

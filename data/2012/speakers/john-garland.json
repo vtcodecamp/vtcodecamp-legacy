@@ -1,0 +1,10 @@
+{
+  "slug": "john-garland",
+  "firstName": "John",
+  "lastName": "Garland",
+  "bio": "John is a Senior Consultant at Wintellect and has been developing software professionally since the 1990's, with work ranging from high-performance sports video and statistical analysis tools to business applications for retail, environmental, financial, and medical organizations. His work has been featured at several Microsoft tradeshow events, including keynote addresses. John lives in New Hampshire, where he is active participant in the development community and has delivered technical presentations throughout New England for both community and Microsoft-sponsored events. John is a graduate of the University of Florida and holds Microsoft Certifications spanning Windows, Silverlight, Windows Phone, and Windows Azure.",
+  "_links": {
+    "self": { "href": "/2012/speakers/john-garland" },
+    "twitter": { "href": "http://twitter.com/dotnetgator", "title": "dotnetgator" }
+  }
+}

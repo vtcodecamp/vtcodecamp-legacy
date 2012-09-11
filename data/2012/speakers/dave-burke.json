@@ -1,0 +1,10 @@
+{
+  "slug": "dave-burke",
+  "firstName": "Dave",
+  "lastName": "Burke",
+  "bio": "Dave Burke is founder of Sueetie LLC, home of the [Sueetie Open Source Social Networking Framework](http://sueetie.com/).",
+  "_links": {
+    "self": { "href": "/2012/speakers/dave-burke" },
+    "twitter": { "href": "http://twitter.com/daveburkevt", "title": "daveburkevt" }
+  }
+}

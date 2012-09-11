@@ -1,0 +1,10 @@
+{
+  "slug": "jason-haley",
+  "firstName": "Jason",
+  "lastName": "Haley",
+  "bio": "Jason Haley is an Independent Consultant in the New England area.",
+  "_links": {
+    "self": { "href": "/2012/speakers/jason-haley" },
+    "twitter": { "href": "http://twitter.com/haleyjason", "title": "haleyjason" }
+  }
+}

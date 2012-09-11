@@ -1,0 +1,10 @@
+{
+  "slug": "everett-mckay",
+  "firstName": "Everett",
+  "lastName": "McKay",
+  "bio": "Everett McKay is the principal of [UX Design Edge](http://www.uxdesignedge.com/), a user experience design training and consulting firm specializing in helping non-designers based in St. Albans, Vermont. UX Design Edge's flagship course is UX Design Essentials Workshop, a two-day onsite course where your team members can improve their UX design skills \"by doing\" by redesigning your own app or site, and User Experience Design Basics, a three-hour online training course that covers the essential, practical skills non-designers need to get started in UI design. Everett is now working on UX Design for Silverlight, a public two-day course that gives Silverlight developers the essentials they need to know about UX design. Previously, Everett was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the Windows User Experience Interaction Guidelines.",
+  "_links": {
+    "self": { "href": "/2012/speakers/everett-mckay" },
+    "twitter": { "href": "http://twitter.com/uxdesignedge", "title": "uxdesignedge" }
+  }
+}

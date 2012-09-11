@@ -1,0 +1,10 @@
+{
+  "slug": "eric-smith",
+  "firstName": "Eric",
+  "lastName": "Smith",
+  "bio": "Eric Smith is Technology Director at EatingWell Media Group. He has been programming for more than 30 years and managing development projects since 1995.",
+  "_links": {
+    "self": { "href": "/2012/speakers/eric-smith" },
+    "twitter": { "href": "http://twitter.com/eric_s_smith", "title": "eric_s_smith" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "joe-kuemerle",
+  "firstName": "Joe",
+  "lastName": "Kuemerle",
+  "bio": "Joe Kuemerle is a developer and speaker in the Cleveland, OH area specializing in .NET development, security, database and application lifecycle topics. He is currently a Lead Developer at BookingBuilder Technologies. Joe is active in the technical community as well as a speaker at local, regional and national events.",
+  "_links": {
+    "self": { "href": "/2012/speakers/joe-kuemerle" },
+    "twitter": { "href": "http://twitter.com/jkuemerle", "title": "jkuemerle" }
+  }
+}

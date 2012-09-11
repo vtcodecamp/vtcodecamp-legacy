@@ -1,0 +1,9 @@
+{
+  "slug": "nat-woodard",
+  "firstName": "Nat",
+  "lastName": "Woodard",
+  "bio": "Senior designer/agent of change - web architecture team at [Dealer.com](http://www.dealer.com/).",
+  "_links": {
+    "self": { "href": "/2012/speakers/nat-woodard" }
+  }
+}

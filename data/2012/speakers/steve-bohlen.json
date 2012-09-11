@@ -1,0 +1,10 @@
+{
+  "slug": "steve-bohlen",
+  "firstName": "Steve",
+  "lastName": "Bohlen",
+  "bio": "Currently a Senior Software Engineer for the SpringSource division of VMware where he is the Technical Lead and Community Evangelist for the Spring.NET Framework, Stephen brings his varied 18-year-plus experience in software and technology to the design and delivery of Software Engineering Solutions and Frameworks for other Software Engineers. In addition to his work on Spring.NET, Stephen is also an active contributor to several other .NET Open-Source Software projects including NHibernate, NDbUnit, and others. Stephen is also a current and past Microsoft MVP award recipient, a member of the ASP Insiders and Visual C# Insiders, and presently holds the office of the Vice President for INETA, North America.",
+  "_links": {
+    "self": { "href": "/2012/speakers/steve-bohlen" },
+    "twitter": { "href": "http://twitter.com/sbohlen", "title": "sbohlen" }
+  }
+}
