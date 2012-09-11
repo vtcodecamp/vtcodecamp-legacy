@@ -7,12 +7,20 @@
 .button:focus {
     background-color: #1A4E78;
 }
-.categories {
-    width: 100%;
+ul.categories,
+article.session h3 {
     overflow: hidden;
 }
-.categories .category {
+ul.categories,
+ul.categories li.category {
     display: block;
     float: left;
     clear: none;
+}
+article.session {
+    padding-top: 2.0em;
+}
+article.space h2,
+article.session h3 {
+    width: 100%;
 }

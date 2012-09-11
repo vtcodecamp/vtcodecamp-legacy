@@ -29,6 +29,11 @@ h3,
 h3 a {
     color: #333;
 }
+h1 a,
+h2 a,
+h3 a {
+    text-decoration: none;
+}
 h1,
 h2,
 h3 {
@@ -202,4 +207,26 @@ table.schedule .categories {
 }
 #content.event-2012 .categories .category.business .flag {
     background-color: #5A8E22;
+}
+article.space {
+    margin-top: 2.0em;
+    padding-bottom: 2.0em;
+}
+article.space h2 {
+    margin-top: 0;
+    padding: 0.4em 20px;
+    background-color: #999;
+    color: white;
+}
+article.session {
+    padding: 0 20px 2.0em;
+    border-top: 1px dotted #BBB;
+}
+article.session:first-of-type {
+    border-top: none;
+}
+article.session p.level {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #555;
 }
