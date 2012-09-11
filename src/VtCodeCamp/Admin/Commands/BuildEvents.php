@@ -147,14 +147,22 @@ class BuildEvents extends Command
                                     break;
                             }
                         }
+                        $spaceKeys = array();
+                        if (isset($array['space']['order'])) {
+                            $spaceKeys[] = $array['space']['order'];
+                        }
+                        if (isset($array['space']['slug'])) {
+                            $spaceKeys[] = $array['space']['slug'];
+                        }
+                        $spaceKey = implode('-', $spaceKeys);
                         if (isset($array['space']['slug']) && isset($array['timePeriod']['slug'])) {
-                            $spacesArray[$array['space']['slug']] = $resource['space'];
-                            $sessionsBySpaceArray[$array['space']['slug']][$array['timePeriod']['start']] = $session;
+                            $spacesArray[$spaceKey] = $resource['space'];
+                            $sessionsBySpaceArray[$spaceKey][$array['timePeriod']['start']] = $session;
                         }
                         if (isset($array['timePeriod']['slug'])) {
                             $timePeriodsArray[$array['timePeriod']['slug']] = $resource['timePeriod'];
                             if (isset($array['space']['slug'])) {
-                                $scheduleArray[$array['timePeriod']['slug']][$array['space']['slug']] = $session;
+                                $scheduleArray[$array['timePeriod']['slug']][$spaceKey] = $session;
                             } else {
                                 $scheduleArray[$array['timePeriod']['slug']][] = $session;
                             }
@@ -172,7 +180,7 @@ class BuildEvents extends Command
                     mkdir($dataConfig['cache'] . $eventHref . 'schedule');
                 }
                 ksort($spacesArray);
-                foreach ($spacesArray as $spaceSlug => $space) {
+                foreach ($spacesArray as $space) {
                     $schedule->setEmbedded('space', $space);
                 }
                 ksort($scheduleArray);
@@ -180,10 +188,10 @@ class BuildEvents extends Command
                     $timePeriod = $timePeriodsArray[$timePeriodSlug];
                     $schedule->setEmbedded('timePeriod', $timePeriod);
                     ksort($sessionsBySpace);
-                    foreach ($spacesArray as $spaceSlug => $space) {
-                        $space = clone $spacesArray[$spaceSlug];
-                        if (isset($sessionsBySpace[$spaceSlug])) {
-                            $session = $sessionsBySpace[$spaceSlug];
+                    foreach ($spacesArray as $spaceKey => $space) {
+                        $space = clone $spacesArray[$spaceKey];
+                        if (isset($sessionsBySpace[$spaceKey])) {
+                            $session = $sessionsBySpace[$spaceKey];
                             $spaceArray = $space->toArray();
                             $sessionArray = $session->toArray();
                             if (isset($spaceArray['_embedded']['track']) && ($spaceArray['_embedded']['track']['slug'] !== $sessionArray['_embedded']['track']['slug'])) {
@@ -195,8 +203,8 @@ class BuildEvents extends Command
                             $timePeriod->setEmbedded('space', $space);
                         }
                     }
-                    foreach ($sessionsBySpace as $spaceSlug => $session) {
-                        if (!is_string($spaceSlug)) {
+                    foreach ($sessionsBySpace as $spaceKey => $session) {
+                        if (!is_string($spaceKey)) {
                             $timePeriod->setEmbedded('session', $session, true);
                         }
                     }
@@ -317,9 +325,17 @@ class BuildEvents extends Command
                                     break;
                             }
                         }
+                        $spaceKeys = array();
+                        if (isset($array['space']['order'])) {
+                            $spaceKeys[] = $array['space']['order'];
+                        }
+                        if (isset($array['space']['slug'])) {
+                            $spaceKeys[] = $array['space']['slug'];
+                        }
+                        $spaceKey = implode('-', $spaceKeys);
                         if (isset($array['space']['slug']) && isset($array['timePeriod']['slug'])) {
-                            $spacesArray[$array['space']['slug']] = $resource['space'];
-                            $sessionsBySpaceArray[$array['space']['slug']][$array['timePeriod']['start']] = $session;
+                            $spacesArray[$spaceKey] = $resource['space'];
+                            $sessionsBySpaceArray[$spaceKey][$array['timePeriod']['start']] = $session;
                         }
                     }
                 }
@@ -334,8 +350,8 @@ class BuildEvents extends Command
                     mkdir($dataConfig['cache'] . $eventHref . 'sessions');
                 }
                 ksort($sessionsBySpaceArray);
-                foreach ($sessionsBySpaceArray as $spaceSlug => $sessionsByTimePeriodArray) {
-                    $space = $spacesArray[$spaceSlug];
+                foreach ($sessionsBySpaceArray as $spaceKey => $sessionsByTimePeriodArray) {
+                    $space = $spacesArray[$spaceKey];
                     $sessions->setEmbedded('space', $space);
                     ksort($sessionsByTimePeriodArray);
                     foreach ($sessionsByTimePeriodArray as $sessionResource) {
