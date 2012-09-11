@@ -10,7 +10,7 @@
     <h1>Schedule</h1>
     {{ event.description|markdown }}
 {% if event._links.registration is defined %}
-    <p><a href="{{ event._links.registration.href|raw }}">Register for {{ event.title }}.</a></p>
+    <p><a href="{{ event._links.registration.href|raw }}" title="Register for {{ event.title }}" class="button">Register Now</a> <strong>Registration is free.</strong></p>
 {% else %}
 {% endif %}
 {% if schedule._embedded.space is defined %}
