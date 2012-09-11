@@ -1,0 +1,15 @@
+{
+  "slug": "mathematica",
+  "title": "Mathematica, Programming and Learning by Exploration",
+  "description": "Mathematica is both a Domain Specific Language (DSL) and interactive environment for experiencing mathematics. It provides a rich set of mathematical capabilities, both symbolic and analytic, as well as extensive methods for visualization. In this presentation I will outline some of the features and programming paradigms that Mathematica supports and delve into the possibilities of using domain specific languages to enhance the learning of mathematics. My objective is to show that mathematics, programming and learning math can be fun and exploratory.\n\nOutline:\n* What is Mathematica\n* The language and the runtime environment\n* An overview of some of its many uses\n* Language interoperability (C#, Java, other)\n* Mathematica as a learning tool\n* Visualization as a means of understanding\n* Fun programming challenges\n* Now all we need is a hit mathematics game",
+  "_links": {
+    "self": { "href": "/2012/sessions/mathematica" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "speaker": [
+      { "href": "/2012/speakers/john-cicilio" }
+    ]
+  }
+}

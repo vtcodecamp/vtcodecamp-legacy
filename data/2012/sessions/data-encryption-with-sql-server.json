@@ -1,0 +1,15 @@
+{
+  "slug": "data-encryption-with-sql-server",
+  "title": "Protect Your Data's Privacy! Data Encryption with SQL Server",
+  "description": "Your data at rest is at risk. We take great pains to write secure applications that prevent bad guys from snooping around and stealing confidential information, but what about when we finally write to the database? In this session you will learn to protect your data by leveraging the built in encryption functionality in SQL Server 2005 and higher. We will walk through a brownfield application and transparently secure all of the sensitive data it stores without frustrating the overworked developers. Topics covered will include column level data encryption, providing lookups of encrypted data, basics of key management and the transparent data encryption capabilities of SQL Server 2008 and higher.",
+  "_links": {
+    "self": { "href": "/2012/sessions/data-encryption-with-sql-server" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/data" },
+    "space": { "href": "/2012/spaces/room-5" },
+    "timePeriod": { "href": "/2012/time-periods/1615" },
+    "speaker": [
+      { "href": "/2012/speakers/joe-kuemerle" }
+    ]
+  }
+}

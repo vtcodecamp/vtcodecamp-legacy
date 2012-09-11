@@ -1,0 +1,15 @@
+{
+  "slug": "content-first",
+  "title": "Content First!",
+  "description": "Building web experiences for an ever-changing landscape of connected devices.",
+  "_links": {
+    "self": { "href": "/2012/sessions/content-first" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/design" },
+    "space": { "href": "/2012/spaces/room-2" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "speaker": [
+      { "href": "/2012/speakers/nat-woodard" }
+    ]
+  }
+}

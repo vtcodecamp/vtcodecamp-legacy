@@ -1,0 +1,15 @@
+{
+  "slug": "refactoring-to-a-solid-foundation",
+  "title": "Refactoring to a S.O.L.I.D. Foundation",
+  "description": "In this session we take a small, functional but tightly-coupled software solution and improve its design using each of Robert C. Martin's S.O.L.I.D. principles as follows:\n\n* SRP: Single Responsibility Principle\n* OCP: Open-Close Principle\n* LSP: Liskov Substitution Principle\n* ISP: Interface Segregation Principle\n* DIP: Dependency Inversion Principle\n\nEach principle is applied in sequence to the existing solution, making it possible for the attendee to observe the principle in relative isolation first while also evolving an understanding of how the principles all collaboratively reinforce each other when applied together. Before each principle is applied and the solution is refactored to introduce it, the attendee is presented with one or two simple PowerPoint slides to introduce the concept and provide some abstract understanding of its goals and benefits to OO programming. The principle is then applied to the existing solution, demonstrating the practical application of the principle to working software. At each step along the way, the existing solution (a simple console application) is re-executed, demonstrating that the overall behavior of the software solution has not been negatively impacted by the various refactorings.",
+  "_links": {
+    "self": { "href": "/2012/sessions/refactoring-to-a-solid-foundation" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/1615" },
+    "speaker": [
+      { "href": "/2012/speakers/steve-bohlen" }
+    ]
+  }
+}

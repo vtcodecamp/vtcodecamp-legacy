@@ -1,0 +1,15 @@
+{
+  "slug": "going-independent",
+  "title": "Going Independent – 3 Years into the Adventure",
+  "description": "Ever think about being an independent consultant or freelancer? In this talk I'll provide you with some real information that can help you decide if it is for you. I'll also provide some tips on things you'll need to get started. The majority of the information in this presentation is based on what I've learned in the past 3 years as a freelancer/independent consultant.",
+  "_links": {
+    "self": { "href": "/2012/sessions/going-independent" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/0900" },
+    "speaker": [
+      { "href": "/2012/speakers/jason-haley" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "powerpivot-2012",
+  "title": "Get to Know PowerPivot 2012 / Analysis Services Tabular",
+  "description": "This session will demonstrate PowerPivot 2012 new features as well as its interaction with Analysis Services new tabular model. I will teach the attendees how the combination of these Tools can help IT delivers data to its client and how it ease the task of getting data requirements.",
+  "_links": {
+    "self": { "href": "/2012/sessions/powerpivot-2012" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/data" },
+    "space": { "href": "/2012/spaces/room-5" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "speaker": [
+      { "href": "/2012/speakers/christian-cote" }
+    ]
+  }
+}

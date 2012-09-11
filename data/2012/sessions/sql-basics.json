@@ -1,0 +1,15 @@
+{
+  "slug": "sql-basics",
+  "title": "SQL - The Basics",
+  "description": "Relational databases lie underneath many of the computer programs that we use daily. This talk will cover the basics of the SQL language and how to arrange/normalize your data to efficiently fit into a relational database.",
+  "_links": {
+    "self": { "href": "/2012/sessions/sql-basics" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/data" },
+    "space": { "href": "/2012/spaces/room-5" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "speaker": [
+      { "href": "/2012/speakers/rene-churchill" }
+    ]
+  }
+}

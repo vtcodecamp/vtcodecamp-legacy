@@ -1,0 +1,15 @@
+{
+  "slug": "clojure",
+  "title": "Introduction to Clojure: Practical Lisp and Functional Programming for the JVM",
+  "description": "In this talk / interactive workshop I will introduce participants to the fundamentals of Clojure, and get everyone set up with working Clojure development environments.",
+  "_links": {
+    "self": { "href": "/2012/sessions/clojure" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "speaker": [
+      { "href": "/2012/speakers/robert-levy" }
+    ]
+  }
+}

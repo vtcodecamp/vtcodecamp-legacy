@@ -1,0 +1,15 @@
+{
+  "slug": "high-performance-json-api",
+  "title": "High Performance JSON API, Easily (With Haskell and Yesod)",
+  "description": "Aimed at PHP/Ruby/Python programmers, with the intention of showing the power and simplicity of using a strong type system within the framework Yesod.",
+  "_links": {
+    "self": { "href": "/2012/sessions/high-performance-json-api" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "speaker": [
+      { "href": "/2012/speakers/geoff-golder" }
+    ]
+  }
+}

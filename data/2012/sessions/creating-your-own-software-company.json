@@ -1,0 +1,14 @@
+{
+  "slug": "creating-your-own-software-company",
+  "title": "Creating Your Own Software Company: A Survival Guide",
+  "description": "Creating your own software company seems easier than ever, but it takes a lot more than a good idea to make a business. Find out real world lessons about what it takes to create and market a software product as an Independent Software Vendor (ISV) including:\n\n* Picking the right product to build around\n* Marketing in the Internet Age\n* What it looks like when you're successful\n\nPresented by one of the founders of Gibraltar Software, we break down some of the commonly held myths around software products so you can learn from our mistakes and get a look into the reality behind the dream.",
+  "_links": {
+    "self": { "href": "/2012/sessions/creating-your-own-software-company" },
+    "event": { "href": "/2012/" },
+    "space": { "href": "/2012/spaces/parlor" },
+    "timePeriod": { "href": "/2012/time-periods/1615" },
+    "speaker": [
+      { "href": "/2012/speakers/kendall-miller" }
+    ]
+  }
+}

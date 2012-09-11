@@ -1,0 +1,15 @@
+{
+  "slug": "understanding-when-and-why-things-are-broken",
+  "title": "Understanding When and Why Things Are Broken (In Realtime): Using Graphite and Graylog",
+  "description": "In order to determine how your application is performing at runtime, you can spend a lot of money on profiling and analysis tools, or spend lot of time logging and parsing on your own. Graphite and Graylog will make your job easier, and that you need to have them in your toolbox. We will start demonstrating the simplicity of Graphite integration and how visualization will save your day. Then we will utilize Graylog to have runtime log analysis in realtime and find the cause of the issue *now*. Examples will be presented using Vagrant with Chef/Puppet, which might just make the presentation worthwhile on its own.",
+  "_links": {
+    "self": { "href": "/2012/sessions/understanding-when-and-why-things-are-broken" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "speaker": [
+      { "href": "/2012/speakers/brian-lloyd-newberry" }
+    ]
+  }
+}

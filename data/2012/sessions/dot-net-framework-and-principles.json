@@ -1,0 +1,15 @@
+{
+  "slug": "dot-net-framework-and-principles",
+  "title": "Getting Geeky with the .NET Framework and Principles",
+  "description": "This talk walks through parts of the .NET framework that are often overlooked or misunderstood. The focus is on key principles and how to use them to improve your code. The talk starts with a walkthrough of encapsulating code (or more correctly safe pointers to code) through delegates, anonymous methods and lambda expressions. Lambda expressions require you understand closures and their impact on local variables. You'll also see how lambda expressions can simplify code and open up more functional approaches to writing code. Moving on to generics, you'll see generic inheritance hierarchies, static fields in generic classes, and overloading rules. Tackling LINQ, the talk offers a quick overview of selection and filtering syntax and then dives into powerful set manipulation tools, data transformations, improved XML techniques, and LINQ-friendly extension methods. Touching on the new async behavior in .NET 4.5 you'll learn about an unexpected quirk in exception handling. The talk closes out with quick excursions into code contracts to improve reliability, tuples to simplify complex lists and arrays, and dynamic variables to simplify accessing external libraries. This is a fast ride through familiar scenery pointing out tar pits, quick sand and beautiful sunrises.",
+  "_links": {
+    "self": { "href": "/2012/sessions/dot-net-framework-and-principles" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "speaker": [
+      { "href": "/2012/speakers/kathleen-dollard" }
+    ]
+  }
+}

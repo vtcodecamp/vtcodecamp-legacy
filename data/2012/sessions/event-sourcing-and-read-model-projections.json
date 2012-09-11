@@ -1,0 +1,14 @@
+{
+  "slug": "event-sourcing-and-read-model-projections",
+  "title": "Introduction to Event Sourcing and Read-Model Projections",
+  "description": "In this session we'll introduce the concept of an event as a data storage structure. We will construct an event store for an application and demonstrate how to load, analyze, and project different data structures from the event store.",
+  "_links": {
+    "self": { "href": "/2012/sessions/event-sourcing-and-read-model-projections" },
+    "event": { "href": "/2012/" },
+    "space": { "href": "/2012/spaces/parlor" },
+    "timePeriod": { "href": "/2012/time-periods/0900" },
+    "speaker": [
+      { "href": "/2012/speakers/jeffrey-fritz" }
+    ]
+  }
+}

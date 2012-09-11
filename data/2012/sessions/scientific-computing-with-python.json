@@ -1,0 +1,15 @@
+{
+  "slug": "scientific-computing-with-python",
+  "title": "Scientific Computing with Python",
+  "description": "An introduction to python as the glue that binds the modern scientific workflow. I will describe how python, in combination with the libraries Numpy, Scipy and Matplotlib are used to tackle problems related to the solution or simulation of real physical systems.",
+  "_links": {
+    "self": { "href": "/2012/sessions/scientific-computing-with-python" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "speaker": [
+      { "href": "/2012/speakers/adrian-del-maestro" }
+    ]
+  }
+}
