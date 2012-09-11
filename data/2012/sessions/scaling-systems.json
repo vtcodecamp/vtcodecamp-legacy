@@ -1,0 +1,16 @@
+{
+  "slug": "scaling-systems",
+  "title": "Scaling Systems: Architectures that Grow",
+  "description": "It's harder than ever to predict the load your application will need to handle in advance, so how do you design your architecture so you can afford to implement as you go and be ready for whatever comes your way. It's easy to focus on optimizing each part of your application but your application architecture determines the options you have to make big leaps in scalability. In this talk we'll cover practical patterns you can build today to meet the needs of rapid development while still creating systems that can scale up and out. Specific code examples will focus on .NET but the principles apply across many technologies. Real world systems will be discussed based on our experience helping customers around the world optimize their enterprise applications.",
+  "_links": {
+    "self": { "href": "/2012/sessions/scaling-systems" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/kendall-miller" }
+    ]
+  }
+}

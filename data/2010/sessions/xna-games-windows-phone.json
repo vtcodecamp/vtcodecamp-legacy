@@ -1,0 +1,15 @@
+{
+  "slug": "xna-games-windows-phone",
+  "title": "Introduction to Developing XNA Games for Windows Phone 7",
+  "description": "Learn what it takes to develop games for the next gaming platform, Windows Phone 7.",
+  "_links": {
+    "self": { "href": "/2010/sessions/xna-games-windows-phone" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" },
+    "space": { "href": "/2010/spaces/room-2" },
+    "timePeriod": { "href": "/2010/time-periods/0900" },
+    "speaker": [
+      { "href": "/2010/speakers/michael-cummings" }
+    ]
+  }
+}

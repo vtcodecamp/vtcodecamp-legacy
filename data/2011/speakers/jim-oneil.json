@@ -1,0 +1,10 @@
+{
+  "slug": "jim-oneil",
+  "firstName": "Jim",
+  "lastName": "O'Neil",
+  "bio": "Jim is one of the Microsoft Developer Evangelists in the New England and upstate New York area. He's been focused on cloud computing and Windows Azure pretty much since the platform was announced at the Professional Developers Conference in 2008.",
+  "_links": {
+    "self": { "href": "/2011/speakers/jim-oneil" },
+    "twitter": { "href": "http://twitter.com/jimoneil", "title": "jimoneil" }
+  }
+}

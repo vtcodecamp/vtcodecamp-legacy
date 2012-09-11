@@ -1,0 +1,16 @@
+{
+  "slug": "do-not-design-like-a-programmer",
+  "title": "Don't Design Like a Programmer",
+  "description": "Have you ever wondered why UI design is so hard? The top challenge is to think about design the right way. In this talk, Everett McKay (a programmer!) explains the UI design approach often used by programmers, why such designs fail with users, and presents a technique that programmers can use to design in a truly user-centered way.",
+  "_links": {
+    "self": { "href": "/2012/sessions/do-not-design-like-a-programmer" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/design" },
+    "space": { "href": "/2012/spaces/room-2" },
+    "timePeriod": { "href": "/2012/time-periods/0900" },
+    "level": { "href": "/2012/levels/100" },
+    "speaker": [
+      { "href": "/2012/speakers/everett-mckay" }
+    ]
+  }
+}

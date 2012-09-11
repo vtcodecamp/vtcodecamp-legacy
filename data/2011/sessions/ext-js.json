@@ -1,0 +1,19 @@
+{
+  "slug": "ext-js",
+  "title": "Introduction to the Ext JS JavaScript Framework \"for Rich Apps in Every Browser\"",
+  "description": "jQuery may be one of the most popular JavaScript frameworks on the web today, but it's not the only one. Ext JS is a mature, feature rich JavaScript framework from [Sencha.com](http://www.sencha.com/). It includes rich User Interface widgets, JavaScript interactive charts (no flash needed), animations, drag-n-drop, eventing, a data package and more. In this session, we'll introduce you to Ext JS, show some sample code, and discuss how Ext JS can be used on its own or alongside JQuery. We'll also take a very brief look at SenchaTouch, an HTML5 mobile application framework, which makes it faster to get into the mobile space, than writing native apps.",
+  "_links": {
+    "self": { "href": "/2011/sessions/ext-js" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/1445" },
+    "speaker": [
+      { "href": "/2011/speakers/maura-wilder" },
+      { "href": "/2011/speakers/joan-wortman" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/joanwortman/introduction-to-the-extjs-javascript-framework-for-rich-apps-in-every-browser", "title": "Slides" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "xna-advanced",
+  "title": "Advanced XNA Development for the Windows Phone 7",
+  "description": "Take a look at developing 2D and 3D games that leverage more advance features of the Window Phone 7 like accelerometer and networking.",
+  "_links": {
+    "self": { "href": "/2010/sessions/xna-advanced" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" },
+    "space": { "href": "/2010/spaces/room-2" },
+    "timePeriod": { "href": "/2010/time-periods/1030" },
+    "speaker": [
+      { "href": "/2010/speakers/michael-cummings" }
+    ]
+  }
+}

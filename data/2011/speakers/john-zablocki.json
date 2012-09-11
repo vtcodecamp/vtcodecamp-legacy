@@ -1,0 +1,10 @@
+{
+  "slug": "john-zablocki",
+  "firstName": "John",
+  "lastName": "Zablocki",
+  "bio": "John Zablocki is a Development Manager at HealthcareSource in Woburn, MA. He is the founder of Beantown ALT.NET and former adjunct at Fairfield University in the Dolan School of Business. John holds an M.S. in Computer Science from Rensselaer, where he became an enthusiast of open source technologies. Online, John can be found at [http://about.me/johnzablocki](http://about.me/johnzablocki). Offline, he can be found too infrequently with his dog, daughter, and his Fender Telecaster.",
+  "_links": {
+    "self": { "href": "/2011/speakers/john-zablocki" },
+    "twitter": { "href": "http://twitter.com/CodeVoyeur", "title": "CodeVoyeur" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "maxime-rouiller",
+  "firstName": "Maxime",
+  "lastName": "Rouiller",
+  "bio": "Maxime is a developer at [Logiweb](http://www.logiweb.ca/), company based in Montreal, specialized in the development of custom software using the latest Microsoft Technologies such as Visual Studio 2010 and .NET Framework 4.0, ASP.NET MVC or Web Forms and Microsoft SQL Server databases. Logiweb implements the expertise of a multidisciplinary team united by strong values and develops using the Agile philosophy. Its team of specialists performs the development of accessible websites, in accordance with SGQRI 008 standard, following the WCAG 2.0 standards issued by W3C's WAI.",
+  "_links": {
+    "self": { "href": "/2011/speakers/maxime-rouiller" },
+    "twitter": { "href": "http://twitter.com/MaximRouiller", "title": "MaximRouiller" }
+  }
+}

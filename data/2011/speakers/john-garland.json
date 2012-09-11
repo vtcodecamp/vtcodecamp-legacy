@@ -1,0 +1,10 @@
+{
+  "slug": "john-garland",
+  "firstName": "John",
+  "lastName": "Garland",
+  "bio": "John is a Senior Consultant at Wintellect and has been developing software professionally for over 12 years, having spent most of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. John is an active presenter in the New England .Net Development Community, having spoken at recent Code Camps in New Hampshire, Vermont, and Massachusetts. He holds Microsoft certifications in Windows and Silverlight Development technologies.",
+  "_links": {
+    "self": { "href": "/2011/speakers/john-garland" },
+    "twitter": { "href": "http://twitter.com/DotNetGator", "title": "DotNetGator" }
+  }
+}

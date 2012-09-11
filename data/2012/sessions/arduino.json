@@ -1,0 +1,16 @@
+{
+  "slug": "arduino",
+  "title": "The Arduino Opens",
+  "description": "How to use open source tools to do very useful, interesting and excellent things with the Arduino micro-controller board.",
+  "_links": {
+    "self": { "href": "/2012/sessions/arduino" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/paul-flint" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "lets-talk-virtualization",
+  "title": "Let's talk Virtualization",
+  "description": "You want to learn what virtualization is all about? I'll talk about high level concepts, tips and tricks and best practices. You will learn all that and even why Azure might be an interesting choice when we talk developer virtualization. Concepts like Sysprep, Differencing drives, snapshot intrigue you? I'll let you know all about them and more! Come join me to explore all that virtualization has to offer.",
+  "_links": {
+    "self": { "href": "/2011/sessions/lets-talk-virtualization" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/1330" },
+    "speaker": [
+      { "href": "/2011/speakers/etienne-tremblay" }
+    ]
+  }
+}

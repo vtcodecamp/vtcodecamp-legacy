@@ -1,0 +1,15 @@
+{
+  "slug": "asp-net-mvc-a-gateway-to-rails",
+  "title": "ASP.NET MVC: A Gateway to Rails?",
+  "description": "There seem to be a lot of .NET developers taking a solid look at Ruby on Rails recently (and some are jumping ship on .NET) and I have to wonder if the reason is ASP.NET MVC. There are a lot of similarities between the two and in this session I will give an intro to Ruby on Rails from a ASP.NET MVC developers prospective and how they are similar. I took my first look at Rails several years ago, but it was after working with ASP.NET MVC, that I really \"discovered\" what Rails had to offer. I will share my learning process from ASP.NET MVC to Rails and how working with Rails has helped me be a better overall developer.",
+  "_links": {
+    "self": { "href": "/2011/sessions/asp-net-mvc-a-gateway-to-rails" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/0900" },
+    "speaker": [
+      { "href": "/2011/speakers/dane-morgridge" }
+    ]
+  }
+}

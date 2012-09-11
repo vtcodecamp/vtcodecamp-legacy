@@ -1,3 +1,4 @@
 TWIG_CACHE=/tmp/twig
 TWIG_DEBUG=1
 SILEX_DEBUG=1
+DATA_CACHE=/tmp/data

@@ -1,0 +1,15 @@
+{
+  "slug": "ruby-introduction",
+  "title": "Tech for Devs: Introduction to Ruby",
+  "description": "An introduction to the Ruby programming language. We will highlight a few key concepts of the ruby language, and walk through developing a simple Ruby script in order to discuss syntax, use of variables, arrays, operators, classes and methods.",
+  "_links": {
+    "self": { "href": "/2010/sessions/ruby-introduction" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/open-source" },
+    "space": { "href": "/2010/spaces/room-4" },
+    "timePeriod": { "href": "/2010/time-periods/1030" },
+    "speaker": [
+      { "href": "/2010/speakers/adam-bouchard" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "project-dallas",
+  "title": "Project \"Dallas\" – Data for the Cloud",
+  "description": "Project \"Dallas\" is Microsoft's Data-as-a-Service offering, providing a common, and low-friction approach to a growing number of data sets from the Associated Press, NASA, the UN, and elsewhere. Use of the OpenData (or OData) specification enables applications written in practically any language to create mash-ups limited only by your imagination. Implemented on Microsoft's Windows Azure platform, project \"Dallas\" also serves as a real-world use case of cloud computing.",
+  "_links": {
+    "self": { "href": "/2010/sessions/project-dallas" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/1545" },
+    "speaker": [
+      { "href": "/2010/speakers/jim-oneil" }
+    ]
+  }
+}

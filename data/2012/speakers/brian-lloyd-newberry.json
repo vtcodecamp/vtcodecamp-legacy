@@ -1,0 +1,10 @@
+{
+  "slug": "brian-lloyd-newberry",
+  "firstName": "Brian",
+  "lastName": "Lloyd-Newberry",
+  "bio": "Brian Lloyd-Newberry is a Principal on the Framework Team at Dealer.com. He spends his time in a mixture of architecture, dev ops, mentoring and technical advocacy. He has been working with Java and the JVM since before Y2K and has over 15 years of software engineering experience across many industries, languages and platforms. Over the past several years he has focused on performance analysis and troubleshooting large distributed systems where tipping points happen in seconds. Brian is passionate about performance and wants all developers to completely understand how their applications perform at runtime.",
+  "_links": {
+    "self": { "href": "/2012/speakers/brian-lloyd-newberry" },
+    "twitter": { "href": "http://twitter.com/brianln", "title": "brianln" }
+  }
+}

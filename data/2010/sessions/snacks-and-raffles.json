@@ -1,0 +1,9 @@
+{
+  "slug": "snacks-and-raffles",
+  "title": "Snacks & Raffles",
+  "_links": {
+    "self": { "href": "/2010/sessions/snacks-and-raffles" },
+    "event": { "href": "/2010/" },
+    "timePeriod": { "href": "/2010/time-periods/1500" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "windows-phone-8-development",
+  "title": "Introducing Windows Phone 8 Development",
+  "description": "Windows Phone 8 is Microsoft's newest operating system for today's modern smartphones. This session will introduce fundamental the concepts that developers will need to know in order to develop applications targeting the rich features offered by this newest mobile platform, as well as considerations for how to develop apps that target both Windows Phone 7 and Windows Phone 8.",
+  "_links": {
+    "self": { "href": "/2012/sessions/windows-phone-8-development" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/john-garland" }
+    ]
+  }
+}

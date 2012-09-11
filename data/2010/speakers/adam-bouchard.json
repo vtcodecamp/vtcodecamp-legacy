@@ -1,0 +1,9 @@
+{
+  "slug": "adam-bouchard",
+  "firstName": "Adam",
+  "lastName": "Bouchard",
+  "bio": "Adam Bouchard is a web application developer and entrepreneur living in Burlington, Vermont. Over the past few years Adam has helped conceptualize and implement both web based products and business process tools during his work at [Draker Laboratories](http://www.drakerlabs.com/), a renewable energy monitoring company.",
+  "_links": {
+    "self": { "href": "/2010/speakers/adam-bouchard" }
+  }
+}

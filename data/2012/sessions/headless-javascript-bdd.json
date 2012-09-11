@@ -1,0 +1,16 @@
+{
+  "slug": "headless-javascript-bdd",
+  "title": "Like a Genie from the Lamp: Headless JavaScript BDD with Jasmine and PhantomJS",
+  "description": "Jasmine is a mature BDD test framework for JavaScript, and though powerful and feature-rich in its own right, you are often still shackled to a browser window to conduct your tests. Tools like Selenium WebDriver make automated testing possible, but they are difficult to set up, cumbersome to use, and worst of all slow. Wouldn't it be nice if you could execute your tests as part of your build? And have those tests before completed in seconds? With PhantomJS (\"the headless WebKit\") that wish has come true. In this talk we will introduce the Jasmine BDD test framework, introduce PhantomJS, and demonstrate how to execute your Jasmine tests in PhantomJS for lightning fast results.",
+  "_links": {
+    "self": { "href": "/2012/sessions/headless-javascript-bdd" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1330" },
+    "level": { "href": "/2012/levels/300" },
+    "speaker": [
+      { "href": "/2012/speakers/rob-friesel" }
+    ]
+  }
+}

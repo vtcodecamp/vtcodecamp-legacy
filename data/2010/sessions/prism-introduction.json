@@ -1,0 +1,15 @@
+{
+  "slug": "prism-introduction",
+  "title": "Prism Introduction – A Look Into the New Release of Prism 4.0 (CTP)",
+  "description": "Prism is designed to help you more easily build modular Windows Presentation Foundation (WPF) and Silverlight client applications. These types of applications typically feature multiple screens, rich, flexible user interaction and data visualization, and role-determined behavior. They are \"built to last\" and \"built for change.\" This means that the application's expected lifetime is measured in years and that it will change in response to new, unforeseen requirements. This application may start small and over time evolve into a composite client—composite applications use loosely coupled, independently evolvable pieces that work together in the overall application. This guidance is intended for software architects and software developers building enterprise Windows Presentation Foundation (WPF) or Silverlight applications. The Prism Library is built on the Microsoft .NET Framework 4.0 (includes WPF) and Silverlight 4 (previous versions support .NET Framework 3.5 and Silverlight 3), and it uses a number of software design patterns. Familiarity with these technologies and patterns is useful for evaluating and adopting the Prism Library. This presentation will cover answers to the following questions:\n\n* What is Prism and what does it mean for your current or upcoming project?\n* What are the pros and cons of adopting all or a subset of Prism practices?\n* What are the major/breaking changes in this latest release?\n* Where to get it and what assets are included?",
+  "_links": {
+    "self": { "href": "/2010/sessions/prism-introduction" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/1700" },
+    "speaker": [
+      { "href": "/2010/speakers/kathleen-macmahon" }
+    ]
+  }
+}

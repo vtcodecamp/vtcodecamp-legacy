@@ -1,0 +1,18 @@
+{
+  "slug": "cloud-architecture-patterns",
+  "title": "Cloud Architecture Patterns for Mere Mortals with Examples in Windows Azure",
+  "description": "How do you design applications for the cloud so that they will be scalable and reliable? In this talk, we will explain several architectural patterns which are popular for cloud computing: we will look at the need for the patterns generally, then look concretely at how you might realize them using capabilities of the Windows Azure Platform. CQRS, NoSQL, Sharding, and a few smaller patterns will be considered.",
+  "_links": {
+    "self": { "href": "/2011/sessions/cloud-architecture-patterns" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/0900" },
+    "speaker": [
+      { "href": "/2011/speakers/bill-wilder" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/codingoutloud/vermont-code-camp-iii-cloud-architecture-patterns-for-mere-mortals-bill-wilder-10sept2011", "title": "Slides" }
+    ]
+  }
+}

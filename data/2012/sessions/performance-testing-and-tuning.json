@@ -1,0 +1,16 @@
+{
+  "slug": "performance-testing-and-tuning",
+  "title": "Performance Testing and Tuning",
+  "description": "General principles of good performance testing. How to use Groovy, or Python to write tests for The Grinder to test the scalability and performance characteristics of just about any application, but with examples centered around RESTful HTTP services.",
+  "_links": {
+    "self": { "href": "/2012/sessions/performance-testing-and-tuning" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1615" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/ryan-gardner" }
+    ]
+  }
+}

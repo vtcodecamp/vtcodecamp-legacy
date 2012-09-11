@@ -1,0 +1,10 @@
+{
+  "slug": "mike-fowler",
+  "firstName": "Mike",
+  "lastName": "Fowler",
+  "bio": "Mike Fowler is a frontend developer and designer currently working at MyWebGrocer in Burlington, Vermont. He is passionate about web standards; clean, semantic code; minimalist, usable design; and excellent user experiences. He tweets @[michaelrfowler](http://twitter.com/michaelrfowler) and blogs at [http://mikefowler.me](http://mikefowler.me).",
+  "_links": {
+    "self": { "href": "/2012/speakers/mike-fowler" },
+    "twitter": { "href": "http://twitter.com/michaelrfowler", "title": "michaelrfowler" }
+  }
+}

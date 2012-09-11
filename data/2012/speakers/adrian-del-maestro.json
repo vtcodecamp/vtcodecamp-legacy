@@ -1,0 +1,10 @@
+{
+  "slug": "adrian-del-maestro",
+  "firstName": "Adrian",
+  "lastName": "Del Maestro",
+  "bio": "I am a condensed matter theorist at the University of Vermont where I apply high performance computational techniques to investigate the effects of strong correlations, dissipation and disorder on quantum matter. I teach a course on scientific computing with python and have been using it in my own research since 2003.",
+  "_links": {
+    "self": { "href": "/2012/speakers/adrian-del-maestro" },
+    "twitter": { "href": "http://twitter.com/agdelma", "title": "agdelma" }
+  }
+}

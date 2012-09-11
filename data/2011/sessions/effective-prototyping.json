@@ -1,0 +1,18 @@
+{
+  "slug": "effective-prototyping",
+  "title": "Effective Prototyping: A Developer's Guide to Better Design through Prototyping",
+  "description": "Software prototyping is an important UX design skill that many people \"just do\" but effective prototyping requires crucial knowledge and practices that aren't obvious. In this talk, Everett will explain prototyping and its goals, compare prototyping to sketching, and explore the different types of prototyping. He will then characterize effective prototyping and explain why those characteristics are so important. Everett will review several commonly available prototyping tools (including SketchFlow), and evaluate their pros and cons. He will conclude by working through some examples so that you can see effective prototyping in practice.If you or your team is prototyping now or considering prototyping in the future, this talk is for you!",
+  "_links": {
+    "self": { "href": "/2011/sessions/effective-prototyping" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/0900" },
+    "speaker": [
+      { "href": "/2011/speakers/everett-mckay" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/EverettMcKay/effective-prototyping-for-vermont-code-camp", "title": "Slides" }
+    ]
+  }
+}

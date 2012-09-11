@@ -1,0 +1,9 @@
+{
+  "slug": "steve-boylan",
+  "firstName": "Steve",
+  "lastName": "Boylan",
+  "bio": "A grizzled veteran of the software industry, from coding PL/1 on punched cards and Z-80s with cassette tapes to the latest and greatest modern frameworks.",
+  "_links": {
+    "self": { "href": "/2012/speakers/steve-boylan" }
+  }
+}

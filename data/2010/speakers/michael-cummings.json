@@ -1,0 +1,10 @@
+{
+  "slug": "michael-cummings",
+  "firstName": "Michael",
+  "lastName": "Cummings",
+  "bio": "Principal systems analyst and software engineer, currently employed with Magenic, Inc., a Microsoft Gold Partner. An experienced technical lead with strengths in systems architecture, software development, infrastructure design & deployment, and business process as it relates to technology. Holding multiple certifications from Microsoft and other certifying organizations, including MCP, MCT, MCSD, MCSE, and MCDBA. A Dedicated community leader, who speaks at local user groups and code camps.Has been a hobby graphics programmer since the days of the TI99-4/A. Most of the day he's busy developing business applications, but that doesn't stop working on games and graphics engines. Started the [Boston XNA Developers Group](http://www.bostonxna.org/), and has spoken at several user groups and other events on the topic of XNA and games. Has contributed to many open source projects, including [AXIOM](http://axiom3d.net/), a .Net/Mono 3D rendering engine, and [Planeshift](http://www.planeshift.it/), a 3D MMORPG. His blog can be found at [http://www.geekswithblogs.net/mathoms](http://www.geekswithblogs.net/mathoms) and he can be found on Twitter as @[mcummings](http://twitter.com/mcummings).",
+  "_links": {
+    "self": { "href": "/2010/speakers/michael-cummings" },
+    "twitter": { "href": "http://twitter.com/mcummings", "title": "mcummings" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "bill-wilder",
+  "firstName": "Bill",
+  "lastName": "Wilder",
+  "bio": "Bill Wilder lives in the Boston area and has more than 20 years of professional experience in software development, currently focused on cloud computing with the Windows Azure platform. He is a Windows Azure MVP, founder of the [Boston Azure User Group](http://www.bostonazure.org/), and an active speaker and [blogger](http://blog.codingoutloud.com/).",
+  "_links": {
+    "self": { "href": "/2011/speakers/bill-wilder" },
+    "twitter": { "href": "http://twitter.com/codingoutloud", "title": "codingoutloud" }
+  }
+}

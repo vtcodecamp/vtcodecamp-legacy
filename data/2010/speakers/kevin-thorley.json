@@ -1,0 +1,9 @@
+{
+  "slug": "kevin-thorley",
+  "firstName": "Kevin",
+  "lastName": "Thorley",
+  "bio": "Senior software engineer working at [Dealer.com](http://www.dealer.com/) with 10 years of experience developing enterprise applications in Java.",
+  "_links": {
+    "self": { "href": "/2010/speakers/kevin-thorley" }
+  }
+}

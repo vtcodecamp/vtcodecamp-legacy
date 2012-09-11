@@ -1,0 +1,15 @@
+{
+  "slug": "ssis-advanced",
+  "title": "SSIS Advanced Concepts",
+  "description": "SSIS is more than appropriate tool for ETL development. It is very flexible and can be used as the main tool for your data warehouse / BI application. In this session, I will demonstrate:- Best practices using package configurations- Usage of logging to record package runs statistics- How to recover from an ETL application crash- ETL application deployment I will share my best practices on the above topics based on my previous experiences. This session can lead to ETL best practices discussions, which would be beneficial for all attendees.",
+  "_links": {
+    "self": { "href": "/2010/sessions/ssis-advanced" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/mostly-dot-net" },
+    "space": { "href": "/2010/spaces/room-2" },
+    "timePeriod": { "href": "/2010/time-periods/1230" },
+    "speaker": [
+      { "href": "/2010/speakers/christian-cote" }
+    ]
+  }
+}
