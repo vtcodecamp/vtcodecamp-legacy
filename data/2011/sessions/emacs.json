@@ -1,0 +1,14 @@
+{
+  "slug": "emacs",
+  "title": "Emacs: Everyday, Everyway",
+  "description": "\"Emacs: a great OS, shame it's missing a decent editor\". Emacs is indeed a powerful platform for running a whole set applications that serve to enhance its (actually quite awesome!) editing capabilities into a powerful environment for doing nearly any task. From quickly editing text files to intensely editing source code to building projects to checking email, browsing the web, IM/IRC, twitter,controlling multimedia, and organizing your tasks lists … emacs really is a \"great\" OS. Grounded in the presenter's everyday usage, we'll explore both those mentioned applications, but also talk about the powerful core editing capabilities that make everything come together in a highly functional environment. We'll probably digress into some of the features the presenter doesn't personally use, but are clearly Awesome all the same.",
+  "_links": {
+    "self": { "href": "/2011/sessions/emacs" },
+    "event": { "href": "/2011/" },
+    "space": { "href": "/2011/spaces/speaker-room" },
+    "timePeriod": { "href": "/2011/time-periods/1130" },
+    "speaker": [
+      { "href": "/2011/speakers/josh-sled" }
+    ]
+  }
+}

@@ -15,8 +15,10 @@ web1:
   after_build:
     - "php composer.phar install"
     - "php admin.php twig:compile"
+    - "php admin.php events:build"
 cache1:
   type: memcached
 global:
   env:
     - TWIG_CACHE: var/twig
+    - DATA_CACHE: var/data

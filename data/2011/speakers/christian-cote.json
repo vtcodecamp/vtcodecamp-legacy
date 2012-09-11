@@ -1,0 +1,10 @@
+{
+  "slug": "christian-cote",
+  "firstName": "Christian",
+  "lastName": "Coté",
+  "bio": "[Christian Coté](http://ia-techconsulting.com/) has been in IT for almost 14 years. He is a Microsoft Certified Technical Specialist in Business Intelligence (MCTS-BI) and Microsoft Most Valuable Professional (MVP). For the last 12 years, he has been involved as a consultant in ETL/BI projects. His ETL projects were done using various ETL tools as well as using plain code with various RDBMS (Oracle, SQL Server).",
+  "_links": {
+    "self": { "href": "/2011/speakers/christian-cote" },
+    "twitter": { "href": "http://twitter.com/Christian_SQL", "title": "Christian_SQL" }
+  }
+}

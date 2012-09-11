@@ -1,0 +1,19 @@
+{
+  "slug": "tackling-big-data-with-hadoop",
+  "title": "Tackling Big Data with Hadoop",
+  "description": "Are you swimming in gigabytes of log files that you can't bring yourself to throw away, but don't know how to get value from them? Are there reporting queries you want to run, but you can't afford to tie up your database server with full table scans? Learn how Facebook, Twitter, Last.fm and others handle their huge data volumes using the map-reduce model and the Apache Hadoop project.",
+  "_links": {
+    "self": { "href": "/2011/sessions/tackling-big-data-with-hadoop" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/1015" },
+    "speaker": [
+      { "href": "/2011/speakers/david-howell" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/poorlytrainedape/tackling-big-data-with-hadoop-9212076", "title": "Slides" },
+      { "href": "https://github.com/dehowell/hadoop-crypto-demo", "title": "Code" }
+    ]
+  }
+}

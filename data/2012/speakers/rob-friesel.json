@@ -1,0 +1,10 @@
+{
+  "slug": "rob-friesel",
+  "firstName": "Rob",
+  "lastName": "Friesel",
+  "bio": "Rob Friesel is a Senior User Interface Developer at [Dealer.com](http://www.dealer.com/), a JavaScript pedant, an occasional polyglot, and a reluctant composer of CSS; I blog at [blog.founddrama.net](blog.founddrama.net).",
+  "_links": {
+    "self": { "href": "/2012/speakers/rob-friesel" },
+    "twitter": { "href": "http://twitter.com/founddrama", "title": "founddrama" }
+  }
+}

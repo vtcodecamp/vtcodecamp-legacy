@@ -1,0 +1,10 @@
+{
+  "slug": "jim-oneil",
+  "firstName": "Jim",
+  "lastName": "O'Neil",
+  "bio": "Jim is one of the two Microsoft Developer Evangelists covering New England and upstate New York. He has over 20 years experience in software development and support having worked at BDM, MITRE, Sybase, and now Microsoft. Jim has a B.S. in Mathematics and Computer Science and an M.S. in Computer Science from Duke University. Jim blogs at [http://blogs.msdn.com/jimoneil](http://blogs.msdn.com/jimoneil) and can be found on Twitter as @[jimoneil](http://twitter.com/jimoneil).",
+  "_links": {
+    "self": { "href": "/2010/speakers/jim-oneil" },
+    "twitter": { "href": "http://twitter.com/jimoneil", "title": "jimoneil" }
+  }
+}

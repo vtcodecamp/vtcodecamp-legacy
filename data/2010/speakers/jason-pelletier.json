@@ -1,0 +1,10 @@
+{
+  "slug": "jason-pelletier",
+  "firstName": "Jason",
+  "lastName": "Pelletier",
+  "bio": "Jason Pelletier is Creative Director at [Found Line](http://foundline.com/), a Burlington-based creative firm. His work experience includes web application and print design for Stonyfield Farm, Seventh Generation, Vermont Public Radio, TrueBody Products, ThinkFlood and Common Good Vermont. He can be found on Twitter as @[jason_pelletier](http://twitter.com/jason_pelletier).",
+  "_links": {
+    "self": { "href": "/2010/speakers/jason-pelletier" },
+    "twitter": { "href": "http://twitter.com/jason_pelletier", "title": "jason_pelletier" }
+  }
+}

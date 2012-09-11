@@ -1,0 +1,16 @@
+{
+  "slug": "functional-programming",
+  "title": "What is Functional Programming?",
+  "description": "Explore the foundations of functional programming, how it is different from imperative programming, and what it means to program in a functional style. No particular language background is assumed.",
+  "_links": {
+    "self": { "href": "/2012/sessions/functional-programming" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/0900" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/eric-smith" }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "website-performance",
+  "title": "A Holistic view of Website Performance",
+  "description": "I will be reviewing the entire process of viewing a webpage, from DNS lookup through HTML rendering, discussing performance improvements at each step.",
+  "_links": {
+    "self": { "href": "/2011/sessions/website-performance" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/web" },
+    "space": { "href": "/2011/spaces/room-2" },
+    "timePeriod": { "href": "/2011/time-periods/1130" },
+    "speaker": [
+      { "href": "/2011/speakers/rene-churchill" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/rchurchill/a-holistic-view-of-website-performance", "title": "Slides" }
+    ]
+  }
+}

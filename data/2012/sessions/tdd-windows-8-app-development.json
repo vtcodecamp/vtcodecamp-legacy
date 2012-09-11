@@ -1,0 +1,15 @@
+{
+  "slug": "tdd-windows-8-app-development",
+  "title": "TDD Windows 8 App Development with HTML5 and JavaScript",
+  "description": "Test-driven development for Windows 8 apps with HTML5 and JavaScript.",
+  "_links": {
+    "self": { "href": "/2012/sessions/tdd-windows-8-app-development" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/design" },
+    "space": { "href": "/2012/spaces/room-2" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "speaker": [
+      { "href": "/2012/speakers/jeffrey-fritz" }
+    ]
+  }
+}

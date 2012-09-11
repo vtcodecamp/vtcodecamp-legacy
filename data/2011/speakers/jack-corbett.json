@@ -1,0 +1,10 @@
+{
+  "slug": "jack-corbett",
+  "firstName": "Jack",
+  "lastName": "Corbett",
+  "bio": "[Jack Corbett](http://www.wisemanorwiseguy.com/) has worked with SQL Server for over 10 years in small to mid-sized businesses ranging from manufacturing to non-profits. Jack has been active in PASS (Professional Association of SQL Server) as a key member of the organizing team for the inaugural PASS SQLRally 2011 in Orlando and involved in the program committee for the PASS Summit 2010. Jack is the former president of OPASS (Orlando SQL Server user group) and one of the organizers of SQLSaturday #21 and #49 in Orlando. Jack has spoken at several user groups, SQLSaturdays, and Code Camps. When Jack is not working with SQL Server he enjoys playing, coaching, and watching sports.",
+  "_links": {
+    "self": { "href": "/2011/speakers/jack-corbett" },
+    "twitter": { "href": "http://twitter.com/unclebiguns", "title": "unclebiguns" }
+  }
+}

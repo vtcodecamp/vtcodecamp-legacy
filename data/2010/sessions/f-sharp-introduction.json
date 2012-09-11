@@ -1,0 +1,15 @@
+{
+  "slug": "f-sharp-introduction",
+  "title": "Tech for Devs: Introduction to F#",
+  "description": "If you've already spent time wrapping your head around the use of lambdas in LINQ, find out how to use that knowledge to make the full leap into functional languages and reap the rewards functional languages have to offer you. This stuff is Zen, dude!",
+  "_links": {
+    "self": { "href": "/2010/sessions/f-sharp-introduction" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/open-source" },
+    "space": { "href": "/2010/spaces/room-4" },
+    "timePeriod": { "href": "/2010/time-periods/1230" },
+    "speaker": [
+      { "href": "/2010/speakers/rob-rohr" }
+    ]
+  }
+}

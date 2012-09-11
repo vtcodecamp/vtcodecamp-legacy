@@ -1,0 +1,16 @@
+{
+  "slug": "get-your-application-game-on",
+  "title": "Get Your Application Game On",
+  "description": "Gamification is one of the hottest topics in social networking today. In this session we'll explore the gamification architecture in Sueetie and show you how to take your application to the next adventure level with Member Points, Badges and Leaderboards. We'll also show you how gamification features can result in other benefits like increased member engagement and customer loyalty.",
+  "_links": {
+    "self": { "href": "/2012/sessions/get-your-application-game-on" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/1330" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/dave-burke" }
+    ]
+  }
+}

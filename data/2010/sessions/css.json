@@ -1,0 +1,15 @@
+{
+  "slug": "css",
+  "title": "CSS for Developers",
+  "description": "More often than should be the case, web developers find themselves with the responsibility of implementing the visual design of a website or web application. However, they typically lack the experience to be effective. This session is a crash course in CSS—from fundamental concepts to best practices, and even some insider tips straight from a designer. While we won't talk about aesthetics or how to create design concepts, we will discuss what you need to implement, debug and maintain a visual design.",
+  "_links": {
+    "self": { "href": "/2010/sessions/css" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/open-source" },
+    "space": { "href": "/2010/spaces/room-4" },
+    "timePeriod": { "href": "/2010/time-periods/1345" },
+    "speaker": [
+      { "href": "/2010/speakers/jason-pelletier" }
+    ]
+  }
+}

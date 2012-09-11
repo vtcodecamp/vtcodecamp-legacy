@@ -1,0 +1,9 @@
+{
+  "slug": "room-3",
+  "title": "Room 3",
+  "order": 3,
+  "_links": {
+    "self": { "href": "/2012/spaces/room-3" },
+    "track": { "href": "/2012/tracks/architecture" }
+  }
+}

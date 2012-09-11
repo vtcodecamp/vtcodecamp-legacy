@@ -1,0 +1,33 @@
+{% extends "layouts/default.html" %}
+
+{% block title %}{{ event.slug }} Speakers{% endblock %}
+
+{% block description %}Read more about the {{ event.title }} speakers.{% endblock %}
+
+{% block content %}
+<section id="content" class="event-{{ event.slug|raw }}">
+{% include 'includes/event.html' %}
+    <h1>Speakers</h1>
+{% if speakers._embedded.speaker is defined %}
+    <p>Read more about the {{ event.title }} speakers.</p>
+    {% for speaker in speakers._embedded.speaker %}
+    <article class="speaker">
+        <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}{% if speaker._links.twitter is defined %} <small>(@<a href="{{ speaker._links.twitter.href|raw }}">{{ speaker._links.twitter.title }}</a>)</small>{% endif %}</h2>
+        {% if speaker.bio is defined %}
+        {{ speaker.bio|markdown }}
+        {% endif %}
+        {% if speaker._embedded.session is defined %}
+        <p>Sessions:</p>
+        <ul>
+            {% for session in speaker._embedded.session %}
+            <li><a href="{{ path('sessions', {'year': event.slug}) }}#{{ session.slug|url_encode() }}">{{ session.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </article>
+    {% endfor %}
+{% else %}
+    <p>The speakers for {{ event.title }} have yet to be published.</p>
+{% endif %}
+</section>
+{% endblock %}

@@ -29,6 +29,11 @@ h3,
 h3 a {
     color: #333;
 }
+h1 a,
+h2 a,
+h3 a {
+    text-decoration: none;
+}
 h1,
 h2,
 h3 {
@@ -78,10 +83,14 @@ dt {
     color: #666;
     text-transform: uppercase;
 }
+table {
+    margin-top: 3.0em;
+}
 th,
 td {
     padding: 0.4em 10px;
     border: 1px solid #BBB;
+    line-height: 1.2;
     text-align: left;
 }
 th {
@@ -93,6 +102,9 @@ th {
 }
 tr:nth-child(even) td {
     background-color: #EEE;
+}
+table li {
+    font-size: 1.0em;
 }
 strong {
     font-weight: bold;
@@ -157,11 +169,12 @@ a:focus {
     font-style: normal;
     color: white;
 }
-table.schedule th.track {
-    font-size: 1.4em;
+table.schedule th.track,
+table.schedule td {
+    font-size: 1.5em;
 }
 table.schedule td.timespan,
-tr:nth-child(even) td.timespan {
+table.schedule tr:nth-child(even) td.timespan {
     background-color: #F5F5F5;
 }
 table.schedule td.timespan {
@@ -178,4 +191,54 @@ table.schedule .speaker a:focus {
 table.schedule .room,
 table.schedule .speaker {
     display: block;
+}
+.categories {
+    margin-top: 0.4em;
+}
+table.schedule .categories {
+    margin-top: 0;
+}
+.categories .category {
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-left: 0;
+    margin-right: 0.3em;
+    list-style: none;
+}
+#content.event-2012 .categories .category.business .flag {
+    background-color: #5A8E22;
+}
+article.space,
+article.session,
+article.speaker {
+    padding-bottom: 2.0em;
+}
+article.space,
+article.speaker {
+    margin-top: 2.0em;
+}
+article.session,
+article.speaker,
+article.space h2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+article.session,
+article.speaker {
+    border-top: 1px dotted #BBB;
+}
+article.session:first-of-type {
+    border-top: none;
+}
+article.space h2 {
+    margin-top: 0;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+    background-color: #999;
+    color: white;
+}
+article.session p.level {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #555;
 }

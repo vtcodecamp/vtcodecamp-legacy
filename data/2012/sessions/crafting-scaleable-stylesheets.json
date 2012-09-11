@@ -1,0 +1,16 @@
+{
+  "slug": "crafting-scaleable-stylesheets",
+  "title": "Crafting Scaleable Stylesheets",
+  "description": "One of the best things about CSS is that it's easy to learn, and a breeze to update. One of the *worst* things about CSS is that it's easy to learn, and a *breeze* to update. A blessing and a curse, you might say. This session will propose practical methods of creating scalable, organized and maintainable stylesheets by use of Sass, Compass and a handful of other tools.Topics Discussed:\n\n* Refusing to be bothered by browser prefixes (seriously... do it).\n* Writing object-oriented CSS (yes, really).\n* Minimizing code duplication.\n* Separation of concerns (in the context of stylesheets).\n* Getting your company or team up and running.",
+  "_links": {
+    "self": { "href": "/2012/sessions/crafting-scaleable-stylesheets" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/design" },
+    "space": { "href": "/2012/spaces/room-2" },
+    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/mike-fowler" }
+    ]
+  }
+}

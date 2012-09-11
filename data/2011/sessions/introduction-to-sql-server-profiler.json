@@ -1,0 +1,15 @@
+{
+  "slug": "introduction-to-sql-server-profiler",
+  "title": "Introduction to SQL Server Profiler",
+  "description": "Learn how to use SQL Server Profiler/Trace to troubleshoot SQL Server performance and errors. This session will cover how to use Profiler to capture SQL Server events, creating server-side traces, creating custom templates, saving trace data, and interpreting trace data.",
+  "_links": {
+    "self": { "href": "/2011/sessions/introduction-to-sql-server-profiler" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/0900" },
+    "speaker": [
+      { "href": "/2011/speakers/jack-corbett" }
+    ]
+  }
+}

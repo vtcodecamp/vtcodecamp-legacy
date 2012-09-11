@@ -1,0 +1,9 @@
+{
+  "slug": "john-garland",
+  "firstName": "John",
+  "lastName": "Garland",
+  "bio": "John is a Senior Consultant at Wintellect and has been developing software professionally for over 12 years, having spent most of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. Prior to joining Wintellect, John worked for Burntsand Consulting, working with both large and small enterprises using .Net technologies for applications including purchase management, logistics, and insurance solutions. John lives in New Hampshire with his wife and daughter, where he is active in the New England development community, speaking at Code Camp and User Group events.  When he isn't finding cause for yet another upgrade to his WMC-based home entertainment system, he occasionally turns to motorcycling and Florida Gator Football to unplug.  He is a graduate of the University of Florida with a Bachelor's degree in Computer Engineering.",
+  "_links": {
+    "self": { "href": "/2010/speakers/john-garland" }
+  }
+}

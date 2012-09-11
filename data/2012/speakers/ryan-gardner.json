@@ -1,0 +1,10 @@
+{
+  "slug": "ryan-gardner",
+  "firstName": "Ryan",
+  "lastName": "Gardner",
+  "bio": "Senior java developer at [Dealer.com](http://www.dealer.com/). Member of the jsr107 (java temporary caching) expert group.",
+  "_links": {
+    "self": { "href": "/2012/speakers/ryan-gardner" },
+    "twitter": { "href": "http://twitter.com/ryebrye", "title": "ryebrye" }
+  }
+}

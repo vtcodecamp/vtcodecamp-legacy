@@ -1,0 +1,15 @@
+{
+  "slug": "foss-in-the-enterprise",
+  "title": "FOSS in the Enterprise",
+  "description": "How do you build a successful web-based startup on free and open source software? There are plenty of examples out there and this session will focus on how we have done so at [Dealer.com](http://www.dealer.com/). We will look at technologies covering all aspects of our production systems, from back-end databases to application servers, messaging, caches, search, service distribution, presentation tier, and monitoring. Some of the specific technologies that will be covered include MongoDB, RabbitMQ, Spring, EhCache, and Solr. We will also discuss the steps needed to identify and select an appropriate open source solution and how to drive adoption at your workplace.",
+  "_links": {
+    "self": { "href": "/2011/sessions/foss-in-the-enterprise" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/1330" },
+    "speaker": [
+      { "href": "/2011/speakers/kevin-thorley" }
+    ]
+  }
+}

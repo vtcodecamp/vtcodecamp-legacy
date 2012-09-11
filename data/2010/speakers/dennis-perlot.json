@@ -1,0 +1,9 @@
+{
+  "slug": "dennis-perlot",
+  "firstName": "Dennis",
+  "lastName": "Perlot",
+  "bio": "Dennis Perlot has worked on computing platforms ranging from homemade circuit boards to massive mainframes systems and just about everything in between. Prior to joining TyMetrix as Director of Product Development, Dennis architected and managed numerous projects at The Hartford Insurance Group and has consulted for numerous companies in the greater Hartford, CT area. He enjoys his role as a technology evangelist, leverages his teaching skills and his engineering background. He is a frequent speaker at Code Camp events and has presented at the Architect Factory Conference held at Microsoft Research Center in Cambridge, MA. He is a firm believer in the value of building the technical community through users groups. Dennis is on the Board of Directors for the CT Dot NET User Group, Hartford SQL Server User Group and founder of the New England Silverlight Guild. Dennis was honored to receive a Smithsonian Award for data warehouse work in Medicare fraud detection. This project was used by the Government Accounting Office (GAO) and other federal agencies to identify over $110 million of fraud and actually recovered over $11 million. Dennis is a graduate of the University of Connecticut's Computer Science Engineering program and also did graduate work in Artificial Intelligence and Machine Learning.",
+  "_links": {
+    "self": { "href": "/2010/speakers/dennis-perlot" }
+  }
+}

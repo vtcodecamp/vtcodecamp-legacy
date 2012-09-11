@@ -1,0 +1,15 @@
+{
+  "slug": "silverlight-part-1",
+  "title": "Building Applications in Silverlight 4 – Part 1",
+  "description": "An overview of Silverlight, review of new features in Silverlight 4, Data binding, WCF RIA and much more!",
+  "_links": {
+    "self": { "href": "/2010/sessions/silverlight-part-1" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/0900" },
+    "speaker": [
+      { "href": "/2010/speakers/dennis-perlot" }
+    ]
+  }
+}

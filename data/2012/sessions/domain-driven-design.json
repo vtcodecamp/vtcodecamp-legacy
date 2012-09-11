@@ -1,0 +1,19 @@
+{
+  "slug": "domain-driven-design",
+  "title": "Domain-Driven Design",
+  "description": "Domain-driven design is a collaborative process involving both domain experts and software practitioners that attempts to address issues of complexity in software. This process is described in the book Domain-Driven Design (Addison-Wesley 2004) written by Eric Evans. Domain-driven design starts with the assertion that (for almost all software) complexity is in the domain, not in the technology. Accordingly, we must let technology play a supporting role. Domain-driven design attempts to focus on and distill the core domain for a given project.\n\nPhilosopher and scientist Alfred Korzybski said, \"The map is not the territory.\" As such, a person practicing domain-driven design does not attempt to model reality. Instead, domain experts and software practitioners use a mental model as a tool for solving problems within a given domain. The domain experts and software practitioners collaborate to explore and develop this model. No software of any reasonable scope has just one model. We will look at the concept of a bounded context within which each model can be isolated and explored. Within a bounded context, collaborators must speak a ubiquitous language in order to reason about and discuss the model.\n\nWe will also talk about domain-driven design's building block patterns including entities, value objects, aggregates, repositories, services, and domain events. We will look at domain-driven design practices including supple design, strategic design, and distillation of the core. We will see how test-driven development can be used as a means of exploring the model. We will look at the building block patterns as well as other techniques including closure of operations, intention revealing interfaces, side-effect free functions, and assertions.",
+  "_links": {
+    "self": { "href": "/2012/sessions/domain-driven-design" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "category": [
+      { "href": "/2012/categories/business" }
+    ],
+    "timePeriod": { "href": "/2012/time-periods/1330" },
+    "level": { "href": "/2012/levels/400" },
+    "speaker": [
+      { "href": "/2012/speakers/bradley-holt" }
+    ]
+  }
+}

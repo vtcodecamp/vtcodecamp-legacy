@@ -1,0 +1,9 @@
+{
+  "slug": "vincent-grondin",
+  "firstName": "Vincent",
+  "lastName": "Grondin",
+  "bio": "Vincent Grondin has over 12 years of experience in the software development field and has been using .NET in enterprise projects for 7 years now. He was involved in many enterprise projects for large corporations like Desjardins, Domtar, Cascades and Alcoa but was also part of a few projects for various government branches. He likes to learn new technologies related to .NET, use the new tools that are designed for .NET and loves to share it all with his peers. Yes, he's a confessed .NET addict and is currently working at DMR, a Fujitsu company, as a Consultant. Vincent is one of the leaders for the .NET usergroup in Montréal and a C# MVP.  You can read his blogs at [geekswithblogs.net/vincentgrondin](http://geekswithblogs.net/vincentgrondin).",
+  "_links": {
+    "self": { "href": "/2010/speakers/vincent-grondin" }
+  }
+}

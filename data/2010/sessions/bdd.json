@@ -1,0 +1,15 @@
+{
+  "slug": "bdd",
+  "title": "Behavior Driven Development",
+  "description": "Are you writing unit tests? Have you considered test-driven development? Isn't it hard? And why spend all that time writing unit tests when you could be writing the code that you're actually supposed to??? Well, if this is how you feel about unit testing, behavior-driven development (and maybe even this session) just may be your answer. BDD is not much different than TDD in terms of the code itself. Stakeholders, testers, and developers share a common language that define the specifications that evolve right along with the system being built. These executable specifications not only describe how your application should work, they indicate when the system is not working as expected. Come see how with practice, you can actually write code faster and with fewer bugs than without having tests to support your efforts.",
+  "_links": {
+    "self": { "href": "/2010/sessions/bdd" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/1700" },
+    "speaker": [
+      { "href": "/2010/speakers/tom-cooley" }
+    ]
+  }
+}

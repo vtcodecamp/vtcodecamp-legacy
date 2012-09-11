@@ -1,0 +1,14 @@
+{
+  "slug": "user-groups",
+  "title": "How and Why to Start a User Group",
+  "description": "Technology user groups are a great way to network, learn, share your expertise, meet experts, find job opportunities, and get help when needed. Don't have a local user group focused on the programming language or technology that you use? Start one! Learn what it takes to get started and how much of a commitment it is to organize. This will be a heavily interactive session so come prepared with plenty of questions, or, if you already organize a user group then come prepared with helpful tips to share.",
+  "_links": {
+    "self": { "href": "/2010/sessions/user-groups" },
+    "event": { "href": "/2010/" },
+    "space": { "href": "/2010/spaces/speaker-room-and-parlor-chat" },
+    "timePeriod": { "href": "/2010/time-periods/1230" },
+    "speaker": [
+      { "href": "/2010/speakers/bradley-holt" }
+    ]
+  }
+}

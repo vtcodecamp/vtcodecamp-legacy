@@ -1,0 +1,10 @@
+{
+  "slug": "matt-van-horn",
+  "firstName": "Matt",
+  "lastName": "Van Horn",
+  "bio": "Matt Van Horn is a Sr. Consultant with Capax Global. In his current role, Matt is responsible for working with clients to produce applications to serve our clients' needs. Matt, a seasoned developer with proficiencies in a wide-array of programming languages and platforms, focuses on creating flexible and dynamic code tailored to the specific needs of customers. Matt is an experienced presenter, regularly speaking at Usergroup meetings and Code Camps.",
+  "_links": {
+    "self": { "href": "/2011/speakers/matt-van-horn" },
+    "twitter": { "href": "http://twitter.com/phpn00b", "title": "phpn00b" }
+  }
+}

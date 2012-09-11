@@ -1,0 +1,15 @@
+{
+  "slug": "getting-high-on-mef",
+  "title": "Getting High on MEF",
+  "description": "Managed Extensibility Framework (MEF) is one of the coolest things around for people that are writing extensible and modular applications. I will be showing off some of the goodies that you can do with MEF. I will be showing how to use it to compose both front end as well as backend systems. If you are considering going down the MEF path for your next or current application stop by all questions will be answered! Beginners welcome!",
+  "_links": {
+    "self": { "href": "/2011/sessions/getting-high-on-mef" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/dot-net" },
+    "space": { "href": "/2011/spaces/room-1" },
+    "timePeriod": { "href": "/2011/time-periods/1615" },
+    "speaker": [
+      { "href": "/2011/speakers/matt-van-horn" }
+    ]
+  }
+}

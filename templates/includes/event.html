@@ -1,0 +1,8 @@
+<nav id="event">
+    <h1><a href="{{ path('page', {'id': event.slug}) }}">{{ event.slug }}</a></h1>
+    <ul>
+        <li><a href="{{ path('schedule', {'year': event.slug}) }}">Schedule</a></li>
+        <li><a href="{{ path('sessions', {'year': event.slug}) }}">Sessions</a></li>
+        <li><a href="{{ path('speakers', {'year': event.slug}) }}">Speakers</a></li>
+    </ul>
+</nav>

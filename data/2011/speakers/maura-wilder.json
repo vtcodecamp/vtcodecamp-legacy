@@ -1,0 +1,10 @@
+{
+  "slug": "maura-wilder",
+  "firstName": "Maura",
+  "lastName": "Wilder",
+  "bio": "Maura Wilder is a hands-on application architect at Teradata Corp. Besides toiling in Java, GWT, and ASP.Net, she spends a lot of time working on the \"client-side\", especially with JavaScript and web application performance. She's also quite adept at laundry.",
+  "_links": {
+    "self": { "href": "/2011/speakers/maura-wilder" },
+    "twitter": { "href": "http://twitter.com/squdgy", "title": "squdgy" }
+  }
+}

@@ -21,6 +21,7 @@ $app->register(new TwigServiceProvider(), array(
 ));
 
 $app->register(new UrlGeneratorServiceProvider());
+$app->register(new SilexExtension\MarkdownExtension());
 
 $app->after(function (Request $request, Response $response) {
     if (!$request->isMethod('GET') && $response->isOk()) {
@@ -42,6 +43,96 @@ $app->after(function (Request $request, Response $response) {
         $response->setNotModified();
     }
 });
+
+$app->get('/{year}/schedule', function (Application $app, Request $request, $year) {
+    /* @var $twig Twig_Environment */
+    $twig = $app['twig'];
+    $response = new Response();
+    try {
+        $templateName = 'schedule.html';
+        $template = $twig->loadTemplate($templateName);
+    } catch (Twig_Error_Loader $ex) {
+        $app->abort(404);
+    }
+    //TODO: Move this out of controller
+    $event = array();
+    $schedule = array();
+    $dataConfig = include APPLICATION_ROOT . '/config/data.php';
+    $scheduleDataPath = $dataConfig['cache'] . '/' . $year . '/schedule/index.json';
+    if (file_exists($scheduleDataPath)) {
+        $schedule = json_decode(file_get_contents($scheduleDataPath));
+        $event = $schedule->_embedded->event;
+    }
+    //TODO: DRY this up
+    $ga = include APPLICATION_ROOT . '/config/google-analytics.php';
+    $content = $template->render(array(
+        'event'     => $event,
+        'schedule'  => $schedule,
+        'ga'        => $ga,
+    ));
+    $response->setContent($content);
+    return $response;
+})->bind('schedule');
+
+$app->get('/{year}/sessions', function (Application $app, Request $request, $year) {
+    /* @var $twig Twig_Environment */
+    $twig = $app['twig'];
+    $response = new Response();
+    try {
+        $templateName = 'sessions.html';
+        $template = $twig->loadTemplate($templateName);
+    } catch (Twig_Error_Loader $ex) {
+        $app->abort(404);
+    }
+    //TODO: Move this out of controller
+    $event = array();
+    $sessions = array();
+    $dataConfig = include APPLICATION_ROOT . '/config/data.php';
+    $sessionsDataPath = $dataConfig['cache'] . '/' . $year . '/sessions/index.json';
+    if (file_exists($sessionsDataPath)) {
+        $sessions = json_decode(file_get_contents($sessionsDataPath));
+        $event = $sessions->_embedded->event;
+    }
+    //TODO: DRY this up
+    $ga = include APPLICATION_ROOT . '/config/google-analytics.php';
+    $content = $template->render(array(
+        'event'     => $event,
+        'sessions'  => $sessions,
+        'ga'        => $ga,
+    ));
+    $response->setContent($content);
+    return $response;
+})->bind('sessions');
+
+$app->get('/{year}/speakers', function (Application $app, Request $request, $year) {
+    /* @var $twig Twig_Environment */
+    $twig = $app['twig'];
+    $response = new Response();
+    try {
+        $templateName = 'speakers.html';
+        $template = $twig->loadTemplate($templateName);
+    } catch (Twig_Error_Loader $ex) {
+        $app->abort(404);
+    }
+    //TODO: Move this out of controller
+    $event = array();
+    $speakers = array();
+    $dataConfig = include APPLICATION_ROOT . '/config/data.php';
+    $speakersDataPath = $dataConfig['cache'] . '/' . $year . '/speakers/index.json';
+    if (file_exists($speakersDataPath)) {
+        $speakers = json_decode(file_get_contents($speakersDataPath));
+        $event = $speakers->_embedded->event;
+    }
+    //TODO: DRY this up
+    $ga = include APPLICATION_ROOT . '/config/google-analytics.php';
+    $content = $template->render(array(
+        'event'     => $event,
+        'speakers'  => $speakers,
+        'ga'        => $ga,
+    ));
+    $response->setContent($content);
+    return $response;
+})->bind('speakers');
 
 $app->get('/{id}', function (Application $app, Request $request, $id) {
     $id = rtrim($id, '/');

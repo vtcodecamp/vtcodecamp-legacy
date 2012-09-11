@@ -1,0 +1,16 @@
+{
+  "slug": "vs-2010-testing-tools",
+  "title": "VS 2010 Testing Tools",
+  "description": "Wanna get down and dirty with the new VS 2010 testing tools, TFS or branch strategies… Come see Vincent and Etienne at this impromptu sessions where they will answer questions about and demo things like Microsoft Test Manager, Microsoft Lab Manager, Coded UI testing, Test Impact Analysis, Branching and merging, and well anything you'd like to hear about ALM. Vincent is doing a talk on Mocking in the camp but we can continue the discussing in this sessions as well… Hope to see a few of you there!",
+  "_links": {
+    "self": { "href": "/2011/sessions/vs-2010-testing-tools" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/1615" },
+    "speaker": [
+      { "href": "/2011/speakers/vincent-grondin" },
+      { "href": "/2011/speakers/etienne-tremblay" }
+    ]
+  }
+}

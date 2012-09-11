@@ -1,0 +1,15 @@
+{
+  "slug": "windows-azure",
+  "title": "Building Cloud-Native Applications with Windows Azure",
+  "description": "Cloud computing is here to stay, and it is never too soon to begin understanding the impact it will have on application architecture. In this talk we will discuss the two most significant architectural mind-shifts, discussing the key patterns generally and seeing how these new cloud patterns map naturally into specific programming practices in Windows Azure. Specifically this relates to (a) Azure Roles and Queues and how to combine them using cloud-friendly design patterns, and (b) the combination of relational data and non-relational data, how to decide among them, and how to combine them. The goal is for mere mortals to build highly reliable applications that scale economically. The concepts discussed in this talk are relevant for developers and architects building systems for the cloud today, or who want to be prepared to move to the cloud in the future.",
+  "_links": {
+    "self": { "href": "/2010/sessions/windows-azure" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/1345" },
+    "speaker": [
+      { "href": "/2010/speakers/bill-wilder" }
+    ]
+  }
+}

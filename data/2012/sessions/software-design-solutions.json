@@ -1,0 +1,16 @@
+{
+  "slug": "software-design-solutions",
+  "title": "For Every Problem in Software Design There's a Solution...",
+  "description": "Raise your hand if you build distributed 3 tier applications. Keep your hand up if those application support your business operations (Line of Business). Keep your hand up if you use some of the following technologies: WPF, WCF, Entity Framework 4.0, LinQ, SQL Server or Oracle. Keep your hand up if those applications have to perform well and have a fluid user interface. You can lower your hand if you've already solved many of the common problems to using the technologies mentioned above...If your hand is still up though, it might be a good thing to come to this presentation for a wrap up of the problems that typically arise when building such an application and to see the possible solution path that are proposed. Oh and in the mean time you can lower your hand.",
+  "_links": {
+    "self": { "href": "/2012/sessions/software-design-solutions" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/1615" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/vincent-grondin" }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "slug": "dot-net-and-nosql",
+  "title": ".NET and NoSQL: Relaxing with CouchDB",
+  "description": "NoSQL databases continue to gain popularity across a variety of development platforms. One of the more popular of these databases is the Apache project's CouchDB. This talk introduces NoSQL concepts and .NET development with the document-oriented Couch database. No previous experience with NoSQL databases is assumed.",
+  "_links": {
+    "self": { "href": "/2011/sessions/dot-net-and-nosql" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/data-and-more" },
+    "space": { "href": "/2011/spaces/room-3" },
+    "timePeriod": { "href": "/2011/time-periods/1445" },
+    "speaker": [
+      { "href": "/2011/speakers/john-zablocki" }
+    ],
+    "resource": [
+      { "href": "http://www.codevoyeur.com/Presentations.aspx#dotnetcouch", "title": "Slides" },
+      { "href": "https://bitbucket.org/johnzablocki/codevoyeur-samples/src/1328aee331b5/src/PresentationSamples/NoSQLAndDotNet/CouchDBQuickStart/", "title": "Code" }
+    ]
+  }
+}

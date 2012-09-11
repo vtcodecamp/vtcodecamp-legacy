@@ -1,0 +1,9 @@
+{
+  "slug": "carl-bergenhem",
+  "firstName": "Carl",
+  "lastName": "Bergenhem",
+  "bio": "Carl Bergenhem is a Developer Support Specialist at [Telerik](http://www.telerik.com/) where he works with their ASP.NET Ajax, Silverlight, and WPF controls as well as their Reporting, OpenAccess ORM, JustCode, and WebUI Test Studio tools. Among these products he specializes mostly in the ASP.NET Ajax and WebUI Test Studio products. Telerik is a provider of development tools and user interface components for the .NET framework and they strive to provide developers with the tools to make their developing life as easy as possible.",
+  "_links": {
+    "self": { "href": "/2010/speakers/carl-bergenhem" }
+  }
+}

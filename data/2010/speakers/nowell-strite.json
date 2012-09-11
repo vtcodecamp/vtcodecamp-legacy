@@ -1,0 +1,10 @@
+{
+  "slug": "nowell-strite",
+  "firstName": "Nowell",
+  "lastName": "Strite",
+  "bio": "Nowell Strite is the Senior Manager of Technology Solutions at the Public Broadcasting Service (PBS) in their Education department. Nowell is happiest when he is wearing many hats: architect,  developer, manager, problem solver, technologist. Most recently, Nowell has taken to Python as his language of choice, however, every problem/job has its own unique set of requirements, and he has worked with a wide range of languages and frameworks in the past (C#, VB, Java, PHP, Perl, ColdFusion). Nowell actively participates in the Open Source community, and enjoys working on existing projects as well as releasing a few of his own. Nowell and his wife recently moved to Huntington, Vermont where they enjoy the non-technological joys in life such as hiking, kayaking and biking. Nowell blogs at [http://nowell.strite.org/](http://nowell.strite.org/) and can be found on most services (including Twitter) as @[nowells](http://twitter.com/nowells)</a>.",
+  "_links": {
+    "self": { "href": "/2010/speakers/nowell-strite" },
+    "twitter": { "href": "http://twitter.com/nowells", "title": "nowells" }
+  }
+}

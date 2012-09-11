@@ -1,0 +1,15 @@
+{
+  "slug": "lambdas-visual-studio",
+  "title": "Lambdas & Extension Methods using Visual Studio 2010",
+  "description": "They can be used everywhere a delegate is needed, they're handy and very sexy… They're lambdas and if you already know what lambdas are then let me show you a few things you can do with them! We'll start this session with an introduction to the concept of lambdas and then explore spicy lambda examples that will show you more on their potential! Next we'll talk about Extension Methods!  Extensions are very easy to use and you should start digging into them if it's not already part of your project.  You'll get a chance to explore this subject featuring an Open Source project you can all bring back home.",
+  "_links": {
+    "self": { "href": "/2010/sessions/lambdas-visual-studio" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/dot-net" },
+    "space": { "href": "/2010/spaces/room-1" },
+    "timePeriod": { "href": "/2010/time-periods/1545" },
+    "speaker": [
+      { "href": "/2010/speakers/vincent-grondin" }
+    ]
+  }
+}

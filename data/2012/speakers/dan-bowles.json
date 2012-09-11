@@ -1,0 +1,9 @@
+{
+  "slug": "dan-bowles",
+  "firstName": "Dan",
+  "lastName": "Bowles",
+  "_links": {
+    "self": { "href": "/2012/speakers/dan-bowles" },
+    "twitter": { "href": "http://twitter.com/danbowles", "title": "danbowles" }
+  }
+}

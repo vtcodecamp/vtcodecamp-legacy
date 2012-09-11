@@ -1,0 +1,10 @@
+{
+  "slug": "matthew-weier-ophinney",
+  "firstName": "Matthew",
+  "lastName": "Weier O'Phinney",
+  "bio": "Matthew is an experienced developer in a number of dynamic languages, including Perl, JavaScript, and PHP (his preferred language). Matthew and his family moved to the Vermont in 2003. He worked for two years at the National Gardening Association in South Burlington before being hired by [Zend Technologies](http://www.zend.com/) in 2005. Since starting at Zend, he has been a regular contributor to [Zend Framework](http://framework.zend.com/), a web application framework written in PHP 5. In late 2007, Matthew moved to the Zend Framework team full time, and was appointed project lead in 2009. He has contributed to and started a number of open source projects over the years, primarily in PHP, and is active in the global PHP community. Matthew blogs at [http://weierophinney.net/matthew/](http://weierophinney.net/matthew/) and can be found on Twitter as @[weierophinney](http://twitter.com/weierophinney).",
+  "_links": {
+    "self": { "href": "/2010/speakers/matthew-weier-ophinney" },
+    "twitter": { "href": "http://twitter.com/weierophinney", "title": "weierophinney" }
+  }
+}

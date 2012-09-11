@@ -1,0 +1,15 @@
+{
+  "slug": "functional-programming-on-the-jvm",
+  "title": "Functional Programming on the JVM",
+  "description": "Functional programming appears to be gaining in popularity. This session will give a brief explanation of what functional programming is and introduce three functional languages built on top of the Java Virtual Machine: Groovy, Scala, and Clojure. The session will cover language fundamentals, a short history of each language, and a comparison of how a problem can be solved in java and each of the functional languages.",
+  "_links": {
+    "self": { "href": "/2011/sessions/functional-programming-on-the-jvm" },
+    "event": { "href": "/2011/" },
+    "track": { "href": "/2011/tracks/patterns-and-practices" },
+    "space": { "href": "/2011/spaces/room-4" },
+    "timePeriod": { "href": "/2011/time-periods/1130" },
+    "speaker": [
+      { "href": "/2011/speakers/jonathan-phillips" }
+    ]
+  }
+}

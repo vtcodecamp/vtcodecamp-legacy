@@ -1,0 +1,15 @@
+{
+  "slug": "git",
+  "title": "Get into Git!",
+  "description": "We'll move from a brief overview of the hottest DVCS on the block into some real life examples of managing branching and merging and then onto some more advanced examples of what Git allows you to do. Bring a laptop with Git installed and you'll be able to follow along. [http://git-scm.com/](http://git-scm.com/)",
+  "_links": {
+    "self": { "href": "/2010/sessions/git" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/1345" },
+    "speaker": [
+      { "href": "/2010/speakers/kevin-thorley" }
+    ]
+  }
+}

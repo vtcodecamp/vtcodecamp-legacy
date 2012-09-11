@@ -1,0 +1,15 @@
+{
+  "slug": "ui-ux",
+  "title": "UI is Communication: UX Design for Non-Designers",
+  "description": "You are a developer working on a project that needs a good user interface to be successful. But there's a problem: you aren't an experienced UI designer and nobody else on your team is either. You are doing the best you can, but you know could do better. If only you knew more about UI design to help your team make better decisions…If this sounds familiar, join this session where I will present the fundamentals of UI design from the point of view of effective communication. UI design is ultimately all about communicating to users, both in terms of what you say and how you say it. If you can explain how to perform a task to someone in person in a way that's clear and concise, you can apply those same communication techniques to present the task to users using the language of UI. This talk will help you apply UI design skills that you didn't know you had.",
+  "_links": {
+    "self": { "href": "/2010/sessions/ui-ux" },
+    "event": { "href": "/2010/" },
+    "track": { "href": "/2010/tracks/platform-agnostic" },
+    "space": { "href": "/2010/spaces/room-3" },
+    "timePeriod": { "href": "/2010/time-periods/0900" },
+    "speaker": [
+      { "href": "/2010/speakers/everett-mckay" }
+    ]
+  }
+}
