@@ -8,6 +8,7 @@
     "track": { "href": "/2012/tracks/architecture" },
     "space": { "href": "/2012/spaces/room-3" },
     "timePeriod": { "href": "/2012/time-periods/1015" },
+    "level": { "href": "/2012/levels/300" },
     "speaker": [
       { "href": "/2012/speakers/kathleen-dollard" }
     ]

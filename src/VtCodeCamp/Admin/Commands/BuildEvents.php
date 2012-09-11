@@ -316,6 +316,15 @@ class BuildEvents extends Command
                                     $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
                                     $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
                                     break;
+                                case 'level':
+                                    $href = $sessionLinks['href'];
+                                    $path = $eventsPath . $href . '.json';
+                                    $json = file_get_contents($path);
+                                    $array[$sessionLinkRel] = json_decode($json, true);
+                                    unset($array[$sessionLinkRel]['_links']);
+                                    $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
+                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
+                                    break;
                                 case 'speaker':
                                     foreach ($sessionLinks as $sessionLink) {
                                         $href = $sessionLink['href'];

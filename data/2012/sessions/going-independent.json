@@ -11,6 +11,7 @@
       { "href": "/2012/categories/business" }
     ],
     "timePeriod": { "href": "/2012/time-periods/0900" },
+    "level": { "href": "/2012/levels/100" },
     "speaker": [
       { "href": "/2012/speakers/jason-haley" }
     ]
