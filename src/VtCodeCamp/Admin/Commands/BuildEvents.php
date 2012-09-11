@@ -108,6 +108,18 @@ class BuildEvents extends Command
                                     $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
                                     $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
                                     break;
+                                case 'category':
+                                    foreach ($sessionLinks as $sessionLink) {
+                                        $href = $sessionLink['href'];
+                                        $path = $eventsPath . $href . '.json';
+                                        $json = file_get_contents($path);
+                                        $categoryArray = json_decode($json, true);
+                                        $array[$sessionLinkRel][$categoryArray['slug']] = $categoryArray;
+                                        unset($array[$sessionLinkRel][$categoryArray['slug']]['_links']);
+                                        $resource[$sessionLinkRel][$categoryArray['slug']] = new Resource($href, $array[$sessionLinkRel][$categoryArray['slug']]);
+                                        $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel][$categoryArray['slug']]);
+                                    }
+                                    break;
                                 case 'timePeriod':
                                     $href = $sessionLinks['href'];
                                     $path = $eventsPath . $href . '.json';
@@ -286,6 +298,18 @@ class BuildEvents extends Command
                                     unset($array[$sessionLinkRel]['_links']);
                                     $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
                                     $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
+                                    break;
+                                case 'category':
+                                    foreach ($sessionLinks as $sessionLink) {
+                                        $href = $sessionLink['href'];
+                                        $path = $eventsPath . $href . '.json';
+                                        $json = file_get_contents($path);
+                                        $categoryArray = json_decode($json, true);
+                                        $array[$sessionLinkRel][$categoryArray['slug']] = $categoryArray;
+                                        unset($array[$sessionLinkRel][$categoryArray['slug']]['_links']);
+                                        $resource[$sessionLinkRel][$categoryArray['slug']] = new Resource($href, $array[$sessionLinkRel][$categoryArray['slug']]);
+                                        $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel][$categoryArray['slug']]);
+                                    }
                                     break;
                                 case 'timePeriod':
                                     $href = $sessionLinks['href'];

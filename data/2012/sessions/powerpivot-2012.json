@@ -7,6 +7,9 @@
     "event": { "href": "/2012/" },
     "track": { "href": "/2012/tracks/data" },
     "space": { "href": "/2012/spaces/room-5" },
+    "category": [
+      { "href": "/2012/categories/business" }
+    ],
     "timePeriod": { "href": "/2012/time-periods/1130" },
     "speaker": [
       { "href": "/2012/speakers/christian-cote" }
