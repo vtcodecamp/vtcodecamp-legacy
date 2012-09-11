@@ -139,10 +139,6 @@ class BuildEvents extends Command
                                         $array[$sessionLinkRel][$speakerArray['slug']] = $speakerArray;
                                         $speakerLinks = $array[$sessionLinkRel][$speakerArray['slug']]['_links'];
                                         unset($array[$sessionLinkRel][$speakerArray['slug']]['_links']);
-                                        if (null === $array[$sessionLinkRel][$speakerArray['slug']]) {
-                                            print_r($href);
-                                            die(PHP_EOL);
-                                        }
                                         $resource[$sessionLinkRel][$speakerArray['slug']] = new Resource($href, $array[$sessionLinkRel][$speakerArray['slug']]);
                                         if (isset($speakerLinks['twitter'])) {
                                             $twitterLink = new Link($speakerLinks['twitter']['href'], 'twitter', $speakerLinks['twitter']['title']);
@@ -329,10 +325,6 @@ class BuildEvents extends Command
                                         $array[$sessionLinkRel][$speakerArray['slug']] = $speakerArray;
                                         $speakerLinks = $array[$sessionLinkRel][$speakerArray['slug']]['_links'];
                                         unset($array[$sessionLinkRel][$speakerArray['slug']]['_links']);
-                                        if (null === $array[$sessionLinkRel][$speakerArray['slug']]) {
-                                            print_r($href);
-                                            die(PHP_EOL);
-                                        }
                                         $resource[$sessionLinkRel][$speakerArray['slug']] = new Resource($href, $array[$sessionLinkRel][$speakerArray['slug']]);
                                         if (isset($speakerLinks['twitter'])) {
                                             $twitterLink = new Link($speakerLinks['twitter']['href'], 'twitter', $speakerLinks['twitter']['title']);
@@ -481,10 +473,6 @@ class BuildEvents extends Command
                                         $array[$sessionLinkRel][$speakerArray['slug']] = $speakerArray;
                                         $speakerLinks = $array[$sessionLinkRel][$speakerArray['slug']]['_links'];
                                         unset($array[$sessionLinkRel][$speakerArray['slug']]['_links']);
-                                        if (null === $array[$sessionLinkRel][$speakerArray['slug']]) {
-                                            print_r($href);
-                                            die(PHP_EOL);
-                                        }
                                         $resource[$sessionLinkRel][$speakerArray['slug']] = new Resource($href, $array[$sessionLinkRel][$speakerArray['slug']]);
                                         if (isset($speakerLinks['twitter'])) {
                                             $twitterLink = new Link($speakerLinks['twitter']['href'], 'twitter', $speakerLinks['twitter']['title']);
