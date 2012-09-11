@@ -2,7 +2,6 @@
 <project name="vtcodecamp.org" default="build" basedir=".">
   <property file="build.properties" />
   <target name="clean">
-    <delete file="composer.lock" />
     <delete dir="vendor" />
   </target>
   <target name="prepare">

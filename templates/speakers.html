@@ -12,7 +12,9 @@
     <p>Read more about the {{ event.title }} speakers.</p>
     {% for speaker in speakers._embedded.speaker %}
     <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}{% if speaker._links.twitter is defined %} (@<a href="{{ speaker._links.twitter.href|raw }}">{{ speaker._links.twitter.title }}</a>){% endif %}</h2>
+    {% if speaker.bio is defined %}
     {{ speaker.bio|markdown }}
+    {% endif %}
         {% if speaker._embedded.session is defined %}
     <p>Sessions:</p>
     <ul>
