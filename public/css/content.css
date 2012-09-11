@@ -98,6 +98,9 @@ th {
 tr:nth-child(even) td {
     background-color: #EEE;
 }
+table li {
+    font-size: 1.0em;
+}
 strong {
     font-weight: bold;
 }
@@ -183,4 +186,20 @@ table.schedule .speaker a:focus {
 table.schedule .room,
 table.schedule .speaker {
     display: block;
+}
+.categories {
+    margin-top: 0.4em;
+}
+table.schedule .categories {
+    margin-top: 0;
+}
+.categories .category {
+    display: inline-block;
+    margin-top: 0.3em;
+    margin-left: 0;
+    margin-right: 0.3em;
+    list-style: none;
+}
+#content.event-2012 .categories .category.business .flag {
+    background-color: #5A8E22;
 }

@@ -7,3 +7,12 @@
 .button:focus {
     background-color: #1A4E78;
 }
+.categories {
+    width: 100%;
+    overflow: hidden;
+}
+.categories .category {
+    display: block;
+    float: left;
+    clear: none;
+}
