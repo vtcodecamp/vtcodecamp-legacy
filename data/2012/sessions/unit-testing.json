@@ -1,8 +1,7 @@
 {
   "slug": "unit-testing",
   "title": "Unit Testing: Taking Your Medicine or Eating Candy?",
-  "description": "Unit Testing: Taking Your Medicine or Eating Candy?
-Everybody says unit testing is good for you, but can you stand the taste? I'll briefly review the role of unit testing in your projects, then present ways to make it not only tolerable but, possibly, even enjoyable. I'll describe how to create effective tests, how the design of your code can minimize the work in testing, and describe the most common tests frameworks that can help make testing less of a hassle.",
+  "description": "Everybody says unit testing is good for you, but can you stand the taste? I'll briefly review the role of unit testing in your projects, then present ways to make it not only tolerable but, possibly, even enjoyable. I'll describe how to create effective tests, how the design of your code can minimize the work in testing, and describe the most common tests frameworks that can help make testing less of a hassle.",
   "_links": {
     "self": { "href": "/2012/sessions/unit-testing" },
     "event": { "href": "/2012/" },
