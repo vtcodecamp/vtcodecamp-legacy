@@ -5,7 +5,7 @@
 {% block description %}{{ event.description }}{% endblock %}
 
 {% block content %}
-<section id="content">
+<section id="content" class="event-{{ event.slug|raw }}">
 {% include 'includes/event.html' %}
     <h1>Schedule</h1>
     {{ event.description|markdown }}

@@ -5,7 +5,7 @@
 {% block description %}Read more about the {{ event.title }} speakers.{% endblock %}
 
 {% block content %}
-<section id="content">
+<section id="content" class="event-{{ event.slug|raw }}">
 {% include 'includes/event.html' %}
     <h1>Speakers</h1>
 {% if speakers._embedded.speaker is defined %}

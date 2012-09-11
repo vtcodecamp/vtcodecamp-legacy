@@ -5,7 +5,7 @@
 {% block description %}Read more about the sessions of {{ event.title }}.{% endblock %}
 
 {% block content %}
-<section id="content">
+<section id="content" class="event-{{ event.slug|raw }}">
 {% include 'includes/event.html' %}
     <h1>Sessions</h1>
 {% if sessions._embedded.space is defined %}
