@@ -78,6 +78,9 @@ dt {
     color: #666;
     text-transform: uppercase;
 }
+table {
+    margin-top: 3.0em;
+}
 th,
 td {
     padding: 0.4em 10px;
