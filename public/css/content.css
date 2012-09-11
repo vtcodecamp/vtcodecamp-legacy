@@ -161,7 +161,7 @@ table.schedule th.track {
     font-size: 1.4em;
 }
 table.schedule td.timespan,
-tr:nth-child(even) td.timespan {
+table.schedule tr:nth-child(even) td.timespan {
     background-color: #F5F5F5;
 }
 table.schedule td.timespan {
