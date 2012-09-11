@@ -11,18 +11,20 @@
 {% if speakers._embedded.speaker is defined %}
     <p>Read more about the {{ event.title }} speakers.</p>
     {% for speaker in speakers._embedded.speaker %}
-    <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}{% if speaker._links.twitter is defined %} (@<a href="{{ speaker._links.twitter.href|raw }}">{{ speaker._links.twitter.title }}</a>){% endif %}</h2>
-    {% if speaker.bio is defined %}
-    {{ speaker.bio|markdown }}
-    {% endif %}
-        {% if speaker._embedded.session is defined %}
-    <p>Sessions:</p>
-    <ul>
-            {% for session in speaker._embedded.session %}
-        <li><a href="{{ path('sessions', {'year': event.slug}) }}#{{ session.slug|url_encode() }}">{{ session.title }}</a></li>
-            {% endfor %}
-    </ul>
+    <article class="speaker">
+        <h2 id="{{ speaker.slug }}">{{ speaker.firstName }} {{ speaker.lastName }}{% if speaker._links.twitter is defined %} <small>(@<a href="{{ speaker._links.twitter.href|raw }}">{{ speaker._links.twitter.title }}</a>)</small>{% endif %}</h2>
+        {% if speaker.bio is defined %}
+        {{ speaker.bio|markdown }}
         {% endif %}
+        {% if speaker._embedded.session is defined %}
+        <p>Sessions:</p>
+        <ul>
+            {% for session in speaker._embedded.session %}
+            <li><a href="{{ path('sessions', {'year': event.slug}) }}#{{ session.slug|url_encode() }}">{{ session.title }}</a></li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </article>
     {% endfor %}
 {% else %}
     <p>The speakers for {{ event.title }} have yet to be published.</p>
