@@ -233,7 +233,7 @@ header.page .meta .location {
     margin: 0 auto 0.3em;
     background-color: transparent;
     background-repeat: no-repeat;
-    background-position: 0 0;
+    background-position: center center;
     text-indent: -999em;
 }
 .logo.the-university-of-vermont {
