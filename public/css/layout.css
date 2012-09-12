@@ -316,6 +316,10 @@ header.page .meta .location {
     height: 125px;
     background-image: url(/media/sponsors/DevTeach2012-logo-125x125.jpg);
 }
+.logo.msdn-magazine {
+    height: 76px;
+    background-image: url(/media/sponsors/MSDN-Magazine-logo-150x76.jpg);
+}
 #event,
 #event a {
     color: #888;
