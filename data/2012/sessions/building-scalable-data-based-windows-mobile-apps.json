@@ -1,0 +1,16 @@
+{
+  "slug": "building-scalable-data-based-windows-mobile-apps",
+  "title": "Building Scalable Data-Based Windows Mobile Apps",
+  "description": "In this session we will use Visual Studio, the Windows Phone SDK, and WCF to build a Windows Mobile application that communicates directly with WCF Data Services. WCF Data Services enable the creation and consumption of OData services for the web. We will then use the cloud to scale our WCF Data Services to simulate growth of our mobile user base.",
+  "_links": {
+    "self": { "href": "/2012/sessions/building-scalable-data-based-windows-mobile-apps" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1330" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/matthew-ammerman" }
+    ]
+  }
+}

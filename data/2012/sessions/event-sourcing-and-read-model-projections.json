@@ -5,7 +5,8 @@
   "_links": {
     "self": { "href": "/2012/sessions/event-sourcing-and-read-model-projections" },
     "event": { "href": "/2012/" },
-    "space": { "href": "/2012/spaces/parlor" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
     "timePeriod": { "href": "/2012/time-periods/0900" },
     "level": { "href": "/2012/levels/300" },
     "speaker": [
