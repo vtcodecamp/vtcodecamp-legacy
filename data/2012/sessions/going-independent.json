@@ -5,8 +5,7 @@
   "_links": {
     "self": { "href": "/2012/sessions/going-independent" },
     "event": { "href": "/2012/" },
-    "track": { "href": "/2012/tracks/exploration" },
-    "space": { "href": "/2012/spaces/room-1" },
+    "space": { "href": "/2012/spaces/parlor" },
     "category": [
       { "href": "/2012/categories/business" }
     ],
