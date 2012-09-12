@@ -1,5 +1,5 @@
 {
-    "hash": "72ceaf4c6778d4d3bf543028031fde87",
+    "hash": "5228d0c31f1ac207912d0b616cb41b6b",
     "packages": [
         {
             "package": "cilex/cilex",
@@ -10,8 +10,26 @@
         {
             "package": "cilex/cilex",
             "version": "dev-master",
-            "source-reference": "a25114d77799de533d20c8ee86aef3c186627f45",
-            "commit-date": "1343745749"
+            "source-reference": "030ef11cbe69f1560c880177738a62830ba479ea",
+            "commit-date": "1347310260"
+        },
+        {
+            "package": "doctrine/common",
+            "version": "2.3.x-dev",
+            "source-reference": "605b1b8b5a7bc8daf9111fb35483e5708e30de35",
+            "commit-date": "1346249247"
+        },
+        {
+            "package": "fate/silex-extensions",
+            "version": "dev-master",
+            "source-reference": "686eca24e1e09b05fd9b75447678bb0eca795d24",
+            "commit-date": "1344586528"
+        },
+        {
+            "package": "knplabs/knp-markdown-bundle",
+            "version": "dev-master",
+            "source-reference": "d0fac3f6d2ac502386ee73def9cf900029e1d353",
+            "commit-date": "1339679093"
         },
         {
             "package": "pimple/pimple",
@@ -22,52 +40,110 @@
         {
             "package": "pimple/pimple",
             "version": "dev-master",
-            "source-reference": "db836b8cfadc0f39dacafa2bf311a1ab603600bb",
-            "commit-date": "1343051648"
+            "source-reference": "b9f27b8dc18c08f00627dec02359b46a24791dc3",
+            "commit-date": "1347278988"
         },
         {
             "package": "silex/silex",
             "version": "dev-master",
-            "source-reference": "73b18ef69f74d878465dba0836ad96affc6c820c",
-            "commit-date": "1346766167"
+            "alias-pretty-version": "1.0.x-dev",
+            "alias-version": "1.0.9999999.9999999-dev"
+        },
+        {
+            "package": "silex/silex",
+            "version": "dev-master",
+            "source-reference": "a9e34f08ab00c4cc6c97e7ae8fdf7d0fc367e5f5",
+            "commit-date": "1347298149"
         },
         {
             "package": "symfony/class-loader",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1346482956"
+        },
+        {
+            "package": "symfony/config",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/console",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/dependency-injection",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
         },
         {
             "package": "symfony/event-dispatcher",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
+        },
+        {
+            "package": "symfony/filesystem",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
         },
         {
             "package": "symfony/finder",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.0-RC2",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/framework-bundle",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
         },
         {
             "package": "symfony/http-foundation",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1346761482"
         },
         {
             "package": "symfony/http-kernel",
             "version": "2.1.x-dev",
-            "source-reference": "ec5cdb100c20537e9d806facd4d121c985658e8b",
-            "commit-date": "1346926323"
+            "source-reference": "584499e64026f41c4be938ed35d8f0a9a9eebd38",
+            "commit-date": "1347354770"
         },
         {
             "package": "symfony/process",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1346330945"
         },
         {
             "package": "symfony/routing",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
+        },
+        {
+            "package": "symfony/templating",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1345643321"
+        },
+        {
+            "package": "symfony/translation",
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
         },
         {
             "package": "symfony/twig-bridge",
-            "version": "v2.1.0"
+            "version": "2.1.x-dev",
+            "source-reference": "v2.1.1",
+            "commit-date": "1347274422"
         },
         {
             "package": "twig/twig",
@@ -78,8 +154,14 @@
         {
             "package": "twig/twig",
             "version": "dev-master",
-            "source-reference": "459720ff3b74ee0c0d159277c6f2f5df89d8a4f6",
-            "commit-date": "1346397138"
+            "source-reference": "68b8c4619c5bbe82bd345fe56070dec8c356610a",
+            "commit-date": "1347025342"
+        },
+        {
+            "package": "zircote/Hal",
+            "version": "dev-master",
+            "source-reference": "82e0c3f868b1e17f75828f11dc52b9764c7d747a",
+            "commit-date": "1341872495"
         }
     ],
     "packages-dev": null,
@@ -88,6 +170,9 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "silex/silex": 20
+        "silex/silex": 20,
+        "zircote/hal": 20,
+        "fate/silex-extensions": 20,
+        "knplabs/knp-markdown-bundle": 20
     }
 }
