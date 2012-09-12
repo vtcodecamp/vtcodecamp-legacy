@@ -1,0 +1,16 @@
+{
+  "slug": "high-performance-json-web-api",
+  "title": "High Performance JSON Web API, Easily (With Haskell and Yesod)",
+  "description": "Aimed at PHP/Ruby/Python programmers, this talk aims to show the power and simplicity of both Haskell and the web framework written in it: Yesod.\n\nWe will have a brief overview of Yesod, walk through the building of a scaffolded application as we build a simple, yet very elegant web application for serving JSON data to an external application.\n\nWith time permitting, we will cover Hamlet template files by giving an HTML representation to our data.",
+  "_links": {
+    "self": { "href": "/2012/sessions/high-performance-json-web-api" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/performance" },
+    "space": { "href": "/2012/spaces/room-4" },
+    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "level": { "href": "/2012/levels/300" },
+    "speaker": [
+      { "href": "/2012/speakers/geoff-golder" }
+    ]
+  }
+}
