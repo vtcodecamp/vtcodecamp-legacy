@@ -1,0 +1,16 @@
+{
+  "slug": "taking-the-cloud-with-you",
+  "title": "Taking the Cloud with You: Using Windows Azure to Build Cloud Enabled Windows 8 Apps",
+  "description": "Windows 8 introduces opportunities for developers to create a new generation of applications targeting a variety of new and often portable devices. Windows Azure provides developers with scalable and reliable services in the Cloud that allow them to extend the reach of their applications without needing to focus on the related infrastructure and capital concerns. In this session, John Garland will present several tools and techniques that can be used to enrich Windows 8 applications that take advantage of the Cloud by taking advantage of Windows Azure and its related services.",
+  "_links": {
+    "self": { "href": "/2012/sessions/taking-the-cloud-with-you" },
+    "event": { "href": "/2012/" },
+    "track": { "href": "/2012/tracks/architecture" },
+    "space": { "href": "/2012/spaces/room-3" },
+    "timePeriod": { "href": "/2012/time-periods/1130" },
+    "level": { "href": "/2012/levels/200" },
+    "speaker": [
+      { "href": "/2012/speakers/john-garland" }
+    ]
+  }
+}
