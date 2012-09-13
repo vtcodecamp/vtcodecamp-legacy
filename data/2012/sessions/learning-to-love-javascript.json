@@ -1,7 +1,7 @@
 {
   "slug": "learning-to-love-javascript",
   "title": "Learning to Love JavaScript",
-  "description": "With all the libraries out there to help in client-side development, I found myself wanting to dive solely into JavaScript.This talk will take attendees through the basics of JavaScript, focusing on syntax, closures, datatypes, prototypal inheritance and events. I hope to also talk about the importance of JavaScript today, given how many frameworks exist and what can be done with things like WebGL, Canvas and WebSockets.",
+  "description": "With all the libraries out there to help in client-side development, I found myself wanting to dive solely into JavaScript. This talk will take attendees through the basics of JavaScript, focusing on syntax, closures, datatypes, prototypal inheritance and events. I hope to also talk about the importance of JavaScript today, given how many frameworks exist and what can be done with things like WebGL, Canvas and WebSockets.",
   "_links": {
     "self": { "href": "/2012/sessions/learning-to-love-javascript" },
     "event": { "href": "/2012/" },
