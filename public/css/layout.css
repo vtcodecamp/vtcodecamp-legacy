@@ -308,6 +308,10 @@ header.page .meta .location {
     height: 86px;
     background-image: url(/media/sponsors/C2-logo-150x86.jpg);
 }
+.logo.dealer-dot-com {
+    height: 14px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-150x14.jpg);
+}
 .logo.techsmith {
     height: 23px;
     background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
