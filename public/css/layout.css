@@ -215,13 +215,13 @@ header.page .meta .location {
     list-style: none;
     vertical-align: middle;
 }
+.anchor article.sponsors li small,
+.anchor article.sponsors li small a {
+    color: #888;
+}
 .anchor article.sponsors li small {
     display: block;
     margin-top: 0.3em;
-    color: #888;
-}
-.anchor article.sponsors a {
-    text-decoration: none;
 }
 .anchor article.sponsors a:hover,
 .anchor article.sponsors a:focus {

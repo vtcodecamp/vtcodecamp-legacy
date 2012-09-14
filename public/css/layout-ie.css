@@ -7,8 +7,7 @@ footer.page,
 header.page .event,
 header.page .meta,
 header.page .meta .date-time,
-header.page .meta .location,
-.anchor article.sponsors li {
+header.page .meta .location {
     float: left;
     clear: none;
 }
@@ -21,9 +20,8 @@ header.page .meta .location {
 .anchor {
     margin-top: 3.0em;
 }
-.anchor article.sponsors ul {
-    width: 100%;
-    overflow: hidden;
+.anchor article.sponsors li {
+    display: inline;
 }
 #event {
     overflow: hidden;
