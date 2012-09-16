@@ -5,9 +5,9 @@
   "_links": {
     "self": { "href": "/2012/sessions/windows-8-development" },
     "event": { "href": "/2012/" },
-    "track": { "href": "/2012/tracks/design" },
-    "space": { "href": "/2012/spaces/room-2" },
-    "timePeriod": { "href": "/2012/time-periods/1445" },
+    "track": { "href": "/2012/tracks/exploration" },
+    "space": { "href": "/2012/spaces/room-1" },
+    "timePeriod": { "href": "/2012/time-periods/0900" },
     "level": { "href": "/2012/levels/200" },
     "speaker": [
       { "href": "/2012/speakers/chris-bowen" }
