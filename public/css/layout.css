@@ -324,6 +324,10 @@ header.page .meta .location {
     height: 76px;
     background-image: url(/media/sponsors/MSDN-Magazine-logo-150x76.jpg);
 }
+.logo.wrox {
+    height: 100px;
+    background-image: url(/media/sponsors/Wrox-logo-100x100.jpg);
+}
 #event,
 #event a {
     color: #888;
