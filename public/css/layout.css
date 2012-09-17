@@ -335,6 +335,15 @@ header.page .meta .location {
     height: 59px;
     background-image: url(/media/sponsors/INETA-logo-100x59.jpg);
 }
+article.resource {
+    display: inline-block;
+    margin: 0 2.0em 1.0em 0;
+    text-align: center;
+    vertical-align: top;
+}
+article.resource p {
+    margin-top: 0.2em;
+}
 #event,
 #event a {
     color: #888;
