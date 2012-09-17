@@ -52,6 +52,9 @@ ol ul,
 ol ol {
     margin-top: 0;
 }
+dl {
+    margin-top: 1.4em;
+}
 li,
 dt,
 dd {
@@ -169,6 +172,17 @@ a:focus {
     font-size: 0.8em;
     font-style: normal;
     color: white;
+}
+.callout {
+    margin-top: 1.0em;
+    padding: 0.4em 0.8em;
+    background-color: #DDD;
+    background-image: -webkit-gradient(linear, 0% 0%, 100% 0%, from(rgba(255, 255, 255, 0)), to(rgba(255, 255, 255, 1.0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
+    background-image: -moz-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
+    background-image: -ms-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
+    background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
+    font-size: 1.3em;
 }
 table.schedule th.track,
 table.schedule td {
