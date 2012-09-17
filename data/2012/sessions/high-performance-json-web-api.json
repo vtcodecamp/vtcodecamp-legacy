@@ -5,9 +5,9 @@
   "_links": {
     "self": { "href": "/2012/sessions/high-performance-json-web-api" },
     "event": { "href": "/2012/" },
-    "track": { "href": "/2012/tracks/performance" },
-    "space": { "href": "/2012/spaces/room-4" },
-    "timePeriod": { "href": "/2012/time-periods/1015" },
+    "track": { "href": "/2012/tracks/design" },
+    "space": { "href": "/2012/spaces/room-2" },
+    "timePeriod": { "href": "/2012/time-periods/1445" },
     "level": { "href": "/2012/levels/300" },
     "speaker": [
       { "href": "/2012/speakers/geoff-golder" }
