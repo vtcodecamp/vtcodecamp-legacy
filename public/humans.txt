@@ -1,0 +1,52 @@
+/* TEAM */
+    Creative Director & Vermont Code Camp Organizer: Jason Pelletier
+    Contact: jason.pelletier@foundline.com
+    Twitter: @jason_pelletier
+    From: Burlington, Vermont, USA
+
+    Technical Director & Vermont Code Camp Organizer: Bradley Holt
+    Site: http://bradley-holt.com/
+    Contact: bradley.holt@foundline.com
+    Twitter: @BradleyHolt
+    From: Burlington, Vermont, USA
+
+/* THANKS */
+    Vermont Code Camp Lead Organizer: Julie Lerman
+    Site: http://www.thedatafarm.com/blog
+    Twitter: @julielerman
+    From: Vermont, USA
+
+    Vermont Code Camp Organizer & Photography: Rob Hale
+    Site: http://bigpigvt.blogspot.com/
+    Site: http://www.flickr.com/photos/42504188@N03/
+    Twitter: @rob_hale_vt
+    From: Vermont, USA
+
+    Vermont Code Camp Organizer: Margot Schips
+    Twitter: @schips
+    From: Vermont, USA
+
+    Vermont Code Camp Organizer: Tom Chittenden
+    From: Vermont, USA
+
+    Vermont Code Camp Organizer: John Pile Jr
+    Site: http://www.johnpile.com/
+    Twitter: @JohnPile
+    From: Burlington, Vermont, USA
+
+    Vermont Code Camp Organizer: Adam Bouchard
+    Site: http://agilionapps.com/
+    Twitter: @adambouchard
+    From: Burlington, Vermont, USA
+
+    Photography: Dave Burke
+    Site: http://www.flickr.com/photos/daveburkevt/
+    From: Vermont, USA
+
+/* SITE */
+    Language: English
+    Standards: HTML5, CSS3
+    Components: Modernizr, jQuery
+    Software: Linux, Apache 2.2, PHP 5.3, PHP-FPM, Alternative PHP Cache (APC), 
+    Composer, Silex, Twig, Cilex, Robert Allen's (zircote's) HAL, Sven 
+    Eisenschmidt's (fate's) Silex Extensions, KnpLabs' Markdown Bundle
