@@ -184,6 +184,9 @@ a:focus {
     background-image: -o-linear-gradient(left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1.0));
     font-size: 1.3em;
 }
+.callout.emphasize {
+    background-color: #8ACAE9;
+}
 table.schedule th.track,
 table.schedule td {
     font-size: 1.5em;

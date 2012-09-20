@@ -13,6 +13,9 @@
     <p><a href="{{ event._links.registration.href|raw }}" title="Register for {{ event.title }}" class="button">Register Now</a> <strong>Registration is free.</strong></p>
 {% else %}
 {% endif %}
+{% if event.slug == '2012' %}
+<p class="callout emphasize">Join the <a href="http://www.meetup.com/VTCode/events/82073452/">Windows 8 Game Dev Fest</a> on Friday, September 21 from 5pm - 10pm at Champlain College.</p>
+{% endif %}
 {% if schedule._embedded.space is defined %}
     <table class="schedule">
         <thead>
