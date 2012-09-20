@@ -1,14 +1,14 @@
 {
   "slug": "content-first",
-  "title": "Content First!",
-  "description": "Building web experiences for an ever-changing landscape of connected devices.",
+  "title": "Content First! — Building Web Experiences for an Ever-Changing Landscape of Connected Devices",
+  "description": "An introduction to future friendly design and development. Using content strategy and progressive enhancement techniques to help change the way we have been designing and building for the past 20 years.",
   "_links": {
     "self": { "href": "/2012/sessions/content-first" },
     "event": { "href": "/2012/" },
     "track": { "href": "/2012/tracks/design" },
     "space": { "href": "/2012/spaces/room-2" },
     "timePeriod": { "href": "/2012/time-periods/1130" },
-    "level": { "href": "/2012/levels/100" },
+    "level": { "href": "/2012/levels/200" },
     "speaker": [
       { "href": "/2012/speakers/nat-woodard" }
     ]
