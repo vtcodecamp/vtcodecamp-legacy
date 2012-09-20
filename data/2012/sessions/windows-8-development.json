@@ -1,7 +1,7 @@
 {
   "slug": "windows-8-development",
-  "title": "Windows 8 Development",
-  "description": "A look at Windows 8 development.",
+  "title": "Absolutely Everything About Windows 8*",
+  "description": "*That will fit in 60 minutes. With the launch of Windows 8 being just around the corner, it’s the perfect time to have a look around and discover what it all means for you as a developer. We’ll tour some key Windows 8 features, look at the Windows Store, how to add your own apps, and how to make money. We’ll also fire up the latest developer tools and delve into code, including the option of using HTML5, JavaScript, and CSS to create Windows Store apps.",
   "_links": {
     "self": { "href": "/2012/sessions/windows-8-development" },
     "event": { "href": "/2012/" },
