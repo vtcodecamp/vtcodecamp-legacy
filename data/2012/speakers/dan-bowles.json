@@ -2,6 +2,7 @@
   "slug": "dan-bowles",
   "firstName": "Dan",
   "lastName": "Bowles",
+  "bio": "Developer on the Web Architecture Team at [Dealer.com](http://www.dealer.com/).  Passionate about a faster, more awesome Web.",
   "_links": {
     "self": { "href": "/2012/speakers/dan-bowles" },
     "twitter": { "href": "http://twitter.com/danbowles", "title": "danbowles" }

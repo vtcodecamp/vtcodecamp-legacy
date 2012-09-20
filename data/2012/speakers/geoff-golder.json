@@ -2,6 +2,7 @@
   "slug": "geoff-golder",
   "firstName": "Geoff",
   "lastName": "Golder",
+  "bio": "After dropping out of a computer science program 8 years ago \"because he didn't want to be a code monkey,\" Geoff has become an independent code monkey. He is always striving to work less and do things in the simplest way possible.",
   "_links": {
     "self": { "href": "/2012/speakers/geoff-golder" }
   }

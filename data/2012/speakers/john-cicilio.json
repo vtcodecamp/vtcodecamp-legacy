@@ -2,6 +2,7 @@
   "slug": "john-cicilio",
   "firstName": "John",
   "lastName": "Cicilio",
+  "bio": "John Cicilio works as a Senior Software Engineer at [MyWebGrocer](http://www.mywebgrocer.com/). He has been working in systems and software for 30 years. John is a Certified Microsoft Professional developer and has a passion for science, mathematics and technology. \"When I met my first Pascal compiler, it was love. I truly enjoy the full wonder of the history or science and mathematics and feel fortunate to be a part of this great human adventure in computation and abstract knowledge systems.\"",
   "_links": {
     "self": { "href": "/2012/speakers/john-cicilio" }
   }
