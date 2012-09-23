@@ -76,69 +76,8 @@ header.page nav a:focus {
     color: white;
     text-decoration: underline;
 }
-header.page .event,
-header.page .meta {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
-}
 header.page .event {
-    margin-right: 20.0em;
-}
-header.page .meta {
-    font-size: 1.4em;
-    color: #EEE;
-}
-header.page .meta .date-time,
-header.page .meta .location {
-    display: inline-block;
-    margin: 0 0.3em;
-    vertical-align: middle;
-}
-header.page .meta .day,
-header.page .meta .month,
-header.page .meta .date,
-header.page .meta .time {
-    display: block;
-    line-height: 1.0;
-    text-transform: uppercase;
-}
-header.page .meta .day,
-header.page .meta .time {
-    font-size: 0.8em;
-}
-header.page .meta .day {
-    margin-bottom: 0.3em;
-}
-header.page .meta .month,
-header.page .meta .date {
-    border: 2px solid #EEE;
-    font-weight: bold;
-    color: #EEE;
-}
-header.page .meta .month {
-    padding: 0.3em 0.4em 0.2em;
-    background-color: #EEE;
-    border-bottom: none;
-    font-size: 1.3em;
-    color: #1595D3;
-}
-header.page .meta .date {
-    font-size: 2.5em;
-    padding: 0.2em 0.4em;
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-}
-header.page .meta .time {
-    margin-top: 0.3em;
-}
-header.page .meta .location {
-    font-size: 1.5em;
-    line-height: 1.1;
-    text-align: left;
+    text-align: center;
 }
 .anchor,
 .anchor aside,
