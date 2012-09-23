@@ -4,19 +4,6 @@ footer.page,
 #error #content {
     _width: 960px;
 }
-header.page .event,
-header.page .meta,
-header.page .meta .date-time,
-header.page .meta .location {
-    float: left;
-    clear: none;
-}
-header.page .event {
-    width: 400px;
-}
-header.page .meta .location {
-    margin-top: 1.5em;
-}
 .anchor {
     margin-top: 3.0em;
 }
