@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "5228d0c31f1ac207912d0b616cb41b6b",
+    "hash": "eedd2e155821bb755984de47db30230d",
     "packages": [
         {
             "name": "cilex/cilex",
@@ -589,57 +589,6 @@
             "time": "2013-03-07 12:15:25"
         },
         {
-            "name": "fate/silex-extensions",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/fate/Silex-Extensions",
-                "reference": "686eca24e1e09b05fd9b75447678bb0eca795d24"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://github.com/fate/Silex-Extensions/zipball/686eca24e1e09b05fd9b75447678bb0eca795d24",
-                "reference": "686eca24e1e09b05fd9b75447678bb0eca795d24",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "suggest": {
-                "doctrine/mongodb": "*",
-                "embedly/embedly-php": "*",
-                "fate/gravatar-php": "*",
-                "knplabs/knp-markdown-bundle": "*",
-                "kriswallsmith/assetic": ">=1.0",
-                "mandango/mandango": "*",
-                "predis/predis": "*",
-                "symfony/finder": "2.1.*",
-                "twig/twig": ">=1.2.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "SilexExtension": "src"
-                }
-            },
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Sven Eisenschmidt",
-                    "email": "sven.eisenschmidt@gmail.com",
-                    "homepage": "http://unsicherheitsagent.de/"
-                }
-            ],
-            "description": "Collection of Extensions for Silex",
-            "homepage": "https://github.com/fate/Silex-Extensions",
-            "keywords": [
-                "silex"
-            ],
-            "time": "2012-08-10 08:15:28"
-        },
-        {
             "name": "knplabs/knp-markdown-bundle",
             "version": "dev-master",
             "target-dir": "Knp/Bundle/MarkdownBundle",
@@ -697,6 +646,61 @@
                 "markdown"
             ],
             "time": "2013-05-20 08:29:54"
+        },
+        {
+            "name": "mheap/silex-markdown",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mheap/Silex-Markdown.git",
+                "reference": "6cfd944573c51c282518896f34f5cbd18eb834d9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mheap/Silex-Markdown/zipball/6cfd944573c51c282518896f34f5cbd18eb834d9",
+                "reference": "6cfd944573c51c282518896f34f5cbd18eb834d9",
+                "shasum": ""
+            },
+            "require": {
+                "knplabs/knp-markdown-bundle": "*",
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "silex/silex": "*",
+                "twig/twig": ">=1.2.0"
+            },
+            "suggest": {
+                "twig/twig": ">=1.2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "SilexMarkdown": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Sven Eisenschmidt",
+                    "email": "sven.eisenschmidt@gmail.com",
+                    "homepage": "http://unsicherheitsagent.de/"
+                },
+                {
+                    "name": "Michael Heap",
+                    "email": "m@michaelheap.com",
+                    "homepage": "http://michaelheap.com/"
+                }
+            ],
+            "description": "Markdown extension for Silex",
+            "homepage": "https://github.com/mheap/Silex-Markdown",
+            "keywords": [
+                "markdown",
+                "silex"
+            ],
+            "time": "2012-08-25 00:09:46"
         },
         {
             "name": "pimple/pimple",
@@ -914,26 +918,37 @@
         },
         {
             "name": "symfony/console",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "4709ede4eb34e02d9349b6bf2809bd76be008404"
+                "reference": "883831e2864a702de8e8c44b4d7691fa7ec44911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/4709ede4eb34e02d9349b6bf2809bd76be008404",
-                "reference": "4709ede4eb34e02d9349b6bf2809bd76be008404",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/883831e2864a702de8e8c44b4d7691fa7ec44911",
+                "reference": "883831e2864a702de8e8c44b4d7691fa7ec44911",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
+            "require-dev": {
+                "symfony/event-dispatcher": ">=2.1,<3.0"
+            },
+            "suggest": {
+                "symfony/event-dispatcher": ""
+            },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Console": ""
+                    "Symfony\\Component\\Console\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -952,7 +967,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-26 18:42:07"
+            "time": "2013-05-27 14:49:42"
         },
         {
             "name": "symfony/debug",
@@ -1169,26 +1184,31 @@
         },
         {
             "name": "symfony/finder",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/Finder",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Finder.git",
-                "reference": "0dbc61194b58bc513e003789853ddfe0aea8cf33"
+                "reference": "864ccacd5327dce1417e16eaaae310d80d4b052f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Finder/zipball/0dbc61194b58bc513e003789853ddfe0aea8cf33",
-                "reference": "0dbc61194b58bc513e003789853ddfe0aea8cf33",
+                "url": "https://api.github.com/repos/symfony/Finder/zipball/864ccacd5327dce1417e16eaaae310d80d4b052f",
+                "reference": "864ccacd5327dce1417e16eaaae310d80d4b052f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev"
+                }
+            },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Finder": ""
+                    "Symfony\\Component\\Finder\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1207,7 +1227,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-05-25 15:47:15"
+            "time": "2013-05-27 14:49:42"
         },
         {
             "name": "symfony/framework-bundle",
@@ -1401,17 +1421,17 @@
         },
         {
             "name": "symfony/process",
-            "version": "2.1.x-dev",
+            "version": "dev-master",
             "target-dir": "Symfony/Component/Process",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Process",
-                "reference": "v2.1.1"
+                "url": "https://github.com/symfony/Process.git",
+                "reference": "75c810176f8e069714cef8696d7ecc3aa86e8168"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/symfony/Process/zipball/v2.1.1",
-                "reference": "v2.1.1",
+                "url": "https://api.github.com/repos/symfony/Process/zipball/75c810176f8e069714cef8696d7ecc3aa86e8168",
+                "reference": "75c810176f8e069714cef8696d7ecc3aa86e8168",
                 "shasum": ""
             },
             "require": {
@@ -1420,14 +1440,15 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.1-dev"
+                    "dev-master": "2.4-dev"
                 }
             },
             "autoload": {
                 "psr-0": {
-                    "Symfony\\Component\\Process": ""
+                    "Symfony\\Component\\Process\\": ""
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1443,7 +1464,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "http://symfony.com",
-            "time": "2012-08-30 12:49:05"
+            "time": "2013-05-16 07:54:39"
         },
         {
             "name": "symfony/routing",
@@ -1827,7 +1848,7 @@
     "stability-flags": {
         "silex/silex": 20,
         "zircote/hal": 20,
-        "fate/silex-extensions": 20,
+        "mheap/silex-markdown": 20,
         "knplabs/knp-markdown-bundle": 20
     },
     "platform": [
