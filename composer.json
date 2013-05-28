@@ -5,6 +5,7 @@
         "symfony/twig-bridge": "2.1.*",
         "cilex/cilex": "1.0.*",
         "zircote/Hal": "dev-master",
+        "mheap/silex-markdown": "dev-master",
         "knplabs/knp-markdown-bundle": "dev-master"
     },
     "minimum-stability": "dev",
