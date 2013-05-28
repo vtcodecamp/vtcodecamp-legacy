@@ -419,6 +419,8 @@ class BuildEvents extends Command
                 $speakers->setEmbedded('event', $event, 'true');
                 $sessionsPath = $eventPath . '/sessions/';
                 $sessionsIterator = new \DirectoryIterator($sessionsPath);
+                $array = array();
+                $resource = array();
                 foreach ($sessionsIterator as $sessionFile) {
                     if ('json' == $sessionFile->getExtension()) {
                         $sessionPath = $sessionFile->getPathname();
@@ -428,8 +430,6 @@ class BuildEvents extends Command
                         $sessionLinkRels = $sessionArray['_links'];
                         unset($sessionArray['_links']);
                         $session = new Resource($sessionHref, $sessionArray);
-                        $array = array();
-                        $resource = array();
                         foreach ($sessionLinkRels as $sessionLinkRel => $sessionLinks) {
                             switch ($sessionLinkRel) {
                                 case 'event':
@@ -440,10 +440,12 @@ class BuildEvents extends Command
                                     $href = $sessionLinks['href'];
                                     $path = $eventsPath . $href . '.json';
                                     $json = file_get_contents($path);
-                                    $array[$sessionLinkRel] = json_decode($json, true);
-                                    $spaceLinks = $array[$sessionLinkRel]['_links'];
-                                    unset($array[$sessionLinkRel]['_links']);
-                                    $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
+                                    $array[$sessionLinkRel][$href] = json_decode($json, true);
+                                    $spaceLinks = $array[$sessionLinkRel][$href]['_links'];
+                                    unset($array[$sessionLinkRel][$href]['_links']);
+                                    if (!isset($resource[$sessionLinkRel][$href])) {
+                                        $resource[$sessionLinkRel][$href] = new Resource($href, $array[$sessionLinkRel][$href]);
+                                    }
                                     if (isset($spaceLinks['track'])) {
                                         $trackHref = $spaceLinks['track']['href'];
                                         $trackPath = $eventsPath . $trackHref . '.json';
@@ -451,27 +453,31 @@ class BuildEvents extends Command
                                         $trackArray = json_decode($trackJson, true);
                                         unset($trackArray['_links']);
                                         $trackResource = new Resource($spaceLinks['track']['href'], $trackArray);
-                                        $resource[$sessionLinkRel]->setEmbedded('track', $trackResource, true);
+                                        $resource[$sessionLinkRel][$href]->setEmbedded('track', $trackResource, true);
                                     }
-                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
+                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel][$href], true);
                                     break;
                                 case 'track':
                                     $href = $sessionLinks['href'];
                                     $path = $eventsPath . $href . '.json';
                                     $json = file_get_contents($path);
-                                    $array[$sessionLinkRel] = json_decode($json, true);
-                                    unset($array[$sessionLinkRel]['_links']);
-                                    $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
-                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
+                                    $array[$sessionLinkRel][$href] = json_decode($json, true);
+                                    unset($array[$sessionLinkRel][$href]['_links']);
+                                    if (!isset($resource[$sessionLinkRel][$href])) {
+                                        $resource[$sessionLinkRel][$href] = new Resource($href, $array[$sessionLinkRel][$href]);
+                                    }
+                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel][$href], true);
                                     break;
                                 case 'timePeriod':
                                     $href = $sessionLinks['href'];
                                     $path = $eventsPath . $href . '.json';
                                     $json = file_get_contents($path);
-                                    $array[$sessionLinkRel] = json_decode($json, true);
-                                    unset($array[$sessionLinkRel]['_links']);
-                                    $resource[$sessionLinkRel] = new Resource($href, $array[$sessionLinkRel]);
-                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel], true);
+                                    $array[$sessionLinkRel][$href] = json_decode($json, true);
+                                    unset($array[$sessionLinkRel][$href]['_links']);
+                                    if (!isset($resource[$sessionLinkRel][$href])) {
+                                        $resource[$sessionLinkRel][$href] = new Resource($href, $array[$sessionLinkRel][$href]);
+                                    }
+                                    $session->setEmbedded($sessionLinkRel, $resource[$sessionLinkRel][$href], true);
                                     break;
                                 case 'speaker':
                                     foreach ($sessionLinks as $sessionLink) {
@@ -482,10 +488,12 @@ class BuildEvents extends Command
                                         $array[$sessionLinkRel][$speakerArray['slug']] = $speakerArray;
                                         $speakerLinks = $array[$sessionLinkRel][$speakerArray['slug']]['_links'];
                                         unset($array[$sessionLinkRel][$speakerArray['slug']]['_links']);
-                                        $resource[$sessionLinkRel][$speakerArray['slug']] = new Resource($href, $array[$sessionLinkRel][$speakerArray['slug']]);
-                                        if (isset($speakerLinks['twitter'])) {
-                                            $twitterLink = new Link($speakerLinks['twitter']['href'], 'twitter', $speakerLinks['twitter']['title']);
-                                            $resource[$sessionLinkRel][$speakerArray['slug']]->setLink($twitterLink);
+                                        if (!isset($resource[$sessionLinkRel]) || !isset($resource[$sessionLinkRel][$speakerArray['slug']])) {
+                                            $resource[$sessionLinkRel][$speakerArray['slug']] = new Resource($href, $array[$sessionLinkRel][$speakerArray['slug']]);
+                                            if (isset($speakerLinks['twitter'])) {
+                                                $twitterLink = new Link($speakerLinks['twitter']['href'], 'twitter', $speakerLinks['twitter']['title']);
+                                                $resource[$sessionLinkRel][$speakerArray['slug']]->setLink($twitterLink);
+                                            }
                                         }
                                         $resource[$sessionLinkRel][$speakerArray['slug']]->setEmbedded('session', $session);
                                         $link = new Link($href, 'speaker');
