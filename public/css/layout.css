@@ -247,93 +247,17 @@ header.page .meta .location {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
-.logo.mywebgrocer {
-    height: 73px;
-    background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
-}
-.logo.green-mountain-coffee-roasters {
-    height: 89px;
-    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
-}
-.logo.vermont-tech-jam {
-    height: 90px;
-    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
-}
-.logo.champlain-college {
-    height: 48px;
-    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
-}
-.logo.apprenda {
-    height: 40px;
-    background-image: url(/media/sponsors/Apprenda-logo-150x40.jpg);
-}
-.logo.jetbrains {
-    height: 58px;
-    background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
-}
-.logo.telerik {
-    height: 59px;
-    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
-}
-.logo.pluralsight {
-    height: 36px;
-    background-image: url(/media/sponsors/Pluralsight-logo-150x36.jpg);
-}
-.logo.gibraltar-software {
-    height: 46px;
-    background-image: url(/media/sponsors/Gibraltar-Software-logo-150x46.jpg);
-}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
-}
-.logo.logicnp-software {
-    height: 39px;
-    background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
 .logo.code-magazine {
     height: 55px;
     background-image: url(/media/sponsors/CODE-Magazine-logo-150x55.jpg);
 }
-.logo.huagati {
-    height: 55px;
-    background-image: url(/media/sponsors/Huagati-logo-150x55.jpg);
-}
-.logo.devexpress {
-    height: 28px;
-    background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
-}
-.logo.apress {
-    height: 32px;
-    background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
-}
-.logo.c2 {
-    height: 86px;
-    background-image: url(/media/sponsors/C2-logo-150x86.jpg);
-}
-.logo.dealer-dot-com {
-    height: 14px;
-    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-150x14.jpg);
-}
-.logo.techsmith {
-    height: 23px;
-    background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
-}
-.logo.devteach2012 {
-    height: 125px;
-    background-image: url(/media/sponsors/DevTeach2012-logo-125x125.jpg);
-}
-.logo.msdn-magazine {
-    height: 76px;
-    background-image: url(/media/sponsors/MSDN-Magazine-logo-150x76.jpg);
-}
 .logo.wrox {
     height: 100px;
     background-image: url(/media/sponsors/Wrox-logo-100x100.jpg);
-}
-.logo.ineta {
-    height: 59px;
-    background-image: url(/media/sponsors/INETA-logo-100x59.jpg);
 }
 article.resource {
     display: inline-block;
