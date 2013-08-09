@@ -247,6 +247,10 @@ header.page .meta .location {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
 }
+.logo.mywebgrocer {
+    height: 73px;
+    background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
+}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
