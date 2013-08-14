@@ -275,6 +275,10 @@ header.page .meta .location {
     height: 39px;
     background-image: url(/media/sponsors/LogicNP-Software-logo-150x39.jpg);
 }
+.logo.devexpress {
+    height: 28px;
+    background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
