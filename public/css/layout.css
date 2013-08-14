@@ -251,6 +251,10 @@ header.page .meta .location {
     height: 73px;
     background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
 }
+.logo.misys {
+    height: 42px;
+    background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
+}
 .logo.oreilly-media {
     height: 27px;
     background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
