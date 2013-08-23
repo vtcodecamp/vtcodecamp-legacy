@@ -251,6 +251,15 @@ header.page .meta .location {
     height: 73px;
     background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
 }
+.logo.telerik {
+    height: 59px;
+    background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
+}
+.logo.componentone {
+    width: 142px;
+    height: 100px;
+    background-image: url(/media/sponsors/ComponentOne-logo-142x100.jpg);
+}
 .logo.misys {
     height: 42px;
     background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
