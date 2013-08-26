@@ -288,6 +288,10 @@ header.page .meta .location {
     height: 28px;
     background-image: url(/media/sponsors/DevExpress-logo-150x28.jpg);
 }
+.logo.champlain-mini-maker-faire {
+    height: 53px;
+    background-image: url(/media/sponsors/Champlain-Mini-Maker-Faire-logo-150x53.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
