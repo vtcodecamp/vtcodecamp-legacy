@@ -255,6 +255,10 @@ header.page .meta .location {
     height: 59px;
     background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
 }
+.logo.champlain-college {
+    height: 48px;
+    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
+}
 .logo.componentone {
     width: 142px;
     height: 100px;
@@ -263,6 +267,10 @@ header.page .meta .location {
 .logo.misys {
     height: 42px;
     background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
+}
+.logo.tyler-technologies {
+    height: 53px;
+    background-image: url(/media/sponsors/Tyler-Technologies-logo-150x53.jpg);
 }
 .logo.oreilly-media {
     height: 27px;
