@@ -317,6 +317,10 @@ header.page .meta .location {
     height: 41px;
     background-image: url(/media/sponsors/DZone-logo-150x41.jpg);
 }
+.logo.vermont-makers {
+    height: 40px;
+    background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
