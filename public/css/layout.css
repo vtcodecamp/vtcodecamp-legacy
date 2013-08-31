@@ -268,6 +268,10 @@ header.page .meta .location {
     height: 58px;
     background-image: url(/media/sponsors/JetBrains-logo-150x58.jpg);
 }
+.logo.agilion-apps {
+    height: 38px;
+    background-image: url(/media/sponsors/Agilion-Apps-logo-150x38.jpg);
+}
 .logo.misys {
     height: 42px;
     background-image: url(/media/sponsors/MISys-logo-150x42.jpg);
