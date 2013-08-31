@@ -300,6 +300,11 @@ header.page .meta .location {
     height: 53px;
     background-image: url(/media/sponsors/Champlain-Mini-Maker-Faire-logo-150x53.jpg);
 }
+.logo.vermont-state-parks {
+    width: 121px;
+    height: 100px;
+    background-image: url(/media/sponsors/Vermont-State-Parks-logo-121x100.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
