@@ -313,6 +313,10 @@ header.page .meta .location {
     height: 100px;
     background-image: url(/media/sponsors/Vermont-State-Parks-logo-121x100.jpg);
 }
+.logo.dzone {
+    height: 41px;
+    background-image: url(/media/sponsors/DZone-logo-150x41.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
