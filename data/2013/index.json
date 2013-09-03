@@ -4,6 +4,7 @@
   "description": "The Vermont Code Camp 2013 schedule will be available soon.",
   "content": "The Vermont Code Camp 2013 schedule will be available soon.",
   "_links": {
-    "self": { "href": "/2013/" }
+    "self": { "href": "/2013/" },
+    "registration": { "href": "http://www.meetup.com/VTCode/events/127382512/" }
   }
 }
