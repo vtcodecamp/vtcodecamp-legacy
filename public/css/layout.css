@@ -325,6 +325,10 @@ header.page .meta .location {
     height: 40px;
     background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
 }
+.logo.green-mountain-coffee-roasters {
+    height: 89px;
+    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
