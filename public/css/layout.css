@@ -215,6 +215,9 @@ header.page .meta .location {
     list-style: none;
     vertical-align: middle;
 }
+.anchor article.sponsors li.expand-300 {
+    width: 300px;
+}
 .anchor article.sponsors .special-thanks li {
     width: 400px;
 }
@@ -256,8 +259,9 @@ header.page .meta .location {
     background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
 }
 .logo.champlain-college {
-    height: 48px;
-    background-image: url(/media/sponsors/Champlain-College-logo-150x48.jpg);
+    width: 250px;
+    height: 16px;
+    background-image: url(/media/sponsors/Champlain-College-logo-250x16.jpg);
 }
 .logo.componentone {
     width: 142px;
