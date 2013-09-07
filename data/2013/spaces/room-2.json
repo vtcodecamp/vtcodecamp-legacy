@@ -1,0 +1,9 @@
+{
+  "slug": "room-2",
+  "title": "Room 2",
+  "order": 2,
+  "_links": {
+    "self": { "href": "/2013/spaces/room-2" },
+    "track": { "href": "/2013/tracks/biz-meta" }
+  }
+}
