@@ -1,0 +1,9 @@
+{
+  "slug": "kevin-thorley",
+  "firstName": "Kevin",
+  "lastName": "Thorley",
+  "_links": {
+    "self": { "href": "/2013/speakers/kevin-thorley" },
+    "twitter": { "href": "https://twitter.com/kevinthorley", "title": "kevinthorley" }
+  }
+}

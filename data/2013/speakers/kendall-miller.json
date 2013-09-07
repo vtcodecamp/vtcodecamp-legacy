@@ -1,0 +1,9 @@
+{
+  "slug": "kendall-miller",
+  "firstName": "Kendall",
+  "lastName": "Miller",
+  "_links": {
+    "self": { "href": "/2013/speakers/kendall-miller" },
+    "twitter": { "href": "https://twitter.com/kendallmiller", "title": "kendallmiller" }
+  }
+}

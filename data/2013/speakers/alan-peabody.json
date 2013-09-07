@@ -1,0 +1,9 @@
+{
+  "slug": "alan-peabody",
+  "firstName": "Alan",
+  "lastName": "Peabody",
+  "_links": {
+    "self": { "href": "/2013/speakers/alan-peabody" },
+    "twitter": { "href": "https://twitter.com/alanpeabody", "title": "alanpeabody" }
+  }
+}

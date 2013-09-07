@@ -1,0 +1,9 @@
+{
+  "slug": "jason-pelletier",
+  "firstName": "Jason",
+  "lastName": "Pelletier",
+  "_links": {
+    "self": { "href": "/2013/speakers/jason-pelletier" },
+    "twitter": { "href": "https://twitter.com/jason_pelletier", "title": "jason_pelletier" }
+  }
+}

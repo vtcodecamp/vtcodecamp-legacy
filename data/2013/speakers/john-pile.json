@@ -1,0 +1,9 @@
+{
+  "slug": "john-pile",
+  "firstName": "John",
+  "lastName": "Pile",
+  "_links": {
+    "self": { "href": "/2013/speakers/john-pile" },
+    "twitter": { "href": "https://twitter.com/JohnPile", "title": "JohnPile" }
+  }
+}

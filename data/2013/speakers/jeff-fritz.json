@@ -1,0 +1,9 @@
+{
+  "slug": "jeff-fritz",
+  "firstName": "Jeff",
+  "lastName": "Fritz",
+  "_links": {
+    "self": { "href": "/2013/speakers/jeff-fritz" },
+    "twitter": { "href": "https://twitter.com/csharpfritz", "title": "csharpfritz" }
+  }
+}

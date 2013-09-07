@@ -1,0 +1,9 @@
+{
+  "slug": "rob-friesel",
+  "firstName": "Rob",
+  "lastName": "Friesel",
+  "_links": {
+    "self": { "href": "/2013/speakers/rob-friesel" },
+    "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }
+  }
+}

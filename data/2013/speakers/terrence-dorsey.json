@@ -1,0 +1,9 @@
+{
+  "slug": "terrence-dorsey",
+  "firstName": "Terrence",
+  "lastName": "Dorsey",
+  "_links": {
+    "self": { "href": "/2013/speakers/terrence-dorsey" },
+    "twitter": { "href": "https://twitter.com/tpdorsey", "title": "tpdorsey" }
+  }
+}

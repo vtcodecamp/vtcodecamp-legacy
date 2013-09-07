@@ -1,0 +1,9 @@
+{
+  "slug": "christian-cote",
+  "firstName": "Christian",
+  "lastName": "Coté",
+  "_links": {
+    "self": { "href": "/2013/speakers/christian-cote" },
+    "twitter": { "href": "https://twitter.com/Christian_SQL", "title": "Christian_SQL" }
+  }
+}

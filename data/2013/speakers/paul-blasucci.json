@@ -1,0 +1,9 @@
+{
+  "slug": "paul-blasucci",
+  "firstName": "Paul",
+  "lastName": "Blasucci",
+  "_links": {
+    "self": { "href": "/2013/speakers/paul-blasucci" },
+    "twitter": { "href": "https://twitter.com/pblasucci", "title": "pblasucci" }
+  }
+}

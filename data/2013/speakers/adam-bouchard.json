@@ -1,0 +1,9 @@
+{
+  "slug": "adam-bouchard",
+  "firstName": "Adam",
+  "lastName": "Bouchard",
+  "_links": {
+    "self": { "href": "/2013/speakers/adam-bouchard" },
+    "twitter": { "href": "https://twitter.com/adambouchard", "title": "adambouchard" }
+  }
+}

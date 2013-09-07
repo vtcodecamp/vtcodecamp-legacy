@@ -1,0 +1,9 @@
+{
+  "slug": "steve-bohlen",
+  "firstName": "Steve",
+  "lastName": "Bohlen",
+  "_links": {
+    "self": { "href": "/2013/speakers/steve-bohlen" },
+    "twitter": { "href": "https://twitter.com/sbohlen", "title": "sbohlen" }
+  }
+}

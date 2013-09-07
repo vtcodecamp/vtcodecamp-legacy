@@ -1,0 +1,9 @@
+{
+  "slug": "david-giard",
+  "firstName": "David",
+  "lastName": "Giard",
+  "_links": {
+    "self": { "href": "/2013/speakers/david-giard" },
+    "twitter": { "href": "https://twitter.com/DavidGiard", "title": "DavidGiard" }
+  }
+}

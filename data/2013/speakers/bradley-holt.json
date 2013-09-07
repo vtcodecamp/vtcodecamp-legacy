@@ -1,0 +1,9 @@
+{
+  "slug": "bradley-holt",
+  "firstName": "Bradley",
+  "lastName": "Holt",
+  "_links": {
+    "self": { "href": "/2013/speakers/bradley-holt" },
+    "twitter": { "href": "https://twitter.com/BradleyHolt", "title": "BradleyHolt" }
+  }
+}

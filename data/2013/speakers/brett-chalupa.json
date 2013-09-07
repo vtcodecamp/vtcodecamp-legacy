@@ -1,0 +1,9 @@
+{
+  "slug": "brett-chalupa",
+  "firstName": "Brett",
+  "lastName": "Chalupa",
+  "_links": {
+    "self": { "href": "/2013/speakers/brett-chalupa" },
+    "twitter": { "href": "https://twitter.com/brettchalupa", "title": "brettchalupa" }
+  }
+}

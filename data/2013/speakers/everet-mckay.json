@@ -1,0 +1,9 @@
+{
+  "slug": "everet-mckay",
+  "firstName": "Everett",
+  "lastName": "McKay",
+  "_links": {
+    "self": { "href": "/2013/speakers/everet-mckay" },
+    "twitter": { "href": "https://twitter.com/UXDesignEdge", "title": "UXDesignEdge" }
+  }
+}

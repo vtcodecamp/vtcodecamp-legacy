@@ -1,0 +1,9 @@
+{
+  "slug": "chris-miller",
+  "firstName": "Chris",
+  "lastName": "Miller",
+  "_links": {
+    "self": { "href": "/2013/speakers/chris-miller" },
+    "twitter": { "href": "https://twitter.com/anotherlab", "title": "anotherlab" }
+  }
+}

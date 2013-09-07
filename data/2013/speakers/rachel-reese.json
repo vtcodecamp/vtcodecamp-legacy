@@ -1,0 +1,9 @@
+{
+  "slug": "rachel-reese",
+  "firstName": "Rachel",
+  "lastName": "Reese",
+  "_links": {
+    "self": { "href": "/2013/speakers/rachel-reese" },
+    "twitter": { "href": "https://twitter.com/rachelreese", "title": "rachelreese" }
+  }
+}

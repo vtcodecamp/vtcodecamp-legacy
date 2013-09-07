@@ -1,0 +1,9 @@
+{
+  "slug": "john-garland",
+  "firstName": "John",
+  "lastName": "Garland",
+  "_links": {
+    "self": { "href": "/2013/speakers/john-garland" },
+    "twitter": { "href": "https://twitter.com/dotnetgator", "title": "dotnetgator" }
+  }
+}

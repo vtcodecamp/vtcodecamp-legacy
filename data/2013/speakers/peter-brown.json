@@ -1,0 +1,9 @@
+{
+  "slug": "peter-brown",
+  "firstName": "Peter",
+  "lastName": "Brown",
+  "_links": {
+    "self": { "href": "/2013/speakers/peter-brown" },
+    "twitter": { "href": "https://twitter.com/beerlington", "title": "beerlington" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "russ-fustino",
+  "firstName": "Russ",
+  "lastName": "Fustino",
+  "_links": {
+    "self": { "href": "/2013/speakers/russ-fustino" },
+    "twitter": { "href": "https://twitter.com/russcamtv", "title": "russcamtv" }
+  }
+}
