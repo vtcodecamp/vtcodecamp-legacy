@@ -1,0 +1,15 @@
+{
+  "slug": "using-windows-azure-mobile-services-to-build-cloud-enabled-mobile-apps",
+  "title": "Using Windows Azure Mobile Services to Build Cloud-Enabled Mobile Apps",
+  "_links": {
+    "self": { "href": "/2013/sessions/using-windows-azure-mobile-services-to-build-cloud-enabled-mobile-apps" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/john-garland" }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "slug": "essentials-of-scala",
+  "title": "Essentials of Scala",
+  "_links": {
+    "self": { "href": "/2013/sessions/essentials-of-scala" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/language" },
+    "space": { "href": "/2013/spaces/room-3" },
+    "timePeriod": { "href": "/2013/time-periods/1130" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/eric-smith" }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "slug": "open-spaces",
+  "title": "Open Spaces - Software Entrepreneurship",
+  "_links": {
+    "self": { "href": "/2013/sessions/open-spaces" },
+    "event": { "href": "/2013/" },
+    "space": { "href": "/2013/spaces/parlor" },
+    "timePeriod": { "href": "/2013/time-periods/1130" },
+    "speaker": [
+      { "href": "/2013/speakers/kendall-miller" }
+    ]
+  }
+}

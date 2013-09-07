@@ -1,0 +1,15 @@
+{
+  "slug": "educating-with-ruby",
+  "title": "Educating with Ruby - Why Ruby is a Great Language for Teaching Programming",
+  "_links": {
+    "self": { "href": "/2013/sessions/educating-with-ruby" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/language" },
+    "space": { "href": "/2013/spaces/room-3" },
+    "timePeriod": { "href": "/2013/time-periods/1445" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/brett-chalupa" }
+    ]
+  }
+}

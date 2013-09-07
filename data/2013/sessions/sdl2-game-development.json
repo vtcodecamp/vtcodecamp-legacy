@@ -1,0 +1,14 @@
+{
+  "slug": "sdl2-game-development",
+  "title": "SDL2 Game Development",
+  "_links": {
+    "self": { "href": "/2013/sessions/sdl2-game-development" },
+    "event": { "href": "/2013/" },
+    "space": { "href": "/2013/spaces/room-5" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/eric-basile" }
+    ]
+  }
+}

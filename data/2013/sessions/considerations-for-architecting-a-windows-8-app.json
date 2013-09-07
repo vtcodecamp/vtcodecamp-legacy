@@ -1,0 +1,14 @@
+{
+  "slug": "considerations-for-architecting-a-windows-8-app",
+  "title": "Considerations for Architecting a Windows 8 App",
+  "_links": {
+    "self": { "href": "/2013/sessions/considerations-for-architecting-a-windows-8-app" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/0900" },
+    "speaker": [
+      { "href": "/2013/speakers/russ-fustino" }
+    ]
+  }
+}

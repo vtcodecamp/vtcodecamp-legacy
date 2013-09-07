@@ -1,0 +1,15 @@
+{
+  "slug": "centralized-configuration-management-with-apache-zookeeper",
+  "title": "Centralized Configuration Management with Apache ZooKeeper",
+  "_links": {
+    "self": { "href": "/2013/sessions/centralized-configuration-management-with-apache-zookeeper" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/1445" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/jonathan-pearlin" }
+    ]
+  }
+}

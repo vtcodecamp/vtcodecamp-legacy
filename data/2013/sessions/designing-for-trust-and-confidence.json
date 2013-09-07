@@ -1,0 +1,15 @@
+{
+  "slug": "designing-for-trust-and-confidence",
+  "title": "Designing for Trust and Confidence",
+  "_links": {
+    "self": { "href": "/2013/sessions/designing-for-trust-and-confidence" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/everett-mckay" }
+    ]
+  }
+}

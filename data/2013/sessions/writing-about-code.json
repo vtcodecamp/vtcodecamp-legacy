@@ -1,0 +1,15 @@
+{
+  "slug": "writing-about-code",
+  "title": "Writing About Code",
+  "_links": {
+    "self": { "href": "/2013/sessions/writing-about-code" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/1130" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/terrence-dorsey" }
+    ]
+  }
+}

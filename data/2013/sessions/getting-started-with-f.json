@@ -1,0 +1,15 @@
+{
+  "slug": "getting-started-with-f",
+  "title": "Getting Started with F#",
+  "_links": {
+    "self": { "href": "/2013/sessions/getting-started-with-f" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/language" },
+    "space": { "href": "/2013/spaces/room-3" },
+    "timePeriod": { "href": "/2013/time-periods/1015" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/rachel-reese" }
+    ]
+  }
+}

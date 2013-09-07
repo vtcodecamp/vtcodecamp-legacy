@@ -1,0 +1,15 @@
+{
+  "slug": "diversified-asp-net",
+  "title": "Diversified ASP.NET - One Web Project - 4 ASP.NET Frameworks",
+  "_links": {
+    "self": { "href": "/2013/sessions/diversified-asp-net" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/1445" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/jeff-fritz" }
+    ]
+  }
+}

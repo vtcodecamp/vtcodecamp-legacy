@@ -1,0 +1,14 @@
+{
+  "slug": "utilizing-varnish-and-rest",
+  "title": "Utilizing Varnish and REST: Accelerate Performance while Maintaining Coherence",
+  "_links": {
+    "self": { "href": "/2013/sessions/utilizing-varnish-and-rest" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/practices" },
+    "space": { "href": "/2013/spaces/room-4" },
+    "timePeriod": { "href": "/2013/time-periods/1130" },
+    "speaker": [
+      { "href": "/2013/speakers/peter-vile" }
+    ]
+  }
+}

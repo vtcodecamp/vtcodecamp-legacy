@@ -1,0 +1,14 @@
+{
+  "slug": "effective-data-visualization",
+  "title": "Effective Data Visualization",
+  "_links": {
+    "self": { "href": "/2013/sessions/effective-data-visualization" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/0900" },
+    "speaker": [
+      { "href": "/2013/speakers/david-giard" }
+    ]
+  }
+}
