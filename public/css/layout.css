@@ -258,6 +258,10 @@ header.page .meta .location {
     height: 59px;
     background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
 }
+.logo.vermont-tech-jam {
+    height: 90px;
+    background-image: url(/media/sponsors/Vermont-Tech-Jam-logo-150x90.jpg);
+}
 .logo.champlain-college {
     width: 250px;
     height: 16px;
