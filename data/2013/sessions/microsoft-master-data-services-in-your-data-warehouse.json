@@ -1,6 +1,7 @@
 {
   "slug": "microsoft-master-data-services-in-your-data-warehouse",
   "title": "Microsoft Master Data Services in Your Data Warehouse",
+  "description": "Master data is something that we always encounter in a Data Warehouse project. This session will show how Master Data Services can be very beneficial in a DW project to help managing and maintain dimension's master data.",
   "_links": {
     "self": { "href": "/2013/sessions/microsoft-master-data-services-in-your-data-warehouse" },
     "event": { "href": "/2013/" },

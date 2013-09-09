@@ -1,6 +1,7 @@
 {
   "slug": "an-elixir-for-the-webs-future",
   "title": "An Elixir for the Web's Future",
+  "description": "The web has evolved; has your tech stack?\n\nThe evolution of the web has been fueled by hacks, workarounds, and abuses. This evolution has spawned many tools and techniques along the way. This talk will reflect on the web's history and what it means for the web's future. Armed with this knowledge we will examine the functional programming language Elixir and how its philosophy so perfectly fits the future of the web. The technical part of the talk will examine the architecture of an example JavaScript (Backbone) application using websockets for real time communication and collaboration with an Elixir backend.\n\nNo functional programming, websockets, or particular language experience is assumed, however some web programing experience is recommended.",
   "_links": {
     "self": { "href": "/2013/sessions/an-elixir-for-the-webs-future" },
     "event": { "href": "/2013/" },

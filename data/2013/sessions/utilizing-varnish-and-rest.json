@@ -1,6 +1,7 @@
 {
   "slug": "utilizing-varnish-and-rest",
   "title": "Utilizing Varnish and REST: Accelerate Performance while Maintaining Coherence",
+  "description": "REST is now the standard method of interacting between systems, however many service implementations are still stuck in a SOAP style approach. In this talk I will present the Richardson Maturity Model, how conditional PUTs and GETs can be used in concurrent system and finish up with discussing Varnish. Varnish is a reverse proxy which has many features that help to accelerate your REST services even when you clients are simple.",
   "_links": {
     "self": { "href": "/2013/sessions/utilizing-varnish-and-rest" },
     "event": { "href": "/2013/" },

@@ -1,6 +1,7 @@
 {
   "slug": "r",
   "title": "R: a Brief Introduction",
+  "description": "R, a brief introduction to R, an open source language for statistical processing",
   "_links": {
     "self": { "href": "/2013/sessions/r" },
     "event": { "href": "/2013/" },

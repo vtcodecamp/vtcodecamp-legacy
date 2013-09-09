@@ -2,6 +2,7 @@
   "slug": "bradley-holt",
   "firstName": "Bradley",
   "lastName": "Holt",
+  "bio": "Bradley Holt is Co-Founder and Technical Director at Found Line, a creative services studio with design and development capabilities in web, print, and mobile. He is co-organizer of Code for BTV, a Code for America Brigade and helped to organize the National Day of Civic Hacking in Burlington, Vermont. He also organizes or co-organizes the Burlington, Vermont PHP Users Group, Vermont Code Camp, BTV Gig, and the Northeast PHP Conference. He serves as Board Chair at Vermont Community Access Media (VCAM)—a non-profit community media and technology center. He serves on the Mayor's US Ignite Advisory Committee. He has authored several publications including Writing and Querying MapReduce Views in CouchDB (O'Reilly Media), Scaling CouchDB (O'Reilly Media), PHP 5.4 Cheat Sheet (DZone Refcardz), and Building a Hypermedia API in CouchDB (php|architect). He has spoken at numerous conferences including SXSW Interactive, OSCON, the jQuery Conference, ZendCon, and CouchConf.",
   "_links": {
     "self": { "href": "/2013/speakers/bradley-holt" },
     "twitter": { "href": "https://twitter.com/BradleyHolt", "title": "BradleyHolt" }

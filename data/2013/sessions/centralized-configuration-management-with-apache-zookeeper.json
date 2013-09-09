@@ -1,6 +1,7 @@
 {
   "slug": "centralized-configuration-management-with-apache-zookeeper",
   "title": "Centralized Configuration Management with Apache ZooKeeper",
+  "description": "Apache Zookeeper is an open-source project originally created to provide Apache Hadoop instances with highly reliable distributed coordination. It has since evolved into a centralized service provider for other concerns, such as configuration, naming, distributed synchronization and group services that can be utilized by applications other than Hadoop. By leveraging ZooKeeper, we at [Dealer.com](http://www.dealer.com/) have built a centralized, remote configuration service that provides consistent, flexible and accountable configurations to applications in our enterprise. This talk will focus on why Apache ZooKeeper was a great fit for our centralized configuration service and how we put the pieces together to solve our configuration management issues.",
   "_links": {
     "self": { "href": "/2013/sessions/centralized-configuration-management-with-apache-zookeeper" },
     "event": { "href": "/2013/" },

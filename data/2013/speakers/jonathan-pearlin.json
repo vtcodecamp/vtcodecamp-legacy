@@ -2,6 +2,7 @@
   "slug": "jonathan-pearlin",
   "firstName": "Jonathan",
   "lastName": "Pearlin",
+  "bio": "Technical Lead @ [Dealer.com](http://www.dealer.com/) with 10+ years of software engineering experience. Focusing primarily on Java and JVM languages such as Groovy, I am an equal-opportunity, full-stack developer. I am also a contributor to the Grails web framework open source project in my spare time.",
   "_links": {
     "self": { "href": "/2013/speakers/jonathan-pearlin" }
   }

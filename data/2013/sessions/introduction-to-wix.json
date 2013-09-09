@@ -1,6 +1,7 @@
 {
   "slug": "introduction-to-wix",
   "title": "Introduction to WiX (Windows Installer XML)",
+  "description": "An introduction to Windows Installer XML. Will describe what WiX is, how it works, and will walk through the creation of a sample application with a WiX based installer.",
   "_links": {
     "self": { "href": "/2013/sessions/introduction-to-wix" },
     "event": { "href": "/2013/" },

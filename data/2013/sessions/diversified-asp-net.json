@@ -1,6 +1,7 @@
 {
   "slug": "diversified-asp-net",
   "title": "Diversified ASP.NET - One Web Project - 4 ASP.NET Frameworks",
+  "description": "In this talk I will show you each of the 4 major code frameworks from Microsoft in ASP.NET (WebForms, MVC, WebAPI, and SignalR — what Microsoft refers to as 'One ASP.NET') and put together a sample web application that uses each of these frameworks in a cohesive solution. Our discussion will define the benefits and drawbacks of each framework, leading into a live coding session of our sample project. You will learn to craft simpler, faster, and more testable solutions.",
   "_links": {
     "self": { "href": "/2013/sessions/diversified-asp-net" },
     "event": { "href": "/2013/" },

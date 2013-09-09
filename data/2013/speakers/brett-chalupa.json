@@ -2,6 +2,7 @@
   "slug": "brett-chalupa",
   "firstName": "Brett",
   "lastName": "Chalupa",
+  "bio": "Brett Chalupa is a Burlington based developer who creates software for clients and for fun. He is an organizer of the Burlington Ruby Conference and the Burlington Ruby user group.",
   "_links": {
     "self": { "href": "/2013/speakers/brett-chalupa" },
     "twitter": { "href": "https://twitter.com/brettchalupa", "title": "brettchalupa" }

@@ -1,6 +1,7 @@
 {
   "slug": "beyond-the-box",
   "title": "Beyond the Box: Distributed Programming with ZeroMQ",
+  "description": "As fast and powerful as the PC has become, it's still not enough. Modern computing demands moving code up and out — from threads to processes to machines to clusters. To do so intelligently requires solid tools and flexible techniques. In this example-driven talk, you'll learn how ZeroMQ, a library for distributed computing, provides the means to rise up to the challenges of modern computing. In particular, we will explore how a language-agnostic, pattern-based approach to message exchange may be used to deliver sophisticated and compelling distributed programming solutions.",
   "_links": {
     "self": { "href": "/2013/sessions/beyond-the-box" },
     "event": { "href": "/2013/" },

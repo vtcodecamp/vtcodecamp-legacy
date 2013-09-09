@@ -2,6 +2,7 @@
   "slug": "everett-mckay",
   "firstName": "Everett",
   "lastName": "McKay",
+  "bio": "Everett McKay is Principal of UX Design Edge, a user experience design training and consulting firm based in St. Albans, Vermont. UX Design Edge's flagship course is UX Design Essentials Workshop, a three-day onsite course where your team members can improve their UX design skills \"by doing\" by redesigning your own app or site. UX Design Edge is offering a three-day UX Design Essentials class in Burlington on October 15 - 17.\n\nEverett is the author of the just-published \"UI is Communication: How to Design Intuitive, User Centered Interfaces by Focusing on Effective Communication\". Previously, Everett was a program manager at Microsoft on the Windows 7 and Windows Vista teams, and was responsible for the Windows User Experience Interaction Guidelines.",
   "_links": {
     "self": { "href": "/2013/speakers/everett-mckay" },
     "twitter": { "href": "https://twitter.com/UXDesignEdge", "title": "UXDesignEdge" }

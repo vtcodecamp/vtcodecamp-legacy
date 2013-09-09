@@ -2,6 +2,7 @@
   "slug": "jeff-fritz",
   "firstName": "Jeff",
   "lastName": "Fritz",
+  "bio": "Jeffrey T. Fritz is a Microsoft MVP, an ASPInsider and Developer Evangelist for Telerik with over 15 years of experience building large-scale multi-tenant web applications in the software-as-a-service model. He is a Penn State graduate with a degree in Management Sciences and Information Systems, and speaks regularly at developer events through the INETA speaker program. Most recently, you can find him writing about ASP.NET in MSDN Magazine and CodeProject. He is currently producing Pluralsight videos about ASP.NET application design and architecture.",
   "_links": {
     "self": { "href": "/2013/speakers/jeff-fritz" },
     "twitter": { "href": "https://twitter.com/csharpfritz", "title": "csharpfritz" }

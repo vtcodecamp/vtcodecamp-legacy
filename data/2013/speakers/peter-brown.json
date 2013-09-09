@@ -2,6 +2,7 @@
   "slug": "peter-brown",
   "firstName": "Peter",
   "lastName": "Brown",
+  "bio": "Peter is a Burlington, VT based web developer at Agilion with a strong passion for software craftsmanship and cats.",
   "_links": {
     "self": { "href": "/2013/speakers/peter-brown" },
     "twitter": { "href": "https://twitter.com/beerlington", "title": "beerlington" }

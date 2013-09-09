@@ -2,6 +2,7 @@
   "slug": "kevin-thorley",
   "firstName": "Kevin",
   "lastName": "Thorley",
+  "bio": "Kevin Thorley is a Principal on the Web Platform Architecture team at [Dealer.com](http://www.dealer.com/). He has been developing enterprise Java applications for 13 years, spending much of the last 3 years focused on both the development and operational challenges associated with running over ten thousand public-facing websites on a single platform. His current interests revolve around building high performance, stable applications, as well as tuning and improving existing applications. Kevin lives in Colchester, VT with his wife and two children.",
   "_links": {
     "self": { "href": "/2013/speakers/kevin-thorley" },
     "twitter": { "href": "https://twitter.com/kevinthorley", "title": "kevinthorley" }

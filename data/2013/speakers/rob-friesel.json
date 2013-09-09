@@ -2,6 +2,7 @@
   "slug": "rob-friesel",
   "firstName": "Rob",
   "lastName": "Friesel",
+  "bio": "Rob Friesel is passionate about front-end development and has been described as a JavaScript pedant. He is a 10-year veteran of [Dealer.com](http://www.dealer.com/) and has been a technical reviewer on four books, including \"Professional JavaScript for Web Developers (3rd Ed.)\" and \"Functional JavaScript\".",
   "_links": {
     "self": { "href": "/2013/speakers/rob-friesel" },
     "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }

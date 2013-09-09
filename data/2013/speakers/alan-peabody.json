@@ -2,6 +2,7 @@
   "slug": "alan-peabody",
   "firstName": "Alan",
   "lastName": "Peabody",
+  "bio": "Alan is a developer at Agilion and a believer in the web as a platform. He is passionate about open source and addicted to learning. He plays an active role in the local development community, and can often be found learning and speaking at btvwag, Burlington Ruby, BurlingtonJS, and VT Fun.",
   "_links": {
     "self": { "href": "/2013/speakers/alan-peabody" },
     "twitter": { "href": "https://twitter.com/alanpeabody", "title": "alanpeabody" }

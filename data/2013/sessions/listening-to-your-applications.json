@@ -1,6 +1,7 @@
 {
   "slug": "listening-to-your-applications",
   "title": "Listening to Your Applications: Understanding the Performance Characteristics of Your Applications in the Production Environment",
+  "description": "Once your application is deployed into production, how do you go beyond the basic \"is it up\" type of metrics to truly understand how it is operating? Maybe you have some more advanced metrics being collected, request logs being stored, and an application or error log. What are these things telling you? How can you use these simple tools to build a model of how your application performs under load, who is using it, what parts are used most frequently, and where you can spend time tuning?\n\nThis talk will look at real world examples of using existing information from our applications to understand their performance and usage characteristics. We will look at ways to collect the data, simple ways to slice and dice it from the command line, then dive in a little deeper and look at using tools such as R to do more advanced data analysis. We will also work to build out a \"wish list\" of additional capabilities that we can build into our applications in order to get even more use data out of them.",
   "_links": {
     "self": { "href": "/2013/sessions/listening-to-your-applications" },
     "event": { "href": "/2013/" },

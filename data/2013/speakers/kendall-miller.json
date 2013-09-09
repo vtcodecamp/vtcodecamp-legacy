@@ -2,6 +2,7 @@
   "slug": "kendall-miller",
   "firstName": "Kendall",
   "lastName": "Miller",
+  "bio": "Kendall Miller is one of the founding partners of Gibraltar Software, an Independent Software Vendor (ISV) that develops & markets commercial applications for .NET developers. Introduced commercially in 2009, Loupe is an application logging & monitoring platform that is currently used by customers around the world from individual consultants through Fortune 100 companies and governments. Before starting Gibraltar Software, Kendall worked for multiple startups leading their technology development from beginning through profitability. In each case he's focused on translating enterprise-level performance and capabilities down to smaller companies. Kendall has a B.S in Computer Engineering from the University of Illinois, Urbana-Champaign.",
   "_links": {
     "self": { "href": "/2013/speakers/kendall-miller" },
     "twitter": { "href": "https://twitter.com/kendallmiller", "title": "kendallmiller" }

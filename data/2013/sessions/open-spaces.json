@@ -1,6 +1,7 @@
 {
   "slug": "open-spaces",
   "title": "Open Spaces - Software Entrepreneurship",
+  "description": "An open collaborative discussion around startups, software vendors, consulting companies, and general entrepreneurship in software. Following on from Peaks and Pitfalls of Commercial Software, discuss your ideas and experiences in making your idea a reality.",
   "_links": {
     "self": { "href": "/2013/sessions/open-spaces" },
     "event": { "href": "/2013/" },

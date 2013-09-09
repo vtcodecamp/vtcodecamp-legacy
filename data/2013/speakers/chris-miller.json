@@ -2,6 +2,7 @@
   "slug": "chris-miller",
   "firstName": "Chris",
   "lastName": "Miller",
+  "bio": "Chris Miller is a Senior R&D Engineer for Tyler Technologies currently working with web services using ASP.NET MVC and mobile development using Xamarin Studio. He is newly minted Microsoft MVP for Visual Studion and is a Xamarin Certified Mobile Developer. He's @[Anotherlab](https://twitter.com/anotherlab) on Twitter and blogs at [http://anotherlab.rajapet.net/](http://anotherlab.rajapet.net/).",
   "_links": {
     "self": { "href": "/2013/speakers/chris-miller" },
     "twitter": { "href": "https://twitter.com/anotherlab", "title": "anotherlab" }

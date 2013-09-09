@@ -1,6 +1,7 @@
 {
   "slug": "getting-started-with-f",
   "title": "Getting Started with F#",
+  "description": "In this talk, we'll go over the fundamental concepts of F#, and functional programming in general; you'll get up to speed on the benefits and use cases of F#; and become familiarized with the language features, syntax, and constructs through a few simple examples. By the end of this talk, you'll be ready to jump into F# development.\n\nAsk lots of questions. :)",
   "_links": {
     "self": { "href": "/2013/sessions/getting-started-with-f" },
     "event": { "href": "/2013/" },

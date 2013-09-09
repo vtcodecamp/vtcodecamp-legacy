@@ -2,6 +2,7 @@
   "slug": "adam-bouchard",
   "firstName": "Adam",
   "lastName": "Bouchard",
+  "bio": "Adam is the CEO of Agilion, a local web and mobile application consultancy. He is a product innovator who enjoys helping customers implement the right product/market fit. Adam's passion is recognizing patterns, opportunities, bringing together talented individuals and creating elegant solutions across various business domains. Adam's been developing web applications in Ruby on Rails since 2007, and enjoys staying on the cutting edge intersection between business and technology.",
   "_links": {
     "self": { "href": "/2013/speakers/adam-bouchard" },
     "twitter": { "href": "https://twitter.com/adambouchard", "title": "adambouchard" }
