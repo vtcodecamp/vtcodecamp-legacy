@@ -329,6 +329,10 @@ header.page .meta .location {
     height: 89px;
     background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
 }
+.logo.ux-design-edge {
+    height: 24px;
+    background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
