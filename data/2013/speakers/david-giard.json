@@ -1,0 +1,10 @@
+{
+  "slug": "david-giard",
+  "firstName": "David",
+  "lastName": "Giard",
+  "bio": "David Giard is a former accountant and a former biochemist, who has been developing solutions using Microsoft technologies for over 2 decades. He is a Microsoft MVP; an ASP.NET Insider, an Azure Insider, a member of the INETA Board of Directors; and on the leadership teams of the Great Lakes Area .NET User Group and the Ann Arbor Day of .NET. David has presented at dozens of conferences and user groups around the country. He is the host and producer of the mildly popular online TV show Technology and Friends. He is the co-author of the Wrox book Real World .NET, C#, and Silverlight. You can read his latest thoughts at [www.DavidGiard.com](http://www.davidgiard.com/). David lives in Michigan with his two sons.",
+  "_links": {
+    "self": { "href": "/2013/speakers/david-giard" },
+    "twitter": { "href": "https://twitter.com/DavidGiard", "title": "DavidGiard" }
+  }
+}

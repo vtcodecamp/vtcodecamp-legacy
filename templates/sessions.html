@@ -23,7 +23,9 @@
             {% if session._embedded.level is defined %}
             <p class="level">{{ session._embedded.level.title }} <small>({{ session._embedded.level.description }})</small></p>
             {% endif %}
+            {% if session.description is defined %}
             {{ session.description|markdown }}
+            {% endif %}
             {% if session._links.resource is defined %}
             <p>Resources:</p>
             <ul>

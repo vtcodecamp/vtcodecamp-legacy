@@ -1,0 +1,8 @@
+{
+  "slug": "parlor",
+  "title": "Parlor",
+  "order": 6,
+  "_links": {
+    "self": { "href": "/2013/spaces/parlor" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "eric-basile",
+  "firstName": "Eric",
+  "lastName": "Basile",
+  "bio": "Eric Basile is an Engineer at Hitpoint studios in Amherst Massachusetts, where he's worked on titles for iOS and Windows 8. Eric earned his undergrad in Game Programming from Champlain College right here, in Burlington VT. Eric has been attending code camp since its second iteration however, this is his first time presenting.",
+  "_links": {
+    "self": { "href": "/2013/speakers/eric-basile" },
+    "twitter": { "href": "https://twitter.com/Samurai336", "title": "Samurai336" }
+  }
+}

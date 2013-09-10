@@ -1,0 +1,9 @@
+{
+  "slug": "john-cicilio",
+  "firstName": "John",
+  "lastName": "Cicilio",
+  "bio": "John Cicilio works as a Software Architect at MyWebGrocer. John has a passion for the intersection of science, mathematics and technology. Recently the area of Domain Specific Languages has been a keen interest.",
+  "_links": {
+    "self": { "href": "/2013/speakers/john-cicilio" }
+  }
+}

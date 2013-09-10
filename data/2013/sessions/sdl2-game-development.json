@@ -1,0 +1,15 @@
+{
+  "slug": "sdl2-game-development",
+  "title": "SDL2 Game Development",
+  "description": "Simple DirectMedia Layer is a cross-platform development library designed to provide low-level access to audio, system input, and graphics hardware. It is used by video playback software, emulators, and popular games such as Valve's award winning catalog and many Humble Bundle games. Therefore, they are available on platforms such Windows, Mac OS X, Linux, iOS, and Android. With the advent of SDL2.0, its value, capabilities, and relevance to game developers have never been greater. The goal of this lecture is to give the audience a basic introduction to SDL2.0 with C++ and a foundation for further development with it. The lecture will start with an overview of the library's history and feature set, which include reasons and context for using SDL. From there, we will do a brief overview of creating a build system with cmake. We will then move on to the API basics of creating an SDL window and Render Context. Next, we will demonstrate how to draw a 2D object on the screen using the SDL Image library. Afterwards, we will cover listening to input event handling. Lastly, we will cover how to use SDL_Mixer to play sounds and audio. The lecture will end with demonstrations of executing code, the listing of further resources, and additional questions.",
+  "_links": {
+    "self": { "href": "/2013/sessions/sdl2-game-development" },
+    "event": { "href": "/2013/" },
+    "space": { "href": "/2013/spaces/room-5" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/eric-basile" }
+    ]
+  }
+}

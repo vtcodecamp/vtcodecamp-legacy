@@ -1,0 +1,10 @@
+{
+  "slug": "rachel-reese",
+  "firstName": "Rachel",
+  "lastName": "Reese",
+  "bio": "Rachel Reese is a long-time software engineer and math geek who has recently relocated to the lovely Burlington, Vermont. She runs the local functional programming user group, @[VTFun](https://twitter.com/VTFun), which is a constant source of inspiration to her, and at which she often speaks on F#. She's also an ASPInsider, an F# MVP, a community enthusiast, one of the founding @[lambdaladies](https://twitter.com/lambdaladies), and a Rachii. You can find her on twitter, @[rachelreese](https://twitter.com/rachelreese), or on her blog: [rachelree.se](http://rachelree.se/).",
+  "_links": {
+    "self": { "href": "/2013/speakers/rachel-reese" },
+    "twitter": { "href": "https://twitter.com/rachelreese", "title": "rachelreese" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "paul-blasucci",
+  "firstName": "Paul",
+  "lastName": "Blasucci",
+  "bio": "Paul Michael Blasucci is a researcher at Bayard Rock in New York City. He uses .NET (and has been since its beta days) as part of his work such diverse industries as high-end electronics, automated stock trading, and entity resolution research. As a passionate – yet pragmatic – functional programming enthusiast, he has spent the past several years employing a \"functional-first\" methodology to develop compelling solutions to a wide range of business problems. He especially enjoys solving challenges in distributed computing, applied linguistics, and heterogeneous enterprise systems. When not working, he may be found answering questions on Stack Overflow, hacking on various open-source projects (check out [https://github.com/pblasucci](https://github.com/pblasucci)), or taking part in discussions on Microsoft's \"F# Insiders\" mailing list. He is also a co-organizer of the New York City F# Users Group.",
+  "_links": {
+    "self": { "href": "/2013/speakers/paul-blasucci" },
+    "twitter": { "href": "https://twitter.com/pblasucci", "title": "pblasucci" }
+  }
+}

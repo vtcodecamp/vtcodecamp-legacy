@@ -1,0 +1,16 @@
+{
+  "slug": "history-of-a-thriving-codebase",
+  "title": "History of a Thriving Codebase",
+  "description": "Reducing the effort to maintain a codebase is more important than reducing the initial effort to write it. We follow best practices like test driven development with the hope of minimizing bugs and making our applications easier to extend over time. While these techniques will take us far, why should we limit our efforts to just the code? In this talk we'll examine how the history of our code acts as a story to future developers, and the effect it has on our maintenance efforts. We'll explore Git techniques such as committing, branching, bisecting, and rebasing, to demonstrate how we can boost productivity in an evolving codebase. You'll discover how small changes to your development workflow today can have a huge impact on the future of your application.",
+  "_links": {
+    "self": { "href": "/2013/sessions/history-of-a-thriving-codebase" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/practices" },
+    "space": { "href": "/2013/spaces/room-4" },
+    "timePeriod": { "href": "/2013/time-periods/1615" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/peter-brown" }
+    ]
+  }
+}

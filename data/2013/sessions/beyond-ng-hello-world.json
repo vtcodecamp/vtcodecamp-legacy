@@ -1,0 +1,16 @@
+{
+  "slug": "beyond-ng-hello-world",
+  "title": "Beyond \"ng-hello-world\": Building Real World Web Apps with AngularJS",
+  "description": "AngularJS is an open-source front-end MVC framework from Google for dynamic web apps. On top of the customary MVC features, AngularJS has a rich vocabulary of components including services for code sharing, filters for view layer data transformation, and directives for extending HTML. At [Dealer.com](http://www.dealer.com/), we recently built a centralized remote configuration service and we chose AngularJS to handle the user interface concerns. This talk will provide a high-level introduction to AngularJS, discuss the front-end challenges we faced, and describe how we solved those problems with AngularJS.",
+  "_links": {
+    "self": { "href": "/2013/sessions/beyond-ng-hello-world" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/1615" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/rob-friesel" }
+    ]
+  }
+}

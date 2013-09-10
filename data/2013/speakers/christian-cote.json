@@ -1,0 +1,10 @@
+{
+  "slug": "christian-cote",
+  "firstName": "Christian",
+  "lastName": "Coté",
+  "bio": "Christian Coté is an IT professional with more than 14 years of experience working on business intelligence projects. Christian has been a presenter at a number of conferences and code camps. He currently co-leads the SQL Server PASS chapter in Montreal.",
+  "_links": {
+    "self": { "href": "/2013/speakers/christian-cote" },
+    "twitter": { "href": "https://twitter.com/Christian_SQL", "title": "Christian_SQL" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "terrence-dorsey",
+  "firstName": "Terrence",
+  "lastName": "Dorsey",
+  "bio": "Terrence Dorsey is the Directory of Content Development at [CodeProject.com](http://www.codeproject.com/). Previously a Senior Editor for MSDN Magazine and TechNet Magazine, Terrence is a career technical writer and editor.",
+  "_links": {
+    "self": { "href": "/2013/speakers/terrence-dorsey" },
+    "twitter": { "href": "https://twitter.com/tpdorsey", "title": "tpdorsey" }
+  }
+}

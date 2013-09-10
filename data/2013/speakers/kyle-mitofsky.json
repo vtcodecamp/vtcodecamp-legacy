@@ -1,0 +1,10 @@
+{
+  "slug": "kyle-mitofsky",
+  "firstName": "Kyle",
+  "lastName": "Mitofsky",
+  "bio": "Kyle has been developing software applications for the State of Vermont for more than 72 weeks! (sounds better than a little over a year). He's interested in desktop, mobile, and web development technologies, especially if they're on the .NET stack. He blogs about coding at [http://codingeverything.blogspot.com/](http://codingeverything.blogspot.com/).",
+  "_links": {
+    "self": { "href": "/2013/speakers/kyle-mitofsky" },
+    "twitter": { "href": "https://twitter.com/Kylemit2", "title": "Kylemit2" }
+  }
+}

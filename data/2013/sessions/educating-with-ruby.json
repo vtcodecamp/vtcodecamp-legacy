@@ -1,0 +1,16 @@
+{
+  "slug": "educating-with-ruby",
+  "title": "Educating with Ruby - Why Ruby is a Great Language for Teaching Programming",
+  "description": "Java, JavaScript, Python, C, C++, C#, Objective-C, Lua, F#, the list goes on and on. There are quite literally dozens of programming languages out there, each with their own role in the world of computer science. However, some languages are much more difficult to learn than others (sometimes due to confusing syntax, confusing compilers & IDEs, etc.). There is one language, though, that is perfect for those new to programming - Ruby.\n\nRuby is an expressive, open-source, object-oriented language that is actually fun to program in. \"Educating with Ruby\" dives into what makes Ruby so beginner friendly, tools and resources for teaching Ruby, what anyone can make with it and how it can be used in personal and professional projects.",
+  "_links": {
+    "self": { "href": "/2013/sessions/educating-with-ruby" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/language" },
+    "space": { "href": "/2013/spaces/room-3" },
+    "timePeriod": { "href": "/2013/time-periods/1445" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/brett-chalupa" }
+    ]
+  }
+}
