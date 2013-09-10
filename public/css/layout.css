@@ -345,6 +345,11 @@ header.page .meta .location {
     height: 32px;
     background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
 }
+.logo.pearson-user-groups {
+    width: 100px;
+    height: 100px;
+    background-image: url(/media/sponsors/Pearson-User-Groups-logo-100x100.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
