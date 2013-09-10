@@ -1,0 +1,16 @@
+{
+  "slug": "build-working-software-faster",
+  "title": "Build Working Software Faster",
+  "description": "This session touches on the grey intersection between what turns your software idea into a working product. Regardless of your style of software development methodology: kanban, agile, waterfall or some form of cowboy coding… we'll discuss techniques and case studies that can help bring your software idea to life. Hint: \"…plans are useless, but planning is indispensable\" - Dwight D. Eisenhower.",
+  "_links": {
+    "self": { "href": "/2013/sessions/build-working-software-faster" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/practices" },
+    "space": { "href": "/2013/spaces/room-4" },
+    "timePeriod": { "href": "/2013/time-periods/0900" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/adam-bouchard" }
+    ]
+  }
+}

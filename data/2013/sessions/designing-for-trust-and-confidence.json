@@ -1,0 +1,16 @@
+{
+  "slug": "designing-for-trust-and-confidence",
+  "title": "Designing for Trust and Confidence",
+  "description": "Do you have an app, site, or online service that you think is well designed and solves a real problem, but people aren't using it? It could be that people simply don't trust it or lack confidence using it. Trust is a relationship that our products must earn with our users, yet all too often we take their trust for granted. We shouldn't—if users don't trust your product nothing else matters.\n\nIn this talk, Everett will present the design elements required for trustworthy UI, show how to design UIs that build trust and confidence, and show many examples and makeovers.",
+  "_links": {
+    "self": { "href": "/2013/sessions/designing-for-trust-and-confidence" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/100" },
+    "speaker": [
+      { "href": "/2013/speakers/everett-mckay" }
+    ]
+  }
+}

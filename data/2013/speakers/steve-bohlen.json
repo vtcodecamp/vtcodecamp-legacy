@@ -1,0 +1,10 @@
+{
+  "slug": "steve-bohlen",
+  "firstName": "Steve",
+  "lastName": "Bohlen",
+  "bio": "Currently a Senior Technology Evangelist for Microsoft Corporation, Stephen brings his varied 20-plus years of experience in software and technology to assist select Microsoft Partner organizations in their adoption of cutting-edge and pre-release Microsoft developer products and technologies.",
+  "_links": {
+    "self": { "href": "/2013/speakers/steve-bohlen" },
+    "twitter": { "href": "https://twitter.com/sbohlen", "title": "sbohlen" }
+  }
+}

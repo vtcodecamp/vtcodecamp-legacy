@@ -1,0 +1,14 @@
+{
+  "slug": "programming-approaches-for-creating-depth-in-2d-games",
+  "title": "Programming Approaches for Creating Depth in 2D Games",
+  "description": "Gain a new perspective on old concepts by applying the study of monocular cues to visual depth in 2D game development. The presentation looks at the familiar topics like perspective and parallax, reviews their use in games and traditional animation, then explores ways programs might aid artists in the application of additional monocular cues to strengthen the player's perception of depth.",
+  "_links": {
+    "self": { "href": "/2013/sessions/programming-approaches-for-creating-2d-games" },
+    "event": { "href": "/2013/" },
+    "space": { "href": "/2013/spaces/room-5" },
+    "timePeriod": { "href": "/2013/time-periods/1445" },
+    "speaker": [
+      { "href": "/2013/speakers/john-pile" }
+    ]
+  }
+}

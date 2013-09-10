@@ -1,0 +1,9 @@
+{
+  "slug": "snacks",
+  "title": "Snacks",
+  "_links": {
+    "self": { "href": "/2013/sessions/snacks" },
+    "event": { "href": "/2013/" },
+    "timePeriod": { "href": "/2013/time-periods/1545" }
+  }
+}

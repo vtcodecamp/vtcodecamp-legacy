@@ -1,0 +1,15 @@
+{
+  "slug": "peaks-and-pitfalls-in-creating-commercial-software",
+  "title": "Peaks and Pitfalls in Creating Commercial Software",
+  "description": "Kendall Miller, Co-founder of Gibraltar Software (A Baltimore-based Independent Software Vendor) pulls back the curtain and talks about the challenges and difficult decisions that come along with creating a business around commercial software.\n\n * Creating Product Strategy — One of these three doors is the path to greatness, the other two go nowhere. Guess which.\n * Connecting with Customers — Trying to not be the best product no one ever heard of.\n * Finding the Right Talent — Collecting the team to knock it out of the park\n\nWe'll go through real examples from the history of our software products — things that have worked out and things that have gone awry. Sometimes comical, sometimes tragic — it's never boring when you're building your reputation and your company.",
+  "_links": {
+    "self": { "href": "/2013/sessions/peaks-and-pitfalls-in-creating-commercial-software" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/biz-meta" },
+    "space": { "href": "/2013/spaces/room-2" },
+    "timePeriod": { "href": "/2013/time-periods/1015" },
+    "speaker": [
+      { "href": "/2013/speakers/kendall-miller" }
+    ]
+  }
+}

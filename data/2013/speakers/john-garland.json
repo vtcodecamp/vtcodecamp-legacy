@@ -1,0 +1,10 @@
+{
+  "slug": "john-garland",
+  "firstName": "John",
+  "lastName": "Garland",
+  "bio": "John Garland is a Senior Consultant at Wintellect and has been developing software professionally since the 1990's. Prior to consulting, he spent much of his career working on high-performance video and statistical analysis tools for premier sports teams, with an emphasis on the NFL, the NBA, and Division 1 NCAA Football and Basketball. His consulting clients range from small businesses to Fortune-500 companies and his work has been featured at Microsoft conference keynotes and sessions. John lives in New Hampshire with his wife and daughter, where he is an active participant in the New England development community. When he isn't finding cause for yet another upgrade to some piece of home technology, he occasionally turns to motorcycling and Florida Gator Football to unplug. He is a graduate of the University of Florida with a Bachelor's degree in Computer Engineering. John holds several current Microsoft Certifications, including MCPD — Windows Phone Developer, Windows Developer 4, & Windows Azure Developer, and MCTS — Silverlight 4 Development, and Programming in C# Specialist. John is the author of the book \"Windows Store Apps Succinctly\", available through Syncfusion.",
+  "_links": {
+    "self": { "href": "/2013/speakers/john-garland" },
+    "twitter": { "href": "https://twitter.com/dotnetgator", "title": "dotnetgator" }
+  }
+}

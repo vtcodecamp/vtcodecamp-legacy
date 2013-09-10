@@ -1,0 +1,10 @@
+{
+  "slug": "john-pile",
+  "firstName": "John",
+  "lastName": "Pile",
+  "bio": "John Pile is an assistant professor of game programming at Champlain College, where he teaches courses in graphics programming, game physics, game networking, and iPhone game development. He has over a 15 years of experience as a programmer and game developer. He was a multiplatform engineer on the team that developed the 2009 BAFTA Scotland Game of the Year, *Flock!*, and the acclaimed repackaging of CAPCOM's *Final Flight: Double Impact*. He earned an MS in computer games technology from the University of Abertay.\n\nJohn is the author of \"2D Graphics Programming for Games\", published in 2013 by AK Peters/CRC Press.\n\nWhen not teaching, John continues to develop games as an Indie Developer.",
+  "_links": {
+    "self": { "href": "/2013/speakers/john-pile" },
+    "twitter": { "href": "https://twitter.com/JohnPile", "title": "JohnPile" }
+  }
+}

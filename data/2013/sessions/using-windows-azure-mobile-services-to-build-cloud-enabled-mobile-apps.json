@@ -1,0 +1,16 @@
+{
+  "slug": "using-windows-azure-mobile-services-to-build-cloud-enabled-mobile-apps",
+  "title": "Using Windows Azure Mobile Services to Build Cloud-Enabled Mobile Apps",
+  "description": "In addition to the tremendous amount of power available in today's mobile computing devices, the abundant availability of network connectivity provides the ability to create extremely rich and robust apps that take advantage of resources in the cloud. However, many mobile app developers often are constrained by limited time and financial resources and cannot afford to invest large amounts of either to set up an elaborate back-end to support their apps' needs. This session will introduce Windows Azure Mobile Services and how it can be used to quickly support the cloud-integration needs of most mobile apps, including data storage and manipulation, authentication and authorization, connection to notification services, access to messaging services, and custom server-based job scheduling.",
+  "_links": {
+    "self": { "href": "/2013/sessions/using-windows-azure-mobile-services-to-build-cloud-enabled-mobile-apps" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/1330" },
+    "level": { "href": "/2013/levels/200" },
+    "speaker": [
+      { "href": "/2013/speakers/john-garland" }
+    ]
+  }
+}

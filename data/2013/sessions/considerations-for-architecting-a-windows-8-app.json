@@ -1,0 +1,15 @@
+{
+  "slug": "considerations-for-architecting-a-windows-8-app",
+  "title": "Considerations for Architecting a Windows 8 App",
+  "description": "Are you new to Windows 8 Development? In the late 90's, every company realized they needed a website. Today, ever company needs apps. History does indeed repeat itself. See how to architect your first Windows 8 app. We will use what I learned when creating a real world app from scratch: .NET Gurus Can Cook, which contains recipes from famous influentials in the software industry such as Scott Hanselman, Mary Jo Foley, John Papa, Julie Lerman and Scott Guthrie. Join Microsoft Windows 8 Key Influencer and ComponentOne Developer Evangelist, Russ Fustino, in this session and learn the new programming paradigm for creating Windows 8 style apps. You will learn how to build an application that incorporates many of the key characteristics of a killer Windows 8 style app, including: A modern UI user experience that leverages the signature Windows 8 controls such as GridView, ListView, FlipView, AppBar, Semantic Zoom and other Windows 8 controls, device orientation and use of the Charms for Sharing and searching.",
+  "_links": {
+    "self": { "href": "/2013/sessions/considerations-for-architecting-a-windows-8-app" },
+    "event": { "href": "/2013/" },
+    "track": { "href": "/2013/tracks/app-dev" },
+    "space": { "href": "/2013/spaces/room-1" },
+    "timePeriod": { "href": "/2013/time-periods/0900" },
+    "speaker": [
+      { "href": "/2013/speakers/russ-fustino" }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "russ-fustino",
+  "firstName": "Russ",
+  "lastName": "Fustino",
+  "bio": "Russ Fustino is Head of Developer Evangelism at ComponentOne. He is a highly experienced Windows Phone and Windows 8 software developer with a passion for conveying relevant, current, and future software development technologies and tools through live seminars, teaching, and internet video productions. Russ is a Microsoft Windows 8 Key Influencer and is a recipient of the INETA Lifetime Achievement award. Russ has a new innovative blog and interview video series with influentials, about current technology, ComponentOne products and developer community called 'Russ Cam'! Check it out at [http://www.componentone.com/russcam](http://www.componentone.com/russcam).",
+  "_links": {
+    "self": { "href": "/2013/speakers/russ-fustino" },
+    "twitter": { "href": "https://twitter.com/russcamtv", "title": "russcamtv" }
+  }
+}
