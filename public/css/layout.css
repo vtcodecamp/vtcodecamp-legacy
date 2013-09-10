@@ -341,6 +341,10 @@ header.page .meta .location {
     height: 47px;
     background-image: url(/media/sponsors/CRC-Press-logo-150x47.jpg);
 }
+.logo.apress {
+    height: 32px;
+    background-image: url(/media/sponsors/Apress-logo-150x32.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
