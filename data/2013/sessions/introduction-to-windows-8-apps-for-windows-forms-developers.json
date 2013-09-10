@@ -1,7 +1,7 @@
 {
   "slug": "introduction-to-windows-8-apps-for-windows-forms-developers",
   "title": "Introduction to Windows 8 Apps for Windows Forms Developers",
-  "description": "Windows 8 provides a great new distribution mechanism over a touch centric API. This talk will focus on the differences between traditional desktop applications and new Windows Store apps. We'll leverage new controls to build an immersive application that meets Windows 8 Design Guidelines, by supporting app bars, settings panels, snapped layouts, and asynchronous programming. We'll even get to debug code on the SurfaceRT tablet provided by Microsoft to the .NET user group.",
+  "description": "Windows 8 provides a great new distribution mechanism over a touch centric API. This talk will focus on the differences between traditional desktop applications and new Windows Store apps. We'll build a couple small metro applications using VB/XAML while leveraging new controls to build an immersive application that meets Windows 8 Design Guidelines, by supporting app bars, settings panels, snapped layouts, and asynchronous calls. We'll even get to debug code on the SurfaceRT tablet provided by Microsoft to the .NET user group.",
   "_links": {
     "self": { "href": "/2013/sessions/introduction-to-windows-8-apps-for-windows-forms-developers" },
     "event": { "href": "/2013/" },
