@@ -337,6 +337,10 @@ header.page .meta .location {
     height: 24px;
     background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
 }
+.logo.crc-press {
+    height: 47px;
+    background-image: url(/media/sponsors/CRC-Press-logo-150x47.jpg);
+}
 article.resource {
     display: inline-block;
     margin: 0 2.0em 1.0em 0;
