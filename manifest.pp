@@ -13,7 +13,7 @@ class minimal-centos-60 {
     require => Package["epel-release"],
     provider => rpm,
     ensure => installed,
-    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-10.ius.el6.noarch.rpm"
+    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-11.ius.el6.noarch.rpm"
   }
 
   package { "httpd":

@@ -2,6 +2,7 @@
   "slug": "peter-vile",
   "firstName": "Peter",
   "lastName": "Vile",
+  "bio": "Peter Vile received his master degree from Colorado State University in computer science with a focus on software engineering specializing in distrubted systems and aspect oriented middleware. Since then he has been a developing web based solutions and services in the Java ecosystem in several domains such as defense, telecom and now automotive. Currently he works for [Dealer.com](http://www.dealer.com/) focused internal and external integration projects. While not chasing his two boys around he tries to stay up on messaging technologies and is currently dabbling in Scala.",
   "_links": {
     "self": { "href": "/2013/speakers/peter-vile" }
   }
