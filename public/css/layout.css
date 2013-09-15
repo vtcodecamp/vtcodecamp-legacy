@@ -81,66 +81,92 @@ header.page nav li a:focus {
     text-decoration: underline;
 }
 header.page .meta {
-    margin-top: 3em;
+    margin-top: 2em;
     padding-top: 0.4em;
     font-size: 0.55em;
     border-top: 1px dotted rgba(255, 255, 255, 0.3);
 }
 header.page .meta p {
+    font-size: 2.2em;
     color: #EEE;
 }
-header.page .meta .date-time,
-header.page .meta .location {
-    display: inline-block;
-    margin: 0 0.3em;
-    vertical-align: middle;
-}
-header.page .meta .day,
-header.page .meta .month,
-header.page .meta .date,
-header.page .meta .time {
+header.page .meta .date-time {
     display: block;
-    line-height: 1;
-    text-transform: uppercase;
-}
-header.page .meta .day,
-header.page .meta .time {
-    font-size: 0.8em;
-}
-header.page .meta .day {
-    margin-bottom: 0.3em;
-}
-header.page .meta .month,
-header.page .meta .date {
-    border: 2px solid #EEE;
     font-weight: bold;
-    color: #EEE;
-}
-header.page .meta .month {
-    padding: 0.3em 0.4em 0.2em;
-    background-color: #EEE;
-    border-bottom: none;
-    font-size: 1.3em;
-    color: #1595D3;
-}
-header.page .meta .date {
-    font-size: 2.5em;
-    padding: 0.2em 0.4em;
-    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
-    background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-    background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
-}
-header.page .meta .time {
-    margin-top: 0.3em;
 }
 header.page .meta .location {
-    font-size: 1.5em;
-    line-height: 1.1;
-    text-align: left;
+    color: #DDD;
 }
 @media all and (min-width: 480px) {
+    header.page .meta p {
+        font-size: 1.6em;
+    }
+    header.page .meta .date-time,
+    header.page .meta .location {
+        display: inline-block;
+        margin: 0 0.3em;
+        vertical-align: middle;
+    }
+    header.page .meta .date-time {
+        font-weight: normal;
+    }
+    header.page .meta .location {
+        color: #EEE;
+    }
+    header.page .meta .location .building,
+    header.page .meta .location small,
+    header.page .meta .day,
+    header.page .meta .month,
+    header.page .meta .date,
+    header.page .meta .time {
+        display: block;
+    }
+    header.page .meta .day,
+    header.page .meta .month,
+    header.page .meta .date,
+    header.page .meta .time {
+        line-height: 1;
+        text-transform: uppercase;
+    }
+    header.page .meta .day,
+    header.page .meta .time {
+        font-size: 0.8em;
+    }
+    header.page .meta .day {
+        margin-bottom: 0.3em;
+    }
+    header.page .meta .month,
+    header.page .meta .date {
+        border: 2px solid #EEE;
+        font-weight: bold;
+        color: #EEE;
+    }
+    header.page .meta .month {
+        padding: 0.3em 0.4em 0.2em;
+        background-color: #EEE;
+        border-bottom: none;
+        font-size: 1.3em;
+        color: #1595D3;
+    }
+    header.page .meta .date {
+        font-size: 2.5em;
+        padding: 0.2em 0.4em;
+        background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.2)));
+        background-image: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -ms-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+        background-image: -o-linear-gradient(top, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.2));
+    }
+    header.page .meta .time {
+        margin-top: 0.3em;
+    }
+    header.page .meta .location {
+        font-size: 1.5em;
+        line-height: 1.1;
+        text-align: left;
+    }
+
+
     header.page nav,
     header.page .meta {
         width: 45%;
