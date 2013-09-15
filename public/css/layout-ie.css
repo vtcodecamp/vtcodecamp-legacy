@@ -1,37 +1,48 @@
-#content,
 header.page nav,
-footer.page,
-#error #content {
-    _width: 960px;
-}
-header.page .event,
 header.page .meta,
-header.page .meta .date-time,
-header.page .meta .location {
-    float: left;
-    clear: none;
+ul.sponsors li,
+#event h1,
+#event ul,
+#event li,
+article.resource {
+    *display: inline;
 }
-header.page .event {
-    width: 400px;
+@media all and (min-width: 480px) {
+    #event ul {
+        *display: inline;
+    }
 }
-header.page .meta .location {
-    margin-top: 1.5em;
+#content,
+.inner {
+    *width: 920px;
 }
-.anchor {
-    margin-top: 3.0em;
+header.page nav li a,
+header.page nav li a:hover,
+header.page nav li a:focus {
+    color: white;
 }
-.anchor article.sponsors li {
+@media all and (min-width: 600px) {
+    article.anchor header img,
+    article.anchor aside {
+        *width: 40%;
+    }
+    article.anchor aside {
+        *width: 36%;
+    }
+}
+@media all and (min-width: 1024px) {
+    article.anchor header img,
+    article.anchor aside {
+        *width: 45%;
+    }
+    article.anchor aside {
+        *width: 41%;
+    }
+}
+article.anchor#sponsor header {
     display: inline;
 }
 #event {
-    overflow: hidden;
-}
-#event h1,
-#event ul,
-#event li {
-    float: left;
-    clear: none;
-}
-#event ul {
-    margin-top: 3.0em;
+    *margin-left: -1em;
+    *padding-left: 1em;
 }
