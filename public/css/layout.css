@@ -9,84 +9,84 @@ body {
 }
 #content,
 .page {
-    position: relative;
-    z-index: 5;
-}
-#content,
-header.page nav,
-footer.page {
-    width: 920px;
-    overflow: hidden;
+    width: 96%;
     margin: 0 auto;
-    padding: 0 20px;
+    padding-left: 2%;
+    padding-right: 2%;
     text-align: left;
 }
 #content {
-    padding-bottom: 3.0em;
+    max-width: 920px;
+    padding-top: 1em;
+    padding-bottom: 4em;
     background-color: white;
+    z-index: 5;
 }
-header.page,
-.no-cssgradients header.page {
-    background-color: #1595D3;
+.inner {
+    max-width: 920px;
+    margin-left: auto;
+    margin-right: auto;
 }
 header.page {
-    overflow: hidden;
-    padding-top: 1.0em;
-    padding-bottom: 1.0em;
+    position: relative;
+    padding-bottom: 1.6em;
+    background-color: #1595D3;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(rgba(0, 0, 0, 0.2)));
     background-image: -webkit-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
     background-image: -moz-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
     background-image: -ms-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
     background-image: -o-linear-gradient(top, transparent, rgba(0, 0, 0, 0.2));
-    -moz-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    text-align: center;
     -webkit-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.6);
     z-index: 8;
 }
-#vermont-code-camp-logo {
-    position: relative;
-    width: 400px;
-    height: 66px;
-    display: block;
-    margin: 0 auto;
-    background: transparent url(/images/vermont-code-camp-logo-400x66.png) no-repeat 0 0;
-    _background-image: url(/images/vermont-code-camp-logo-1595D3-400x66.png);
-    text-indent: -999em;
+header.page nav,
+header.page .meta {
+    width: 96%;
+    display: inline-block;
+    margin-bottom: 0.2em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+    vertical-align: middle;
 }
-header.page nav {
-    padding-bottom: 2.0em;
-    text-align: left;
+header.page h1,
+header.page h1 a,
+header.page p,
+header.page li,
+header.page a {
+    color: white;
+}
+header.page h1 {
+    margin-top: 0;
 }
 header.page nav ul {
-    display: inline-block;
     margin-top: 1.4em;
 }
 header.page nav li {
     display: inline;
-    margin: 0 1.0em;
-    font-size: 2.0em;
+    margin-left: 1em;
+    margin-right: 1em;
     list-style: none;
 }
-header.page nav a {
-    color: white;
+header.page nav li a {
     text-decoration: none;
 }
-header.page nav a:hover,
-header.page nav a:focus {
-    color: white;
+header.page nav li a:hover,
+header.page nav li a:focus {
     text-decoration: underline;
 }
-header.page .event,
 header.page .meta {
-    display: inline-block;
-    vertical-align: middle;
-    text-align: center;
+    margin-top: 3em;
+    padding-top: 0.4em;
+    font-size: 0.55em;
+    border-top: 1px dotted rgba(255, 255, 255, 0.3);
 }
-header.page .event {
-    margin-right: 20.0em;
-}
-header.page .meta {
-    font-size: 1.4em;
+header.page .meta p {
     color: #EEE;
 }
 header.page .meta .date-time,
@@ -100,7 +100,7 @@ header.page .meta .month,
 header.page .meta .date,
 header.page .meta .time {
     display: block;
-    line-height: 1.0;
+    line-height: 1;
     text-transform: uppercase;
 }
 header.page .meta .day,
@@ -140,98 +140,126 @@ header.page .meta .location {
     line-height: 1.1;
     text-align: left;
 }
-.anchor,
-.anchor aside,
-.anchor article {
-    overflow: hidden;
+@media all and (min-width: 480px) {
+    header.page nav,
+    header.page .meta {
+        width: 45%;
+    }
+    header.page nav li {
+        font-size: 1.3em;
+    }
+    header.page .meta {
+        margin-top: 1em;
+        padding-top: 0;
+        border-top: none;
+        font-size: 0.6em;
+    }
 }
-.anchor {
-    display: block;
+@media all and (min-width: 600px) {
+    header.page nav li {
+        font-size: 1.5em;
+    }
+    header.page .meta {
+        font-size: 0.7em;
+    }
+}
+@media all and (min-width: 768px) {
+    header.page nav li {
+        font-size: 2em;
+    }
+    header.page .meta {
+        font-size: 0.9em;
+    }
+}
+footer.page {
+    padding-top: 3em;
+    padding-bottom: 4em;
+    text-align: center;
+}
+footer.page p,
+footer.page a {
+    color: #999;
+}
+footer.page p {
+    margin-top: 0.5em;
+    font-size: 1.2em;
+}
+article.anchor {
     clear: both;
-    margin-top: 2.0em;
-    margin-bottom: 6.0em;
 }
-.anchor header h1,
-.no-cssgradients .anchor header h1 {
-    _position: relative;
+article.anchor header h1 {
+    margin: 1em 0 0.2em;
+    padding: 0.3em 1em 0.2em;
     background-color: #BBB;
-}
-.anchor header h1 {
-    margin: 1.0em 0 0.6em;
-    padding: 0.5em 20px 0.4em;
-    -moz-border-radius: 0.3em;
     -webkit-border-radius: 0.3em;
+    -moz-border-radius: 0.3em;
     border-radius: 0.3em;
-    font-size: 2.0em;
+    font-size: 1.8em;
     color: white;
     text-align: center;
 }
-.anchor header img {
-    float: left;
-    margin-top: 2.0em;
-    margin-bottom: 2.0em;
-    *margin-bottom: 0;
-}
-.anchor aside {
-    width: 440px;
-    _width: 480px;
-    margin-top: 2.0em;
-    margin-bottom: 2.0em;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 2.0em;
+article.anchor aside {
+    margin-top: 1em;
+    padding: 2em 2% 3em;
     background-color: #EEE;
-    -moz-border-radius: 0.6em;
     -webkit-border-radius: 0.6em;
+    -moz-border-radius: 0.6em;
     border-radius: 0.6em;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
-.anchor aside h1 {
-    font-size: 2.0em;
+article.anchor aside h1 {
+    margin-top: 0;
 }
-.anchor article {
-    width: 400px;
-    margin-left: 10px;
-    margin-right: 10px;
-    float: right;
-    clear: right;
+@media all and (min-width: 600px) {
+    article.anchor {
+        padding-top: 1em;
+    }
+    article.anchor header h1 {
+        padding-top: 0.5em;
+        padding-bottom: 0.4em;
+        font-size: 2em;
+    }
+    article.anchor header img,
+    article.anchor aside {
+        max-width: 40%;
+        float: right;
+        margin-bottom: 2em;
+        margin-left: 4em;
+    }
+    article.anchor header img {
+        margin-top: 2.6em;
+    }
+    article.anchor aside {
+        max-width: 36%;
+        clear: right;
+        margin-bottom: 3em;
+    }
 }
-.anchor article.sponsors {
-    width: auto;
-    float: none;
+@media all and (min-width: 1024px) {
+    article.anchor header img,
+    article.anchor aside {
+        max-width: 45%;
+    }
+    article.anchor aside {
+        max-width: 41%;
+    }
+}
+article.sponsors {
     clear: both;
+    padding-top: 2em;
     text-align: center;
 }
-.anchor article.sponsors h1 {
+article.sponsors h1 {
     font-size: 1.6em;
     color: #AAA;
     text-transform: uppercase;
 }
-.anchor article.sponsors li {
-    width: 200px;
+ul.sponsors li {
     display: inline-block;
-    margin: 0 0.6em 1.6em;
+    margin: 0.6em 1.6em 1.6em;
     font-size: 1.4em;
     list-style: none;
     vertical-align: middle;
-}
-.anchor article.sponsors li.expand-300 {
-    width: 300px;
-}
-.anchor article.sponsors .special-thanks li {
-    width: 400px;
-}
-.anchor article.sponsors li small,
-.anchor article.sponsors li small a {
-    color: #888;
-}
-.anchor article.sponsors li small {
-    display: block;
-    margin-top: 0.3em;
-}
-.anchor article.sponsors a:hover,
-.anchor article.sponsors a:focus {
-    text-decoration: underline;
 }
 .logo {
     width: 150px;
@@ -350,34 +378,26 @@ header.page .meta .location {
     height: 100px;
     background-image: url(/media/sponsors/Pearson-User-Groups-logo-100x100.jpg);
 }
-article.resource {
-    display: inline-block;
-    margin: 0 2.0em 1.0em 0;
-    text-align: center;
-    vertical-align: top;
-}
-article.resource p {
-    margin-top: 0.2em;
-}
 #event,
 #event a {
     color: #888;
 }
 #event {
     display: inline-block;
-    margin: 5.0em 0 2.0em -30px;
-    padding: 1.0em 10.0em 0.8em 30px;
+    margin: 2.5em 0 0 -4em;
+    padding: 1.2em 5em 0.8em 4em;
     background-color: #DDD;
     background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(0, #EEE), to(90%, #DDD));
     background-image: -webkit-linear-gradient(top, #EEE 0, #DDD 90%);
     background-image: -moz-linear-gradient(top, #EEE 0, #DDD 90%);
     background-image: -ms-linear-gradient(top, #EEE 0, #DDD 90%);
     background-image: -o-linear-gradient(top, #EEE 0, #DDD 90%);
-    -moz-border-radius: 1.0em;
-    -webkit-border-radius: 1.0em;
-    border-radius: 1.0em;
-    -moz-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    font-size: 0.8em;
     -webkit-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
     box-shadow: 0 0.5em 0.5em rgba(0, 0, 0, 0.3);
 }
 #event h1,
@@ -385,7 +405,6 @@ article.resource p {
 #event li {
     display: inline-block;
     margin-top: 0;
-    text-align: center;
     vertical-align: middle;
 }
 #event h1,
@@ -393,87 +412,69 @@ article.resource p {
     color: #AAA;
 }
 #event h1 {
-    font-size: 6.0em;
+    font-size: 6em;
+}
+#event ul {
+    display: block;
 }
 #event li {
-    margin-left: 1.0em;
+    margin-bottom: 0.6em;
+    margin-left: 0;
+    margin-right: 1em;
+    line-height: 1;
     list-style: none;
 }
 #event a {
     text-decoration: none;
 }
-footer.page {
-    padding-top: 1.8em;
-    padding-bottom: 8.0em;
-    font-size: 0.8em;
+@media all and (min-width: 480px) {
+    #event ul {
+        display: inline-block;
+        margin-top: 1.2em;
+        margin-left: 1.8em;
+    }
+}
+@media all and (min-width: 600px) {
+    #event {
+        font-size: 1em;
+    }
+}
+@media all and (min-width: 768px) {
+    #event {
+        margin-top: 3em;
+    }
+}
+@media all and (min-width: 1024px) {
+    #event {
+        margin-top: 5em;
+        margin-bottom: 2em;
+        padding-right: 10em;
+    }
+}
+article.resource {
+    display: inline-block;
+    margin: 0 2em 1em 0;
     text-align: center;
+    vertical-align: top;
 }
-footer.page > * {
-    margin-left: 10.0em;
-    margin-right: 10.0em;
-}
-footer.page p,
-footer.page a {
-    color: #999;
-}
-footer.page p {
+article.resource p {
     margin-top: 0.2em;
 }
-#error #content,
-#error header.page nav {
-    text-align: center;
-}
-#error #content,
-#error footer.page {
+#error {
     background-color: transparent;
-}
-#error #content {
-    width: 500px;
-    padding: 4.0em 230px 20.0em;
-    font-size: 1.2em;
+    font-size: 1.1em;
     text-align: center;
 }
-@media all and (max-width: 480px) {
-    #content {
-        font-size: 1.5em;
-    }
-    header.page {
-        width: 920px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-    .anchor header h1 {
-        font-size: 1.0em;
-    }
-    .anchor header img,
-    .anchor article {
-        float: none;
-    }
-    .anchor header img {
-        width: 100%;
-        height: auto;
-    }
-    .anchor aside,
-    .anchor article {
-        width: auto;
-    }
+#error h1,
+#error h1 a,
+#error p,
+#error a {
+    color: #555;
 }
-@media all and (min-height: 721px) and (min-width: 1025px) {
-    header.page {
-        position: fixed;
-        width: 100%;
-        bottom: 0;
-    }
-    .anchor {
-        margin-top: 0;
-        padding-top: 1.0em;
-    }
-    footer.page {
-        padding-bottom: 25.0em;
-        background-color: white;
-    }
-    #error #content {
-        padding-top: 10.0em;
-        padding-bottom: 1.0em;
+@media all and (min-width: 600px) {
+    #error {
+        padding-top: 4em;
+        padding-bottom: 4em;
+        font-size: 1.8em;
     }
 }
