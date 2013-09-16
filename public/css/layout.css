@@ -308,6 +308,11 @@ ul.sponsors li {
     height: 73px;
     background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
 }
+.logo.dealer-dot-com {
+    width: 250px;
+    height: 23px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x23.jpg);
+}
 .logo.telerik {
     height: 59px;
     background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
