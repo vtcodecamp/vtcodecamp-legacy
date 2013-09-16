@@ -404,6 +404,10 @@ ul.sponsors li {
     height: 100px;
     background-image: url(/media/sponsors/Pearson-User-Groups-logo-100x100.jpg);
 }
+.logo.techsmith {
+    height: 23px;
+    background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
+}
 #event,
 #event a {
     color: #888;
