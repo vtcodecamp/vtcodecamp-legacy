@@ -413,6 +413,10 @@ ul.sponsors li {
     height: 23px;
     background-image: url(/media/sponsors/TechSmith-logo-150x23.jpg);
 }
+.logo.wiley {
+    height: 32px;
+    background-image: url(/media/sponsors/Wiley-logo-150x32.jpg);
+}
 #event,
 #event a {
     color: #888;
