@@ -417,6 +417,10 @@ ul.sponsors li {
     height: 32px;
     background-image: url(/media/sponsors/Wiley-logo-150x32.jpg);
 }
+.logo.safari-books-online {
+    height: 74px;
+    background-image: url(/media/sponsors/Safari-Books-Online-logo-150x74.jpg);
+}
 #event,
 #event a {
     color: #888;
