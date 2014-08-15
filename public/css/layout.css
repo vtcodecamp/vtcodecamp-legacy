@@ -348,8 +348,8 @@ ul.sponsors li {
     background-image: url(/media/sponsors/Tyler-Technologies-logo-150x53.jpg);
 }
 .logo.oreilly-media {
-    height: 27px;
-    background-image: url(/media/sponsors/OReilly-Media-logo-150x27.jpg);
+    height: 41px;
+    background-image: url(/media/sponsors/OReilly-Media-logo-150x41.jpg);
 }
 .logo.code-magazine {
     height: 55px;
@@ -416,6 +416,10 @@ ul.sponsors li {
 .logo.wiley {
     height: 32px;
     background-image: url(/media/sponsors/Wiley-logo-150x32.jpg);
+}
+.logo.safari-books-online {
+    height: 74px;
+    background-image: url(/media/sponsors/Safari-Books-Online-logo-150x74.jpg);
 }
 #event,
 #event a {
