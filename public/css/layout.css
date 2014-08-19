@@ -421,6 +421,10 @@ ul.sponsors li {
     height: 74px;
     background-image: url(/media/sponsors/Safari-Books-Online-logo-150x74.jpg);
 }
+.logo.evolution {
+    height: 55px;
+    background-image: url(/media/sponsors/Evolution-logo-150x55.jpg);
+}
 #event,
 #event a {
     color: #888;
