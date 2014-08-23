@@ -426,6 +426,18 @@ ul.sponsors li {
     height: 55px;
     background-image: url(/media/sponsors/Evolution-logo-150x55.jpg);
 }
+.logo.pluralsight {
+    height: 28px;
+    background-image: url(/media/sponsors/Pluralsight-logo-150x28.jpg);
+}
+.logo.logic-supply {
+    height: 46px;
+    background-image: url(/media/sponsors/Logic-Supply-logo-150x46.jpg);
+}
+.logo.wintellectnow {
+    height: 49px;
+    background-image: url(/media/sponsors/WintellectNOW-logo-150x49.jpg);
+}
 #event,
 #event a {
     color: #888;
