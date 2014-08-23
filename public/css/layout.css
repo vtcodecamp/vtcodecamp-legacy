@@ -231,10 +231,11 @@ article.anchor aside {
     -webkit-border-radius: 0.6em;
     -moz-border-radius: 0.6em;
     border-radius: 0.6em;
-    font-size: 0.8em;
+    color: #555;
 }
 article.anchor aside h1 {
     margin-top: 0;
+    color: #444;
 }
 @media all and (min-width: 600px) {
     article.anchor {
