@@ -438,6 +438,10 @@ ul.sponsors li {
     height: 49px;
     background-image: url(/media/sponsors/WintellectNOW-logo-150x49.jpg);
 }
+.logo.improving-enterprises {
+    height: 47px;
+    background-image: url(/media/sponsors/Improving-Enterprises-logo-150x47.jpg);
+}
 #event,
 #event a {
     color: #888;
