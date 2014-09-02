@@ -442,6 +442,10 @@ ul.sponsors li {
     height: 47px;
     background-image: url(/media/sponsors/Improving-Enterprises-logo-150x47.jpg);
 }
+.logo.middlebury-interactive-languages {
+    height: 68px;
+    background-image: url(/media/sponsors/Middlebury-Interactive-Languages-logo-125x68.jpg);
+}
 #event,
 #event a {
     color: #888;
