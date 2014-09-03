@@ -443,10 +443,12 @@ ul.sponsors li {
     background-image: url(/media/sponsors/Improving-Enterprises-logo-150x47.jpg);
 }
 .logo.middlebury-interactive-languages {
+    width: 125px;
     height: 68px;
     background-image: url(/media/sponsors/Middlebury-Interactive-Languages-logo-125x68.jpg);
 }
 .logo.competitive-computing {
+    width: 100px;
     height: 68px;
     background-image: url(/media/sponsors/Competitive-Computing-logo-100x68.jpg);
 }
