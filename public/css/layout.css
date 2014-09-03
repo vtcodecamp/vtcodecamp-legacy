@@ -452,6 +452,11 @@ ul.sponsors li {
     height: 68px;
     background-image: url(/media/sponsors/Competitive-Computing-logo-100x68.jpg);
 }
+.logo.xamarin {
+    width: 75px;
+    height: 67px;
+    background-image: url(/media/sponsors/Xamarin-logo-75x67.jpg);
+}
 #event,
 #event a {
     color: #888;
