@@ -97,6 +97,9 @@ header.page .meta .date-time {
 header.page .meta .location {
     color: #DDD;
 }
+header.page .meta .location small.school {
+    font-size: 0.65em;
+}
 @media all and (min-width: 480px) {
     header.page .meta p {
         font-size: 1.6em;
