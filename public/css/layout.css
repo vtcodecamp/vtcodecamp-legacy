@@ -457,6 +457,10 @@ ul.sponsors li {
     height: 67px;
     background-image: url(/media/sponsors/Xamarin-logo-75x67.jpg);
 }
+.logo.eatingwell {
+    height: 48px;
+    background-image: url(/media/sponsors/EatingWell-logo-150x48.jpg);
+}
 #event,
 #event a {
     color: #888;
