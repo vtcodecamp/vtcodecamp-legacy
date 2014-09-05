@@ -462,6 +462,10 @@ ul.sponsors li {
     height: 48px;
     background-image: url(/media/sponsors/EatingWell-logo-150x48.jpg);
 }
+.logo.afl {
+    height: 47px;
+    background-image: url(/media/sponsors/AFL-logo-150x47.jpg);
+}
 #event,
 #event a {
     color: #888;
