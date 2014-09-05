@@ -390,10 +390,6 @@ ul.sponsors li {
     height: 40px;
     background-image: url(/media/sponsors/Vermont-Makers-logo-150x40.jpg);
 }
-.logo.green-mountain-coffee-roasters {
-    height: 89px;
-    background-image: url(/media/sponsors/Green-Mountain-Coffee-Roasters-logo-150x89.jpg);
-}
 .logo.ux-design-edge {
     height: 24px;
     background-image: url(/media/sponsors/UX-Design-Edge-logo-150x24.jpg);
@@ -465,6 +461,11 @@ ul.sponsors li {
 .logo.afl {
     height: 47px;
     background-image: url(/media/sponsors/AFL-logo-150x47.jpg);
+}
+.logo.keurig-green-mountain {
+    width: 200px;
+    height: 46px;
+    background-image: url(/media/sponsors/Keurig-Green-Mountain-logo-200x46.jpg);
 }
 #event,
 #event a {
