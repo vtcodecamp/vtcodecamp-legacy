@@ -1,0 +1,8 @@
+{
+  "slug": "eric-smith",
+  "firstName": "Eric",
+  "lastName": "Smith",
+  "_links": {
+    "self": { "href": "/2014/speakers/eric-smith" }
+  }
+}
