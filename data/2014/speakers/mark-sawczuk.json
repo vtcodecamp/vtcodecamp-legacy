@@ -3,6 +3,7 @@
   "firstName": "Mark",
   "lastName": "Sawczuk",
   "_links": {
-    "self": { "href": "/2014/speakers/mark-sawczuk" }
+    "self": { "href": "/2014/speakers/mark-sawczuk" },
+    "twitter": { "href": "https://twitter.com/BigDScientist", "title": "BigDScientist" }
   }
 }

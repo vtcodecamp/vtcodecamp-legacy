@@ -3,6 +3,7 @@
   "firstName": "Breandan",
   "lastName": "Considine",
   "_links": {
-    "self": { "href": "/2014/speakers/breandan-considine" }
+    "self": { "href": "/2014/speakers/breandan-considine" },
+    "twitter": { "href": "https://twitter.com/breandan", "title": "breandan" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Josh",
   "lastName": "Lee",
   "_links": {
-    "self": { "href": "/2014/speakers/josh-lee" }
+    "self": { "href": "/2014/speakers/josh-lee" },
+    "twitter": { "href": "https://twitter.com/joshleecreates", "title": "joshleecreates" }
   }
 }

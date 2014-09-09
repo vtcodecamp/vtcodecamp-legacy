@@ -3,6 +3,7 @@
   "firstName": "Rob",
   "lastName": "Friesel",
   "_links": {
-    "self": { "href": "/2014/speakers/rob-friesel" }
+    "self": { "href": "/2014/speakers/rob-friesel" },
+    "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }
   }
 }

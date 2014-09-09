@@ -3,6 +3,7 @@
   "firstName": "Kathleen",
   "lastName": "Dollard",
   "_links": {
-    "self": { "href": "/2014/speakers/kathleen-dollard" }
+    "self": { "href": "/2014/speakers/kathleen-dollard" },
+    "twitter": { "href": "https://twitter.com/kathleendollard", "title": "kathleendollard" }
   }
 }

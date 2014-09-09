@@ -3,6 +3,7 @@
   "firstName": "Michael",
   "lastName": "Hellein",
   "_links": {
-    "self": { "href": "/2014/speakers/michael-hellein" }
+    "self": { "href": "/2014/speakers/michael-hellein" },
+    "twitter": { "href": "https://twitter.com/themichaek", "title": "themichaek" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Anthony",
   "lastName": "van der Hoorn",
   "_links": {
-    "self": { "href": "/2014/speakers/anthony-van-der-hoorn" }
+    "self": { "href": "/2014/speakers/anthony-van-der-hoorn" },
+    "twitter": { "href": "https://twitter.com/anthony_vdh", "title": "anthony_vdh" }
   }
 }

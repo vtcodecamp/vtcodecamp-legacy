@@ -3,6 +3,7 @@
   "firstName": "Cori",
   "lastName": "Drew",
   "_links": {
-    "self": { "href": "/2014/speakers/cori-drew" }
+    "self": { "href": "/2014/speakers/cori-drew" },
+    "twitter": { "href": "https://twitter.com/coridrew", "title": "coridrew" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Brian",
   "lastName": "Lloyd-Newberry",
   "_links": {
-    "self": { "href": "/2014/speakers/brian-lloyd-newberry" }
+    "self": { "href": "/2014/speakers/brian-lloyd-newberry" },
+    "twitter": { "href": "https://twitter.com/brianln", "title": "brianln" }
   }
 }

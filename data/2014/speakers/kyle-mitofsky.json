@@ -3,6 +3,7 @@
   "firstName": "Kyle",
   "lastName": "Mitofsky",
   "_links": {
-    "self": { "href": "/2014/speakers/kyle-mitofsky" }
+    "self": { "href": "/2014/speakers/kyle-mitofsky" },
+    "twitter": { "href": "https://twitter.com/KyleMit2", "title": "KyleMit2" }
   }
 }

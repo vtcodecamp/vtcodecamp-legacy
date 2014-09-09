@@ -3,6 +3,7 @@
   "firstName": "Russell",
   "lastName": "Fustino",
   "_links": {
-    "self": { "href": "/2014/speakers/russell-fustino" }
+    "self": { "href": "/2014/speakers/russell-fustino" },
+    "twitter": { "href": "https://twitter.com/russfustino", "title": "russfustino" }
   }
 }

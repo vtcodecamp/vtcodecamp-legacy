@@ -3,6 +3,7 @@
   "firstName": "Christian",
   "lastName": "Coté",
   "_links": {
-    "self": { "href": "/2014/speakers/christian-cote" }
+    "self": { "href": "/2014/speakers/christian-cote" },
+    "twitter": { "href": "https://twitter.com/Christian_SQL", "title": "Christian_SQL" }
   }
 }

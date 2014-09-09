@@ -3,6 +3,7 @@
   "firstName": "Dave",
   "lastName": "Burke",
   "_links": {
-    "self": { "href": "/2014/speakers/dave-burke" }
+    "self": { "href": "/2014/speakers/dave-burke" },
+    "twitter": { "href": "https://twitter.com/daveburkevt", "title": "daveburkevt" }
   }
 }
