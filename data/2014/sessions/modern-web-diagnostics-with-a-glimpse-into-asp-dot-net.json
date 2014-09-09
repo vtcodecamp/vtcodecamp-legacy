@@ -1,0 +1,11 @@
+{
+  "slug": "modern-web-diagnostics-with-a-glimpse-into-asp-dot-net",
+  "title": "Modern Web Diagnostics with a Glimpse into ASP.NET",
+  "_links": {
+    "self": { "href": "/2014/sessions/modern-web-diagnostics-with-a-glimpse-into-asp-dot-net" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/anthony-van-der-hoorn" }
+    ]
+  }
+}

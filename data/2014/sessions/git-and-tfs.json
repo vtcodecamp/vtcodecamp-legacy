@@ -1,0 +1,11 @@
+{
+  "slug": "git-and-tfs",
+  "title": "You've Used Git. You've Used TFS. Why Aren't You Using Them Together?",
+  "_links": {
+    "self": { "href": "/2014/sessions/git-and-tfs" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/cori-drew" }
+    ]
+  }
+}

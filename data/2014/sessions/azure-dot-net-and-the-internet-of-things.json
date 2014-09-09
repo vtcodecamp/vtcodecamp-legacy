@@ -1,0 +1,11 @@
+{
+  "slug": "azure-dot-net-and-the-internet-of-things",
+  "title": "Azure, .NET and the Internet of Things",
+  "_links": {
+    "self": { "href": "/2014/sessions/azure-dot-net-and-the-internet-of-things" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/jason-kanaris" }
+    ]
+  }
+}

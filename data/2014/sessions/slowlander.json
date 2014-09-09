@@ -1,0 +1,11 @@
+{
+  "slug": "slowlander",
+  "title": "Slowlander: The Quickening",
+  "_links": {
+    "self": { "href": "/2014/sessions/slowlander" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/michael-hellein" }
+    ]
+  }
+}

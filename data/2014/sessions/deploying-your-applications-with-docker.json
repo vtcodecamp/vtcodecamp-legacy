@@ -1,0 +1,11 @@
+{
+  "slug": "deploying-your-applications-with-docker",
+  "title": "Deploying Your Applications with Docker",
+  "_links": {
+    "self": { "href": "/2014/sessions/deploying-your-applications-with-docker" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/brian-lloyd-newberry" }
+    ]
+  }
+}

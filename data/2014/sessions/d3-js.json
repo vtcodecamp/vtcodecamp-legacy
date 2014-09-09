@@ -1,0 +1,11 @@
+{
+  "slug": "d3-js",
+  "title": "D3.js: A Paradigm Shift in Client-side Visualization of Data",
+  "_links": {
+    "self": { "href": "/2014/sessions/d3-js" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/mark-sawczuk" }
+    ]
+  }
+}

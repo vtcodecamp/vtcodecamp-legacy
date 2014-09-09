@@ -1,0 +1,11 @@
+{
+  "slug": "qa-basics",
+  "title": "QA Basics: A Talk for Devs, Project Managers & Presidents on Why & When They Need QA",
+  "_links": {
+    "self": { "href": "/2014/sessions/qa-basics" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/brie-hoblin" }
+    ]
+  }
+}

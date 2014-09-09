@@ -1,0 +1,11 @@
+{
+  "slug": "building-c-sharp-xamarin-forms-apps",
+  "title": "Building C# Xamarin Forms Apps",
+  "_links": {
+    "self": { "href": "/2014/sessions/building-c-sharp-xamarin-forms-apps" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/russell-fustino" }
+    ]
+  }
+}

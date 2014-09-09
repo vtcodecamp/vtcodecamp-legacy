@@ -1,0 +1,11 @@
+{
+  "slug": "java-object-oriented-querying",
+  "title": "jOOQ: Java Object Oriented Querying",
+  "_links": {
+    "self": { "href": "/2014/sessions/java-object-oriented-querying" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/breandan-considine" }
+    ]
+  }
+}

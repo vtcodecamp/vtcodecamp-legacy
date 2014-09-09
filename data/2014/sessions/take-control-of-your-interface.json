@@ -1,0 +1,11 @@
+{
+  "slug": "take-control-of-your-interface",
+  "title": "Take Control of Your Interface: Crafting API Responses for Your Clients",
+  "_links": {
+    "self": { "href": "/2014/sessions/take-control-of-your-interface" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/darrel-miller" }
+    ]
+  }
+}

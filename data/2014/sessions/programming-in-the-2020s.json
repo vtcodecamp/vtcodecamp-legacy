@@ -1,0 +1,11 @@
+{
+  "slug": "programming-in-the-2020s",
+  "title": "Programming in the 2020s",
+  "_links": {
+    "self": { "href": "/2014/sessions/programming-in-the-2020s" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/eric-smith" }
+    ]
+  }
+}

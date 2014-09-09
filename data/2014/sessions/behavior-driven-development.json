@@ -1,0 +1,11 @@
+{
+  "slug": "behavior-driven-development",
+  "title": "Behavior-Driven Development: One Team's Exploration",
+  "_links": {
+    "self": { "href": "/2014/sessions/behavior-driven-development" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/david-coutu" }
+    ]
+  }
+}

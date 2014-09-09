@@ -1,0 +1,11 @@
+{
+  "slug": "better-code-better-debugging",
+  "title": "Better Code, Better Debugging",
+  "_links": {
+    "self": { "href": "/2014/sessions/better-code-better-debugging" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/kathleen-dollard" }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "awesome-workflows-with-grunt-bower-and-yeoman",
+  "title": "Awesome Workflows with Grunt, Bower and Yeoman",
+  "_links": {
+    "self": { "href": "/2014/sessions/awesome-workflows-with-grunt-bower-and-yeoman" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/john-need" }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "slug": "angular-js-in-practice",
+  "title": "Angular JS in Practice",
+  "_links": {
+    "self": { "href": "/2014/sessions/angular-js-in-practice" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/jon-hoguet" }
+    ]
+  }
+}

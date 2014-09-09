@@ -1,0 +1,11 @@
+{
+  "slug": "this-linux-life",
+  "title": "This Linux Life",
+  "_links": {
+    "self": { "href": "/2014/sessions/this-linux-life" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/dave-burke" }
+    ]
+  }
+}

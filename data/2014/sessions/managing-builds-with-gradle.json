@@ -1,0 +1,11 @@
+{
+  "slug": "managing-builds-with-gradle",
+  "title": "Managing Builds with Gradle",
+  "_links": {
+    "self": { "href": "/2014/sessions/managing-builds-with-gradle" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/richa-khandelwal" }
+    ]
+  }
+}

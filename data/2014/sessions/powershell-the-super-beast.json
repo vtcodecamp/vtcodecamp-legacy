@@ -1,0 +1,11 @@
+{
+  "slug": "powershell-the-super-beast",
+  "title": "PowerShell the Super Beast!",
+  "_links": {
+    "self": { "href": "/2014/sessions/powershell-the-super-beast" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/matthias-bannach" }
+    ]
+  }
+}

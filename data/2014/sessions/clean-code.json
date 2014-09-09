@@ -1,0 +1,11 @@
+{
+  "slug": "clean-code",
+  "title": "Clean Code: Write Clean Think Clean",
+  "_links": {
+    "self": { "href": "/2014/sessions/clean-code" },
+    "event": { "href": "/2014/" },
+    "speaker": [
+      { "href": "/2014/speakers/hetal-dave" }
+    ]
+  }
+}
