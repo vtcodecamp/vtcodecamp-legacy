@@ -4,6 +4,9 @@
   "_links": {
     "self": { "href": "/2014/sessions/better-code-better-debugging" },
     "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/practices" },
+    "space": { "href": "/2014/spaces/room-1" },
+    "timePeriod": { "href": "/2014/time-periods/1015" },
     "speaker": [
       { "href": "/2014/speakers/kathleen-dollard" }
     ]

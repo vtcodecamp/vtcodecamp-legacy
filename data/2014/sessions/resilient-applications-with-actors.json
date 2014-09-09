@@ -4,6 +4,9 @@
   "_links": {
     "self": { "href": "/2014/sessions/resilient-applications-with-actors" },
     "event": { "href": "/2014/" },
+    "space": { "href": "/2014/spaces/room-5" },
+    "timePeriod": { "href": "/2014/time-periods/1015" },
+    "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/peter-vile" }
     ]
