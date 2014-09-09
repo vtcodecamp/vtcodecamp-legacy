@@ -1,0 +1,9 @@
+{
+  "slug": "welcome",
+  "title": "Welcome",
+  "_links": {
+    "self": { "href": "/2014/sessions/welcome" },
+    "event": { "href": "/2014/" },
+    "timePeriod": { "href": "/2014/time-periods/0845" }
+  }
+}
