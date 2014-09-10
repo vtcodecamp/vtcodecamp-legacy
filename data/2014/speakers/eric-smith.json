@@ -2,6 +2,7 @@
   "slug": "eric-smith",
   "firstName": "Eric",
   "lastName": "Smith",
+  "bio": "Eric Smith is Senior Vice President of Product Development at Middlebury Interactive Languages in Vermont, which provides online content and tools for world language learning. He has worked in a long series of mainstream imperative languages, starting with 6502 machine code. He attributes the long overdue industrial interest in concurrent computing and program correctness as much to the easy access to old research papers as multi-core processors. He spends a lot of time reading those papers. Eric is a regular speaker on functional programming and is currently producing a course on Scala for Pluralsight, which will be published in early Fall.",
   "_links": {
     "self": { "href": "/2014/speakers/eric-smith" },
     "twitter": { "href": "https://twitter.com/eric_s_smith", "title": "eric_s_smith" }

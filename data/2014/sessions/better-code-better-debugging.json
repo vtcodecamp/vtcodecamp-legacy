@@ -1,6 +1,7 @@
 {
   "slug": "better-code-better-debugging",
   "title": "Better Code, Better Debugging",
+  "description": "Visual Studio and .NET keep offering better debugging support, but debugging is still a game of strategy. Come to this talk to merge strategy with the debugging tools in your environment. You'll see debugging features in current versions of Visual Studio and upcoming in Visual Studio \"14\" along with operating system features like ETW (Event Tracing for Windows). Good debugging strategies increase the effectiveness of the questions you're asking, and tools offer an array of tactics to efficiently answer each question and move on to the next. Regression testing is the backstop to do this fearlessly. You'll learn how to formulate ideas into testable strategies, use an array of Visual Studio tools when the bug is reproducible, and build and wade through piles of information when the issue only occurs in production.",
   "_links": {
     "self": { "href": "/2014/sessions/better-code-better-debugging" },
     "event": { "href": "/2014/" },

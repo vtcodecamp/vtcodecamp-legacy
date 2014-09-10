@@ -1,6 +1,7 @@
 {
   "slug": "resilient-applications-with-actors",
   "title": "Resilient Applications with Actors",
+  "description": "As CPU clock speeds have stagnated we have gained many cores, creating the problem of keeping them all busy. While the threading model can achieve this, it can be difficult to write deadlock and race condition free code. Several concurrency models have come to prominence of late such as Software Transactional Memory and Actors. In this talk we will look at the actor programming model, compare its programming model standard request/response frameworks and apply actors in a service tier application. Examples will be in Java and Scala.",
   "_links": {
     "self": { "href": "/2014/sessions/resilient-applications-with-actors" },
     "event": { "href": "/2014/" },

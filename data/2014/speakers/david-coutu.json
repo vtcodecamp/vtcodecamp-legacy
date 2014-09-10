@@ -2,6 +2,7 @@
   "slug": "david-coutu",
   "firstName": "David",
   "lastName": "Coutu",
+  "bio": "David Coutu has been developing code for over 15 years, primarily web/server applications on the JVM. Currently he works for Dealer.com as a developer and scrum master, working on their mobile application. When not spending time with his family, you might catch him playing board games or dabbling in music.",
   "_links": {
     "self": { "href": "/2014/speakers/david-coutu" }
   }

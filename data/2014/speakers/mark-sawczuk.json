@@ -2,6 +2,7 @@
   "slug": "mark-sawczuk",
   "firstName": "Mark",
   "lastName": "Sawczuk",
+  "bio": "Big Data Scientist interested in predictive analytics, HPC, cloud computing, and novel ways to use visualization to extract information from data.",
   "_links": {
     "self": { "href": "/2014/speakers/mark-sawczuk" },
     "twitter": { "href": "https://twitter.com/ChasingBigData", "title": "ChasingBigData" }

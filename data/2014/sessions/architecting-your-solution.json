@@ -1,6 +1,7 @@
 {
   "slug": "architecting-your-solution",
   "title": "Architecting Your Solution: The Hidden Requirements",
+  "description": "Every project starts with someone saying, \"I need THIS done.\" They're commonly able to functionally define what \"THIS\" means, but often aren't aware of the VAST majority of necessary non-functional requirements.\n\nTheir short list of requirements may encompass less than 50% of the overall scope of a project. The rest will be up to you to identify and address.\n\nIn this session we'll cover the often overlooked project requirements that your business stakeholders need YOU to know without being told, in order to create a well architected solution.",
   "_links": {
     "self": { "href": "/2014/sessions/architecting-your-solution" },
     "event": { "href": "/2014/" },

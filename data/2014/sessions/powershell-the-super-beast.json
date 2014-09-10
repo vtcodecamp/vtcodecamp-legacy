@@ -1,6 +1,7 @@
 {
   "slug": "powershell-the-super-beast",
   "title": "PowerShell the Super Beast!",
+  "description": "PowerShell the Microsoft version of a functional command line has many features the Apples and Linuxes of this world dream of.\n\nThe talk focuses on the basics of PowerShell to get the audience beyond the very basics.\n\nUsing PowerShell to automate tasks, gather data, talk to databases and other systems. Massage data and do things with it.",
   "_links": {
     "self": { "href": "/2014/sessions/powershell-the-super-beast" },
     "event": { "href": "/2014/" },

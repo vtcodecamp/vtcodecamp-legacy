@@ -2,6 +2,7 @@
   "slug": "jason-kanaris",
   "firstName": "Jason",
   "lastName": "Kanaris",
+  "bio": "Jason Kanaris works for Stony Brook University as a full-stack developer. He has been building web applications for over 10 years, mostly on the Microsoft stack. In his spare time he works with embedded devices, such as the Netduino and Arduino, incorporating them into his smart home project.",
   "_links": {
     "self": { "href": "/2014/speakers/jason-kanaris" },
     "twitter": { "href": "https://twitter.com/phantomtypist", "title": "phantomtypist" }

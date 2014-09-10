@@ -2,6 +2,7 @@
   "slug": "josh-lee",
   "firstName": "Josh",
   "lastName": "Lee",
+  "bio": "Josh Lee is the owner and director of QC Creative, a new digital agency in Burlington. He specializes in crafting elegant and effective solutions to challenging technological problems.\n\nJosh has been developing and managing websites for over 12 years. He is a full-stack developer with specific expertise in building accessible websites with WordPress.",
   "_links": {
     "self": { "href": "/2014/speakers/josh-lee" },
     "twitter": { "href": "https://twitter.com/joshleecreates", "title": "joshleecreates" }

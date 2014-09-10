@@ -2,6 +2,7 @@
   "slug": "rob-friesel",
   "firstName": "Rob",
   "lastName": "Friesel",
+  "bio": "Rob Friesel is a 10+ year veteran of Dealer.com and a Senior User Interface Developer there; he is also a Certified ScrumMaster. He is passionate about front-end development and has been described as both a \"JavaScript pedant\" and a \"merge conflict savant.\" His first book, *The PhantomJS Cookbook* was released in June 2014.",
   "_links": {
     "self": { "href": "/2014/speakers/rob-friesel" },
     "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }

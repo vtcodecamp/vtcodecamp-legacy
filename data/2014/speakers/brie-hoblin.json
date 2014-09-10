@@ -2,6 +2,7 @@
   "slug": "brie-hoblin",
   "firstName": "Brie",
   "lastName": "Hoblin",
+  "bio": "Web Developer turned QA Engineer. Girl Develop It instructor & supporter, Ruby enthusiast.",
   "_links": {
     "self": { "href": "/2014/speakers/brie-hoblin" },
     "twitter": { "href": "https://twitter.com/bhoblin", "title": "bhoblin" }

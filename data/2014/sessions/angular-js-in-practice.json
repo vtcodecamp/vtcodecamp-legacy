@@ -1,6 +1,7 @@
 {
   "slug": "angular-js-in-practice",
   "title": "Angular JS in Practice",
+  "description": "An advanced talk on how the Inventory team is using Angular at Dealer.com. Already been through the tutorials, ready for a deeper dive into how Angular is used in practice? Then this is the talk for you. Learn from our mistakes and wins, our gotchas and best practices.",
   "_links": {
     "self": { "href": "/2014/sessions/angular-js-in-practice" },
     "event": { "href": "/2014/" },

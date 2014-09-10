@@ -1,6 +1,7 @@
 {
   "slug": "using-grunt-js-to-automate-your-wordpress-workflow",
   "title": "Using Grunt.js to Automate your WordPress Workflow",
+  "description": "npm and Grunt.js put powerful automation tools at developer's fingertips.\n\nThis talk will provide a brief 20-minute introduction on using grunt.js to optimize your WordPress development workflow, including:\n\n * Compiling of LESS, SASS, or CSS files\n * Linting of JS files\n * Combination, minification, uglification, and compression of assets.\n * Browser live reload\n\nThis talk assumes some familiarity with the command line and CSS preprocessors such as LESS or SASS.\n\nThis talk will focus on using Grunt.js for WordPress installations however the information could easily be applied to other platforms.",
   "_links": {
     "self": { "href": "/2014/sessions/using-grunt-js-to-automate-your-wordpress-workflow" },
     "event": { "href": "/2014/" },

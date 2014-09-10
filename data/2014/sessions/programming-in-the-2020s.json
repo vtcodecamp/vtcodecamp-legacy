@@ -1,6 +1,7 @@
 {
   "slug": "programming-in-the-2020s",
   "title": "Programming in the 2020s",
+  "description": "The Web and CGI gave a boost to 1990s scripting languages. Their low barrier to entry and resulting widespread use fueled a renaissance in application development. But they have also filled the world with imperative code and shared, mutable state, despite lacking the low-level rationale of C. As the use of the Web as an application platform increases, these languages are ill-suited to increased demands for reliability, performance, and distribution. Over the next five years, these languages will be supplanted by faster compiled languages with advanced type systems. In this session, we will take a peek at what intro to programming will look like in the following decade. We'll go over lambda calculus, category theory, dependent types, recursion, cartesian products, disjoint unions, monads, and many other elementary ideas from programming in the 2020s.",
   "_links": {
     "self": { "href": "/2014/sessions/programming-in-the-2020s" },
     "event": { "href": "/2014/" },

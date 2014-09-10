@@ -2,6 +2,7 @@
   "slug": "darrel-miller",
   "firstName": "Darrel",
   "lastName": "Miller",
+  "bio": "Darrel has been building distributed business applications for more than 20 years. He is an active member of the .NET community and OSS contributor. When he's not reading IETF specifications in order to answer Stack Overflow questions, or writing tooling to help people build hypermedia driven client applications, you will find him enjoying time with his wife and daughter in Montreal, Quebec. Darrel works as a developer advocate at Runscope ensuring the best support possible to .NET developers who are building and consuming Web APIs. Darrel has been a long time member of the Microsoft Web API advisory board, a Microsoft Integration MVP and recently co-authored the O'Reilly book, *Designing Evolvable Web APIs with ASP.NET*.",
   "_links": {
     "self": { "href": "/2014/speakers/darrel-miller" },
     "twitter": { "href": "https://twitter.com/darrel_miller", "title": "darrel_miller" }

@@ -1,6 +1,7 @@
 {
   "slug": "geek-meets-science",
   "title": "Geek Meets Science: ChemIDplus, an Example of Scientific Thinking",
+  "description": "[The ChemIDplus system](http://chem.sis.nlm.nih.gov/chemidplus/) is one of the longest-lived chemical structure search systems on the web, having started operations in 1998. The database contains over 400,000 records of which about 313,000 have chemical structures. The focus of ChemIDplus is a curated directory of links to health and safety data across governmental, regulatory and literature databases.\n\nWhat does it take to create a database of chemical structures and make it searchable on the web? A specialized component at the database (often a chemically-aware 'cartridge'), plus a graphical component to render structure for searching and upon retrieval.\n\nWe'll examine ChemIDplus as an example of geek-meets-science and an interesting database that's publicly available.",
   "_links": {
     "self": { "href": "/2014/sessions/geek-meets-science" },
     "event": { "href": "/2014/" },

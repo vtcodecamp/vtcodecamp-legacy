@@ -1,6 +1,7 @@
 {
   "slug": "d3-js",
   "title": "D3.js: A Paradigm Shift in Client-side Visualization of Data",
+  "description": "Visualization is the key to extracting information from data, but traditionally we've looked at charts and graphs one dimensionally, and decoupled from one another.\n\nThis talk is about the D3.js (Data Driven Documents) framework, a client-side visualization framework, and why its paradigm for visualization of data is an enabling technology for ways to explore data visually, and addresses a lot of the limitations associated with other charting libraries.\n\nThis talk address the paradigm behind D3, some sample use cases, and a tutorial to help get over some fundamental concepts needed to start using D3.",
   "_links": {
     "self": { "href": "/2014/sessions/d3-js" },
     "event": { "href": "/2014/" },
