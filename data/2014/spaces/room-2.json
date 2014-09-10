@@ -1,0 +1,9 @@
+{
+  "slug": "room-2",
+  "title": "Room 2",
+  "order": 2,
+  "_links": {
+    "self": { "href": "/2014/spaces/room-2" },
+    "track": { "href": "/2014/tracks/data-process-and-other" }
+  }
+}

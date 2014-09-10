@@ -1,0 +1,15 @@
+{
+  "slug": "modernizing-your-data-warehouse-for-hadoop",
+  "title": "Modernizing Your Data Warehouse for Hadoop",
+  "_links": {
+    "self": { "href": "/2014/sessions/modernizing-your-data-warehouse-for-hadoop" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/data-process-and-other" },
+    "space": { "href": "/2014/spaces/room-2" },
+    "timePeriod": { "href": "/2014/time-periods/1300" },
+    "level": { "href": "/2014/levels/300" },
+    "speaker": [
+      { "href": "/2014/speakers/christian-cote" }
+    ]
+  }
+}

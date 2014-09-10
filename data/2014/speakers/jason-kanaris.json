@@ -1,0 +1,9 @@
+{
+  "slug": "jason-kanaris",
+  "firstName": "Jason",
+  "lastName": "Kanaris",
+  "_links": {
+    "self": { "href": "/2014/speakers/jason-kanaris" },
+    "twitter": { "href": "https://twitter.com/phantomtypist", "title": "phantomtypist" }
+  }
+}

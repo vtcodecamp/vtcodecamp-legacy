@@ -1,0 +1,15 @@
+{
+  "slug": "take-control-of-your-interface",
+  "title": "Take Control of Your Interface: Crafting API Responses for Your Clients",
+  "_links": {
+    "self": { "href": "/2014/sessions/take-control-of-your-interface" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/web" },
+    "space": { "href": "/2014/spaces/room-4" },
+    "timePeriod": { "href": "/2014/time-periods/1415" },
+    "level": { "href": "/2014/levels/300" },
+    "speaker": [
+      { "href": "/2014/speakers/darrel-miller" }
+    ]
+  }
+}

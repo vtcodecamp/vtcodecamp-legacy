@@ -1,0 +1,14 @@
+{
+  "slug": "build-x-platform-apps-that-work-when-all-else-fails",
+  "title": "Build X Platform Apps That Work When All Else Fails",
+  "_links": {
+    "self": { "href": "/2014/sessions/build-x-platform-apps-that-work-when-all-else-fails" },
+    "event": { "href": "/2014/" },
+    "space": { "href": "/2014/spaces/room-5" },
+    "timePeriod": { "href": "/2014/time-periods/1415" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2014/speakers/tony-surma" }
+    ]
+  }
+}

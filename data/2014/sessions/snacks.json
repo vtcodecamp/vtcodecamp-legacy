@@ -1,0 +1,9 @@
+{
+  "slug": "snacks",
+  "title": "Break and Afternoon Snacks",
+  "_links": {
+    "self": { "href": "/2014/sessions/snacks" },
+    "event": { "href": "/2014/" },
+    "timePeriod": { "href": "/2014/time-periods/1515" }
+  }
+}
