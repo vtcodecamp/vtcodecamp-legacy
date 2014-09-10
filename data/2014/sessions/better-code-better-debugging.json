@@ -7,6 +7,7 @@
     "track": { "href": "/2014/tracks/practices" },
     "space": { "href": "/2014/spaces/room-1" },
     "timePeriod": { "href": "/2014/time-periods/1015" },
+    "level": { "href": "/2014/levels/300" },
     "speaker": [
       { "href": "/2014/speakers/kathleen-dollard" }
     ]
