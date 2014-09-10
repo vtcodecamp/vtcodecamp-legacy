@@ -2,6 +2,7 @@
   "slug": "jon-hoguet",
   "firstName": "Jon",
   "lastName": "Hoguet",
+  "bio": "Senior UI Developer at Dealer.com.",
   "_links": {
     "self": { "href": "/2014/speakers/jon-hoguet" }
   }

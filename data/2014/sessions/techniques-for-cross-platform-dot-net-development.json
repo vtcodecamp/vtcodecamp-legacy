@@ -1,6 +1,7 @@
 {
   "slug": "techniques-for-cross-platform-dot-net-development",
   "title": "Techniques for Cross Platform .NET Development",
+  "description": "There are many ways to share code between .NET, Windows Phone, and Window Store applications. Reduce duplicate code and copy/paste code sharing with Portable Class Libraries, linking code files and Universal Apps. Learn how to include platform specific code through partial classes and dependency injection to maximize code reuse.",
   "_links": {
     "self": { "href": "/2014/sessions/techniques-for-cross-platform-dot-net-development" },
     "event": { "href": "/2014/" },

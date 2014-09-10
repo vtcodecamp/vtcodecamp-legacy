@@ -2,6 +2,7 @@
   "slug": "anthony-van-der-hoorn",
   "firstName": "Anthony",
   "lastName": "van der Hoorn",
+  "bio": "Anthony van der Hoorn is a co-founder of Glimpse, and a regular speaker on such topics as Open Source, Web Practices and Diagnostics for the Web. Anthony specializes in web and front end development with technologies such as JavaScript, CSS, and HTML. He's bounced between living and working New York City and his home town of Brisbane, Australia – he's back in the USA at the moment. Anthony previously worked in the Financial Services sector developing high frequency trading systems and, in his spare time, he can be found out and about taking photos, speaking at conferences, and working on other Open Source projects.",
   "_links": {
     "self": { "href": "/2014/speakers/anthony-van-der-hoorn" },
     "twitter": { "href": "https://twitter.com/anthony_vdh", "title": "anthony_vdh" }

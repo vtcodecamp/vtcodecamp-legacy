@@ -1,6 +1,7 @@
 {
   "slug": "awesome-workflows-with-grunt-bower-and-yeoman",
   "title": "Awesome Workflows with Grunt, Bower and Yeoman",
+  "description": "How to use Grunt, Bower and Yeoman to get your front-end web development projects started fast, automate repetitious and tedious tasks, and maintain those annoying JavaScript dependencies.",
   "_links": {
     "self": { "href": "/2014/sessions/awesome-workflows-with-grunt-bower-and-yeoman" },
     "event": { "href": "/2014/" },

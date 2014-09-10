@@ -1,6 +1,7 @@
 {
   "slug": "modern-web-diagnostics-with-a-glimpse-into-asp-dot-net",
   "title": "Modern Web Diagnostics with a Glimpse into ASP.NET",
+  "description": "With the state of diagnostics on the web being what it is, we currently have to do a job that is much harder than it should be. Too often, the tools we are provided with only show a small part of the picture, leaving us to guess what else might be happening behind the scenes. Glimpse is an open source project that aims to change the way we think about diagnostics and the frameworks we interact with.\n\nAfter releasing Glimpse at Mix 11, Glimpse has become a tool that is used daily by tens of thousands of developers around the world. In this session, you'll learn how to use Glimpse to reveal a complete picture of what is happening within your ASP.NET MVC and WebForms sites, discover what tools are included out of the box, and see how you can easily extend it to suit your needs.",
   "_links": {
     "self": { "href": "/2014/sessions/modern-web-diagnostics-with-a-glimpse-into-asp-dot-net" },
     "event": { "href": "/2014/" },

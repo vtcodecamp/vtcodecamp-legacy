@@ -2,6 +2,7 @@
   "slug": "brian-lloyd-newberry",
   "firstName": "Brian",
   "lastName": "Lloyd-Newberry",
+  "bio": "Brian Lloyd-Newberry is the Enterprise Architect at Dealer.com, where he works with the team to implement a Service Oriented Architecture that scales across hundreds and hundreds of application instances powering applications that reach more than 70% of US Automotive Dealers.",
   "_links": {
     "self": { "href": "/2014/speakers/brian-lloyd-newberry" },
     "twitter": { "href": "https://twitter.com/brianln", "title": "brianln" }

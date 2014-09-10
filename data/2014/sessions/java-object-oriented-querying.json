@@ -1,6 +1,7 @@
 {
   "slug": "java-object-oriented-querying",
   "title": "jOOQ: Java Object Oriented Querying",
+  "description": "jOOQ is a lightweight database abstraction layer that allows you to write native SQL using the type safety and expressiveness of Java 8. Why struggle with ORMs or query sanitization when you can use your relational database like it was meant to be used? We will demonstrate how to implement jOOQ for business applications in a few easy steps.",
   "_links": {
     "self": { "href": "/2014/sessions/java-object-oriented-querying" },
     "event": { "href": "/2014/" },

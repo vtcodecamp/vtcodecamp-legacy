@@ -1,6 +1,7 @@
 {
   "slug": "take-control-of-your-interface",
   "title": "Take Control of Your Interface: Crafting API Responses for Your Clients",
+  "description": "Web frameworks help you build an API quickly but most have little support for dealing with an API that needs to evolve, forcing you to prematurely version your API.\n\nTake back control of the content you send over the wire. API responses are the \"user interface\" of your API and should be crafted with same attention to detail that cause designers to fret over color choices, shadows and highlights.\n\nIn this talk I'll show you what I have learned about API response design in the last 8 years of building Web APIs. I'll cover issues like structuring for evolution, sizing for optimum caching, the different ways to include metadata, media type selection and many other issues that surface when trying to design an API for the long haul.",
   "_links": {
     "self": { "href": "/2014/sessions/take-control-of-your-interface" },
     "event": { "href": "/2014/" },

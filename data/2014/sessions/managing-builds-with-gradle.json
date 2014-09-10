@@ -1,6 +1,7 @@
 {
   "slug": "managing-builds-with-gradle",
   "title": "Managing Builds with Gradle",
+  "description": "Gradle is a build automation tool that can automate compiling, testing, packing and deployment of your projects. It combines the flexibility of Ant and Dependency Management of Maven and provides a sweet spot for developers to write effective builds. Gradle supports multiple languages and platforms like C, C++, Scala, Groovy, Android etc. In this introductory level talk, we will discuss why people are talking about Gradle and some of the features that it provides. We will also look into some of the commonly used Gradle tasks. Lastly, we will compare maven and Gradle builds through a sample project.",
   "_links": {
     "self": { "href": "/2014/sessions/managing-builds-with-gradle" },
     "event": { "href": "/2014/" },
