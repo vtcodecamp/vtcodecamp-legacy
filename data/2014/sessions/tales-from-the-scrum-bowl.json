@@ -1,6 +1,7 @@
 {
   "slug": "tales-from-the-scrum-bowl",
   "title": "Tales from the Scrum Bowl: Servant-Leadership in the Dual Role of Scrum Master and Developer",
+  "description": "What's it like to be a developer on a team *and* to serve as its Scrum Master? In this talk, we'll discuss life on an agile scrum team and what it means to wear both of these hats. Does being a Scrum Master take away from the development role? Which role takes priority? Do the roles compliment each other? And what can we learn from each experience?",
   "_links": {
     "self": { "href": "/2014/sessions/tales-from-the-scrum-bowl" },
     "event": { "href": "/2014/" },

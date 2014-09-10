@@ -1,6 +1,7 @@
 {
   "slug": "build-x-platform-apps-that-work-when-all-else-fails",
   "title": "Build X Platform Apps That Work When All Else Fails",
+  "description": "Anyone with a phone knows that despite widespread coverage cellular connections are spotty and often slower and weaker than what we hope.\n\nAre your apps one of the few that responsibly handles connectivity issues and manages delays and stale data for the user? Based upon experiences designing and deploying applications in areas hit by natural disasters, we will discuss best practices and strategies for coding these responsible applications across mobile platforms that minimize data transferred, connection delays, store and forward uploads and requests, and use fallback technologies, like SMS, that are more likely to work in limited connectivity scenarios. To help you build consistent user experiences across device platforms we will focus on implementations with C# and .NET, leveraging open source frameworks and Mono/Xamarin that work across Windows Phone, Windows 8 and iOS & Android apps.",
   "_links": {
     "self": { "href": "/2014/sessions/build-x-platform-apps-that-work-when-all-else-fails" },
     "event": { "href": "/2014/" },

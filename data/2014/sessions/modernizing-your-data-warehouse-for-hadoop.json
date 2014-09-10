@@ -1,6 +1,7 @@
 {
   "slug": "modernizing-your-data-warehouse-for-hadoop",
   "title": "Modernizing Your Data Warehouse for Hadoop",
+  "description": "What is the architecture of a data warehouse in 2014? How can we integrate new trends and technologies? This session talks on how a data warehouse can benefit of newest SQL Server 2014 features and Azure HDInsight Big Data technologies.",
   "_links": {
     "self": { "href": "/2014/sessions/modernizing-your-data-warehouse-for-hadoop" },
     "event": { "href": "/2014/" },

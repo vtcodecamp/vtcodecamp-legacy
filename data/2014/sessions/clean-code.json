@@ -1,6 +1,7 @@
 {
   "slug": "clean-code",
   "title": "Clean Code: Write Clean Think Clean",
+  "description": "This is a session for developers of all levels and platforms. Dive into the how's and why's for developing clean code and learn to \"think clean\" when writing code. We will also share tips and tricks about industry tools available to help.",
   "_links": {
     "self": { "href": "/2014/sessions/clean-code" },
     "event": { "href": "/2014/" },

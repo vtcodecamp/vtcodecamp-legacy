@@ -1,6 +1,7 @@
 {
   "slug": "building-c-sharp-xamarin-forms-apps",
   "title": "Building C# Xamarin Forms Apps",
+  "description": "Use Visual Studio and C# to build native apps for iOS, Android and Windows Phone using the same User Interface code with Xamarin Forms. You just might say, \"Pinch me, I must be dreaming of Nirvana!\" It's true, come to this session and learn how to get started with Xamarin Forms! We will build an app from scratch showing off all of the controls, pages and layouts as well as some setup information.\n\nDemos will focus using Visual Studio, as well as C#. Also covered will be conditional compilation and the Device.OnPatform method. And we well as a look at Xamarin XAML and all of the controls. After seeing this session, you will know how to write Android, iOS and Windows Phone apps at the same time.",
   "_links": {
     "self": { "href": "/2014/sessions/building-c-sharp-xamarin-forms-apps" },
     "event": { "href": "/2014/" },

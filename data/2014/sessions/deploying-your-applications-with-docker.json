@@ -1,6 +1,7 @@
 {
   "slug": "deploying-your-applications-with-docker",
   "title": "Deploying Your Applications with Docker",
+  "description": "Docker is all the rage these days, and it is hard to keep up with all the buzz. This session will start with an overview of using Docker containers as a tool for deploying software applications. We'll also cover some of the tooling that supports clustering and PaaS deployment of Docker applications including Kubernetes, Mesos, and maybe a bit of CoreOS.",
   "_links": {
     "self": { "href": "/2014/sessions/deploying-your-applications-with-docker" },
     "event": { "href": "/2014/" },

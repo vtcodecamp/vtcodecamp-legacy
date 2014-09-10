@@ -1,6 +1,7 @@
 {
   "slug": "this-linux-life",
   "title": "This Linux Life",
+  "description": "In this session we'll look at Linux as an alternative to the Mac OS and Microsoft Windows. We'll compare Linux Development Tools to their proprietary counterparts like Visual Studio and SQL Server Manager and will look at Linux Open Source alternatives to everyday applications like Quicken, Photoshop and Microsoft Office. We'll spend a little time covering the Linux Ecosystem and most popular Linux distributions. Finally, you will learn how to experience Linux on your PC or laptop without making any changes to your current working environment.",
   "_links": {
     "self": { "href": "/2014/sessions/this-linux-life" },
     "event": { "href": "/2014/" },

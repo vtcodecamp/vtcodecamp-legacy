@@ -1,6 +1,7 @@
 {
   "slug": "slowlander",
   "title": "Slowlander: The Quickening",
+  "description": "A step-by-step case study of making slow web sites fast, from the easy stuff (reducing requests) to more advanced techniques (asynchronous loading and analyzing slow scripts).",
   "_links": {
     "self": { "href": "/2014/sessions/slowlander" },
     "event": { "href": "/2014/" },

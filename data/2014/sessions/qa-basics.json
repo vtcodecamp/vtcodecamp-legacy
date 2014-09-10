@@ -1,6 +1,7 @@
 {
   "slug": "qa-basics",
   "title": "QA Basics: A Talk for Devs, Project Managers & Presidents on Why & When They Need QA",
+  "description": "I did an \"Intro to QA\" talk for BTVWAG about a year ago that went over very well. I'd like to rework the material a little to use for Vermont Code Camp. It covers QA basics; defining QA, when & why it is needed as part of the SDLC, a few quick QA exercises for the audience (QA a coffee mug), some basic QA vocabulary, automated vs manual testing why and when to use them, the benefits of using QA, and does it really cut costs?",
   "_links": {
     "self": { "href": "/2014/sessions/qa-basics" },
     "event": { "href": "/2014/" },

@@ -1,6 +1,7 @@
 {
   "slug": "behavior-driven-development",
   "title": "Behavior-Driven Development: One Team's Exploration",
+  "description": "In this session we will look into a team's experience with adopting Behavior-Driven Development (BDD) and look to answer these questions:\n\n * Why did we try it?\n * What tools and processes did we adopt?\n * How did it go?",
   "_links": {
     "self": { "href": "/2014/sessions/behavior-driven-development" },
     "event": { "href": "/2014/" },

@@ -1,6 +1,7 @@
 {
   "slug": "pulling-your-website-up-by-your-twitter-bootstraps",
   "title": "Pulling Your Website Up By Your Twitter Bootstraps",
+  "description": "This session will cover an Introduction to using Twitter Bootstrap in ASP.NET.\n\nTwitter bootstrap is a great, open-source front-end framework for designing and developing sleek web applications. It's been out for a while, but if you haven't had a chance to take it for a spin, this session will be a great launching pad. We'll cover some of the basic principles of responsive design, and discuss how Bootstrap (or any front end framework) can make designing a modern UI much easier.\n\nKyle is currently 20th on the top twitter-bootstrap answerers on StackOverflow of all time. But don't just take his word for it: [data.stackexchange.com/stackoverflow/query/185479/](http://data.stackexchange.com/stackoverflow/query/185479/)",
   "_links": {
     "self": { "href": "/2014/sessions/pulling-your-website-up-by-your-twitter-bootstraps" },
     "event": { "href": "/2014/" },
