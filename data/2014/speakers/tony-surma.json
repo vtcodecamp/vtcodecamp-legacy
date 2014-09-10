@@ -2,6 +2,7 @@
   "slug": "tony-surma",
   "firstName": "Tony",
   "lastName": "Surma",
+  "bio": "Tony Surma is the CTO of Microsoft's Disaster Response program which is responsible for the development and deployment of Microsoft and their partners' technologies to enable response organizations' critical relief efforts and connect communities affected by natural disasters throughout the world. He is a member of the core team for Random Hacks of Kindness on behalf of Microsoft and is one of founders of the Humanitarian Toolbox initiative. He now spends seemingly equal amounts of time in making presentations at work and writing code at home and at work with a technical focus on user experience (UX) of mobile, web and desktop applications and the architecture of the large cloud applications they depend on. Beyond work, Tony is always looking forward to volunteering to help non-profits leverage angle brackets, semi-colons and command line switches.",
   "_links": {
     "self": { "href": "/2014/speakers/tony-surma" },
     "twitter": { "href": "https://twitter.com/tonysurma", "title": "tonysurma" }

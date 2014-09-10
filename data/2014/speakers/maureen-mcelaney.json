@@ -2,6 +2,7 @@
   "slug": "maureen-mcelaney",
   "firstName": "Maureen",
   "lastName": "McElaney",
+  "bio": "Maureen McElaney founded the Burlington chapter of Girl Develop It, which offers low cost workshops for women who want to learn how to code. At her day job she is a QA Engineer at Dealer.com.",
   "_links": {
     "self": { "href": "/2014/speakers/maureen-mcelaney" },
     "twitter": { "href": "https://twitter.com/Mo_Mack", "title": "Mo_Mack" }

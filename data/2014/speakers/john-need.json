@@ -2,6 +2,7 @@
   "slug": "john-need",
   "firstName": "John",
   "lastName": "Need",
+  "bio": "Front End Web Architect at Keurig Green Mountain. [Full bio.](http://about.me/john_need/)",
   "_links": {
     "self": { "href": "/2014/speakers/john-need" },
     "twitter": { "href": "https://twitter.com/JohnNeed", "title": "JohnNeed" }

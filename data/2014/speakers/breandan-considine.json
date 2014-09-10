@@ -2,6 +2,7 @@
   "slug": "breandan-considine",
   "firstName": "Breandan",
   "lastName": "Considine",
+  "bio": "Breandan is a Java developer and technical evangelist at JetBrains.",
   "_links": {
     "self": { "href": "/2014/speakers/breandan-considine" },
     "twitter": { "href": "https://twitter.com/breandan", "title": "breandan" }

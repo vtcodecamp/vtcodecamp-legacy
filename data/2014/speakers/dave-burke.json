@@ -2,6 +2,7 @@
   "slug": "dave-burke",
   "firstName": "Dave",
   "lastName": "Burke",
+  "bio": "Dave launched his first web site on an IBM AIX RISC/6000 machine in 1994 and has been building web applications ever since. After working in Red Hat Linux and PHP in the mid 90's he spent 15 years with Microsoft Technologies before returning to his Linux roots in 2012. He currently specializes in Java Development, is author of the Java Code Generation Tool [CodeJohnny](http://codejohnny.com/), and works as a Freelance Developer and Consultant to companies moving from proprietary environments to Linux and Open Source Solutions. His blog is located at [nixmash.com](http://nixmash.com/).",
   "_links": {
     "self": { "href": "/2014/speakers/dave-burke" },
     "twitter": { "href": "https://twitter.com/daveburkevt", "title": "daveburkevt" }

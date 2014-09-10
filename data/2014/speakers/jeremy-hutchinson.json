@@ -2,6 +2,7 @@
   "slug": "jeremy-hutchinson",
   "firstName": "Jeremy",
   "lastName": "Hutchinson",
+  "bio": "Jeremy, a Senior Developer at Ontuitive, has been developing line of business applications for 15 years primarily in the Microsoft Stack. He has a passion for writing clean, scalable code and sharing what he has learned with other.",
   "_links": {
     "self": { "href": "/2014/speakers/jeremy-hutchinson" },
     "twitter": { "href": "https://twitter.com/finercode", "title": "finercode" }
