@@ -1,0 +1,15 @@
+{
+  "slug": "build-a-more-vibrant-tech-community",
+  "title": "Build A More Vibrant Tech Community",
+  "_links": {
+    "self": { "href": "/2014/sessions/build-a-more-vibrant-tech-community" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/ms-and-other" },
+    "space": { "href": "/2014/spaces/room-3" },
+    "timePeriod": { "href": "/2014/time-periods/1130" },
+    "level": { "href": "/2014/levels/100" },
+    "speaker": [
+      { "href": "/2014/speakers/maureen-mcelaney" }
+    ]
+  }
+}

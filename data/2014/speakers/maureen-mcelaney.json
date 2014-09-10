@@ -1,0 +1,9 @@
+{
+  "slug": "maureen-mcelaney",
+  "firstName": "Maureen",
+  "lastName": "McElaney",
+  "_links": {
+    "self": { "href": "/2014/speakers/maureen-mcelaney" },
+    "twitter": { "href": "https://twitter.com/Mo_Mack", "title": "Mo_Mack" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "slug": "lunch",
+  "title": "Lunch and Science Fair: John Cicilio presents \"Building a Web Controlled Telepresence Rover\"",
+  "_links": {
+    "self": { "href": "/2014/sessions/lunch" },
+    "event": { "href": "/2014/" },
+    "timePeriod": { "href": "/2014/time-periods/1200" }
+  }
+}

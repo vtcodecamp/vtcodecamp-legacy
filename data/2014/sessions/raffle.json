@@ -1,0 +1,9 @@
+{
+  "slug": "raffle",
+  "title": "Raffle!",
+  "_links": {
+    "self": { "href": "/2014/sessions/raffle" },
+    "event": { "href": "/2014/" },
+    "timePeriod": { "href": "/2014/time-periods/1730" }
+  }
+}

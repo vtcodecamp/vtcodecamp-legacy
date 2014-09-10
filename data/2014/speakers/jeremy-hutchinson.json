@@ -1,0 +1,9 @@
+{
+  "slug": "jeremy-hutchinson",
+  "firstName": "Jeremy",
+  "lastName": "Hutchinson",
+  "_links": {
+    "self": { "href": "/2014/speakers/jeremy-hutchinson" },
+    "twitter": { "href": "https://twitter.com/finercode", "title": "finercode" }
+  }
+}

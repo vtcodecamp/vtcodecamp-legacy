@@ -1,0 +1,15 @@
+{
+  "slug": "using-grunt-js-to-automate-your-wordpress-workflow",
+  "title": "Using Grunt.js to Automate your WordPress Workflow",
+  "_links": {
+    "self": { "href": "/2014/sessions/using-grunt-js-to-automate-your-wordpress-workflow" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/web" },
+    "space": { "href": "/2014/spaces/room-4" },
+    "timePeriod": { "href": "/2014/time-periods/1130" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2014/speakers/josh-lee" }
+    ]
+  }
+}
