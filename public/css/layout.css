@@ -289,6 +289,10 @@ ul.sponsors li {
     list-style: none;
     vertical-align: middle;
 }
+ul.sponsors li.name-only {
+    max-width: 150px;
+    font-size: 1.6em;
+}
 .logo {
     width: 150px;
     display: block;
