@@ -12,8 +12,9 @@
     <meta name="description" content="{{ description }}">
 {% endif %}
     <link rel="profile" href="http://microformats.org/profile/hcalendar">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/reset.css?rev=aab9ad3fbc2c1408447c191f51ccc059bfb0cb11" rel="stylesheet" type="text/css" media="handheld, all" />
-    <link href="/css/layout.css?rev=1f2ec6bb251f861907038a9f838f39d523d72e0d" rel="stylesheet" type="text/css" media="handheld, all" />
+    <link href="/css/layout.css?rev=41e07c873489bbc05e0c24e0e2c3edb3841fde41" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/content.css?rev=d240233e8c635288fafb8ab98f624a3d195f5a1b" rel="stylesheet" type="text/css" media="handheld, all" />
     <script src="/js/modernizr-2.6.2.min.js" type="text/javascript"></script>
     <script src="/js/jquery-1.7.1.min.js" type="text/javascript"></script>
@@ -65,6 +66,11 @@
             </div>
         </div>
     </header>
+    <aside class="page">
+        <div class="inner">
+            <p><strong>Attending Vermont Code Camp 2014?</strong> <a href="{{ path('schedule', {'year': '2014'}) }}">View the schedule. <i class="fa fa-chevron-circle-right"></i></a></p>
+        </div>
+    </aside>
 {% block content %}{% endblock %}
     <footer class="page">
         <div class="inner">
