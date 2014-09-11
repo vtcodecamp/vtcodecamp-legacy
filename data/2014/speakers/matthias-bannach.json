@@ -2,6 +2,7 @@
   "slug": "matthias-bannach",
   "firstName": "Matthias",
   "lastName": "Bannach",
+  "bio": "Matthias has been working in software development for over 30 years in which he has developed embedded systems, systems management, web solutions, mobile apps and recently DB and ERP solutions and web based BI infrastructure. After facing a mostly Microsoft environment he forsake Linux command-line tools for administration and embraced PowerShell as an alternative for the odds-and-ends of development and operations.",
   "_links": {
     "self": { "href": "/2014/speakers/matthias-bannach" }
   }
