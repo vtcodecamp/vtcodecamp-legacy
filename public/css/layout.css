@@ -98,6 +98,7 @@ header.page .meta .location {
     color: #DDD;
 }
 header.page .meta .location small.school {
+    display: block;
     font-size: 0.65em;
 }
 @media all and (min-width: 480px) {
