@@ -32,7 +32,12 @@
             <tr id="{{ timePeriod.slug }}">
                 <td scope="row" class="timespan">{{ timePeriod.start|date("g:ia", "America/New_York") }}-{{ timePeriod.end|date("g:ia", "America/New_York") }}</td>
         {% if timePeriod._embedded.session is defined %}
-                <td colspan="{{ schedule._embedded.space|length }}">{{ timePeriod._embedded.session.title }}</td>
+                <td colspan="{{ schedule._embedded.space|length }}">
+                    {{ timePeriod._embedded.session.title }}
+            {% if timePeriod._embedded.session.description is defined %}
+                    {{ timePeriod._embedded.session.description|markdown }}
+            {% endif %}
+                </td>
         {% elseif timePeriod._embedded.space is defined %}
             {% for space in schedule._embedded.space %}
                 {% if timePeriod._embedded.space[loop.index0]._embedded.session is defined and timePeriod._embedded.space[loop.index0] is defined and space.slug == timePeriod._embedded.space[loop.index0].slug %}
