@@ -1,0 +1,25 @@
+{% set event = {'slug': '2014', 'title': 'Vermont Code Camp 2014'} %}
+{% extends "layouts/default.html" %}
+
+{% block title %}Promote {{ event.title }}{% endblock %}
+
+{% block description %}The following resources are available to help promote {{ event.title }}.{% endblock %}
+
+{% block content %}
+<section id="content" class="event-{{ event.slug|raw }}">
+{% include 'includes/event.html' %}
+    <h1>Promote {{ event.title }}</h1>
+    <p>The following resources are available to help promote {{ event.title }}.</p>
+    <h2>Event Posters</h2>
+    <article class="resource">
+        <h3>11" x 17", Color</h3>
+        <a href="/media/2014/posters/Vermont-Code-Camp-2014-Poster-11x17.pdf"><img src="/media/2014/posters/Vermont-Code-Camp-2014-Poster-11x17-200x309.jpg" width="200" height="309" alt="Vermont Code Camp 2014 Event Poster: 11&quot; x 17&quot;, Color" class="document-thumbnail" /></a>
+        <p><a href="/media/2014/posters/Vermont-Code-Camp-2014-Poster-11x17.pdf">Download</a> <small>(.pdf)</small></p>
+    </article>
+    <article class="resource">
+        <h3>8.5" x 11", Color</h3>
+        <a href="/media/2014/posters/Vermont-Code-Camp-2014-Poster-8.5x11.pdf"><img src="/media/2014/posters/Vermont-Code-Camp-2014-Poster-8.5x11-155x200.jpg" width="155" height="200" alt="Vermont Code Camp 2014 Event Poster: 8.5&quot; x 11&quot;, Color" class="document-thumbnail" /></a>
+        <p><a href="/media/2014/posters/Vermont-Code-Camp-2014-Poster-8.5x11.pdf">Download</a> <small>(.pdf)</small></p>
+    </article>
+</section>
+{% endblock %}
