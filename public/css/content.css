@@ -221,6 +221,10 @@ table.schedule .room,
 table.schedule .speaker {
     display: block;
 }
+table.schedule td p {
+    margin-top: 0;
+    font-size: 0.9em;
+}
 .categories {
     margin-top: 0.4em;
 }

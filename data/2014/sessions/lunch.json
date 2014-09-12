@@ -1,6 +1,7 @@
 {
   "slug": "lunch",
-  "title": "Lunch | John Cicilio presents \"Building a Web Controlled Telepresence Rover\" in Room 4 | Mark Olofson presents \"It Takes a Village (to Teach Kids to Code)\" in Room 1",
+  "title": "Lunch",
+  "description": "[Mark Olofson](/2014/speakers#mark-olofson) presents [\"It Takes a Village (to Teach Kids to Code)\"](/2014/sessions#it-takes-a-village) in Room 1\n\n[John Cicilio](/2014/speakers#john-cicilio) presents [\"Building a Web Controlled Telepresence Rover\"](/2014/sessions#building-a-web-controlled-telepresence-rover) in Room 4",
   "_links": {
     "self": { "href": "/2014/sessions/lunch" },
     "event": { "href": "/2014/" },
