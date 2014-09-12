@@ -1,0 +1,15 @@
+{
+  "slug": "it-takes-a-village",
+  "title": "It Takes a Village (to Teach Kids to Code)",
+  "description": "Coding is a vital skill for 21st century students, and you can help them learn by opening your doors to their schools. Community partnerships provide real world, hands-on help with skill learning, besides keeping student engagement and enthusiasm. Be part of the revolution – get involved!",
+  "_links": {
+    "self": { "href": "/2014/sessions/it-takes-a-village" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/practices" },
+    "space": { "href": "/2014/spaces/room-1" },
+    "timePeriod": { "href": "/2014/time-periods/1200" },
+    "speaker": [
+      { "href": "/2014/speakers/mark-olofson" }
+    ]
+  }
+}

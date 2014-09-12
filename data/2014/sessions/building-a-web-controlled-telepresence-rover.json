@@ -1,0 +1,16 @@
+{
+  "slug": "building-a-web-controlled-telepresence-rover",
+  "title": "Building a Web Controlled Telepresence Rover",
+  "description": "Utilizing the RaspberryPi, power electronics, Python, and a tablet - we will walk through the construction (software, mechanical, electrical) of a web controlled telepresence rover.\n\nThis is a fun explanation and \"how to\" for integrating computation, electronics and web based control that anyone can build with off the shelf parts.",
+  "_links": {
+    "self": { "href": "/2014/sessions/building-a-web-controlled-telepresence-rover" },
+    "event": { "href": "/2014/" },
+    "track": { "href": "/2014/tracks/web" },
+    "space": { "href": "/2014/spaces/room-4" },
+    "timePeriod": { "href": "/2014/time-periods/1200" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2014/speakers/john-cicilio" }
+    ]
+  }
+}
