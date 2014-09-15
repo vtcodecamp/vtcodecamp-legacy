@@ -1,9 +1,9 @@
 {
-  "slug": "azure-dot-net-and-the-internet-of-things",
-  "title": "Azure, .NET and the Internet of Things",
+  "slug": "the-internet-of-things",
+  "title": "The Internet of Things",
   "description": "The Internet of Things (IoT) movement is picking up steam. It's estimated that by 2020, the IoT will be an $8.9 trillion market with over 200 billion connected devices. In this session you'll learn how to leverage your existing .NET skills to build the next big (or tiny) thing!\n\nThis session will explore:\n\n * What is the Internet of Things?\n * An introduction to basic micro electronics.\n * What is the .NET Micro Framework (NETMF)?\n * Exploring the Netduino and Arduino.\n * Running C# on a Raspberry Pi.\n * Connecting your devices to Azure.\n * Using the Windows on Devices SDK with an Intel Galileo.\n\nThere will be no time for boring slides here. Instead we'll be covering lots of code and fun interactive demos with the audience. Be sure to attend because you won't want to miss out on the swag and cool prizes given away during the session.",
   "_links": {
-    "self": { "href": "/2014/sessions/azure-dot-net-and-the-internet-of-things" },
+    "self": { "href": "/2014/sessions/the-internet-of-things" },
     "event": { "href": "/2014/" },
     "track": { "href": "/2014/tracks/ms-and-other" },
     "space": { "href": "/2014/spaces/room-3" },
