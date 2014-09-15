@@ -497,6 +497,10 @@ ul.sponsors li.name-only {
     height: 46px;
     background-image: url(/media/sponsors/Keurig-Green-Mountain-logo-200x46.jpg);
 }
+.logo.stg {
+    height: 49px;
+    background-image: url(/media/sponsors/STG-logo-150x49.jpg);
+}
 #event,
 #event a {
     color: #888;
