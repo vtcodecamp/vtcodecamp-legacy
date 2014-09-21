@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/100" },
     "speaker": [
       { "href": "/2014/speakers/rob-friesel" }
+    ],
+    "resource": [
+      { "href": "http://founddrama.github.io/vt-code-cam-2014/", "title": "Slides" }
     ]
   }
 }

@@ -11,6 +11,10 @@
     "level": { "href": "/2014/levels/300" },
     "speaker": [
       { "href": "/2014/speakers/jon-hoguet" }
+    ],
+    "resource": [
+      { "href": "http://goo.gl/Q3ccNO", "title": "Slides" },
+      { "href": "http://goo.gl/JMf0ss", "title": "Post" }
     ]
   }
 }
