@@ -1,10 +1,9 @@
 {
   "slug": "2014",
   "title": "Vermont Code Camp 2014",
-  "description": "The Vermont Code Camp 2014 schedule includes sessions on a variety of software topics, including programming, databases, web, business and more.",
-  "content": "The Vermont Code Camp 2014 schedule includes sessions on a variety of software topics, including programming, databases, web, business and more.",
+  "description": "The Vermont Code Camp 2014 schedule included sessions on a variety of software topics, including programming, databases, web, business and more.",
+  "content": "The Vermont Code Camp 2014 schedule included sessions on a variety of software topics, including programming, databases, web, business and more.",
   "_links": {
-    "self": { "href": "/2014/" },
-    "registration": { "href": "http://www.meetup.com/VTCode/events/187086542/" }
+    "self": { "href": "/2014/" }
   }
 }
