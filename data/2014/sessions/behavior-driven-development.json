@@ -11,6 +11,10 @@
     "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/david-coutu" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/dtcoutu/behaviordriven-design-one-teams-exploration", "title": "Slides" },
+      { "href": "http://martinfowler.com/articles/is-tdd-dead/", "title": "More Resources" }
     ]
   }
 }
