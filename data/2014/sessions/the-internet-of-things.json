@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/100" },
     "speaker": [
       { "href": "/2014/speakers/jason-kanaris" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/phantomtypist/internet-of-things-iot-presentation", "title": "Slides" }
     ]
   }
 }
