@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/john-need" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/JohnNeed/awesome-workflowswithyeomangruntandbowercodecampvt2014", "title": "Slides" }
     ]
   }
 }
