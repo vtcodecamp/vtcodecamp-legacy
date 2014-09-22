@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/brie-hoblin" }
+    ],
+    "resource": [
+      { "href": "https://speakerdeck.com/mountaingirl/quality-assurance-basics-for-devs-project-managers-and-presidents", "title": "Slides" }
     ]
   }
 }
