@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/josh-lee" }
+    ],
+    "resource": [
+      { "href": "http://www.joshuamlee.com/presentations/2014/9/20/automating-your-wordpress-workflow-with-gruntjs-vtcc", "title": "Slides" }
     ]
   }
 }

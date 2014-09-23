@@ -11,6 +11,10 @@
     "level": { "href": "/2014/levels/100" },
     "speaker": [
       { "href": "/2014/speakers/dave-burke" }
+    ],
+    "resource": [
+      { "href": "http://nixmash.com/x/presentations/thislinuxlife/", "title": "Slides" },
+      { "href": "http://nixmash.com/linux/this-linux-life-my-vermont-code-camp-6-presentation/", "title": "Post" }
     ]
   }
 }
