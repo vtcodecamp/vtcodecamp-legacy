@@ -13,7 +13,8 @@
       { "href": "/2014/speakers/josh-lee" }
     ],
     "resource": [
-      { "href": "http://www.joshuamlee.com/presentations/2014/9/20/automating-your-wordpress-workflow-with-gruntjs-vtcc", "title": "Slides" }
+      { "href": "http://www.slideshare.net/JoshLee11/automate-your-word-press-workflow-with-gruntjs", "title": "Slides" },
+      { "href": "http://www.joshuamlee.com/presentations/2014/9/20/automating-your-wordpress-workflow-with-gruntjs-vtcc", "title": "Post" }
     ]
   }
 }
