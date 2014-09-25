@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/300" },
     "speaker": [
       { "href": "/2014/speakers/darrel-miller" }
+    ],
+    "resource": [
+      { "href": "http://www.bizcoder.com/vermont-code-camp", "title": "Slides" }
     ]
   }
 }
