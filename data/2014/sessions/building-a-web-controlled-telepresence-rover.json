@@ -11,6 +11,9 @@
     "level": { "href": "/2014/levels/200" },
     "speaker": [
       { "href": "/2014/speakers/john-cicilio" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/johncicilio/vermont-code-camp-2014-simple-rover", "title": "Slides" }
     ]
   }
 }
