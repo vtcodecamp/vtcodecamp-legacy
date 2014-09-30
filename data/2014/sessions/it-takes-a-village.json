@@ -10,6 +10,9 @@
     "timePeriod": { "href": "/2014/time-periods/1200" },
     "speaker": [
       { "href": "/2014/speakers/mark-olofson" }
+    ],
+    "resource": [
+      { "href": "http://tiie.w3.uvm.edu/blog/support-community-partnerships/", "title": "Post" }
     ]
   }
 }
