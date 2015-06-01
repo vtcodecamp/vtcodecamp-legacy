@@ -224,6 +224,7 @@ header.page .meta .location small.school {
     }
 }
 footer.page {
+    clear: both;
     padding-top: 3em;
     padding-bottom: 4em;
     text-align: center;
