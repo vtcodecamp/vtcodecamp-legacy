@@ -1,7 +1,5 @@
 web1:
-  httpd_document_root: public
-  version: 5.4
-  stability: production
+  document_root: public
   php_extensions:
     - apc
     - mcrypt
@@ -14,11 +12,10 @@ web1:
   php_display_startup_errors: "0"
   php_error_reporting: 22527
   php_short_open_tag: "1"
-  build:
-    exec:
-      - "php composer.phar install"
-      - "php admin.php twig:compile"
-      - "php admin.php events:build"
+  after_build:
+    - "php composer.phar install"
+    - "php admin.php twig:compile"
+    - "php admin.php events:build"
 cache1:
   type: memcached
 global:
