@@ -506,6 +506,10 @@ ul.sponsors li.name-only {
     height: 49px;
     background-image: url(/media/sponsors/STG-logo-150x49.jpg);
 }
+.logo.galen-healthcare-solutions {
+    height: 36px;
+    background-image: url(/media/sponsors/Galen-Healthcare-Solutions-logo-150x36.jpg);
+}
 #event,
 #event a {
     color: #888;
