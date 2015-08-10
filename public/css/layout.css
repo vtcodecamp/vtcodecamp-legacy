@@ -341,7 +341,7 @@ ul.sponsors li.name-only {
     height: 73px;
     background-image: url(/media/sponsors/MyWebGrocer-logo-150x73.jpg);
 }
-mywebgrocer-primary-grey-background {
+.logo.mywebgrocer-primary-grey-background {
     height: 75px;
     background-image: url(/media/sponsors/MyWebGrocer-primary-grey-background-logo-150x75.jpg);
 }
