@@ -458,6 +458,10 @@ ul.sponsors li.name-only {
     height: 55px;
     background-image: url(/media/sponsors/Evolution-logo-150x55.jpg);
 }
+.logo.evolution-hcm-technology {
+    height: 86px;
+    background-image: url(/media/sponsors/Evolution-HCM-Technology-logo-150x86.jpg);
+}
 .logo.pluralsight {
     height: 28px;
     background-image: url(/media/sponsors/Pluralsight-logo-150x28.jpg);
