@@ -514,6 +514,10 @@ ul.sponsors li.name-only {
     height: 36px;
     background-image: url(/media/sponsors/Galen-Healthcare-Solutions-logo-150x36.jpg);
 }
+.logo.vermont-design-works {
+    height: 43px;
+    background-image: url(/media/sponsors/Vermont-Design-Works-logo-150x43.jpg);
+}
 #event,
 #event a {
     color: #888;
