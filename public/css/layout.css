@@ -350,6 +350,11 @@ ul.sponsors li.name-only {
     height: 33px;
     background-image: url(/media/sponsors/Dealer-Dot-Com-logo-250x33.jpg);
 }
+.logo.dealer-dot-com-a-dealertrack-solution {
+    width: 250px;
+    height: 33px;
+    background-image: url(/media/sponsors/Dealer-Dot-Com-A-Dealertrack-Solution-logo-250x33.jpg);
+}
 .logo.telerik {
     height: 59px;
     background-image: url(/media/sponsors/Telerik-logo-150x59.jpg);
