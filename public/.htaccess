@@ -3,6 +3,7 @@ RedirectMatch ^/2011/?$ /2011/schedule
 RedirectMatch ^/2012/?$ /2012/schedule
 RedirectMatch ^/2013/?$ /2013/schedule
 RedirectMatch ^/2014/?$ /2014/schedule
+RedirectMatch ^/2015/?$ /2015/schedule
 
 <IfModule mod_rewrite.c>
     Options -MultiViews
