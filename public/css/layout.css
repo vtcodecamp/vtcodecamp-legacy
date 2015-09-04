@@ -523,6 +523,10 @@ ul.sponsors li.name-only {
     height: 43px;
     background-image: url(/media/sponsors/Vermont-Design-Works-logo-150x43.jpg);
 }
+.logo.girl-develop-it {
+    height: 40px;
+    background-image: url(/media/sponsors/Girl-Develop-It-logo-150x40.jpg);
+}
 #event,
 #event a {
     color: #888;
