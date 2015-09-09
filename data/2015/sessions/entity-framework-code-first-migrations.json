@@ -3,6 +3,7 @@
   "title": "Automating Database Schema and Data Deployments Using Entity Framework Code First Migrations",
   "_links": {
     "self": { "href": "/2015/sessions/entity-framework-code-first-migrations" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1415" }
   }
 }

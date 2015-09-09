@@ -3,6 +3,7 @@
   "title": "Windows Services Made User Friendly",
   "_links": {
     "self": { "href": "/2015/sessions/windows-services" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1545" }
   }
 }

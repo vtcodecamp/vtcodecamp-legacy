@@ -3,6 +3,7 @@
   "title": "Mithril and Webpack: Performance and Simplicity in Client-side Applications",
   "_links": {
     "self": { "href": "/2015/sessions/mithril-and-webpack" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1415" }
   }
 }

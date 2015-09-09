@@ -3,6 +3,7 @@
   "title": "Getting SQL Schema and Code into Version Control Using SQL Server Database Projects",
   "_links": {
     "self": { "href": "/2015/sessions/sql-schema-and-code-version-control" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1130" }
   }
 }

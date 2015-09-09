@@ -3,6 +3,7 @@
   "title": "Introduction to Meteor.js: Why and How",
   "_links": {
     "self": { "href": "/2015/sessions/meteor-js" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/0900" }
   }
 }

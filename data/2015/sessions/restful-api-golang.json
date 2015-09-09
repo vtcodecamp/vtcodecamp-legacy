@@ -3,6 +3,7 @@
   "title": "Writing a RESTful API with the Go language (golang)",
   "_links": {
     "self": { "href": "/2015/sessions/restful-api-golang" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1130" }
   }
 }

@@ -3,6 +3,7 @@
   "title": "Live Coding Web Applications with ClojureScript and Figwheel",
   "_links": {
     "self": { "href": "/2015/sessions/clojurescript-and-figwheel" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/0900" }
   }
 }

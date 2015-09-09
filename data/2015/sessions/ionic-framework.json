@@ -3,6 +3,7 @@
   "title": "Introduction to Ionic Framework",
   "_links": {
     "self": { "href": "/2015/sessions/ionic-framework" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1015" }
   }
 }

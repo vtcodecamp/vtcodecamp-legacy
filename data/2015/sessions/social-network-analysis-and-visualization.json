@@ -3,6 +3,7 @@
   "title": "Social Network Analysis & Visualization",
   "_links": {
     "self": { "href": "/2015/sessions/social-network-analysis-and-visualization" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1130" }
   }
 }

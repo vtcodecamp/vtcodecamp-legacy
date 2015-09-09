@@ -3,6 +3,7 @@
   "title": "Patterns & Practices for Real World Event Driven Microservices",
   "_links": {
     "self": { "href": "/2015/sessions/event-driven-microservices" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/1300" }
   }
 }

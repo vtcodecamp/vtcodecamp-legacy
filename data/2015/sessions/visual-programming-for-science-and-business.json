@@ -3,6 +3,7 @@
   "title": "Visual Programming for Science and Business",
   "_links": {
     "self": { "href": "/2015/sessions/visual-programming-for-science-and-business" },
-    "event": { "href": "/2015/" }
+    "event": { "href": "/2015/" },
+    "timePeriod": { "href": "/2015/time-periods/0900" }
   }
 }
