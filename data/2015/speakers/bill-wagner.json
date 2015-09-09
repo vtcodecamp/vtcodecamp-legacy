@@ -1,0 +1,8 @@
+{
+  "slug": "bill-wagner",
+  "firstName": "Bill",
+  "lastName": "Wagner",
+  "_links": {
+    "self": { "href": "/2015/speakers/bill-wagner" }
+  }
+}

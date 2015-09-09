@@ -1,0 +1,8 @@
+{
+  "slug": "john-bennett",
+  "firstName": "John",
+  "lastName": "Bennett",
+  "_links": {
+    "self": { "href": "/2015/speakers/john-bennett" }
+  }
+}

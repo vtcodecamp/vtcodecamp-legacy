@@ -1,0 +1,8 @@
+{
+  "slug": "floyd-hilton",
+  "firstName": "Floyd",
+  "lastName": "Hilton",
+  "_links": {
+    "self": { "href": "/2015/speakers/floyd-hilton" }
+  }
+}
