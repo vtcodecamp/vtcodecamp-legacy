@@ -3,6 +3,7 @@
   "firstName": "John",
   "lastName": "Bennett",
   "_links": {
-    "self": { "href": "/2015/speakers/john-bennett" }
+    "self": { "href": "/2015/speakers/john-bennett" },
+    "twitter": { "href": "https://twitter.com/jtbennett", "title": "jtbennett" }
   }
 }

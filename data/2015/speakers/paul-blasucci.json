@@ -3,6 +3,7 @@
   "firstName": "Paul",
   "lastName": "Blasucci",
   "_links": {
-    "self": { "href": "/2015/speakers/paul-blasucci" }
+    "self": { "href": "/2015/speakers/paul-blasucci" },
+    "twitter": { "href": "https://twitter.com/pblasucci", "title": "pblasucci" }
   }
 }

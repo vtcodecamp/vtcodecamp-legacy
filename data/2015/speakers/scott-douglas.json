@@ -3,6 +3,7 @@
   "firstName": "Scott",
   "lastName": "Douglas",
   "_links": {
-    "self": { "href": "/2015/speakers/scott-douglas" }
+    "self": { "href": "/2015/speakers/scott-douglas" },
+    "twitter": { "href": "https://twitter.com/uberska", "title": "uberska" }
   }
 }

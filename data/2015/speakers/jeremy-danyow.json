@@ -3,6 +3,7 @@
   "firstName": "Jeremy",
   "lastName": "Danyow",
   "_links": {
-    "self": { "href": "/2015/speakers/jeremy-danyow" }
+    "self": { "href": "/2015/speakers/jeremy-danyow" },
+    "twitter": { "href": "https://twitter.com/dany0w", "title": "dany0w" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Jessica",
   "lastName": "Ingrassellino",
   "_links": {
-    "self": { "href": "/2015/speakers/jessica-ingrassellino" }
+    "self": { "href": "/2015/speakers/jessica-ingrassellino" },
+    "twitter": { "href": "https://twitter.com/jess_ingrass", "title": "jess_ingrass" }
   }
 }

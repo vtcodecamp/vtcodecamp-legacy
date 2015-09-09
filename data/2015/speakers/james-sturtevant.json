@@ -3,6 +3,7 @@
   "firstName": "James",
   "lastName": "Sturtevant",
   "_links": {
-    "self": { "href": "/2015/speakers/james-sturtevant" }
+    "self": { "href": "/2015/speakers/james-sturtevant" },
+    "twitter": { "href": "https://twitter.com/aspenwilder", "title": "aspenwilder" }
   }
 }

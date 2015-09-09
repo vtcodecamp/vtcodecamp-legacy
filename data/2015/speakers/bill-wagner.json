@@ -3,6 +3,7 @@
   "firstName": "Bill",
   "lastName": "Wagner",
   "_links": {
-    "self": { "href": "/2015/speakers/bill-wagner" }
+    "self": { "href": "/2015/speakers/bill-wagner" },
+    "twitter": { "href": "https://twitter.com/billwagner", "title": "billwagner" }
   }
 }

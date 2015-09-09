@@ -3,6 +3,7 @@
   "firstName": "Everett",
   "lastName": "McKay",
   "_links": {
-    "self": { "href": "/2015/speakers/everett-mckay" }
+    "self": { "href": "/2015/speakers/everett-mckay" },
+    "twitter": { "href": "https://twitter.com/uxdesignedge", "title": "uxdesignedge" }
   }
 }

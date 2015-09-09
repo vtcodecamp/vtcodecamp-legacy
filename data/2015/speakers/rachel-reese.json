@@ -3,6 +3,7 @@
   "firstName": "Rachel",
   "lastName": "Reese",
   "_links": {
-    "self": { "href": "/2015/speakers/rachel-reese" }
+    "self": { "href": "/2015/speakers/rachel-reese" },
+    "twitter": { "href": "https://twitter.com/rachelreese", "title": "rachelreese" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Floyd",
   "lastName": "Hilton",
   "_links": {
-    "self": { "href": "/2015/speakers/floyd-hilton" }
+    "self": { "href": "/2015/speakers/floyd-hilton" },
+    "twitter": { "href": "https://twitter.com/fhilton", "title": "fhilton" }
   }
 }

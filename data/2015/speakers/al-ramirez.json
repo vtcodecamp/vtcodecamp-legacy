@@ -3,6 +3,7 @@
   "firstName": "Al",
   "lastName": "Ramirez",
   "_links": {
-    "self": { "href": "/2015/speakers/al-ramirez" }
+    "self": { "href": "/2015/speakers/al-ramirez" },
+    "twitter": { "href": "https://twitter.com/mirezez", "title": "mirezez" }
   }
 }
