@@ -1,0 +1,8 @@
+{
+  "slug": "azure-event-hubs",
+  "title": "Real-time IoT Sensors with Azure Event Hubs",
+  "_links": {
+    "self": { "href": "/2015/sessions/azure-event-hubs" },
+    "event": { "href": "/2015/" }
+  }
+}

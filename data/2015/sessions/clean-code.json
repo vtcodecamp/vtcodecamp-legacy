@@ -1,0 +1,8 @@
+{
+  "slug": "clean-code",
+  "title": "Clean Code: Single Responsibility Principle",
+  "_links": {
+    "self": { "href": "/2015/sessions/clean-code" },
+    "event": { "href": "/2015/" }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "slug": "static-web-apps",
+  "title": "Static Web Apps: Rethinking Server Side Templating",
+  "_links": {
+    "self": { "href": "/2015/sessions/static-web-apps" },
+    "event": { "href": "/2015/" }
+  }
+}

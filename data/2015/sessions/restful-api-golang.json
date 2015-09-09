@@ -1,0 +1,8 @@
+{
+  "slug": "restful-api-golang",
+  "title": "Writing a RESTful API with the Go language (golang)",
+  "_links": {
+    "self": { "href": "/2015/sessions/restful-api-golang" },
+    "event": { "href": "/2015/" }
+  }
+}
