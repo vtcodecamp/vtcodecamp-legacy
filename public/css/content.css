@@ -263,6 +263,9 @@ article.speaker {
 article.session:first-of-type {
     border-top: none;
 }
+article.speaker small.twitter {
+    margin-left: 16px;
+}
 article.space h2 {
     margin-top: 0;
     padding-top: 0.4em;
