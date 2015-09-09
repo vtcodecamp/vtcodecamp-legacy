@@ -5,6 +5,9 @@
     "self": { "href": "/2015/sessions/react-and-flux" },
     "event": { "href": "/2015/" },
     "space": { "href": "/2015/spaces/room-1" },
-    "timePeriod": { "href": "/2015/time-periods/1630" }
+    "timePeriod": { "href": "/2015/time-periods/1630" },
+    "speaker": [
+      { "href": "/2015/speakers/john-need" }
+    ]
   }
 }

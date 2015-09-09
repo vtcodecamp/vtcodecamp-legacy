@@ -5,6 +5,10 @@
     "self": { "href": "/2015/sessions/power-bi" },
     "event": { "href": "/2015/" },
     "space": { "href": "/2015/spaces/room-2" },
-    "timePeriod": { "href": "/2015/time-periods/1300" }
+    "timePeriod": { "href": "/2015/time-periods/1300" },
+    "speaker": [
+      { "href": "/2015/speakers/christian-cote" },
+      { "href": "/2015/speakers/sophie-marchand" }
+    ]
   }
 }
