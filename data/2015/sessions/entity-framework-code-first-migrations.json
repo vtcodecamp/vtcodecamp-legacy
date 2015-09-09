@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2015/sessions/entity-framework-code-first-migrations" },
     "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
     "timePeriod": { "href": "/2015/time-periods/1415" }
   }
 }
