@@ -2,6 +2,7 @@
   "slug": "floyd-hilton",
   "firstName": "Floyd",
   "lastName": "Hilton",
+  "bio": "Floyd has 15 years of software development experience in businesses ranging from large scale semiconductor manufacturing to small scale consulting. Floyd's primary interests include improving the quality of software by leveraging version control and repeatable processes. Floyd also enjoy's helping others discover the awesome career of being a software developer.",
   "_links": {
     "self": { "href": "/2015/speakers/floyd-hilton" },
     "twitter": { "href": "https://twitter.com/fhilton", "title": "fhilton" }
