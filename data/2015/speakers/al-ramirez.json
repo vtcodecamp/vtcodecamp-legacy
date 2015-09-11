@@ -1,0 +1,10 @@
+{
+  "slug": "al-ramirez",
+  "firstName": "Al",
+  "lastName": "Ramirez",
+  "bio": "Systems Architect at iSystems in Colchester, Vermont",
+  "_links": {
+    "self": { "href": "/2015/speakers/al-ramirez" },
+    "twitter": { "href": "https://twitter.com/mirezez", "title": "mirezez" }
+  }
+}

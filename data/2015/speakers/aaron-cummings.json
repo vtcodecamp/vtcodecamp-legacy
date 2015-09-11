@@ -1,0 +1,9 @@
+{
+  "slug": "aaron-cummings",
+  "firstName": "Aaron",
+  "lastName": "Cummings",
+  "_links": {
+    "self": { "href": "/2015/speakers/aaron-cummings" },
+    "twitter": { "href": "https://twitter.com/btvaaron", "title": "btvaaron" }
+  }
+}

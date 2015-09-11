@@ -1,0 +1,15 @@
+{
+  "slug": "clojurescript-and-figwheel",
+  "title": "Live Coding Web Applications with ClojureScript and Figwheel",
+  "description": "Write code, reload browser, click and type your through the app to get to the point you were working on. Your change doesn't work. Make change. Reload browser. Click. Click. Type. Type. Now do it on multiple browsers or multiple devices.\n\nThis is clearly an inhumane way to write software, and the quality of our programs suffers as a result. Figwheel offers a glimpse into the value live-reloading a web application without losing the application state, or altering the application state without reloading the application.",
+  "_links": {
+    "self": { "href": "/2015/sessions/clojurescript-and-figwheel" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-3" },
+    "timePeriod": { "href": "/2015/time-periods/0900" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/nick-husher" }
+    ]
+  }
+}

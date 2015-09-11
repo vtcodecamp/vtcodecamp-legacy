@@ -1,0 +1,15 @@
+{
+  "slug": "c-sharp-6-0",
+  "title": "C# 6.0: Level Up Your Productivity",
+  "description": "Yes, you like to write code. But you want to deliver maximum value in the least amount of time. C# 6 wants to help you achieve that goal. Since the C# team moved over to Roslyn, the newest version of the C# compiler, they’ve been adding features to the language that make C# development more productive. In this session, you’ll learn about the new language features. You’ll see primary constructors, auto property initializers, expression bodied members, null propagation operators, and exception filters. Most importantly, you’ll learn how these new language features make you more productive. You’ll learn how you can type less, code more, and express your intent more succinctly and clearly. Level up your productivity and become a master of C# 6.",
+  "_links": {
+    "self": { "href": "/2015/sessions/c-sharp-6-0" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
+    "timePeriod": { "href": "/2015/time-periods/1015" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/bill-wagner" }
+    ]
+  }
+}

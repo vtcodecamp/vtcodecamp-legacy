@@ -1,0 +1,10 @@
+{
+  "slug": "john-bennett",
+  "firstName": "John",
+  "lastName": "Bennett",
+  "bio": "John has been building software and leading teams for over 20 years. He is currently Managing Partner at Thoughtcap, a software product development consultancy based in Providence, RI. His areas of expertise include distributed software architectures, lean product development, DevOps and continuous delivery, and data-center-to-cloud migrations.\n\nJohn previously led the engineering team at Huge, where he oversaw delivery of software, content- and ecommerce-based websites, and mobile apps for clients such as AARP, Comcast, Mass Mutual, and NYU Langone Medical Center.\n\nAs Principle Software Engineer at NBC News Digital, John designed and built the software systems that enable nbcnews.com and today.com to support hundreds of millions of users each month, with hourly code deployments and near-zero downtime.\n\nJohn donates his time and expertise to non-profits including iMentor, Malaika, Blue Ridge Labs @ Robin Hood, and the Social Enterprise Greenhouse.",
+  "_links": {
+    "self": { "href": "/2015/speakers/john-bennett" },
+    "twitter": { "href": "https://twitter.com/jtbennett", "title": "jtbennett" }
+  }
+}

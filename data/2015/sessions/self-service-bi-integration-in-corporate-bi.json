@@ -1,0 +1,16 @@
+{
+  "slug": "self-service-bi-integration-in-corporate-bi",
+  "title": "Self Service BI Integration in Corporate BI",
+  "description": "This session will first demonstrate how the Power BI suite tools can help you to create and delivers Dashboards in Excel using Power Query, Power Pivot and Power View.\n\nThe second part of this session will focus on how we can leverage the data created using self service BI tools to enhance and enrich our corporate DW/BI.",
+  "_links": {
+    "self": { "href": "/2015/sessions/self-service-bi-integration-in-corporate-bi" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
+    "timePeriod": { "href": "/2015/time-periods/1300" },
+    "level": { "href": "/2014/levels/300" },
+    "speaker": [
+      { "href": "/2015/speakers/christian-cote" },
+      { "href": "/2015/speakers/sophie-marchand" }
+    ]
+  }
+}

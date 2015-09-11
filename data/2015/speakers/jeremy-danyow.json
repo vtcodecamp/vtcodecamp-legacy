@@ -1,0 +1,10 @@
+{
+  "slug": "jeremy-danyow",
+  "firstName": "Jeremy",
+  "lastName": "Danyow",
+  "bio": "Aurelia Core Team member – More at [danyow.net](http://danyow.net)",
+  "_links": {
+    "self": { "href": "/2015/speakers/jeremy-danyow" },
+    "twitter": { "href": "https://twitter.com/dany0w", "title": "dany0w" }
+  }
+}

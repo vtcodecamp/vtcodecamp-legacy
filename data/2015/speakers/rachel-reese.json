@@ -1,0 +1,10 @@
+{
+  "slug": "rachel-reese",
+  "firstName": "Rachel",
+  "lastName": "Reese",
+  "bio": "Rachel Reese is a long-time software engineer and math geek who can often be found talking to random strangers about the joys of functional programming and F#. She currently works for Jet.com in NYC. She has helped run the Nashville F# User group, @NashFSharp, and the Burlington, VT functional programming user group, @VTFun. She's also an ASPInsider, an F# MVP, a Xamarin MVP, a community enthusiast, one of the founding @lambdaladies, and a Rachii. You can find her on Twitter, [@rachelreese](https://twitter.com/rachelreese), or on her blog: [rachelree.se](http://rachelree.se/).",
+  "_links": {
+    "self": { "href": "/2015/speakers/rachel-reese" },
+    "twitter": { "href": "https://twitter.com/rachelreese", "title": "rachelreese" }
+  }
+}

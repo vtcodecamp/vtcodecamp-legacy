@@ -1,0 +1,10 @@
+{
+  "slug": "jessica-ingrassellino",
+  "firstName": "Jessica",
+  "lastName": "Ingrassellino",
+  "bio": "Jess Ingrasselino is a Software Engineer in Test at Bitly. She has worked at several startups in lead positions performing exploratory manual testing as well as creating automated frameworks to aid her testing process. She delivers tech talks in NYC about her testing experiences. Prior to her career in testing, Jessica was a music teacher for ten years, and served as an educational consultant and curriculum writer.\n\nJessica is active in the Python Education community, having co-chaired the Pycon Education Summit for the past two years. She is also working on Teach Code, a non-profit devoted to helping underserved communities get the resources they need to implement code classes as a part of the regular school day. When not working, Jessica enjoys playing violin and viola, as well as designing clothes and reading philosophy. She lives in NYC.",
+  "_links": {
+    "self": { "href": "/2015/speakers/jessica-ingrassellino" },
+    "twitter": { "href": "https://twitter.com/jess_ingrass", "title": "jess_ingrass" }
+  }
+}

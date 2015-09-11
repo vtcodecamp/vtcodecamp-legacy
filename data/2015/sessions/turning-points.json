@@ -1,0 +1,15 @@
+{
+  "slug": "turning-points",
+  "title": "Turning Points: Instructional Tales of Achievement, Embarrassment, and Woe",
+  "description": "Scott has been a human for 32 years and a programmer for at least 15 of those years. He’s learned a lot by being around smart, dedicated people at Microsoft, DreamWorks Animation, and Dealer.com. To be truthful, he’s also made some mistakes. Come to hear (sometimes embarrassing) anecdotes and reflections on events that have shaped Scott’s perspective of programming and programmers. Learn how _not_ to ask for feedback from your manager. Discover what code Scott wrote that caused his co-worker to essentially yell at him. You won’t believe what happens next!",
+  "_links": {
+    "self": { "href": "/2015/sessions/turning-points" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-5" },
+    "timePeriod": { "href": "/2015/time-periods/1015" },
+    "level": { "href": "/2014/levels/100" },
+    "speaker": [
+      { "href": "/2015/speakers/scott-douglas" }
+    ]
+  }
+}

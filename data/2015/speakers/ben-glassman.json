@@ -1,0 +1,9 @@
+{
+  "slug": "ben-glassman",
+  "firstName": "Ben",
+  "lastName": "Glassman",
+  "bio": "Ben is a Full Stack developer and Technical Lead for Vermont Design Works' team of front-end and backend developers working on custom websites and applications. I enjoy talking to people to gain an understanding of their problem and working with a team to come up with recommendations of technical solutions. He also is an experienced and enthusiastic technology educator, whether teaching web development courses at Champlain College or Vermont Works for Women's Step Up to IT program. When not basking in the glow of a computer screen, he can be found riding his bike with his dog Trevor in tow or practicing zymurgy in his basement.",
+  "_links": {
+    "self": { "href": "/2015/speakers/ben-glassman" }
+  }
+}

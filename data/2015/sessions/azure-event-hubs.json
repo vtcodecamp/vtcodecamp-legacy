@@ -1,0 +1,15 @@
+{
+  "slug": "azure-event-hubs",
+  "title": "Real-time IoT Sensors with Azure Event Hubs",
+  "description": "IoT is a hot topic. Find out what it is and how to get started building your own IoT solution on Azure. See how to set up an Event Hub, which is a highly scalable publish-subscribe event ingestor that can intake millions of events per second, how to send the data from a Raspberry Pi, then how process the data in real time.",
+  "_links": {
+    "self": { "href": "/2015/sessions/azure-event-hubs" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
+    "timePeriod": { "href": "/2015/time-periods/1630" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/james-sturtevant" }
+    ]
+  }
+}
