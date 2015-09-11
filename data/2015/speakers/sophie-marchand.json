@@ -2,6 +2,7 @@
   "slug": "sophie-marchand",
   "firstName": "Sophie",
   "lastName": "Marchand",
+  "bio": "Sophie Marchand is an Excel MVP specialized in Self Service BI.",
   "_links": {
     "self": { "href": "/2015/speakers/sophie-marchand" }
   }

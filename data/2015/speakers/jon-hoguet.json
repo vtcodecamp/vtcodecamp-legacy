@@ -2,6 +2,7 @@
   "slug": "jon-hoguet",
   "firstName": "Jon",
   "lastName": "Hoguet",
+  "bio": "Tech Lead, Dealer.com",
   "_links": {
     "self": { "href": "/2015/speakers/jon-hoguet" }
   }

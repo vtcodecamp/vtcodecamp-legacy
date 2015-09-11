@@ -2,6 +2,7 @@
   "slug": "michael-hellein",
   "firstName": "Michael",
   "lastName": "Hellein",
+  "bio": "Michael Hellein is a web application developer. In 2008, he co-founded the web consultancy Bearded. He currently works at Dealer.com, creating tools and workflows for the developers working with their Website Platform.",
   "_links": {
     "self": { "href": "/2015/speakers/michael-hellein" }
   }

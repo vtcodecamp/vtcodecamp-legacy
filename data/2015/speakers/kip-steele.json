@@ -2,6 +2,7 @@
   "slug": "kip-steele",
   "firstName": "Kip",
   "lastName": "Steele",
+  "bio": "20 years of project management and QA experience for firms such as FactSet and client such as Green Mountain Coffee/Keurig, Keurig Canada, Morgan Stanley, JP Morgan Chase and Boeing",
   "_links": {
     "self": { "href": "/2015/speakers/kip-steele" },
     "twitter": { "href": "https://twitter.com/qualityninja", "title": "qualityninja" }

@@ -2,6 +2,7 @@
   "slug": "mitch-miller",
   "firstName": "Mitch",
   "lastName": "Miller",
+  "bio": "Mitch Miller is a Ph.D. chemist who has been developing, delivering, supporting scientific software solutions for over 20 years.",
   "_links": {
     "self": { "href": "/2015/speakers/mitch-miller" }
   }

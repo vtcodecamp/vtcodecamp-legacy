@@ -2,6 +2,7 @@
   "slug": "john-need",
   "firstName": "John",
   "lastName": "Need",
+  "bio": "Senior UI Developer @ Inntopia",
   "_links": {
     "self": { "href": "/2015/speakers/john-need" },
     "twitter": { "href": "https://twitter.com/JohnNeed", "title": "JohnNeed" }

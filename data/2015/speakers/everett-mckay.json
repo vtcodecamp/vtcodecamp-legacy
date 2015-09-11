@@ -2,6 +2,7 @@
   "slug": "everett-mckay",
   "firstName": "Everett",
   "lastName": "McKay",
+  "bio": "Everett McKay is Principal of UX Design Edge, a user experience design training and consulting company for mobile, web, and desktop applications. He has been teaching UX design to software professionals since 2003 and has delivered design workshops to an international audience that includes Europe, Asia, South America, and Africa. Everett is author of \"UI is Communication: How to design intuitive, user-centered user interfaces by focusing on effective communication\", published by Morgan Kaufmann. While at Microsoft, he was responsible for writing and evangelizing the Windows User Experience Guidelines.",
   "_links": {
     "self": { "href": "/2015/speakers/everett-mckay" },
     "twitter": { "href": "https://twitter.com/uxdesignedge", "title": "uxdesignedge" }

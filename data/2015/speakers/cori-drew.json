@@ -2,6 +2,7 @@
   "slug": "cori-drew",
   "firstName": "Cori",
   "lastName": "Drew",
+  "bio": "Cori Drew is a senior consultant with Improving Enterprises in Addison, TX. She started her programming career as a web developer before cutting her OOP teeth (& falling in love with C#) in 2003 in .NET Framework 1.1. Cori was a programmer for 8.5 years before discovering there was a developer community in 2009. Appreciation for growth & learning, enabled by our tech community, has inspired her to try to pay it forward.",
   "_links": {
     "self": { "href": "/2015/speakers/cori-drew" },
     "twitter": { "href": "https://twitter.com/coridrew", "title": "coridrew" }

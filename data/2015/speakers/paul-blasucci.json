@@ -2,6 +2,7 @@
   "slug": "paul-blasucci",
   "firstName": "Paul",
   "lastName": "Blasucci",
+  "bio": "As a passionate – yet pragmatic – enthusiast of multi-paradigm and polyglot engineering, Paulmichael has spent the past 16 years blending a disparate array of languages, technologies, and methodologies to develop compelling solutions to a wide range of business problems. He especially enjoys solving challenges in distributed computing, visual communications, and heterogeneous enterprise systems. Paulmichael works as a senior software engineer for Quicken Loans. He is also a co-founder of the NashF#: the Nashville F# Meetup and a co-organizer of the New York City F# Users Group. In 2014, he received a Microsoft MVP Award for his work in the .NET community. When not at the keyboard, Paulmichael may be found exploring the metro NYC area with his wife (though his soul is still honky-tonkin' in Nashville, TN).",
   "_links": {
     "self": { "href": "/2015/speakers/paul-blasucci" },
     "twitter": { "href": "https://twitter.com/pblasucci", "title": "pblasucci" }

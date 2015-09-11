@@ -2,6 +2,7 @@
   "slug": "brandt-newton",
   "firstName": "Brandt",
   "lastName": "Newton",
+  "bio": "Brandt Newton is currently a student at the University of Vermont working toward his BS in Computer Science. He is also an intern at Mach7 Technologies.",
   "_links": {
     "self": { "href": "/2015/speakers/brandt-newton" }
   }
