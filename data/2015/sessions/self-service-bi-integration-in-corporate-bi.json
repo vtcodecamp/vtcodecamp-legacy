@@ -1,8 +1,8 @@
 {
-  "slug": "power-bi",
-  "title": "Self Service BI integration in Corporate BI",
+  "slug": "self-service-bi-integration-in-corporate-bi",
+  "title": "Self Service BI Integration in Corporate BI",
   "_links": {
-    "self": { "href": "/2015/sessions/power-bi" },
+    "self": { "href": "/2015/sessions/self-service-bi-integration-in-corporate-bi" },
     "event": { "href": "/2015/" },
     "space": { "href": "/2015/spaces/room-2" },
     "timePeriod": { "href": "/2015/time-periods/1300" },
