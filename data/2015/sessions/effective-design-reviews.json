@@ -1,0 +1,15 @@
+{
+  "slug": "effective-design-reviews",
+  "title": "Effective Design Reviews: How to Give and Receive Meaningful, Actionable Design Feedback",
+  "description": "We all know the design review routine: The design team walks through the design, carefully explaining it screen by screen. They point out that it is early in the process, so they are more interested in the big picture issues than low-level details. At some point, someone volunteers to redesign a feature whose problems aren't yet even fully understood. The boss, a 'visual thinker,' points out that she really can't stand that shade of blue and that her mom could never use this UI, even though it is targeted at trained specialists. The consensus feedback of 'looks great,' while encouraging to hear, is probably quite literal because the mock-up does in fact look great visually.\n\nWhat we don't all know is that the traditional design review process, while popular, is mostly a waste of time. The designers, who know the design better than anyone, start by explaining how it works—undermining the team's ability to find usability problems from a fresh perspective. The feedback is often focused on the wrong level of detail. Participants engage in redesign and start debates over details that hardly matter yet. The boss feels obligated to mess with the design to feel like she is doing her job properly. And the mock-ups are beautiful, which makes it look professional but often results in an emotional, visual reaction—undermining the team's ability to give the harsh, critical feedback on the important design issues that we so desperately need.\n\nIn this session, you will learn:\n\n * Why traditional design reviews are often ineffective.\n * How to give and receive effective feedback on a peer level.\n * How to turn feedback based on personal opinion into something that is objective.\n * How to handle vague, confusing feedback.\n * How to shut down defending, redesigning, and debating.\n * Why scenario-based reviews result in better feedback (and fewer battles over personal opinion) than feature- or screen-based reviews.\n * Why design review rules are a good idea (along with a sample set).\n * Why positive feedback is important for effective reviews.\n * How to manage up, so that your manager helps improve design review effectiveness.\n\nThe session will end with a group review of a sample design, using both the traditional and recommended approaches so that you can see the difference.",
+  "_links": {
+    "self": { "href": "/2015/sessions/effective-design-reviews" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-5" },
+    "timePeriod": { "href": "/2015/time-periods/1415" },
+    "level": { "href": "/2014/levels/100" },
+    "speaker": [
+      { "href": "/2015/speakers/everett-mckay" }
+    ]
+  }
+}

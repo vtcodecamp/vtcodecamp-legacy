@@ -1,0 +1,15 @@
+{
+  "slug": "visual-programming-for-science-and-business",
+  "title": "Visual Programming for Science and Business",
+  "description": "A variety of available products exist that allow developers to build complex applications by graphically hooking together widgets on screen and, perhaps, writing short pieces of code. This talk will show how these graphical programming environments can be used to solve problems for scientists.",
+  "_links": {
+    "self": { "href": "/2015/sessions/visual-programming-for-science-and-business" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
+    "timePeriod": { "href": "/2015/time-periods/0900" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/mitch-miller" }
+    ]
+  }
+}

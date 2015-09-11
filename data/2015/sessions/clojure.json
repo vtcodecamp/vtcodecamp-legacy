@@ -1,0 +1,15 @@
+{
+  "slug": "clojure",
+  "title": "Clojure: Scripting for the JVM",
+  "description": "A look at the relationship between systems and scripting languages, a brief introduction to Clojure, and using Clojure as a scripting language for systems running on the JVM.",
+  "_links": {
+    "self": { "href": "/2015/sessions/clojure" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-3" },
+    "timePeriod": { "href": "/2015/time-periods/1545" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/aaron-cummings" }
+    ]
+  }
+}

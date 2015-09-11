@@ -1,0 +1,14 @@
+{
+  "slug": "entity-framework-code-first-migrations",
+  "title": "Automating Database Schema and Data Deployments Using Entity Framework Code First Migrations",
+  "description": "Deploying and versioning relational databases is challenging. It's even more difficult when databases are partitioned or federated to logically separate data or to support scaling. Ideally, accessible tooling should be available to deploy, version, upgrade, and downgrade your database schema; to transform and seed your test and reference data; and to complement your existing continuous integration and delivery process. This demo-based session will introduce you to open source tooling for applications leveraging Entity Framework and targeting SQL Server or SQL Azure. Don't suffer through another failed database migration and avoid costly downtime. Enjoy a seamless local debugging experience that can be shared by your team. Join us and we'll show you how.",
+  "_links": {
+    "self": { "href": "/2015/sessions/entity-framework-code-first-migrations" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-2" },
+    "timePeriod": { "href": "/2015/time-periods/1415" },
+    "speaker": [
+      { "href": "/2015/speakers/michael-tamlyn" }
+    ]
+  }
+}

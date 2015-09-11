@@ -1,0 +1,10 @@
+{
+  "slug": "scott-douglas",
+  "firstName": "Scott",
+  "lastName": "Douglas",
+  "bio": "Scott Douglas is a Scrum Tech Lead and Senior UI Developer working on the Dealer.com web platform focusing on architecture and developer efficiency. He’s worked as a game programmer on Ultimate Spiderman for the Gameboy Advance, a software engineer working on SmartArt Graphics and Photos for Microsoft Office, and as an Animation Technical Director at DreamWorks Animation on films like How to Train Your Dragon and Megamind.",
+  "_links": {
+    "self": { "href": "/2015/speakers/scott-douglas" },
+    "twitter": { "href": "https://twitter.com/uberska", "title": "uberska" }
+  }
+}

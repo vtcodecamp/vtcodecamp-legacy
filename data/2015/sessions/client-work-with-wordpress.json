@@ -1,0 +1,15 @@
+{
+  "slug": "client-work-with-wordpress",
+  "title": "Client Work with WordPress: Workflows, Expectations, and Egos",
+  "description": "Client projects are the bread and butter for many WordPress developers, and a necessary evil for others. Josh will talk about tricks he’s learned over the years to keep client projects fun, collaborative, and profitable — whether it’s managing the expectations of a solopreneur or negotiating the fields of committees for a larger client.",
+  "_links": {
+    "self": { "href": "/2015/sessions/client-work-with-wordpress" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-1" },
+    "timePeriod": { "href": "/2015/time-periods/1130" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/josh-lee" }
+    ]
+  }
+}

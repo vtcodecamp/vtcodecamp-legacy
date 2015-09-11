@@ -1,0 +1,15 @@
+{
+  "slug": "the-new-new-microsoft",
+  "title": "The New, New Microsoft: OS X, Linux, git, npm, and Docker",
+  "description": "Running .NET apps on OS X and Linux has been possible for many years thanks to the Mono project. Now, with the brand new — and fully open source — CoreCLR and .NET Execution Environment (DNX), OS X and Linux are supported by Microsoft as first-class .NET platforms. In this session, we’ll explore the new DNVM, DNU and DNX command-line tools by building a simple ASP.NET 5 app. We’ll do this on OS X in the new slimmed down Visual Studio Code editor — with no .sln or .csproj files in sight. We’ll show how git, node, npm, and gulp work together with VS Code to create a simple, clean, and fast development environment. For bonus points, we’ll deploy our app to a Docker container running on Linux in Azure.\n\nFamiliarity with .NET is helpful, but not necessary.",
+  "_links": {
+    "self": { "href": "/2015/sessions/the-new-new-microsoft" },
+    "event": { "href": "/2015/" },
+    "space": { "href": "/2015/spaces/room-1" },
+    "timePeriod": { "href": "/2015/time-periods/1300" },
+    "level": { "href": "/2014/levels/200" },
+    "speaker": [
+      { "href": "/2015/speakers/john-bennett" }
+    ]
+  }
+}

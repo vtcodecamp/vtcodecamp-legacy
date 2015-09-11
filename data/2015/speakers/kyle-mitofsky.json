@@ -1,0 +1,10 @@
+{
+  "slug": "kyle-mitofsky",
+  "firstName": "Kyle",
+  "lastName": "Mitofsky",
+  "bio": "Kyle Mitofsky currently serves as the Software Development Team Technical Lead at the Vermont Department of Health. He enjoys reading code, writing code, talking about code, and answering questions about code from co-workers and anonymous strangers on the internet. He's interested in desktop, mobile, and web development technologies, especially if they're on the .NET stack. He blogs about coding at [www.codingeverything.com](http://www.codingeverything.com).",
+  "_links": {
+    "self": { "href": "/2015/speakers/kyle-mitofsky" },
+    "twitter": { "href": "https://twitter.com/KyleMit2", "title": "KyleMit2" }
+  }
+}

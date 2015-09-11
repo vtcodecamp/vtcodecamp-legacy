@@ -1,0 +1,9 @@
+{
+  "slug": "john-cicilio",
+  "firstName": "John",
+  "lastName": "Cicilio",
+  "bio": "John Cicilio works as a Software Architect at MyWebGrocer. John has a passion for the intersection of science, mathematics and technology.",
+  "_links": {
+    "self": { "href": "/2015/speakers/john-cicilio" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "james-sturtevant",
+  "firstName": "James",
+  "lastName": "Sturtevant",
+  "bio": "James is a Tech Evangelist for Microsoft where he works with Startups, Students and Developers. Has been working in the web development space for 10+ years. He is focused on automating workflows including his own and he enjoys teaching and learning about his craft.",
+  "_links": {
+    "self": { "href": "/2015/speakers/james-sturtevant" },
+    "twitter": { "href": "https://twitter.com/aspenwilder", "title": "aspenwilder" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "eric-smith",
+  "firstName": "Eric",
+  "lastName": "Smith",
+  "bio": "Eric is Senior VP of Product Development at Middlebury Interactive Languages. He helps run @VTFun, the VT functional programming users group. Eric seems to be on a never-ending quest to understand the history, future, and nature of computation and its practical development. And he loves to talk about it.",
+  "_links": {
+    "self": { "href": "/2015/speakers/eric-smith" },
+    "twitter": { "href": "https://twitter.com/eric_s_smith", "title": "eric_s_smith" }
+  }
+}
