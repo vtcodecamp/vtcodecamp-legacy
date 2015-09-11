@@ -1,6 +1,7 @@
 {
   "slug": "ionic-framework",
   "title": "Introduction to Ionic Framework",
+  "description": "This talk will be about setting up an Ionic Framework project for hybrid mobile applications and writing your first simple app using public data.",
   "_links": {
     "self": { "href": "/2015/sessions/ionic-framework" },
     "event": { "href": "/2015/" },

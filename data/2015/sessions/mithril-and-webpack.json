@@ -1,6 +1,7 @@
 {
   "slug": "mithril-and-webpack",
   "title": "Mithril and Webpack: Performance and Simplicity in Client-side Applications",
+  "description": "Webpack is an opinionated module packaging system for the front end. Mithril is a tiny functionally-minded JavaScript MVC. In this session, we'll see what they're capable of together.",
   "_links": {
     "self": { "href": "/2015/sessions/mithril-and-webpack" },
     "event": { "href": "/2015/" },

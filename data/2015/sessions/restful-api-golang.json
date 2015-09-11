@@ -1,6 +1,7 @@
 {
   "slug": "restful-api-golang",
   "title": "Writing a RESTful API with the Go language (golang)",
+  "description": "In this session I will demonstrate how to write a RESTful API, compiling for different operating systems (Linux and Windows). We will use the Gorilla web toolkit to simplify the built out of the RESTful endpoints.",
   "_links": {
     "self": { "href": "/2015/sessions/restful-api-golang" },
     "event": { "href": "/2015/" },

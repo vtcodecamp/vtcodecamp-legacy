@@ -1,6 +1,7 @@
 {
   "slug": "t4-and-visual-studio",
   "title": "Code Generation with T4 and Visual Studio",
+  "description": "Do you find yourself writing repetitive code? Learn how to use the Text Template Transformation Tool (T4) that's built into Visual Studio to create source files, configuration files, stored procedures and more using simple ASP.NET like templates in the .NET languages you already know.",
   "_links": {
     "self": { "href": "/2015/sessions/t4-and-visual-studio" },
     "event": { "href": "/2015/" },

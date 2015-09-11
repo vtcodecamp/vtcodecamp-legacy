@@ -1,6 +1,7 @@
 {
   "slug": "management-of-state-in-functional-systems",
   "title": "Resilient Management of State in Functional Systems",
+  "description": "Functional systems pride themselves in pushing state to boundaries of the system, however eventually state has to be managed. This talk looks at one approach to that management: Akka and event sourcing. An overview of the concepts behind event sourcing will be followed by several examples demonstrating limitations and advantages of this technology and methodology to allow data to survive when systems fail.",
   "_links": {
     "self": { "href": "/2015/sessions/management-of-state-in-functional-systems" },
     "event": { "href": "/2015/" },

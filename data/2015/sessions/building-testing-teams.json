@@ -1,6 +1,7 @@
 {
   "slug": "building-testing-teams",
   "title": "Building Testing Teams in the Land of Ben & Jerry's",
+  "description": "How to build a testing group when finding technical talent for QA is very hard to fill.",
   "_links": {
     "self": { "href": "/2015/sessions/building-testing-teams" },
     "event": { "href": "/2015/" },

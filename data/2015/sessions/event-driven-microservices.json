@@ -1,6 +1,7 @@
 {
   "slug": "event-driven-microservices",
   "title": "Patterns & Practices for Real-world Event-driven Microservices",
+  "description": "At Jet.com, we've based our architecture around cloud-based, event-driven microservices, and over the last several months, have schooled ourselves on what works and what doesn't. This session will walk you through the lessons we have learned on our way to developing our platform.",
   "_links": {
     "self": { "href": "/2015/sessions/event-driven-microservices" },
     "event": { "href": "/2015/" },

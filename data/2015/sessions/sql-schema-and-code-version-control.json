@@ -1,6 +1,7 @@
 {
   "slug": "sql-schema-and-code-version-control",
   "title": "Getting SQL Schema and Code into Version Control Using SQL Server Database Projects",
+  "description": "An overview of Octopus Deploy and how you can use it to streamline and simplify your .NET deployment process.",
   "_links": {
     "self": { "href": "/2015/sessions/sql-schema-and-code-version-control" },
     "event": { "href": "/2015/" },

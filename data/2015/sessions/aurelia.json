@@ -1,6 +1,7 @@
 {
   "slug": "aurelia",
   "title": "Introduction to Aurelia",
+  "description": "An introduction to [Aurelia](http://aurelia.io/), a modern JavaScript SPA framework.",
   "_links": {
     "self": { "href": "/2015/sessions/aurelia" },
     "event": { "href": "/2015/" },

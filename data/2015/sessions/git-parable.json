@@ -1,6 +1,7 @@
 {
   "slug": "git-parable",
   "title": "A Git Parable",
+  "description": "Are you baffled by the community's obsession with Git? Do your knees tremble at the thought of encountering a merge conflict, or even worse: getting thrown into \"detached head\" state? When a new team says they're using Git, do you wonder why they're turning up their noses at the centralized VCS you know?\n\nEverybody understands adding, committing, pushing and pulling; but trying to understand Git with the same paradigm as you approach centralized version control systems is a recipe for fear, uncertainty & doubt. Git doesn't work like a centralized version control system, which can be confusing.\n\nIf you want to understand how Git truly _is_ different, this session is for you.\n\nGit becomes much easier to understand once you approach it with the understanding that it's fundamentally different from a centralized VCS. The goal of this talk is to shed some light on how Git works under the hood.\n\nTo develop a mental model of how Git works, we'll start with, \"The Git Parable,\" by Tom Preston-Warner. We'll take a look at some of Git’s core concepts including its basic object storage, how commits work, how branches and tags work, and we’ll look at the different kinds of merging in Git (yes, including rebase). You’ll walk away with a better understanding of these concepts, able to use Git with more confidence.",
   "_links": {
     "self": { "href": "/2015/sessions/git-parable" },
     "event": { "href": "/2015/" },

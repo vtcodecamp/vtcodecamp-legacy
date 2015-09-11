@@ -1,6 +1,7 @@
 {
   "slug": "managing-your-career",
   "title": "Managing Your Career: If You Don't, Who Will?",
+  "description": "While doing big up front design doesn't make sense in an Agile model, planning out your career is incredibly important. After all, there are no unit tests for your career; refactoring it can be a very painful and time consuming process. In order to help you architect your career, this talk will lay out some of the different things to think about when setting career goals (technical growth, work/life balance, compensation, career trajectories) and give you some tools that you can start using right away to prepare you for your next move, be it a new job, new role, or even new project.",
   "_links": {
     "self": { "href": "/2015/sessions/managing-your-career" },
     "event": { "href": "/2015/" },

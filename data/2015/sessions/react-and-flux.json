@@ -1,6 +1,7 @@
 {
   "slug": "react-and-flux",
   "title": "React + Flux = Joy",
+  "description": "Introduced by Facebook, React is not another web application framework. It's a game-changing view rendering engine. Combine that with Flux, a non-MVC design pattern, and you can build scalable and maintainable web applications.",
   "_links": {
     "self": { "href": "/2015/sessions/react-and-flux" },
     "event": { "href": "/2015/" },

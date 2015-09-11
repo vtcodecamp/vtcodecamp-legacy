@@ -1,6 +1,7 @@
 {
   "slug": "writing-automated-tests",
   "title": "Writing Automated Tests Using Python, Selenium, and Behave",
+  "description": "Participants will learn how to develop regression tests for web apps using Behave, Python, and Selenium.",
   "_links": {
     "self": { "href": "/2015/sessions/writing-automated-tests" },
     "event": { "href": "/2015/" },

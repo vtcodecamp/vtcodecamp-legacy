@@ -1,6 +1,7 @@
 {
   "slug": "clean-code",
   "title": "Clean Code: Single Responsibility Principle",
+  "description": "This is a session for developers of all levels and platforms. An extension to my last year's session, Clean Code: Write Clean Think Clean. We will talk about whats, whys and hows of Single Responsibility Principle. And how it is effective not only in programming or coding but also while designing and planning.",
   "_links": {
     "self": { "href": "/2015/sessions/clean-code" },
     "event": { "href": "/2015/" },

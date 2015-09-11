@@ -1,6 +1,7 @@
 {
   "slug": "social-network-analysis-and-visualization",
   "title": "Social Network Analysis & Visualization",
+  "description": "Introduction to grabbing data from well-known social networks (Twitter or Facebook) or also non-traditional networks, deriving information from the network using specific algorithms/heuristics, and presenting visualizations.",
   "_links": {
     "self": { "href": "/2015/sessions/social-network-analysis-and-visualization" },
     "event": { "href": "/2015/" },

@@ -1,6 +1,7 @@
 {
   "slug": "windows-services",
   "title": "Windows Services Made User Friendly",
+  "description": "Windows Service programs are ideal for performing long lasting tasks but lack UIs for easy configuration and monitoring. Pairing your service with a web app results in a solution that is user friendly while still remaining independent. We will demo a new product from Mach7 Technologies that uses this structure to migrate large collections of medical images from one archive to another.",
   "_links": {
     "self": { "href": "/2015/sessions/windows-services" },
     "event": { "href": "/2015/" },

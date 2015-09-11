@@ -1,6 +1,7 @@
 {
   "slug": "static-web-apps",
   "title": "Static Web Apps: Rethinking Server Side Templating",
+  "description": "As our web applications are become more and more static (via SPA frameworks), our Server Side Templating Engine becomes less and less relevant. Wouldn't it be great if you didn't even need it?",
   "_links": {
     "self": { "href": "/2015/sessions/static-web-apps" },
     "event": { "href": "/2015/" },
