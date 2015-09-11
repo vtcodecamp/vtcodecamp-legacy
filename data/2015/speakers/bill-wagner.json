@@ -2,6 +2,7 @@
   "slug": "bill-wagner",
   "firstName": "Bill",
   "lastName": "Wagner",
+  "bio": "Bill has spent his entire career in the software industry, spanning both technical and business roles. His mission it to teach others to write better code – and help organizations recognize the value of great software.\n\nA Microsoft regional director, Bill’s technical areas of focus are C#, .NET, TypeScript. His other, non-coding passion is to help organizations build effective, high-functioning developer teams.\n\nAn active blogger and author, Bill has written hundreds of technical articles and two books, the best selling \"Effective C#\" and \"More Effective C#.\" His articles have appeared in MSDN Magazine, the C# Developer Center, Visual C++ Developer's Journal, Visual Studio Magazine, ASP.NET Pro, .NET Developer's Journal and more.",
   "_links": {
     "self": { "href": "/2015/speakers/bill-wagner" },
     "twitter": { "href": "https://twitter.com/billwagner", "title": "billwagner" }
