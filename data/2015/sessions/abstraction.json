@@ -1,7 +1,7 @@
 {
   "slug": "abstraction",
   "title": "If You See What I Mean: Fixing and Avoiding Broken Programs Using the Power of Abstraction",
-  "description": "So you inherited some code. Do you know what the programmer was trying to say? Was the programming languge powerful enough to help? Are you relying on comments and sensible naming to compensate? Denotational semantics is the ultimate powertool in cutting through the syntactic clutter of programming languages and careless thinking. We will start from scratch in learning about denotational semantics and see how it can give you x-ray vision through that jumble of a program.",
+  "description": "So you inherited some code. Do you know what the programmer was trying to say? Was the programming language powerful enough to help? Are you relying on decaying comments and English-like naming to compensate? Denotational semantics is the ultimate powertool in cutting through the syntactic clutter of programming languages and careless thinking. We'll get warmed up with a look at intuitionist logic and the Curry-Howard isomorphism. We'll get up to cruising altitude with dependent types. Then we'll finish up with denotational semantics and see how it can give you x-ray vision through that jumble of a program.",
   "_links": {
     "self": { "href": "/2015/sessions/abstraction" },
     "event": { "href": "/2015/" },
