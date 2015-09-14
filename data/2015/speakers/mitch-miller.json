@@ -2,7 +2,7 @@
   "slug": "mitch-miller",
   "firstName": "Mitch",
   "lastName": "Miller",
-  "bio": "Mitch Miller is a Ph.D. chemist who has been developing, delivering, supporting scientific software solutions for over 20 years.",
+  "bio": "Mitch Miller is a Ph.D. chemist who has been designing, developing, delivering, and supporting scientific software solutions for over 20 years.\n\nHe is currently Principal Consultant at Scientific Thinking, LLC and works with users, mainly in the pharmaceutical and chemical industries on improving their access to information. The technologies he currently works with include C#, Java, Javascript, Oracle, laboratory automation and workflow applications.",
   "_links": {
     "self": { "href": "/2015/speakers/mitch-miller" }
   }
