@@ -2,6 +2,7 @@
   "slug": "nick-husher",
   "firstName": "Nick",
   "lastName": "Husher",
+  "bio": "Nick Husher is a UI developer for Faraday. He is an advocate for using functional programming concepts in UI development and making the process of building software easier and more humane.",
   "_links": {
     "self": { "href": "/2015/speakers/nick-husher" }
   }
