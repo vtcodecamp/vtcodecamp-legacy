@@ -9,7 +9,8 @@
     "timePeriod": { "href": "/2015/time-periods/1415" },
     "level": { "href": "/2015/levels/300" },
     "speaker": [
-      { "href": "/2015/speakers/michael-tamlyn" }
+      { "href": "/2015/speakers/michael-tamlyn" },
+      { "href": "/2015/speakers/michael-commo" }
     ]
   }
 }
