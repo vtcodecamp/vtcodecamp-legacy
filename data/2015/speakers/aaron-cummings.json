@@ -2,6 +2,7 @@
   "slug": "aaron-cummings",
   "firstName": "Aaron",
   "lastName": "Cummings",
+  "bio": "Aaron Cummings leads a software team within a microelectronics hardware design group, and focuses on systems for design automation. He has worked with imperative and object-oriented languages for the past two decades, but has recently taken an interest in functional programming. Aaron earned a BSCS from UVM, and still resides in the Burlington area. He spends his spare time fixing the things his kids break.",
   "_links": {
     "self": { "href": "/2015/speakers/aaron-cummings" },
     "twitter": { "href": "https://twitter.com/btvaaron", "title": "btvaaron" }
