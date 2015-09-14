@@ -527,6 +527,10 @@ ul.sponsors li.name-only {
     height: 40px;
     background-image: url(/media/sponsors/Girl-Develop-It-logo-150x40.jpg);
 }
+.logo.aseba {
+    height: 125px;
+    background-image: url(/media/sponsors/ASEBA-logo-150x125.jpg);
+}
 #event,
 #event a {
     color: #888;
