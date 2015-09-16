@@ -531,6 +531,10 @@ ul.sponsors li.name-only {
     height: 125px;
     background-image: url(/media/sponsors/ASEBA-logo-150x125.jpg);
 }
+.logo.mach7-technologies {
+    height: 43px;
+    background-image: url(/media/sponsors/Mach7-Technologies-logo-150x43.jpg);
+}
 #event,
 #event a {
     color: #888;
