@@ -11,6 +11,9 @@
     "speaker": [
       { "href": "/2015/speakers/michael-tamlyn" },
       { "href": "/2015/speakers/michael-commo" }
+    ],
+    "resource": [
+      { "href": "https://github.com/GalenHealthcare/Galen.Ef.Deployer", "title": "Slides & Source Code" }
     ]
   }
 }
