@@ -10,6 +10,9 @@
     "level": { "href": "/2015/levels/300" },
     "speaker": [
       { "href": "/2015/speakers/ben-glassman" }
+    ],
+    "resource": [
+      { "href": "http://benglass.github.io/es6-the-future-is-now", "title": "Slides" }
     ]
   }
 }

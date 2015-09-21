@@ -10,6 +10,9 @@
     "level": { "href": "/2015/levels/100" },
     "speaker": [
       { "href": "/2015/speakers/kyle-mitofsky" }
+    ],
+    "resource": [
+      { "href": "http://kylemitofsky.com/Presentations/Meteor/", "title": "Slides" }
     ]
   }
 }

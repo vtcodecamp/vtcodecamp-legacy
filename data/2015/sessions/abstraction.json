@@ -10,6 +10,10 @@
     "level": { "href": "/2015/levels/200" },
     "speaker": [
       { "href": "/2015/speakers/eric-smith" }
+    ],
+    "resource": [
+      { "href": "https://github.com/ericssmith/presentations/blob/master/iswim.pdf", "title": "Slides" },
+      { "href": "https://vimeo.com/139810654", "title": "Screencast" }
     ]
   }
 }

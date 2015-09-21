@@ -10,6 +10,10 @@
     "level": { "href": "/2015/levels/300" },
     "speaker": [
       { "href": "/2015/speakers/john-need" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/JohnNeed/react-flux-joy", "title": "Slides" },
+      { "href": "https://github.com/johnneed/vtcodecamp2015", "title": "Demo" }
     ]
   }
 }

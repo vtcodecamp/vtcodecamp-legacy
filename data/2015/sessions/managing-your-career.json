@@ -10,6 +10,9 @@
     "level": { "href": "/2015/levels/200" },
     "speaker": [
       { "href": "/2015/speakers/josh-winslow" }
+    ],
+    "resource": [
+      { "href": "https://docs.google.com/presentation/d/1XydonMwaul-5ZXrNk5avijGjuTsAbcBr9WqR1mcfmcs/edit?usp=sharing", "title": "Slides" }
     ]
   }
 }
