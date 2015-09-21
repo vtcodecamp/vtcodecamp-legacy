@@ -10,6 +10,9 @@
     "level": { "href": "/2015/levels/200" },
     "speaker": [
       { "href": "/2015/speakers/mitch-miller" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/MitchMiller4/code-camp-2015-visual-programming-mm", "title": "Slides" }
     ]
   }
 }

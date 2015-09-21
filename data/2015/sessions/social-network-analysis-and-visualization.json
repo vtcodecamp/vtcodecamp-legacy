@@ -10,6 +10,10 @@
     "level": { "href": "/2015/levels/200" },
     "speaker": [
       { "href": "/2015/speakers/al-ramirez" }
+    ],
+    "resource": [
+      { "href": "http://goo.gl/4h36jj", "title": "Slides" },
+      { "href": "https://github.com/mirez/snadataviz-vtcc7", "title": "GitHub" }
     ]
   }
 }
