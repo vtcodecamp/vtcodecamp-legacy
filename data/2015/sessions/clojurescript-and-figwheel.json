@@ -10,6 +10,10 @@
     "level": { "href": "/2015/levels/200" },
     "speaker": [
       { "href": "/2015/speakers/nick-husher" }
+    ],
+    "resource": [
+      { "href": "https://github.com/nhusher/slide-deck", "title": "Slides" },
+      { "href": "https://github.com/nhusher/todoer", "title": "Demo" }
     ]
   }
 }
