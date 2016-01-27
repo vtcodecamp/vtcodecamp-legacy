@@ -1,5 +1,6 @@
 web1:
   document_root: public
+  version: 5.6
   php_extensions:
     - apc
     - mcrypt
