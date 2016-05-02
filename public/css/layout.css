@@ -333,6 +333,11 @@ ul.sponsors li.name-only {
     height: 64px;
     background-image: url(/media/sponsors/The-University-of-Vermont-logo-250x64.jpg);
 }
+.logo.the-university-of-vermont-grossman-school-of-business {
+    width: 250px;
+    height: 89px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-Grossman-School-of-Business-logo-250x89.jpg);
+}
 .logo.found-line {
     height: 56px;
     background-image: url(/media/sponsors/Found-Line-logo-150x56.jpg);
