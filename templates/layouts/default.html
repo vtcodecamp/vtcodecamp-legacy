@@ -14,7 +14,7 @@
     <link rel="profile" href="http://microformats.org/profile/hcalendar">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/reset.css?rev=aab9ad3fbc2c1408447c191f51ccc059bfb0cb11" rel="stylesheet" type="text/css" media="handheld, all" />
-    <link href="/css/layout.css?rev=0fbbf8f5c6fbcd777232877502ec256b857bb106" rel="stylesheet" type="text/css" media="handheld, all" />
+    <link href="/css/layout.css?rev=2b0d3f653c6b8965b52c73abd6ded24db1971627" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="/css/content.css?rev=d7e210bf7cecbf615c4edc9ab5041a2014bd18cd" rel="stylesheet" type="text/css" media="handheld, all" />
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="handheld, all" />
     <script src="/js/modernizr-2.6.2.min.js" type="text/javascript"></script>
@@ -52,11 +52,14 @@
                     <li><a href="{{ path('page') }}#sponsor" data-anchor="sponsor">Sponsor</a></li>
                 </ul>
             </nav>
+            <div class="meta">
+                <p><abbr title="Saturday, September 17, 2016, 8:30am - 5:30pm" class="date-time"><span class="day">Saturday</span> <span class="month">Sept</span> <span class="date">17</span> <span class="time">8:30am - 5:30pm</span></abbr> <abbr title="Kalkin Hall on the University of Vermont Campus, Burlington, VT" class="location"><span class="building">Kalkin Hall,</span> UVM Campus, <small>Burlington, VT</small></abbr></p>
+            </div>
         </div>
     </header>
     <aside class="page">
         <div class="inner">
-            <p><a href="{{ path('sessions', {'year': '2015'}) }}"><strong>Slides &amp; Other Resources</strong> from 2015 Sessions <i class="fa fa-chevron-circle-right"></i></a></p>
+            <p><a href="{{ path('page') }}#speak"><strong>Call for Speakers</strong> <i class="fa fa-chevron-circle-right"></i></a></p>
         </div>
     </aside>
 {% block content %}{% endblock %}
