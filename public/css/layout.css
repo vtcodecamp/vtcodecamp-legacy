@@ -540,6 +540,11 @@ ul.sponsors li.name-only {
     height: 43px;
     background-image: url(/media/sponsors/Mach7-Technologies-logo-150x43.jpg);
 }
+.logo.burlington-telecom {
+    width: 225px;
+    height: 57px;
+    background-image: url(/media/sponsors/Burlington-Telecom-logo-225x57.jpg);
+}
 #event,
 #event a {
     color: #888;
