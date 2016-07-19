@@ -540,6 +540,11 @@ ul.sponsors li.name-only {
     height: 57px;
     background-image: url(/media/sponsors/Burlington-Telecom-logo-225x57.jpg);
 }
+.logo.the-university-of-vermont-medical-center {
+    width: 225px;
+    height: 66px;
+    background-image: url(/media/sponsors/The-University-of-Vermont-Medical-Center-logo-225x66.jpg);
+}
 #event,
 #event a {
     color: #888;
