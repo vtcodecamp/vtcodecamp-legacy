@@ -1,12 +1,12 @@
 {
     "require": {
-        "silex/silex": "dev-master",
+        "silex/silex": "1.0.*",
         "twig/twig": "1.9.*",
         "symfony/twig-bridge": "2.1.*",
         "cilex/cilex": "1.0.*",
-        "zircote/Hal": "dev-master",
+        "zircote/Hal": "0.*",
         "mheap/silex-markdown": "dev-master",
-        "knplabs/knp-markdown-bundle": "dev-master"
+        "knplabs/knp-markdown-bundle": "1.1.*"
     },
     "require-dev": {
         "phpunit/phpunit": "5.5.*"
