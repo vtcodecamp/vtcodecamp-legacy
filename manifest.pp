@@ -16,6 +16,11 @@ class minimal-centos-60 {
     source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-11.ius.el6.noarch.rpm"
   }
 
+  exec { "upgrade-ca-certificates":
+    command => "/usr/bin/yum upgrade ca-certificates -y --disablerepo=epel",
+    require => Package["ius-release"],
+  }
+
   package { "httpd":
     ensure => latest,
   }
