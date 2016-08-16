@@ -25,7 +25,7 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
-  package { "php55u":
+  package { "php56u":
     require => [
       Package["httpd"],
       Exec["upgrade-ca-certificates"]
@@ -34,32 +34,32 @@ class minimal-centos-60 {
     notify => Service["httpd"],
   }
 
-  package { "php55u-devel":
-    require => Package["php55u"],
+  package { "php56u-devel":
+    require => Package["php56u"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php55u-pecl-apcu":
-    require => Package["php55u"],
+  package { "php56u-pecl-apcu":
+    require => Package["php56u"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php55u-pecl-memcache":
-    require => Package["php55u"],
+  package { "php56u-pecl-memcache":
+    require => Package["php56u"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php55u-pear":
-    require => Package["php55u"],
+  package { "php56u-pear":
+    require => Package["php56u"],
     ensure => latest,
     notify => Service["httpd"],
   }
 
-  package { "php55u-xml":
-    require => Package["php55u"],
+  package { "php56u-xml":
+    require => Package["php56u"],
     ensure => latest,
     notify => Service["httpd"],
   }
@@ -105,7 +105,7 @@ class minimal-centos-60 {
   }
 
   file { "/etc/php.ini":
-    require => Package["php55u"],
+    require => Package["php56u"],
     ensure => file,
     owner => root,
     group => root,
@@ -115,7 +115,7 @@ class minimal-centos-60 {
   }
 
   file { "/etc/php.d/xdebug.ini":
-    require => Package["php55u"],
+    require => Package["php56u"],
     ensure => file,
     owner => root,
     group => root,
@@ -148,7 +148,7 @@ class minimal-centos-60 {
   }
 
   exec { "/usr/bin/pecl upgrade":
-    require => Package["php55u-pear"],
+    require => Package["php56u-pear"],
     notify => Service["httpd"],
     timeout => 0,
   }
@@ -160,13 +160,13 @@ class minimal-centos-60 {
   }
 
   exec { "/usr/bin/pear upgrade":
-    require => Package["php55u-pear"],
+    require => Package["php56u-pear"],
     timeout => 0,
   }
 
   exec { "/usr/bin/pear config-set auto_discover 1":
     require => [
-      Package["php55u-pear"],
+      Package["php56u-pear"],
       Exec["/usr/bin/pear upgrade"]
     ],
     timeout => 0,
