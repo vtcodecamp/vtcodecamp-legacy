@@ -139,7 +139,7 @@ class minimal-centos-60 {
     ],
   }
 
-  exec {"/usr/bin/pecl upgrade":
+  exec { "/usr/bin/pecl upgrade":
     require => Package["php54-pear"],
     notify => Service["httpd"],
     timeout => 0,
@@ -151,7 +151,7 @@ class minimal-centos-60 {
     timeout => 0,
   }
 
-  exec {"/usr/bin/pear upgrade":
+  exec { "/usr/bin/pear upgrade":
     require => Package["php54-pear"],
     timeout => 0,
   }
