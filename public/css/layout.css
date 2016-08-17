@@ -550,6 +550,10 @@ ul.sponsors li.name-only {
     height: 43px;
     background-image: url(/media/sponsors/Allscripts-logo-200x43.jpg);
 }
+.logo.btv-ignite {
+    height: 75px;
+    background-image: url(/media/sponsors/BTV-Ignite-logo-150x75.jpg);
+}
 #event,
 #event a {
     color: #888;
