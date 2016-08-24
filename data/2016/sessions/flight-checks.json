@@ -1,0 +1,8 @@
+{
+  "slug": "flight-checks",
+  "title": "Flight Checks: Quality Assurance for Releases that Prevent Disasters from Escaping into the Wild",
+  "_links": {
+    "self": { "href": "/2016/sessions/flight-checks" },
+    "event": { "href": "/2016/" }
+  }
+}

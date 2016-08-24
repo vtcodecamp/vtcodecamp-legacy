@@ -1,0 +1,8 @@
+{
+  "slug": "python-101",
+  "title": "Python 101",
+  "_links": {
+    "self": { "href": "/2016/sessions/python-101" },
+    "event": { "href": "/2016/" }
+  }
+}

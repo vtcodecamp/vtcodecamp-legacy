@@ -1,0 +1,8 @@
+{
+  "slug": "deploying-dot-net-applications-with-octopus-deploy",
+  "title": "Deploying .NET applications with Octopus Deploy",
+  "_links": {
+    "self": { "href": "/2016/sessions/deploying-dot-net-applications-with-octopus-deploy" },
+    "event": { "href": "/2016/" }
+  }
+}
