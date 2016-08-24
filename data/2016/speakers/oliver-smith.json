@@ -1,0 +1,8 @@
+{
+  "slug": "oliver-smith",
+  "firstName": "Oliver",
+  "lastName": "Smith",
+  "_links": {
+    "self": { "href": "/2016/speakers/oliver-smith" }
+  }
+}

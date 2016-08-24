@@ -1,0 +1,8 @@
+{
+  "slug": "andy-reagan",
+  "firstName": "Andy",
+  "lastName": "Reagan",
+  "_links": {
+    "self": { "href": "/2016/speakers/andy-reagan" }
+  }
+}

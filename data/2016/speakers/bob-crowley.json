@@ -1,0 +1,8 @@
+{
+  "slug": "bob-crowley",
+  "firstName": "Bob",
+  "lastName": "Crowley",
+  "_links": {
+    "self": { "href": "/2016/speakers/bob-crowley" }
+  }
+}

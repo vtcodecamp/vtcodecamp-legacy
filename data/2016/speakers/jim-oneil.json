@@ -1,0 +1,8 @@
+{
+  "slug": "jim-oneil",
+  "firstName": "Jim",
+  "lastName": "O'Neil",
+  "_links": {
+    "self": { "href": "/2016/speakers/jim-oneil" }
+  }
+}

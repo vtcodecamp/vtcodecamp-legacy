@@ -1,0 +1,8 @@
+{
+  "slug": "peter-silverman",
+  "firstName": "Peter",
+  "lastName": "Silverman",
+  "_links": {
+    "self": { "href": "/2016/speakers/peter-silverman" }
+  }
+}
