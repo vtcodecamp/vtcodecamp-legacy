@@ -3,6 +3,9 @@
   "title": "Bye, T-SQL! In-database Analytics with R in SQL Server 2016",
   "_links": {
     "self": { "href": "/2016/sessions/in-database-analytics-with-r-in-sql-server-2016" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/al-ramirez" }
+    ]
   }
 }

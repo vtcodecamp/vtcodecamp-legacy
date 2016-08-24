@@ -3,6 +3,9 @@
   "title": "You Are Not Too Legit to Commit",
   "_links": {
     "self": { "href": "/2016/sessions/you-are-not-too-legit-to-commit" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/sara-simon" }
+    ]
   }
 }

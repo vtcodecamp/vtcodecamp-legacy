@@ -3,6 +3,9 @@
   "title": "How Hystrix Circuit Breakers Stopped Platform Outages and Saved the Day",
   "_links": {
     "self": { "href": "/2016/sessions/how-hystrix-circuit-breakers-stopped-platform-outages" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/rob-friesel" }
+    ]
   }
 }

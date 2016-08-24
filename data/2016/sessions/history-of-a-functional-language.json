@@ -3,6 +3,9 @@
   "title": "History of a Functional Language: From Euclid to Type Providers",
   "_links": {
     "self": { "href": "/2016/sessions/history-of-a-functional-language" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/rachel-reese" }
+    ]
   }
 }

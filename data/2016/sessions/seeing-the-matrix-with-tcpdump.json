@@ -3,6 +3,9 @@
   "title": "Seeing the Matrix with tcpdump",
   "_links": {
     "self": { "href": "/2016/sessions/seeing-the-matrix-with-tcpdump" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/david-howell" }
+    ]
   }
 }

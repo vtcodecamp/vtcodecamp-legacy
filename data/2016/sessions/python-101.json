@@ -3,6 +3,9 @@
   "title": "Python 101",
   "_links": {
     "self": { "href": "/2016/sessions/python-101" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/zev-averbach" }
+    ]
   }
 }

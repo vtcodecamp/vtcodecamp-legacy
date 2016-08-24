@@ -3,6 +3,9 @@
   "title": "Internet of Things: Programming on the Edge",
   "_links": {
     "self": { "href": "/2016/sessions/internet-of-things" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/scott-thibault" }
+    ]
   }
 }

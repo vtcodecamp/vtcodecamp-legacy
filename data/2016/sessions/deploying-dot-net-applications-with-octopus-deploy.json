@@ -3,6 +3,9 @@
   "title": "Deploying .NET applications with Octopus Deploy",
   "_links": {
     "self": { "href": "/2016/sessions/deploying-dot-net-applications-with-octopus-deploy" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/floyd-hilton" }
+    ]
   }
 }

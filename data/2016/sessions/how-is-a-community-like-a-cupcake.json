@@ -3,6 +3,9 @@
   "title": "How is a Community Like a Cupcake?",
   "_links": {
     "self": { "href": "/2016/sessions/how-is-a-community-like-a-cupcake" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/betsy-weber" }
+    ]
   }
 }

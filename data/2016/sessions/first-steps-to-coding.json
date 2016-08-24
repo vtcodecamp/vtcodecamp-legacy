@@ -3,6 +3,9 @@
   "title": "First Steps to Coding: A Second-Grader Shows You How",
   "_links": {
     "self": { "href": "/2016/sessions/first-steps-to-coding" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/oliver-smith" }
+    ]
   }
 }

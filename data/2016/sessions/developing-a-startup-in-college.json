@@ -3,6 +3,9 @@
   "title": "Developing a Startup in College",
   "_links": {
     "self": { "href": "/2016/sessions/developing-a-startup-in-college" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/peter-silverman" }
+    ]
   }
 }

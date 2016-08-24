@@ -3,6 +3,9 @@
   "title": "EF Core in an ASP.NET Core API",
   "_links": {
     "self": { "href": "/2016/sessions/ef-core-in-an-asp-dot-net-core-api" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/julie-lerman" }
+    ]
   }
 }

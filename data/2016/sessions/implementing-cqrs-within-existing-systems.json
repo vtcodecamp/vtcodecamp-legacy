@@ -3,6 +3,9 @@
   "title": "Implementing CQRS within Existing Systems",
   "_links": {
     "self": { "href": "/2016/sessions/implementing-cqrs-within-existing-systems" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/peter-vile" }
+    ]
   }
 }

@@ -3,6 +3,9 @@
   "title": "Anatomy of an Azure IoT Solution",
   "_links": {
     "self": { "href": "/2016/sessions/anatomy-of-an-azure-iot-solution" },
-    "event": { "href": "/2016/" }
+    "event": { "href": "/2016/" },
+    "speaker": [
+      { "href": "/2016/speakers/jim-oneil" }
+    ]
   }
 }
