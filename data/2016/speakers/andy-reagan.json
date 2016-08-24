@@ -2,6 +2,7 @@
   "slug": "andy-reagan",
   "firstName": "Andy",
   "lastName": "Reagan",
+  "bio": "Andy Reagan is a PhD Candidate at the University of Vermont in Applied Mathematics. His work focuses on the use of data science techniques including sentiment analysis to understand complex sociotechnical systems, in particular building visualizations to better understand the analysis.",
   "_links": {
     "self": { "href": "/2016/speakers/andy-reagan" },
     "twitter": { "href": "https://twitter.com/andyreagan", "title": "andyreagan" }

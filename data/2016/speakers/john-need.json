@@ -2,6 +2,7 @@
   "slug": "john-need",
   "firstName": "John",
   "lastName": "Need",
+  "bio": "Front End Architect at Galen Healthcare",
   "_links": {
     "self": { "href": "/2016/speakers/john-need" },
     "twitter": { "href": "https://twitter.com/johnneed", "title": "johnneed" }

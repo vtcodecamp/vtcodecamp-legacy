@@ -2,6 +2,7 @@
   "slug": "john-baluka",
   "firstName": "John",
   "lastName": "Baluka",
+  "bio": "John has been developing software with the Microsoft stack for 20+ years. For most of the last 10 years, John has been a sub-contractor, business owner, and a Dad. John enjoys researching and applying new technologies to real world examples.",
   "_links": {
     "self": { "href": "/2016/speakers/john-baluka" },
     "twitter": { "href": "https://twitter.com/JohnBaluka", "title": "JohnBaluka" }

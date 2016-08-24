@@ -2,6 +2,7 @@
   "slug": "joshua-dickerson",
   "firstName": "Joshua",
   "lastName": "Dickerson",
+  "bio": "Joshua Dickerson is a graduate of UVM currently working as a senior developer at Dealer.com, primarily focused on the display advertising / programmatic buying platform (RTB).",
   "_links": {
     "self": { "href": "/2016/speakers/joshua-dickerson" },
     "twitter": { "href": "https://twitter.com/JoshuaDickerson", "title": "JoshuaDickerson" }

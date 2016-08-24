@@ -2,6 +2,7 @@
   "slug": "scott-thibault",
   "firstName": "Scott",
   "lastName": "Thibault",
+  "bio": "Scott holds a doctorate degree in programming languages and has been working with design automation and embedded systems for more than two decades. He has been consulting with a health care startup for the past several years as their Chief Data Scientist, as well as pursuing other interests including the Internet of Things and natural language processing.",
   "_links": {
     "self": { "href": "/2016/speakers/scott-thibault" },
     "twitter": { "href": "https://twitter.com/GreenMtnComp", "title": "GreenMtnComp" }

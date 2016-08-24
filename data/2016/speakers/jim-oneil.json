@@ -2,6 +2,7 @@
   "slug": "jim-oneil",
   "firstName": "Jim",
   "lastName": "O'Neil",
+  "bio": "Jim is a Senior Architect with BlueMetal Architects, Microsoft's IoT Global Partner of the Year, where he's most recently been working on IoT solutions from backend services to front-end visualizations. Formerly a Microsoft Evangelist in the Northeast, he's been working with Microsoft Azure since it was announced and with Microsoft and open source technologies for just a tad longer than that.",
   "_links": {
     "self": { "href": "/2016/speakers/jim-oneil" },
     "twitter": { "href": "https://twitter.com/jimoneil", "title": "jimoneil" }

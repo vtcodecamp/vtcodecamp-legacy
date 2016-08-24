@@ -2,6 +2,7 @@
   "slug": "bradley-holt",
   "firstName": "Bradley",
   "lastName": "Holt",
+  "bio": "Bradley Holt is a Developer Advocate with IBM Cloud Data Services. He is the author of several publications and has spoken at numerous conferences including ApacheCon, the O'Reilly Software Architecture Conference, Fluent, ConFoo, CodeMash, Node.js Interactive, NoSQL Now!, That Conference, php[tek], ZendCon, OSCON, the jQuery Conference, and SXSW Interactive. Bradley writes and speaks about topics such as CouchDB, PouchDB, offline-first applications, PHP, Node.js, and Domain-Driven Design.",
   "_links": {
     "self": { "href": "/2016/speakers/bradley-holt" },
     "twitter": { "href": "https://twitter.com/BradleyHolt", "title": "BradleyHolt" }

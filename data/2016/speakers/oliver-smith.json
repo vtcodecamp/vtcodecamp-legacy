@@ -2,6 +2,7 @@
   "slug": "oliver-smith",
   "firstName": "Oliver",
   "lastName": "Smith",
+  "bio": "Oliver Smith is a second grader at Charlotte Central School.",
   "_links": {
     "self": { "href": "/2016/speakers/oliver-smith" }
   }

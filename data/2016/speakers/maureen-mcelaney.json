@@ -2,6 +2,7 @@
   "slug": "maureen-mcelaney",
   "firstName": "Maureen",
   "lastName": "McElaney",
+  "bio": "Maureen is a Developer Advocate at IBM Cloud Data Services. She is the founder of Girl Develop It Burlington. She loves kitties, snow, and beer.",
   "_links": {
     "self": { "href": "/2016/speakers/maureen-mcelaney" },
     "twitter": { "href": "https://twitter.com/mo_mack", "title": "mo_mack" }
