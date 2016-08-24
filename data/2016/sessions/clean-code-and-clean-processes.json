@@ -7,7 +7,7 @@
     "track": { "href": "/2016/tracks/practices-and-testing" },
     "space": { "href": "/2016/spaces/room-2" },
     "timePeriod": { "href": "/2016/time-periods/0900" },
-    "level": { "href": "/2016/levels/level-100" },
+    "level": { "href": "/2016/levels/100" },
     "speaker": [
       { "href": "/2016/speakers/hetal-dave" }
     ]
