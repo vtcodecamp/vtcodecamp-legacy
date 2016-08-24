@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/from-mobile-first-to-offline-first" },
     "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
     "space": { "href": "/2016/spaces/room-2" },
     "timePeriod": { "href": "/2016/time-periods/1645" },
     "speaker": [

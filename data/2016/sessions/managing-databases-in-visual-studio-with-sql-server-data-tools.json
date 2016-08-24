@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/managing-databases-in-visual-studio-with-sql-server-data-tools" },
     "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/front-end-data-and-some-iot" },
     "space": { "href": "/2016/spaces/room-1" },
     "timePeriod": { "href": "/2016/time-periods/1430" },
     "speaker": [
