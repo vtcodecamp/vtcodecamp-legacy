@@ -3,6 +3,7 @@
   "firstName": "Betsy",
   "lastName": "Weber",
   "_links": {
-    "self": { "href": "/2016/speakers/betsy-weber" }
+    "self": { "href": "/2016/speakers/betsy-weber" },
+    "twitter": { "href": "https://twitter.com/betsyweber", "title": "betsyweber" }
   }
 }

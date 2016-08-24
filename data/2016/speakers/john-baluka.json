@@ -3,6 +3,7 @@
   "firstName": "John",
   "lastName": "Baluka",
   "_links": {
-    "self": { "href": "/2016/speakers/john-baluka" }
+    "self": { "href": "/2016/speakers/john-baluka" },
+    "twitter": { "href": "https://twitter.com/JohnBaluka", "title": "JohnBaluka" }
   }
 }

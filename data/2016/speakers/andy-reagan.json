@@ -3,6 +3,7 @@
   "firstName": "Andy",
   "lastName": "Reagan",
   "_links": {
-    "self": { "href": "/2016/speakers/andy-reagan" }
+    "self": { "href": "/2016/speakers/andy-reagan" },
+    "twitter": { "href": "https://twitter.com/andyreagan", "title": "andyreagan" }
   }
 }

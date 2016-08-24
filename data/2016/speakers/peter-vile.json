@@ -3,6 +3,7 @@
   "firstName": "Peter",
   "lastName": "Vile",
   "_links": {
-    "self": { "href": "/2016/speakers/peter-vile" }
+    "self": { "href": "/2016/speakers/peter-vile" },
+    "twitter": { "href": "https://twitter.com/twinsenf1", "title": "twinsenf1" }
   }
 }

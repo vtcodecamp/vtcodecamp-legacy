@@ -3,6 +3,7 @@
   "firstName": "Zev",
   "lastName": "Averbach",
   "_links": {
-    "self": { "href": "/2016/speakers/zev-averbach" }
+    "self": { "href": "/2016/speakers/zev-averbach" },
+    "twitter": { "href": "https://twitter.com/zevav", "title": "zevav" }
   }
 }

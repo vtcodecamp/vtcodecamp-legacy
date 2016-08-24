@@ -3,6 +3,7 @@
   "firstName": "Amy",
   "lastName": "Chess",
   "_links": {
-    "self": { "href": "/2016/speakers/amy-chess" }
+    "self": { "href": "/2016/speakers/amy-chess" },
+    "twitter": { "href": "https://twitter.com/AmyChess", "title": "AmyChess" }
   }
 }

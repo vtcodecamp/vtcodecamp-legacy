@@ -3,6 +3,7 @@
   "firstName": "Sara",
   "lastName": "Simon",
   "_links": {
-    "self": { "href": "/2016/speakers/sara-simon" }
+    "self": { "href": "/2016/speakers/sara-simon" },
+    "twitter": { "href": "https://twitter.com/sarambsimon", "title": "sarambsimon" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Lucie",
   "lastName": "deLaBruere",
   "_links": {
-    "self": { "href": "/2016/speakers/lucie-delabruere" }
+    "self": { "href": "/2016/speakers/lucie-delabruere" },
+    "twitter": { "href": "https://twitter.com/techsavvygirl", "title": "techsavvygirl" }
   }
 }

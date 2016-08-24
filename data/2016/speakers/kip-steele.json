@@ -3,6 +3,7 @@
   "firstName": "Kip",
   "lastName": "Steele",
   "_links": {
-    "self": { "href": "/2016/speakers/kip-steele" }
+    "self": { "href": "/2016/speakers/kip-steele" },
+    "twitter": { "href": "https://twitter.com/qualityninja", "title": "qualityninja" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "David",
   "lastName": "Howell",
   "_links": {
-    "self": { "href": "/2016/speakers/david-howell" }
+    "self": { "href": "/2016/speakers/david-howell" },
+    "twitter": { "href": "https://twitter.com/dehowell", "title": "dehowell" }
   }
 }

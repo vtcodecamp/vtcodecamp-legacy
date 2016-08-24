@@ -3,6 +3,7 @@
   "firstName": "Maureen",
   "lastName": "McElaney",
   "_links": {
-    "self": { "href": "/2016/speakers/maureen-mcelaney" }
+    "self": { "href": "/2016/speakers/maureen-mcelaney" },
+    "twitter": { "href": "https://twitter.com/mo_mack", "title": "mo_mack" }
   }
 }

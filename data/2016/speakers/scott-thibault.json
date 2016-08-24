@@ -3,6 +3,7 @@
   "firstName": "Scott",
   "lastName": "Thibault",
   "_links": {
-    "self": { "href": "/2016/speakers/scott-thibault" }
+    "self": { "href": "/2016/speakers/scott-thibault" },
+    "twitter": { "href": "https://twitter.com/GreenMtnComp", "title": "GreenMtnComp" }
   }
 }

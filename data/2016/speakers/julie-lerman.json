@@ -3,6 +3,7 @@
   "firstName": "Julie",
   "lastName": "Lerman",
   "_links": {
-    "self": { "href": "/2016/speakers/julie-lerman" }
+    "self": { "href": "/2016/speakers/julie-lerman" },
+    "twitter": { "href": "https://twitter.com/julielerman", "title": "julielerman" }
   }
 }

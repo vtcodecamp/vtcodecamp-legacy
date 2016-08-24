@@ -3,6 +3,7 @@
   "firstName": "Jim",
   "lastName": "O'Neil",
   "_links": {
-    "self": { "href": "/2016/speakers/jim-oneil" }
+    "self": { "href": "/2016/speakers/jim-oneil" },
+    "twitter": { "href": "https://twitter.com/jimoneil", "title": "jimoneil" }
   }
 }

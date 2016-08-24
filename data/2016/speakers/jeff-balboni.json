@@ -3,6 +3,7 @@
   "firstName": "Jeff",
   "lastName": "Balboni",
   "_links": {
-    "self": { "href": "/2016/speakers/jeff-balboni" }
+    "self": { "href": "/2016/speakers/jeff-balboni" },
+    "twitter": { "href": "https://twitter.com/jeffbalboni", "title": "jeffbalboni" }
   }
 }

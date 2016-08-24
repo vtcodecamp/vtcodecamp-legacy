@@ -3,6 +3,7 @@
   "firstName": "Brie",
   "lastName": "Hoblin",
   "_links": {
-    "self": { "href": "/2016/speakers/brie-hoblin" }
+    "self": { "href": "/2016/speakers/brie-hoblin" },
+    "twitter": { "href": "https://twitter.com/bhoblin", "title": "bhoblin" }
   }
 }

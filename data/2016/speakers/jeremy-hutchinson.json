@@ -3,6 +3,7 @@
   "firstName": "Jeremy",
   "lastName": "Hutchinson",
   "_links": {
-    "self": { "href": "/2016/speakers/jeremy-hutchinson" }
+    "self": { "href": "/2016/speakers/jeremy-hutchinson" },
+    "twitter": { "href": "https://twitter.com/hutchcodes", "title": "hutchcodes" }
   }
 }

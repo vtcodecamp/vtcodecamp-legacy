@@ -3,6 +3,7 @@
   "firstName": "Hetal",
   "lastName": "Dave",
   "_links": {
-    "self": { "href": "/2016/speakers/hetal-dave" }
+    "self": { "href": "/2016/speakers/hetal-dave" },
+    "twitter": { "href": "https://twitter.com/hetaljdave", "title": "hetaljdave" }
   }
 }

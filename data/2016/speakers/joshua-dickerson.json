@@ -3,6 +3,7 @@
   "firstName": "Joshua",
   "lastName": "Dickerson",
   "_links": {
-    "self": { "href": "/2016/speakers/joshua-dickerson" }
+    "self": { "href": "/2016/speakers/joshua-dickerson" },
+    "twitter": { "href": "https://twitter.com/JoshuaDickerson", "title": "JoshuaDickerson" }
   }
 }

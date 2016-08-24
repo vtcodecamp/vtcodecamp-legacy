@@ -3,6 +3,7 @@
   "firstName": "Kevin",
   "lastName": "Braun",
   "_links": {
-    "self": { "href": "/2016/speakers/kevin-braun" }
+    "self": { "href": "/2016/speakers/kevin-braun" },
+    "twitter": { "href": "https://twitter.com/humanforum", "title": "humanforum" }
   }
 }

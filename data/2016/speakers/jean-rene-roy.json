@@ -3,6 +3,7 @@
   "firstName": "Jean-Rene",
   "lastName": "Roy",
   "_links": {
-    "self": { "href": "/2016/speakers/jean-rene-roy" }
+    "self": { "href": "/2016/speakers/jean-rene-roy" },
+    "twitter": { "href": "https://twitter.com/DevTeachConfere", "title": "DevTeachConfere" }
   }
 }
