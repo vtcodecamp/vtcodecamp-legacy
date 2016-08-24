@@ -2,7 +2,7 @@
   "slug": "chuck-megivern",
   "firstName": "Chuck",
   "lastName": "Megivern",
-  "bio": "Chuck Megivern is Principal Engineer at iSystems, LLC. He has over 10 years of software application development experience. Chuck has worked at several Vermont technology companies, with a focus on cloud scale advertising deployments, and human resource software-as-a-service applications. Experience includes Java and ASP.NET application development in large server and cloud operating environments. A variety of open source frameworks have been used in these applications. Experience includes containerized deployments, API management in no-single-point-of-fail / high traffic scenarios, and dynamic server scaling in the cloud. Chuck has authored a webinar on API development for the WSO2 company. Chuck is Microsoft certified for C# development.",
+  "bio": "Chuck Megivern is Principal Engineer at iSystems, LLC. He has over 10 years of software application development experience. Chuck has worked at several Vermont technology companies, with a focus on cloud scale advertising deployments, and human resource software-as-a-service applications.\n\nExperience includes Java and ASP.NET application development in large server and cloud operating environments. A variety of open source frameworks have been used in these applications. Experience includes containerized deployments, API management in no-single-point-of-fail / high traffic scenarios, and dynamic server scaling in the cloud. Chuck has authored a webinar on API development for the WSO2 company. Chuck is Microsoft certified for C# development.",
   "_links": {
     "self": { "href": "/2016/speakers/chuck-megivern" },
     "twitter": { "href": "https://twitter.com/ChuckMegivern", "title": "ChuckMegivern" }
