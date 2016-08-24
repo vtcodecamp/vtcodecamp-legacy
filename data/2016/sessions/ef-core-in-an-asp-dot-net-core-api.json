@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/ef-core-in-an-asp-dot-net-core-api" },
     "event": { "href": "/2016/" },
+    "space": { "href": "/2016/spaces/room-4" },
     "timePeriod": { "href": "/2016/time-periods/1345" },
     "speaker": [
       { "href": "/2016/speakers/julie-lerman" }

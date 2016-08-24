@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/computational-philosophy" },
     "event": { "href": "/2016/" },
+    "space": { "href": "/2016/spaces/room-5" },
     "timePeriod": { "href": "/2016/time-periods/1645" },
     "speaker": [
       { "href": "/2016/speakers/john-cicilio" }

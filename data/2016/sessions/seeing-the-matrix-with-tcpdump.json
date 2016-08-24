@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/seeing-the-matrix-with-tcpdump" },
     "event": { "href": "/2016/" },
+    "space": { "href": "/2016/spaces/room-3" },
     "timePeriod": { "href": "/2016/time-periods/1100" },
     "speaker": [
       { "href": "/2016/speakers/david-howell" }

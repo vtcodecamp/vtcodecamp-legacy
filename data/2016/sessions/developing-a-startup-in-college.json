@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/developing-a-startup-in-college" },
     "event": { "href": "/2016/" },
+    "space": { "href": "/2016/spaces/room-5" },
     "timePeriod": { "href": "/2016/time-periods/1015" },
     "speaker": [
       { "href": "/2016/speakers/peter-silverman" }
