@@ -3,6 +3,7 @@
   "title": "Room 3",
   "order": 3,
   "_links": {
-    "self": { "href": "/2016/spaces/room-3" }
+    "self": { "href": "/2016/spaces/room-3" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" }
   }
 }
