@@ -1,0 +1,8 @@
+{
+  "slug": "room-5",
+  "title": "Room 5",
+  "order": 5,
+  "_links": {
+    "self": { "href": "/2016/spaces/room-5" }
+  }
+}
