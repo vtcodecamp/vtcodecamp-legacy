@@ -1,6 +1,7 @@
 {
   "slug": "history-of-a-functional-language",
   "title": "History of a Functional Language: From Euclid to Type Providers",
+  "description": "Have you ever wondered where your favorite feature came from? Was it influenced by a feature in another language? How are the different programming languages even related? I spent a couple months researching the history of some programming languages, and wanted to share that with you. In this talk, I cover the history of the ML family from approximately the dawn of time, eventually focusing on F# specifically.",
   "_links": {
     "self": { "href": "/2016/sessions/history-of-a-functional-language" },
     "event": { "href": "/2016/" },

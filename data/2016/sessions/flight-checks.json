@@ -1,6 +1,7 @@
 {
   "slug": "flight-checks",
   "title": "Flight Checks: Quality Assurance for Releases that Prevent Disasters from Escaping into the Wild",
+  "description": "Examining decision making around when to release, rollback or delay in the context of client demands and rushed development.",
   "_links": {
     "self": { "href": "/2016/sessions/flight-checks" },
     "event": { "href": "/2016/" },

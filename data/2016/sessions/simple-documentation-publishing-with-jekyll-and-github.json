@@ -1,6 +1,7 @@
 {
   "slug": "simple-documentation-publishing-with-jekyll-and-github",
   "title": "Simple Documentation Publishing with Jekyll and GitHub",
+  "description": "Documenting software projects doesn't have to be difficult. Even the writing work can be simplified with boilerplate text and simple scripts. You can take care of the publishing part easily, running your own CMS or Web server, simply by taking advantage of Jekyll static web framework, Git, and GitHub Pages. I'll walk you through the entire process.",
   "_links": {
     "self": { "href": "/2016/sessions/simple-documentation-publishing-with-jekyll-and-github" },
     "event": { "href": "/2016/" },

@@ -1,6 +1,7 @@
 {
   "slug": "death-defying-feats-of-debuggery",
   "title": "Death Defying Feats of Debuggery",
+  "description": "Building the biggest, baddest web-app ever? Shave time and pain off the JavaScript debugging processing with these advanced debugging techniques and tools.\n\nTopics will include:\n\n * Source-map magic,\n * Bending breakpoints to your will,\n * Amazing add-ons for your favorite framework,\n * Tracking and mercilessly killing memory leaks,\n * Other awesome stuff\n * and cake.",
   "_links": {
     "self": { "href": "/2016/sessions/death-defying-feats-of-debuggery" },
     "event": { "href": "/2016/" },

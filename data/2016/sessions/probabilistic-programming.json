@@ -1,6 +1,7 @@
 {
   "slug": "probabilistic-programming",
   "title": "Probabilistic Programming: An Introduction",
+  "description": "The 21st century has highlighted the role of uncertainty in computing, with \"big data\", machine learning, and statistical artificial intelligence. Probabilistic programming systems aim to bridge the gap between the lessons from deterministic programming languages and the increasing importance of uncertainty in computation. In this talk, we'll cover the basics of probabilistic reasoning, introduce probabilistic programming, and survey this new field of programming. ",
   "_links": {
     "self": { "href": "/2016/sessions/probabilistic-programming" },
     "event": { "href": "/2016/" },

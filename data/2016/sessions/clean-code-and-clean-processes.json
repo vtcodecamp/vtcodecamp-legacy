@@ -1,6 +1,7 @@
 {
   "slug": "clean-code-and-clean-processes",
   "title": "Clean Code & Clean Processes",
+  "description": "This session is a revival of my Clean Code sessions from the last two years. Think Clean & Single Responsibility.",
   "_links": {
     "self": { "href": "/2016/sessions/clean-code-and-clean-processes" },
     "event": { "href": "/2016/" },

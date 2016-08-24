@@ -1,6 +1,7 @@
 {
   "slug": "create-with-code",
   "title": "Create with Code: Let's Get Physical",
+  "description": "Controlling physical objects with code is a pedagogically sound method method to learning the skills necessary to break into coding. In this session we'll take a brief look at the Seymour Paperts research to understand why and then break into some fun ways to code physical objects to blink, move, race, dance, sense, and more. Make coding a family affair with smart objects and fun robots. Create confidence with code using Raspberry Pi and Arduino to control eTextile or crafty projects. This is a beginner session for those looking to break into coding or helping others learn to code. ",
   "_links": {
     "self": { "href": "/2016/sessions/create-with-code" },
     "event": { "href": "/2016/" },

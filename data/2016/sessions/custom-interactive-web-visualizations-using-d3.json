@@ -1,6 +1,7 @@
 {
   "slug": "custom-interactive-web-visualizations-using-d3",
   "title": "Custom, Interactive Web Visualizations Using D3.js",
+  "description": "We'll cover everything D3, starting with scales and building a simple visualization (a bar chart) through the tricky stuff: using patterns to package your graphics, custom interactivity, and enabling output of graphics.",
   "_links": {
     "self": { "href": "/2016/sessions/custom-interactive-web-visualizations-using-d3" },
     "event": { "href": "/2016/" },

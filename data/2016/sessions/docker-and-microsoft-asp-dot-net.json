@@ -1,6 +1,7 @@
 {
   "slug": "docker-and-microsoft-asp-dot-net",
   "title": "Moving from Big and Complex to Small and Simple: Docker and Microsoft ASP.NET",
+  "description": "Computer applications continue to grow more complex over time. As features get added, applications get refactored into components. How those components are developed becomes again another area to be managed. Approaches to deal with this complexity have been devised over time – many gain traction. Design patterns and The Law of Demeter are historic approaches that still apply.\n\nRecently, an approach of deploying applications in containers has become very popular. \"Docker\" technology first gained hold in the clustered deployment and cloud computing world, but it delivers advantages even on a developer's desktop.\n\nDocker impacts how an application or service is packaged and deployed, and was first adopted in the open source world.\n\nThe technology has delivered such advantages that Microsoft has adapted its ASP.NET and Windows Server strategy, embracing Docker in a big way. Microsoft is also open sourcing ASP.NET Core, and parts of Windows Server.\n\nThis presentation gives an overview to this computing trend, with a particularfocus on ASP.NET.\n\nExamples of ASP.NET web applications and APIs, currently running in production environments in Docker containers, are shown.",
   "_links": {
     "self": { "href": "/2016/sessions/docker-and-microsoft-asp-dot-net" },
     "event": { "href": "/2016/" },

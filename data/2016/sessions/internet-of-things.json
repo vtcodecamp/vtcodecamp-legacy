@@ -1,6 +1,7 @@
 {
   "slug": "internet-of-things",
   "title": "Internet of Things: Programming on the Edge",
+  "description": "Learn about the Internet of Things and edge computing. This talk will provide an overview of IoT system architecture, the edge device landscape, and an introduction to RxFusion, the open-source C++ framework for programming edge devices. The presentation includes live demonstrations of example code.",
   "_links": {
     "self": { "href": "/2016/sessions/internet-of-things" },
     "event": { "href": "/2016/" },

@@ -1,6 +1,7 @@
 {
   "slug": "python-101",
   "title": "Python 101",
+  "description": "An interactive session teaching the basics of Python, strictly on the command line: basic operators, variables, functions, what you can do with it, what Python is good for, next steps.",
   "_links": {
     "self": { "href": "/2016/sessions/python-101" },
     "event": { "href": "/2016/" },

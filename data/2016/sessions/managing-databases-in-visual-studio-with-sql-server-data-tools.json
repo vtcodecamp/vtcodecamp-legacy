@@ -1,6 +1,7 @@
 {
   "slug": "managing-databases-in-visual-studio-with-sql-server-data-tools",
   "title": "Managing Databases in Visual Studio with SQL Server Data Tools",
+  "description": "SQL Server Data Tools (SSDT) transforms database development by introducing a ubiquitous, declarative model that spans all the phases of database development inside Visual Studio. You can use SSDT Transact-SQL design capabilities to build, debug, maintain, and refactor databases. You can work with a database project, or directly with a connected database instance on or off-premise. SSDT facilitates sourced controlled schema and simplifies deployment.",
   "_links": {
     "self": { "href": "/2016/sessions/managing-databases-in-visual-studio-with-sql-server-data-tools" },
     "event": { "href": "/2016/" },

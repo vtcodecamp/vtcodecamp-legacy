@@ -1,6 +1,7 @@
 {
   "slug": "you-are-not-too-legit-to-commit",
   "title": "You Are Not Too Legit to Commit",
+  "description": "Let's talk about documentation. Install instructions are key. The occasional inline comment can be helpful. You want someone to understand your project? That README had better be good. But all of this can be maintained after the fact, right? Ship your code, then shift to documentation, right? Wrong. So very wrong. This session is about the git commit—about the the craft and importance of a good git commit. Commits tell the story of your software. They guide other developers through your project. They guide *future* you the developer through your project. Good documentation begins at the start, and a thorough commit message can save hours down the road. In this session, we'll talk about how to write one.",
   "_links": {
     "self": { "href": "/2016/sessions/you-are-not-too-legit-to-commit" },
     "event": { "href": "/2016/" },

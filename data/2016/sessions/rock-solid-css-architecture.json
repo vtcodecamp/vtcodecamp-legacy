@@ -1,6 +1,7 @@
 {
   "slug": "rock-solid-css-architecture",
   "title": "Rock Solid CSS Architecture",
+  "description": "Tired of eating CSS soup day after day? No longer want to play stylesheet Jenga whenever you try to edit main.css? You just may need a CSS architecture. This talk will review the major CSS architectures like BEM (Block Element Modifier) and SMACSS (Scalable and Modular Architecture for CSS) while discussing the pros and cons of each.",
   "_links": {
     "self": { "href": "/2016/sessions/rock-solid-css-architecture" },
     "event": { "href": "/2016/" },
