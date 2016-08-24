@@ -7,6 +7,7 @@
     "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" },
     "space": { "href": "/2016/spaces/room-5" },
     "timePeriod": { "href": "/2016/time-periods/1430" },
+    "level": { "href": "/2016/levels/level-100" },
     "speaker": [
       { "href": "/2016/speakers/lucie-delabruere" }
     ]

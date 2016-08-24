@@ -7,6 +7,7 @@
     "track": { "href": "/2016/tracks/devops-process-and-more" },
     "space": { "href": "/2016/spaces/room-3" },
     "timePeriod": { "href": "/2016/time-periods/1430" },
+    "level": { "href": "/2016/levels/level-200" },
     "speaker": [
       { "href": "/2016/speakers/brie-hoblin" }
     ]
