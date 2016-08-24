@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/in-database-analytics-with-r-in-sql-server-2016" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1600" },
     "speaker": [
       { "href": "/2016/speakers/al-ramirez" }
     ]

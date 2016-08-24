@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/docker-and-microsoft-asp-dot-net" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1015" },
     "speaker": [
       { "href": "/2016/speakers/chuck-megivern" }
     ]

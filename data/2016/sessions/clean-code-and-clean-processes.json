@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/clean-code-and-clean-processes" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
     "speaker": [
       { "href": "/2016/speakers/hetal-dave" }
     ]

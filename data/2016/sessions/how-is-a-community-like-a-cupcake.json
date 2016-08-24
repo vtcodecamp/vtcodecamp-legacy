@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/how-is-a-community-like-a-cupcake" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1300" },
     "speaker": [
       { "href": "/2016/speakers/betsy-weber" }
     ]

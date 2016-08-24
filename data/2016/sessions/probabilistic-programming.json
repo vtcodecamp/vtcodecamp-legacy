@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/probabilistic-programming" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1100" },
     "speaker": [
       { "href": "/2016/speakers/eric-smith" }
     ]

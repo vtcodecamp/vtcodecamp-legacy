@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/become-a-modern-dba-with-sql-server-2016" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1645" },
     "speaker": [
       { "href": "/2016/speakers/jean-rene-roy" }
     ]

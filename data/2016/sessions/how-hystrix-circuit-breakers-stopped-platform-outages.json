@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2016/sessions/how-hystrix-circuit-breakers-stopped-platform-outages" },
     "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
     "speaker": [
       { "href": "/2016/speakers/rob-friesel" }
     ]
