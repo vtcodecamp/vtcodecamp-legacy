@@ -1,0 +1,16 @@
+{
+  "slug": "become-a-modern-dba-with-sql-server-2016",
+  "title": "Become a Modern DBA with SQL Server 2016",
+  "description": "What is a modern DBA? The modern DBA is the person that uses the right tools for the job.\n\nSQL Server come with many tools (SSMS SSIS, SSRS) but these tools are not always the right tools for the job. When you add SQL Azure to the mix, what skill do you need to be this modern DBA? This session will show you tips and tricks and different tools for different jobs including some of the NoSQL services. What will be presented can be very useful for the developer as well. We will also look at some of the new features of SQL Server 2016.\n\nSome of these tools, services, tips and tricks may become very useful in your day-to-day job.",
+  "_links": {
+    "self": { "href": "/2016/sessions/become-a-modern-dba-with-sql-server-2016" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/front-end-data-and-some-iot" },
+    "space": { "href": "/2016/spaces/room-1" },
+    "timePeriod": { "href": "/2016/time-periods/1645" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/jean-rene-roy" }
+    ]
+  }
+}

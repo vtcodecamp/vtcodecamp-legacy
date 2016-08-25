@@ -1,0 +1,16 @@
+{
+  "slug": "a-first-look-at-c-sharp-7",
+  "title": "A First Look at C# 7",
+  "description": "C# continues to evolve to support modern development tasks. In this talk, we'll examine the features scheduled for C# 7 and look at how the language design process has changed since C# was first open sourced.",
+  "_links": {
+    "self": { "href": "/2016/sessions/a-first-look-at-c-sharp-7" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/1600" },
+    "level": { "href": "/2016/levels/300" },
+    "speaker": [
+      { "href": "/2016/speakers/bill-wagner" }
+    ]
+  }
+}

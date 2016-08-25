@@ -1,0 +1,10 @@
+{
+  "slug": "julie-lerman",
+  "firstName": "Julie",
+  "lastName": "Lerman",
+  "bio": "With nearly 30 years of mostly windows development experience, Julie Lerman is a happy camper being able to have an excuse to use a Mac!",
+  "_links": {
+    "self": { "href": "/2016/speakers/julie-lerman" },
+    "twitter": { "href": "https://twitter.com/julielerman", "title": "julielerman" }
+  }
+}

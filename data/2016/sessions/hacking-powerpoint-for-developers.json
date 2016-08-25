@@ -1,0 +1,16 @@
+{
+  "slug": "hacking-powerpoint-for-developers",
+  "title": "Hacking PowerPoint for Developers",
+  "description": "Effective presentations are hard. When presenting, many developers show a few traditional bullet-point slides and discount the usage of PowerPoint or Keynote, and then resort to unpredictable live demos. From a developer's perspective, I will highlight simple, but usually overlooked, features within PowerPoint, and some conventions you can apply to your next presentation. I will also demonstrate how PowerPoint can be used for Story Boards and as an alternative to Camtasia for recorded demos, as well as a replacement for a live demo. It is time for you to revisit the powerful and easy to use capabilities of PowerPoint.",
+  "_links": {
+    "self": { "href": "/2016/sessions/hacking-powerpoint-for-developers" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/1300" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/john-baluka" }
+    ]
+  }
+}

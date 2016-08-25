@@ -1,0 +1,16 @@
+{
+  "slug": "complexities-of-web-development",
+  "title": "Complexities of Web Development",
+  "description": "Walk through the thoughts and lessons learned when scaffolding out an Angular2 project – trying to understand what a *-cli does for you: npm, jspm, gulp, grunt, sass, tsc, babel, karma, jasmine, protractor, rxjs, shims of shims, omgwtf (tableflip)",
+  "_links": {
+    "self": { "href": "/2016/sessions/complexities-of-web-development" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/front-end-data-and-some-iot" },
+    "space": { "href": "/2016/spaces/room-1" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/cesar-carrasco" }
+    ]
+  }
+}

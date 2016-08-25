@@ -1,0 +1,16 @@
+{
+  "slug": "from-mobile-first-to-offline-first",
+  "title": "From Mobile First to Offline First",
+  "description": "It's all too easy assume that your web or mobile app will run on a fast and reliable network with great coverage. The reality for your app's users, though, is often a slow and unreliable network with spotty coverage. What happens when the network doesn't work, or when the device is in airplane mode? You get unhappy, frustrated users. Building on the principles of mobile first, offline first is an approach to application design in which a web, mobile, desktop, or Internet of Things (IoT) application is built for offline usage first and is then progressively enhanced to take advantage of network connectivity when available.\n\nAn offline-first app is an app that works, without error, when there is no network connection. An offline-first app can provide a better, faster user experience — both offline and online — by storing content and data locally and then applying progressive enhancement to synchronize with the cloud when a reliable network connection is available. An offline-first approach can be taken with Progressive Web Apps, mobile apps (native and hybrid), desktop apps (e.g. Electron), and Internet of Things (IoT) apps.",
+  "_links": {
+    "self": { "href": "/2016/sessions/from-mobile-first-to-offline-first" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1645" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/bradley-holt" }
+    ]
+  }
+}

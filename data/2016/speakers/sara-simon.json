@@ -1,0 +1,10 @@
+{
+  "slug": "sara-simon",
+  "firstName": "Sara",
+  "lastName": "Simon",
+  "bio": "Sara Simon works on the digital team at Vermont Public Radio.",
+  "_links": {
+    "self": { "href": "/2016/speakers/sara-simon" },
+    "twitter": { "href": "https://twitter.com/sarambsimon", "title": "sarambsimon" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "reliable-front-end-applications-with-elm",
+  "title": "Reliable Front End Applications with Elm",
+  "description": "You want to build the best application you can. You've got the back end sorted out. You're writing the front end in Javascript in the framework of the moment and it's going alright. But will it stay that way? Dealing with large JavaScript codebases is hard. The language doesn't provide much help for complex applications, so what happens as you grow? Will it stay fast enough? How do you deal with those hard to track down runtime errors? How do you keep your code understandable as it changes over time? Maybe you've heard about Elm, a compile-to-JS language that promises a respite from some of the JavaScript chaos. It has some amazing benefits:\n\n * No more runtime errors; catch them at compile time\n * Easy to understand compiler messages\n * Rendering that's faster than most JS libraries\n * Simple, functional syntax\n\nIn this talk, we'll learn about all of the above and more. And, if you aren't ready to make the jump, we'll learn about how you can use some of Elm's principles in JavaScript applications.",
+  "_links": {
+    "self": { "href": "/2016/sessions/reliable-front-end-applications-with-elm" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/front-end-data-and-some-iot" },
+    "space": { "href": "/2016/spaces/room-1" },
+    "timePeriod": { "href": "/2016/time-periods/1100" },
+    "level": { "href": "/2016/levels/300" },
+    "speaker": [
+      { "href": "/2016/speakers/jeff-balboni" }
+    ]
+  }
+}

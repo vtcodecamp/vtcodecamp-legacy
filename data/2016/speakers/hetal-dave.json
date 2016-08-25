@@ -1,0 +1,10 @@
+{
+  "slug": "hetal-dave",
+  "firstName": "Hetal",
+  "lastName": "Dave",
+  "bio": "Hetal Dave is a Sr. Software Engineer and Technical Lead for C2, an IT consulting company based in Colchester, VT. She has been working in Software Development for over 15+ years, helping clients such as Keurig, NRG Systems, Crane & Co., Hershey and Vermont Teddy Bear. Hetal develops eCommerce, CMS and custom applications using .NET, C#, jQuery, AngularJS and other technologies. She is a Microsoft Certified Professional (MCP) and a Sitecore Certified Developer. Hetal holds a Master’s Degree in Computer Science from RIMS in London, UK.",
+  "_links": {
+    "self": { "href": "/2016/speakers/hetal-dave" },
+    "twitter": { "href": "https://twitter.com/hetaljdave", "title": "hetaljdave" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "how-hystrix-circuit-breakers-stopped-platform-outages",
+  "title": "How Hystrix Circuit Breakers Stopped Platform Outages and Saved the Day",
+  "description": "In September 2015, the Dealer.com web-app platform suffered a series of outages. In this talk we'll discuss how our team diagnosed the issues, what measures we took to mitigate them, and how it paid off. We'll go into some detail about cascading failures in a service-oriented architecture, MongoDB performance, and how to use Hystrix circuit breakers to make life better for developers and customers.",
+  "_links": {
+    "self": { "href": "/2016/sessions/how-hystrix-circuit-breakers-stopped-platform-outages" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" },
+    "space": { "href": "/2016/spaces/room-3" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
+    "level": { "href": "/2016/levels/300" },
+    "speaker": [
+      { "href": "/2016/speakers/rob-friesel" }
+    ]
+  }
+}

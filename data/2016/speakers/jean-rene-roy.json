@@ -1,0 +1,10 @@
+{
+  "slug": "jean-rene-roy",
+  "firstName": "Jean-René",
+  "lastName": "Roy",
+  "bio": "Jean-René Roy has been developing IT solution for large and small enterprises since 1987. In 1991 he founded the consulting firm Technologies SoftDesign Inc. Since that time he has worked on projects for House of Commons, Innovapost, Bell Canada, CGI, CNSC, Kraft, and many other clients assuming the responsibility of Business Analyst, Software Architect, ETL and BI Architect, Software Developer, Analyst, Team Leader and Mentor. He has been and is still very active in the developers' community by acting as a user group leader for more than ten years with the Montreal .NET community and the Ottawa IT community. He is also the co-founder of an international developer's conference ([www.DevTeach.com](http://www.DevTeach.com/)) which is now directed by a member of his team. Jean-René Roy is a SQL Server Microsoft MVP.",
+  "_links": {
+    "self": { "href": "/2016/speakers/jean-rene-roy" },
+    "twitter": { "href": "https://twitter.com/DevTeachConfere", "title": "DevTeachConfere" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "slug": "terrence-dorsey",
+  "firstName": "Terrence",
+  "lastName": "Dorsey",
+  "bio": "Terrence Dorsey is a writer, editor and content strategist specializing in technology and software development. He is currently a Senior Technical Writer at ESPN.",
+  "_links": {
+    "self": { "href": "/2016/speakers/terrence-dorsey" },
+    "twitter": { "href": "https://twitter.com/tpdorsey", "title": "tpdorsey" }
+  }
+}

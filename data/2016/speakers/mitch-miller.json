@@ -1,0 +1,9 @@
+{
+  "slug": "mitch-miller",
+  "firstName": "Mitch",
+  "lastName": "Miller",
+  "_links": {
+    "self": { "href": "/2016/speakers/mitch-miller" },
+    "twitter": { "href": "https://twitter.com/movingmitch", "title": "movingmitch" }
+  }
+}

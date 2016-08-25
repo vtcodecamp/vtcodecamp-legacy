@@ -1,0 +1,8 @@
+{
+  "slug": "100",
+  "title": "Level 100",
+  "description": "Absolute Beginner",
+  "_links": {
+    "self": { "href": "/2016/levels/level-100" }
+  }
+}

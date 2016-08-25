@@ -1,0 +1,16 @@
+{
+  "slug": "creating-simulation-software",
+  "title": "No Really, This is Mission Critical Software!: Creating Simulation Software in the Age of Madden and Nintendo",
+  "description": "A review of simulation software in hospital and capturing real user experience as well as gamification.",
+  "_links": {
+    "self": { "href": "/2016/sessions/creating-simulation-software" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" },
+    "space": { "href": "/2016/spaces/room-3" },
+    "timePeriod": { "href": "/2016/time-periods/1645" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/kip-steele" }
+    ]
+  }
+}

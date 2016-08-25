@@ -1,0 +1,9 @@
+{
+  "slug": "closing",
+  "title": "Closing Remarks",
+  "_links": {
+    "self": { "href": "/2016/sessions/closing" },
+    "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1745" }
+  }
+}

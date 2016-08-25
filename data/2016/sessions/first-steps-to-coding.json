@@ -1,0 +1,16 @@
+{
+  "slug": "first-steps-to-coding",
+  "title": "First Steps to Coding: A Second Grader Shows You How",
+  "description": "Oliver Smith started learning to program when he was six. He's now seven. In this workshop for beginning programmers, Oliver (with some help from his dad) will show you some of the most important parts of coding while writing a fun program. You can follow along on your own computer in a browser. No need to install anything.",
+  "_links": {
+    "self": { "href": "/2016/sessions/first-steps-to-coding" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" },
+    "space": { "href": "/2016/spaces/room-5" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/oliver-smith" }
+    ]
+  }
+}

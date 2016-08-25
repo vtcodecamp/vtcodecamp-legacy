@@ -1,0 +1,16 @@
+{
+  "slug": "in-database-analytics-with-r-in-sql-server-2016",
+  "title": "Bye, T-SQL! In-database Analytics with R in SQL Server 2016",
+  "description": "Microsoft SQL Server 2016 now provides the ability to use R for data analytics and data science applications where T-SQL was once the only option. This session will explore provisioning your SQL Server for R Services and walk through a real world example of performing analysis of your data right at the source. We'll discuss the architecture of R Services in SQL Server and hidden benefits of executing R scripts on SQL Server.",
+  "_links": {
+    "self": { "href": "/2016/sessions/in-database-analytics-with-r-in-sql-server-2016" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/front-end-data-and-some-iot" },
+    "space": { "href": "/2016/spaces/room-1" },
+    "timePeriod": { "href": "/2016/time-periods/1600" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/al-ramirez" }
+    ]
+  }
+}

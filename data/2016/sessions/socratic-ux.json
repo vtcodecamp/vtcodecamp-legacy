@@ -1,0 +1,16 @@
+{
+  "slug": "socratic-ux",
+  "title": "Socratic UX: The Art & Science of Generating Productive Questions",
+  "description": "Questioning is at the heart of learning about your users. But what makes a great question? This talk will explore the difference between questions that teams need answered in order to make decisions about their products, and the questions that must be asked of users in order to get answers for those teams. Tips for constructing productive questions will be reviewed. Ways to minimize bias and assumptions in your questions will be explored. This talk will also establish that questioning user behavior outside of the confines of your product is an important strategy for revealing unmet needs. The talk will conclude with a brief review of the neural basis of questioning — come learn about what your brain is doing when you ask questions about your users.",
+  "_links": {
+    "self": { "href": "/2016/sessions/socratic-ux" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1600" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/amy-chess" }
+    ]
+  }
+}

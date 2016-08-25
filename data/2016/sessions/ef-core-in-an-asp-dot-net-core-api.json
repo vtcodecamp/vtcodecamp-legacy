@@ -1,0 +1,16 @@
+{
+  "slug": "ef-core-in-an-asp-dot-net-core-api",
+  "title": "EF Core in an ASP.NET Core API",
+  "description": "It's a new age for .NET developers. You can build cross platform apps, you can use lighter tools like VS Code, and you can deploy instantly using tools like DockerASPNET Core and EF Core. They are so cross-platform that not only can you deploy your apps to OS X and Linux (oh, and Windows, too) but you can even build them on any of the platforms.\n\nPick a platform. I'll choose OS X because MacBookGrab an x-platform, open source IDE that does C#: I'll take Visual Studio Code, written in Electron, cuz I already use that for Node.\n\nNeed a data store: Hey, how about PostreSQL, because I never got to use that before.\n\nBuild a Web API that can persist to PostgreSQL. I'll use ASP.NET Core and EF Core because I have a lot of experience in those already.\n\nCode, debug, git commit. (And show off some of the awesome new features in EF Core.) Deploy to a Linux server (thank you Docker).\n\nInvite the world to use your API.",
+  "_links": {
+    "self": { "href": "/2016/sessions/ef-core-in-an-asp-dot-net-core-api" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/1345" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/julie-lerman" }
+    ]
+  }
+}

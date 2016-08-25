@@ -1,0 +1,16 @@
+{
+  "slug": "web-application-security-basics",
+  "title": "Web Application Security Basics",
+  "description": "We all do our best to avoid the \"obvious\" security mistakes when writing our applications, but when a security professional performs a manual penetration test on those applications they often find security holes the developers didn't know existed.\n\nIn this session we'll cover the OWASP Top 10 security vulnerabilities for web applications. There will be demonstrations on how each vulnerability works, how to test for these vulnerabilities, and most importantly, how to mitigate them.\n\nSample code will be C#/.NET, but the general concepts apply to all languages/environments.",
+  "_links": {
+    "self": { "href": "/2016/sessions/web-application-security-basics" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" },
+    "space": { "href": "/2016/spaces/room-3" },
+    "timePeriod": { "href": "/2016/time-periods/1015" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/jeremy-hutchinson" }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "implementing-cqrs-within-existing-systems",
+  "title": "Implementing CQRS within Existing Systems",
+  "description": "CQRS (Command Query Responsibility Segregation) is a strategy to help systems scale. This talk will have a quick introduction to CQRS, Event Sourcing, DDD (Domain-Driven Design) and how these concepts were applied to a project, as well as the issues we ran into during development, operating the live system and maintaining it.\n\nSome references: [DDD](https://en.wikipedia.org/wiki/Domain-driven_design), [DDD Book](https://vaughnvernon.co/?page_id=168), [CQRS](http://martinfowler.com/bliki/CQRS.html), [CQRS MS Book](https://msdn.microsoft.com/en-us/library/jj554200.aspx)",
+  "_links": {
+    "self": { "href": "/2016/sessions/implementing-cqrs-within-existing-systems" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1430" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/peter-vile" }
+    ]
+  }
+}

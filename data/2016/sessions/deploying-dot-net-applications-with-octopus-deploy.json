@@ -1,0 +1,16 @@
+{
+  "slug": "deploying-dot-net-applications-with-octopus-deploy",
+  "title": "Deploying .NET applications with Octopus Deploy",
+  "description": "One of the most important pieces of a quality software process is the capability to automate application deployment. In this session you will learn the key concepts of Octopus Deploy and how to use it to make your deployments consistent and repeatable.",
+  "_links": {
+    "self": { "href": "/2016/sessions/deploying-dot-net-applications-with-octopus-deploy" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/1100" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/floyd-hilton" }
+    ]
+  }
+}
