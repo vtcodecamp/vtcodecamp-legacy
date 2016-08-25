@@ -1,0 +1,16 @@
+{
+  "slug": "anatomy-of-an-azure-iot-solution",
+  "title": "Anatomy of an Azure IoT Solution",
+  "description": "Weka Health System's Vaccine Smart Refrigerator is an IoT device designed for health clinics to control the dispensing and storage of vaccines. We'll look under the hood of this real-life Azure IoT solution and discuss the various components and challenges of building such a solution. We'll look at the Azure services in the pipeline, the hardware involved, and how you can leverage Microsoft's IoT Suite to get started.",
+  "_links": {
+    "self": { "href": "/2016/sessions/anatomy-of-an-azure-iot-solution" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/1430" },
+    "level": { "href": "/2016/levels/300" },
+    "speaker": [
+      { "href": "/2016/speakers/jim-oneil" }
+    ]
+  }
+}

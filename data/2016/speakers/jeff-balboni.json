@@ -1,0 +1,10 @@
+{
+  "slug": "jeff-balboni",
+  "firstName": "Jeff",
+  "lastName": "Balboni",
+  "bio": "Jeff Balboni is the Front End Technical Lead at Buildium, a property management software company based in Boston. He's passionate about building user interfaces that are easy to use and help people get their work done fast and efficiently.",
+  "_links": {
+    "self": { "href": "/2016/speakers/jeff-balboni" },
+    "twitter": { "href": "https://twitter.com/jeffbalboni", "title": "jeffbalboni" }
+  }
+}

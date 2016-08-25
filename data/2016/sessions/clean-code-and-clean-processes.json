@@ -1,0 +1,16 @@
+{
+  "slug": "clean-code-and-clean-processes",
+  "title": "Clean Code & Clean Processes",
+  "description": "This session is a revival of my Clean Code sessions from the last two years. Think Clean & Single Responsibility.",
+  "_links": {
+    "self": { "href": "/2016/sessions/clean-code-and-clean-processes" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/hetal-dave" }
+    ]
+  }
+}

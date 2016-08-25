@@ -1,0 +1,16 @@
+{
+  "slug": "seeing-the-matrix-with-tcpdump",
+  "title": "Seeing the Matrix with tcpdump",
+  "description": "Learn the basics of TCP and how to use command line tools to do basic network troubleshooting. All developers work with protocols and abstractions built on top of TCP, so learning how to peak under the hood can be invaluable when troubleshooting.\n\nWe'll measure HTTP response times without adding code to your application, inspect the contents of incoming requests (in production!) without attaching a debugger, and more.",
+  "_links": {
+    "self": { "href": "/2016/sessions/seeing-the-matrix-with-tcpdump" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" },
+    "space": { "href": "/2016/spaces/room-3" },
+    "timePeriod": { "href": "/2016/time-periods/1100" },
+    "level": { "href": "/2016/levels/300" },
+    "speaker": [
+      { "href": "/2016/speakers/david-howell" }
+    ]
+  }
+}

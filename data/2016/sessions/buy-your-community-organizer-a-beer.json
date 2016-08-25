@@ -1,0 +1,16 @@
+{
+  "slug": "buy-your-community-organizer-a-beer",
+  "title": "Buy Your Community Organizer A Beer",
+  "description": "As a community organizer, I help people connect to technology and to each other. I help people learn to program who might not otherwise realize that they, too, can learn to write beautiful code. I founded the Burlington, Vermont chapter of Girl Develop It and have organized multiple conferences, most recently UX Burlington 2015 and Offline Camp 2016. Having recently started working at IBM as a Developer Advocate, I am now in a position where my job description includes helping to support a vibrant tech community. Because of my background, I am uniquely qualified to help support community organizers in a way that makes their lives easier and helps them reach their goals. I know all too well how hard this work is, how draining, and how uniquely rewarding it is. And I want to share with you some tips on how to work with organizers in your community in a way where you both benefit, and in turn your local tech ecosystems benefit as well. The first step… buy your local community organizer a beer with no strings attached. They've earned it.",
+  "_links": {
+    "self": { "href": "/2016/sessions/buy-your-community-organizer-a-beer" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" },
+    "space": { "href": "/2016/spaces/room-5" },
+    "timePeriod": { "href": "/2016/time-periods/1345" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/maureen-mcelaney" }
+    ]
+  }
+}

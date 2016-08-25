@@ -1,0 +1,16 @@
+{
+  "slug": "squeezing-the-snake-oil-out-of-ux",
+  "title": "Squeezing the Snake Oil Out of UX",
+  "description": "Tired of making changes to your code based off what appear to be random recommendations from the design team? In this presentation I'll take the mystery out of the process and show you how to work with your design team to take meaningful steps towards improving your user experience in predictable, achievable, and measurable ways.",
+  "_links": {
+    "self": { "href": "/2016/sessions/squeezing-the-snake-oil-out-of-ux" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1345" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/kevin-braun" }
+    ]
+  }
+}

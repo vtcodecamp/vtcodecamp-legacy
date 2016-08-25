@@ -1,0 +1,10 @@
+{
+  "slug": "al-ramirez",
+  "firstName": "Al",
+  "lastName": "Ramirez",
+  "bio": "Al has over a decade of experience delivering highly scalable and available software solutions in industries ranging from financial services (loan syndication and retirement fund management) to health insurance, supply chain management, and digital marketing services. Currently Systems Architect at iSystems headquarters in South Burlington, organizer of Burlington Salesforce Developer Group, and loving all things BTV Ignite. Previous local engagements include developer at MyWebGrocer and adjunct instructor at Champlain College.\n\nYou can reach Al via Twitter @[mirezez](https://twitter.com/mirezez) or [mirez.us](http://mirez.us/).",
+  "_links": {
+    "self": { "href": "/2016/speakers/al-ramirez" },
+    "twitter": { "href": "https://twitter.com/mirezez", "title": "mirezez" }
+  }
+}

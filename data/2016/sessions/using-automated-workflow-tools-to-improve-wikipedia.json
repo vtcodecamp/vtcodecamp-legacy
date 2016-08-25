@@ -1,0 +1,15 @@
+{
+  "slug": "using-automated-workflow-tools-to-improve-wikipedia",
+  "title": "Using Automated Workflow Tools to Improve Wikipedia",
+  "description": "Over 14,000 articles within the English language version of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) use a page template that identifies them as an \"organic compound\" or \"drug.\" This represents a useful resource to people around the world and is arguably more useful when it contains curated links to other resources. This talk describes how it's possible to automate the extraction of a report that is used to curate this data. We'll also show how the same workflow tools can be used to clean up additional data sets and prepare them for loading into a curate database.",
+  "_links": {
+    "self": { "href": "/2016/sessions/using-automated-workflow-tools-to-improve-wikipedia" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/devops-process-and-more" },
+    "space": { "href": "/2016/spaces/room-3" },
+    "timePeriod": { "href": "/2016/time-periods/1300" },
+    "speaker": [
+      { "href": "/2016/speakers/mitch-miller" }
+    ]
+  }
+}

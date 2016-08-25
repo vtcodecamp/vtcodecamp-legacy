@@ -1,0 +1,10 @@
+{
+  "slug": "david-howell",
+  "firstName": "David",
+  "lastName": "Howell",
+  "bio": "David Howell is a Technical Lead at Dealer.com. He loves making graphs, functional programming, and digging into abstractions.",
+  "_links": {
+    "self": { "href": "/2016/speakers/david-howell" },
+    "twitter": { "href": "https://twitter.com/dehowell", "title": "dehowell" }
+  }
+}

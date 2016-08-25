@@ -1,0 +1,16 @@
+{
+  "slug": "how-is-a-community-like-a-cupcake",
+  "title": "How is a Community Like a Cupcake?",
+  "description": "What makes a community feel like a community? Is it the people? Is it the subject matter? Is it the tech? What is the icing on the (cup)cake? With the right ingredients, a Community Manager can bake up an engaged and successful community over time. What are the 10 ingredients that go into hosting a successful community?",
+  "_links": {
+    "self": { "href": "/2016/sessions/how-is-a-community-like-a-cupcake" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" },
+    "space": { "href": "/2016/spaces/room-5" },
+    "timePeriod": { "href": "/2016/time-periods/1300" },
+    "level": { "href": "/2016/levels/100" },
+    "speaker": [
+      { "href": "/2016/speakers/betsy-weber" }
+    ]
+  }
+}

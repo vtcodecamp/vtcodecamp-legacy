@@ -1,0 +1,16 @@
+{
+  "slug": "persistent-distributed-messaging-with-apache-kafka",
+  "title": "An Introduction to Persistent Distributed Messaging with Apache Kafka",
+  "description": "Apache Kafka is a high-throughput, distributed, persistent messaging system that is quickly becoming the standard backbone for real-time big-data deployments across the industry. Come get an introduction to Kafka, and learn how Dealer.com is building their next generation data processing pipeline on top of this new and exciting piece of technology.",
+  "_links": {
+    "self": { "href": "/2016/sessions/persistent-distributed-messaging-with-apache-kafka" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/practices-and-testing" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1300" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/joshua-dickerson" }
+    ]
+  }
+}

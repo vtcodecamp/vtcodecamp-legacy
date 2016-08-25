@@ -1,0 +1,9 @@
+{
+  "slug": "room-4",
+  "title": "Room 4",
+  "order": 4,
+  "_links": {
+    "self": { "href": "/2016/spaces/room-4" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" }
+  }
+}

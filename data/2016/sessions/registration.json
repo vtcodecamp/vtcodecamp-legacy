@@ -1,0 +1,9 @@
+{
+  "slug": "registration",
+  "title": "Registration",
+  "_links": {
+    "self": { "href": "/2016/sessions/registration" },
+    "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/0800" }
+  }
+}

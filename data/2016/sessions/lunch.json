@@ -1,0 +1,9 @@
+{
+  "slug": "lunch",
+  "title": "Lunch",
+  "_links": {
+    "self": { "href": "/2016/sessions/lunch" },
+    "event": { "href": "/2016/" },
+    "timePeriod": { "href": "/2016/time-periods/1200" }
+  }
+}

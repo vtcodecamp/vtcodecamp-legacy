@@ -1,0 +1,10 @@
+{
+  "slug": "rob-friesel",
+  "firstName": "Rob",
+  "lastName": "Friesel",
+  "bio": "Dealer.com veteran since 2003, and Platform Technical Lead. Author of the PhantomJS Cookbook.",
+  "_links": {
+    "self": { "href": "/2016/speakers/rob-friesel" },
+    "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }
+  }
+}

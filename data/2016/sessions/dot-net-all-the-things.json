@@ -1,0 +1,16 @@
+{
+  "slug": "dot-net-all-the-things",
+  "title": ".NET All the Things!",
+  "description": "The .NET Stack now runs on Linux and Mac OS as well as Windows desktop. It runs on iOS, Android and Windows tablets and phones. In this session, you'll learn the new tools and processes that enable you to support all the platforms the .NET Stack supports.",
+  "_links": {
+    "self": { "href": "/2016/sessions/dot-net-all-the-things" },
+    "event": { "href": "/2016/" },
+    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
+    "space": { "href": "/2016/spaces/room-4" },
+    "timePeriod": { "href": "/2016/time-periods/0900" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/bill-wagner" }
+    ]
+  }
+}
