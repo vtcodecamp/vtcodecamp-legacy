@@ -5,7 +5,6 @@
   "_links": {
     "self": { "href": "/2016/sessions/python-101" },
     "event": { "href": "/2016/" },
-    "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" },
     "space": { "href": "/2016/spaces/room-5" },
     "timePeriod": { "href": "/2016/time-periods/1600" },
     "level": { "href": "/2016/levels/100" },

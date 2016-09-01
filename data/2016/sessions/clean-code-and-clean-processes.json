@@ -5,7 +5,6 @@
   "_links": {
     "self": { "href": "/2016/sessions/clean-code-and-clean-processes" },
     "event": { "href": "/2016/" },
-    "track": { "href": "/2016/tracks/practices-and-testing" },
     "space": { "href": "/2016/spaces/room-2" },
     "timePeriod": { "href": "/2016/time-periods/0900" },
     "level": { "href": "/2016/levels/100" },

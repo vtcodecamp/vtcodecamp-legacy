@@ -3,7 +3,6 @@
   "title": "Room 5",
   "order": 5,
   "_links": {
-    "self": { "href": "/2016/spaces/room-5" },
-    "track": { "href": "/2016/tracks/getting-started-community-and-programming-intellect" }
+    "self": { "href": "/2016/spaces/room-5" }
   }
 }

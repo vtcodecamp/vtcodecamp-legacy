@@ -5,7 +5,6 @@
   "_links": {
     "self": { "href": "/2016/sessions/simple-documentation-publishing-with-jekyll-and-github" },
     "event": { "href": "/2016/" },
-    "track": { "href": "/2016/tracks/devops-process-and-more" },
     "space": { "href": "/2016/spaces/room-3" },
     "timePeriod": { "href": "/2016/time-periods/1600" },
     "level": { "href": "/2016/levels/200" },
