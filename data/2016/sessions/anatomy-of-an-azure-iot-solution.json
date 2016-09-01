@@ -5,7 +5,6 @@
   "_links": {
     "self": { "href": "/2016/sessions/anatomy-of-an-azure-iot-solution" },
     "event": { "href": "/2016/" },
-    "track": { "href": "/2016/tracks/modern-dot-net-and-more" },
     "space": { "href": "/2016/spaces/room-4" },
     "timePeriod": { "href": "/2016/time-periods/1430" },
     "level": { "href": "/2016/levels/300" },
