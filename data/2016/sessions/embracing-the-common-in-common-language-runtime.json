@@ -1,0 +1,15 @@
+{
+  "slug": "embracing-the-common-in-common-language-runtime",
+  "title": "Embracing the \"Common\" in \"Common Language Runtime\"",
+  "description": "One of the undervalued strengths of .NET/Mono is the ability to mix-and-match many different languages. And yet, developing libraries for polyglot consumption is a little-known craft. In this example-laden talk (drawn from 18 years of professional experience) we'll learn some of the tools, techniques, and mindset needed to deliver high-quality libraries which are a joy to consume from multiple CLR languages.\n\n(Note: this session assumes a day-to-day familiarity with .NET or Mono, though not necessarily in more than one language. Also, the discussion will be limited to languages \"in the box\" with Visual Studio… sorry, Cobol.NET fans.)",
+  "_links": {
+    "self": { "href": "/2016/sessions/embracing-the-common-in-common-language-runtime" },
+    "event": { "href": "/2016/" },
+    "space": { "href": "/2016/spaces/room-2" },
+    "timePeriod": { "href": "/2016/time-periods/1100" },
+    "level": { "href": "/2016/levels/200" },
+    "speaker": [
+      { "href": "/2016/speakers/paul-blasucci" }
+    ]
+  }
+}
