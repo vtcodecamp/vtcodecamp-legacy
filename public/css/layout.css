@@ -315,6 +315,9 @@ ul.sponsors li {
     list-style: none;
     vertical-align: middle;
 }
+ul.sponsors.premier-level li {
+    margin-bottom: 0.6em;
+}
 ul.sponsors li.name-only {
     max-width: 150px;
     font-size: 1.6em;
@@ -553,6 +556,25 @@ ul.sponsors li.name-only {
 .logo.btv-ignite {
     height: 75px;
     background-image: url(/media/sponsors/BTV-Ignite-logo-150x75.jpg);
+}
+ul.sponsors li.static-logo-wrapper {
+    margin: 0;
+}
+.static-logo {
+    border-radius: 0;
+}
+.static-logo.ibm {
+    width: 170px;
+    margin: 66px;
+}
+.legal-statement,
+.legal-statement a {
+    color: gray;
+}
+.legal-statement {
+    margin-top: 35px;
+    font-size: 1.1em;
+    font-style: italic;
 }
 #event,
 #event a {
