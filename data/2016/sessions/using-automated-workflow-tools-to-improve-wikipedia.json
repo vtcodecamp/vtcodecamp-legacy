@@ -9,6 +9,9 @@
     "timePeriod": { "href": "/2016/time-periods/1300" },
     "speaker": [
       { "href": "/2016/speakers/mitch-miller" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/MitchMiller4/improving-the-chemistry-content-of-wikipedia-using-workflow-tools", "title": "Slides" }
     ]
   }
 }
