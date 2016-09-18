@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/100" },
     "speaker": [
       { "href": "/2016/speakers/john-baluka" }
+    ],
+    "resource": [
+      { "href": "http://HackingPowerPoint.com/", "title": "Recording" }
     ]
   }
 }
