@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/200" },
     "speaker": [
       { "href": "/2016/speakers/kevin-braun" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/humanforum/squeezing-the-snake-oil-out-of-ux", "title": "Slides" }
     ]
   }
 }
