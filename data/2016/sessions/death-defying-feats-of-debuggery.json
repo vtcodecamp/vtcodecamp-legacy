@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/300" },
     "speaker": [
       { "href": "/2016/speakers/john-need" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/JohnNeed/death-defying-feats-of-debuggery", "title": "Slides" }
     ]
   }
 }

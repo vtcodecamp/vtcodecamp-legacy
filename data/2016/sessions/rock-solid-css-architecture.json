@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/200" },
     "speaker": [
       { "href": "/2016/speakers/john-need" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/JohnNeed/rock-solid-css-architecture", "title": "Slides" }
     ]
   }
 }

@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/200" },
     "speaker": [
       { "href": "/2016/speakers/brie-hoblin" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/BrieHoblin/flight-checks-qa-for-releases-that-prevent-disasters-from-escaping-into-the-wild", "title": "Slides" }
     ]
   }
 }
