@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/300" },
     "speaker": [
       { "href": "/2016/speakers/eric-smith" }
+    ],
+    "resource": [
+      { "href": "https://github.com/ericssmith/presentations/blob/master/vtcc8/probprog.pdf", "title": "Slides" }
     ]
   }
 }
