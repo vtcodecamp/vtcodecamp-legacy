@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/100" },
     "speaker": [
       { "href": "/2016/speakers/scott-thibault" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/ScottThibault1/internet-of-things-programming-on-the-edge", "title": "Slides" }
     ]
   }
 }
