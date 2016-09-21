@@ -46,12 +46,6 @@ class minimal-centos-60 {
     notify => Service["httpd"],
   }
 
-  package { "php56u-pecl-memcache":
-    require => Package["php56u"],
-    ensure => latest,
-    notify => Service["httpd"],
-  }
-
   package { "php56u-pear":
     require => Package["php56u"],
     ensure => latest,
