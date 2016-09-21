@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/300" },
     "speaker": [
       { "href": "/2016/speakers/chuck-megivern" }
+    ],
+    "resource": [
+      { "href": "http://www.slideshare.net/ChuckMegivern/aspnet-core-and-docker", "title": "Slides" }
     ]
   }
 }
