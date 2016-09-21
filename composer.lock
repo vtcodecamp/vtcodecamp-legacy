@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52a11ab965e09303d9cb9ee99c7d6e89",
-    "content-hash": "0741e8bf6dad512d4a2654a40c377f6f",
+    "hash": "4b711f3039ea536126a56373d5bbbe8e",
+    "content-hash": "b981c63395396326657aa2e5e38ca432",
     "packages": [
         {
             "name": "cilex/cilex",
@@ -3244,6 +3244,8 @@
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "php": "5.6.*"
+    },
     "platform-dev": []
 }
