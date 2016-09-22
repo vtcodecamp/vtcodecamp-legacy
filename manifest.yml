@@ -7,3 +7,6 @@ applications:
   host: vtcodecamp-legacy
   disk_quota: 1024M
   buildpack: php_buildpack
+env:
+  TWIG_CACHE: var/twig
+  DATA_CACHE: var/data
