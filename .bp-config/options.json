@@ -1,4 +1,5 @@
 {
     "WEBDIR": "public",
-    "LIBDIR": "."
+    "LIBDIR": ".",
+    "PHP_EXTENSIONS": ["apc", "mcrypt", "xml", "zip"]
 }
