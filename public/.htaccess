@@ -11,6 +11,8 @@ RedirectMatch ^/2016/?$ /2016/schedule
 
     RewriteEngine On
     RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1 [R=302,L]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
