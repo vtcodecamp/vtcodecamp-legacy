@@ -6,7 +6,7 @@ applications:
   name: vtcodecamp-legacy
   host: vtcodecamp-legacy
   disk_quota: 1024M
-  buildpack: php_buildpack
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git#v4.3.20
 env:
   TWIG_CACHE: var/twig
   DATA_CACHE: var/data
