@@ -10,6 +10,9 @@
     "level": { "href": "/2016/levels/100" },
     "speaker": [
       { "href": "/2016/speakers/oliver-smith" }
+    ],
+    "resource": [
+      { "href": "https://medium.com/@eric2.71828/your-journey-is-important-share-it-a96613793f6", "title": "Short Essay (by Oliver's dad)" }
     ]
   }
 }
