@@ -1,9 +1,0 @@
-{
-    "WEBDIR": "public",
-    "LIBDIR": ".",
-    "PHP_EXTENSIONS": ["apc", "mcrypt", "xml", "zip"],
-    "ADDITIONAL_PREPROCESS_CMDS": [
-        "php app/admin.php twig:compile",
-        "php app/admin.php events:build"
-    ]
-}
