@@ -18,7 +18,11 @@ and [Vagrant](http://vagrantup.com/). To set up your own local development envir
 
 ## Deploying
 
-This web application is configured for deployment on [IBM Bluemix](http://www.ibm.com/bluemix/). 
-This is configured through the file named `manifest.yml` and the files in the directory `.bp-config`. See the documentation for [IBM Bluemix](http://www.ibm.com/bluemix/) and for [Cloud Foundry](https://www.cloudfoundry.org/) for more information.
+This web application is configured for deployment on [Heroku](https://www.heroku.com/).
 
-If you are an application collaborator, then deploying is simply a matter of pushing your clone of the Git repository for this project. For example, add the remote repository and push the `master` branch to this repository in order to deploy to the production environment. Again, this will only work of your are a collaborator on this application.
+Based on the current configuration, deployment is simply a matter of pushing the `master` branch of your clone of the Git repository for this project to the GitHub repository. 
+
+When the application is set up on Heroku, the following environment variables must be created:
+
+* `TWIG_CACHE`: `var/twig`
+* `DATA_CACHE`: `var/data`
