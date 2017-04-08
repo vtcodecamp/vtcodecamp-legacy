@@ -14,7 +14,7 @@ RedirectMatch ^/2016/?$ /2016/schedule
     RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
-    RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=302]
+    RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
