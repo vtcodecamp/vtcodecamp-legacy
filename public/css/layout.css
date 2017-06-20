@@ -347,6 +347,11 @@ ul.sponsors li.name-only {
     height: 58px;
     background-image: url(/media/sponsors/champlain-college-logo-250x58.png);
 }
+.logo.cox-automotive {
+    width: 200px;
+    height: 80px;
+    background-image: url(/media/sponsors/cox-automotive-logo-200x80.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
