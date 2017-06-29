@@ -352,6 +352,16 @@ ul.sponsors li.name-only {
     height: 80px;
     background-image: url(/media/sponsors/cox-automotive-logo-200x80.png);
 }
+.logo.burlington-telecom {
+    width: 225px;
+    height: 57px;
+    background-image: url(/media/sponsors/burlington-telecom-logo-225x57.png);
+}
+.logo.vermont-information-processing {
+    width: 110px;
+    height: 109px;
+    background-image: url(/media/sponsors/vermont-information-processing-logo-110x109.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
