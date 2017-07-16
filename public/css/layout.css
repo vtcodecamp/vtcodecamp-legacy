@@ -362,6 +362,11 @@ ul.sponsors li.name-only {
     height: 109px;
     background-image: url(/media/sponsors/vermont-information-processing-logo-110x109.png);
 }
+.logo.btv-ignite {
+    width: 150px;
+    height: 75px;
+    background-image: url(/media/sponsors/btv-ignite-logo-150x75.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
