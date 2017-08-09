@@ -367,6 +367,11 @@ ul.sponsors li.name-only {
     height: 54px;
     background-image: url(/media/sponsors/code-magazine-logo-150x54.png);
 }
+.logo.tyler-technologies {
+    width: 150px;
+    height: 52px;
+    background-image: url(/media/sponsors/tyler-technologies-logo-150x52.png);
+}
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
