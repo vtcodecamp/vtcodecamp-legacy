@@ -372,6 +372,11 @@ ul.sponsors li.name-only {
     height: 52px;
     background-image: url(/media/sponsors/tyler-technologies-logo-150x52.png);
 }
+.logo.competitive-computing {
+    width: 100px;
+    height: 68px;
+    background-image: url(/media/sponsors/competitive-computing-logo-100x68.png);
+}
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
