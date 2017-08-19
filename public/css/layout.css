@@ -377,6 +377,11 @@ ul.sponsors li.name-only {
     height: 68px;
     background-image: url(/media/sponsors/competitive-computing-logo-100x68.png);
 }
+.logo.logic-supply {
+    width: 150px;
+    height: 64px;
+    background-image: url(/media/sponsors/logic-supply-logo-150x64.png);
+}
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
