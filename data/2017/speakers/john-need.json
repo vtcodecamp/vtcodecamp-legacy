@@ -1,0 +1,8 @@
+{
+  "slug": "john-need",
+  "firstName": "John",
+  "lastName": "Need",
+  "_links": {
+    "self": { "href": "/2017/speakers/john-need" }
+  }
+}

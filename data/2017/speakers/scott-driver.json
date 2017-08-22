@@ -1,0 +1,8 @@
+{
+  "slug": "scott-driver",
+  "firstName": "Scott",
+  "lastName": "Driver",
+  "_links": {
+    "self": { "href": "/2017/speakers/scott-driver" }
+  }
+}

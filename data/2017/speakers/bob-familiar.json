@@ -1,0 +1,8 @@
+{
+  "slug": "bob-familiar",
+  "firstName": "Bob",
+  "lastName": "Familiar",
+  "_links": {
+    "self": { "href": "/2017/speakers/bob-familiar" }
+  }
+}

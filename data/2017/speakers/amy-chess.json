@@ -1,0 +1,8 @@
+{
+  "slug": "amy-chess",
+  "firstName": "Amy",
+  "lastName": "Chess",
+  "_links": {
+    "self": { "href": "/2017/speakers/amy-chess" }
+  }
+}
