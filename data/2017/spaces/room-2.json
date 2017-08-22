@@ -3,6 +3,7 @@
   "title": "Room 2",
   "order": 2,
   "_links": {
-    "self": { "href": "/2017/spaces/room-2" }
+    "self": { "href": "/2017/spaces/room-2" },
+    "track": { "href": "/2017/tracks/languages-and-practices" }
   }
 }
