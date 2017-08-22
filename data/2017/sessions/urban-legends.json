@@ -7,6 +7,7 @@
     "track": { "href": "/2017/tracks/soft-skills-and-other" },
     "space": { "href": "/2017/spaces/room-5" },
     "timePeriod": { "href": "/2017/time-periods/1300" },
+    "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/pj-hagerty" }
     ]
