@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/using-mysql-workbench-to-design-and-build-databases" },
     "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/client-mobile-web-and-more" },
     "space": { "href": "/2017/spaces/room-3" },
     "timePeriod": { "href": "/2017/time-periods/0900" },
     "speaker": [

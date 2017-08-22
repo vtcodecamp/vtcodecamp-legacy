@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/intro-to-clojure" },
     "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/languages-and-practices" },
     "space": { "href": "/2017/spaces/room-2" },
     "timePeriod": { "href": "/2017/time-periods/1300" },
     "speaker": [

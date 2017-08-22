@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/working-with-geo-spatial-data" },
     "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/security-and-devops" },
     "space": { "href": "/2017/spaces/room-4" },
     "timePeriod": { "href": "/2017/time-periods/1345" },
     "speaker": [
