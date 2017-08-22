@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/the-technical-art-of-mead-making" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-5" },
     "timePeriod": { "href": "/2017/time-periods/1615" },
     "speaker": [
       { "href": "/2017/speakers/rob-friesel" }

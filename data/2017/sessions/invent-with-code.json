@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/invent-with-code" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-5" },
     "timePeriod": { "href": "/2017/time-periods/1100" },
     "speaker": [
       { "href": "/2017/speakers/lucie-delabruere" },

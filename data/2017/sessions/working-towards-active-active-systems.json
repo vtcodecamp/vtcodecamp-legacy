@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/working-towards-active-active-systems" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-4" },
     "timePeriod": { "href": "/2017/time-periods/1100" },
     "speaker": [
       { "href": "/2017/speakers/peter-vile" }

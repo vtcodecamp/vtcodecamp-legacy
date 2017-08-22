@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/plants-potions-and-people" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-1" },
     "timePeriod": { "href": "/2017/time-periods/1300" },
     "speaker": [
       { "href": "/2017/speakers/mitch-miller" }

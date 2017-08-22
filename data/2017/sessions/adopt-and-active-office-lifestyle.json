@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/adopt-and-active-office-lifestyle" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-5" },
     "timePeriod": { "href": "/2017/time-periods/1345" },
     "speaker": [
       { "href": "/2017/speakers/kendra-goudreau" }

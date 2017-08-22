@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/a-developers-guide-to-wordpress" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-4" },
     "timePeriod": { "href": "/2017/time-periods/1300" },
     "speaker": [
       { "href": "/2017/speakers/josh-lee" }

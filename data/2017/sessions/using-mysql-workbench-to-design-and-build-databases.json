@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/using-mysql-workbench-to-design-and-build-databases" },
     "event": { "href": "/2017/" },
+    "space": { "href": "/2017/spaces/room-3" },
     "timePeriod": { "href": "/2017/time-periods/0900" },
     "speaker": [
       { "href": "/2017/speakers/frank-canovatchel" }
