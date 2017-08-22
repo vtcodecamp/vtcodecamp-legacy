@@ -3,6 +3,7 @@
   "firstName": "Jerome",
   "lastName": "Givens-Lamothe",
   "_links": {
-    "self": { "href": "/2017/speakers/jerome-givens-lamothe" }
+    "self": { "href": "/2017/speakers/jerome-givens-lamothe" },
+    "twitter": { "href": "https://twitter.com/zestymeta", "title": "zestymeta" }
   }
 }

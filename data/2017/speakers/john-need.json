@@ -3,6 +3,7 @@
   "firstName": "John",
   "lastName": "Need",
   "_links": {
-    "self": { "href": "/2017/speakers/john-need" }
+    "self": { "href": "/2017/speakers/john-need" },
+    "twitter": { "href": "https://twitter.com/johnneed", "title": "johnneed" }
   }
 }

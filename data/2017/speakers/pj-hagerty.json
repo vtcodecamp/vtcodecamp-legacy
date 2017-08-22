@@ -3,6 +3,7 @@
   "firstName": "PJ",
   "lastName": "Hagerty",
   "_links": {
-    "self": { "href": "/2017/speakers/pj-hagerty" }
+    "self": { "href": "/2017/speakers/pj-hagerty" },
+    "twitter": { "href": "https://twitter.com/aspleenic", "title": "aspleenic" }
   }
 }

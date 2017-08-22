@@ -3,6 +3,7 @@
   "firstName": "Aaron",
   "lastName": "Cummings",
   "_links": {
-    "self": { "href": "/2017/speakers/aaron-cummings" }
+    "self": { "href": "/2017/speakers/aaron-cummings" },
+    "twitter": { "href": "https://twitter.com/btvaaron", "title": "btvaaron" }
   }
 }

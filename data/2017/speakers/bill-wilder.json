@@ -3,6 +3,7 @@
   "firstName": "Bill",
   "lastName": "Wilder",
   "_links": {
-    "self": { "href": "/2017/speakers/bill-wilder" }
+    "self": { "href": "/2017/speakers/bill-wilder" },
+    "twitter": { "href": "https://twitter.com/codingoutloud", "title": "codingoutloud" }
   }
 }

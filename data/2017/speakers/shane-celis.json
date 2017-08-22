@@ -3,6 +3,7 @@
   "firstName": "Shane",
   "lastName": "Celis",
   "_links": {
-    "self": { "href": "/2017/speakers/shane-celis" }
+    "self": { "href": "/2017/speakers/shane-celis" },
+    "twitter": { "href": "https://twitter.com/shanecelis", "title": "shanecelis" }
   }
 }

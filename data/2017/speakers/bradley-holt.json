@@ -3,6 +3,7 @@
   "firstName": "Bradley",
   "lastName": "Holt",
   "_links": {
-    "self": { "href": "/2017/speakers/bradley-holt" }
+    "self": { "href": "/2017/speakers/bradley-holt" },
+    "twitter": { "href": "https://twitter.com/BradleyHolt", "title": "BradleyHolt" }
   }
 }

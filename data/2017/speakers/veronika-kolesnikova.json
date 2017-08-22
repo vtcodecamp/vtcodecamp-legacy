@@ -3,6 +3,7 @@
   "firstName": "Veronika",
   "lastName": "Kolesnikova",
   "_links": {
-    "self": { "href": "/2017/speakers/veronika-kolesnikova" }
+    "self": { "href": "/2017/speakers/veronika-kolesnikova" },
+    "twitter": { "href": "https://twitter.com/breakpointv16", "title": "breakpointv16" }
   }
 }

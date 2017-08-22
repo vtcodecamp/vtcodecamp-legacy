@@ -3,6 +3,7 @@
   "firstName": "Robert",
   "lastName": "Hurlbut",
   "_links": {
-    "self": { "href": "/2017/speakers/robert-hurlbut" }
+    "self": { "href": "/2017/speakers/robert-hurlbut" },
+    "twitter": { "href": "https://twitter.com/RobertHurlbut", "title": "RobertHurlbut" }
   }
 }

@@ -3,6 +3,7 @@
   "firstName": "Ilan",
   "lastName": "Nass",
   "_links": {
-    "self": { "href": "/2017/speakers/ilan-nass" }
+    "self": { "href": "/2017/speakers/ilan-nass" },
+    "twitter": { "href": "https://twitter.com/IlanNass", "title": "IlanNass" }
   }
 }

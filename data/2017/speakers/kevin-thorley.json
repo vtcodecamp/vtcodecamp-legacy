@@ -3,6 +3,7 @@
   "firstName": "Kevin",
   "lastName": "Thorley",
   "_links": {
-    "self": { "href": "/2017/speakers/kevin-thorley" }
+    "self": { "href": "/2017/speakers/kevin-thorley" },
+    "twitter": { "href": "https://twitter.com/kevin.thorley", "title": "kevin.thorley" }
   }
 }

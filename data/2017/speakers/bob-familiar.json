@@ -3,6 +3,7 @@
   "firstName": "Bob",
   "lastName": "Familiar",
   "_links": {
-    "self": { "href": "/2017/speakers/bob-familiar" }
+    "self": { "href": "/2017/speakers/bob-familiar" },
+    "twitter": { "href": "https://twitter.com/bobfamiliar", "title": "bobfamiliar" }
   }
 }

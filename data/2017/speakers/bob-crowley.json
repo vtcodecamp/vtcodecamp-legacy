@@ -3,6 +3,7 @@
   "firstName": "Bob",
   "lastName": "Crowley",
   "_links": {
-    "self": { "href": "/2017/speakers/bob-crowley" }
+    "self": { "href": "/2017/speakers/bob-crowley" },
+    "twitter": { "href": "https://twitter.com/contrivedex", "title": "contrivedex" }
   }
 }

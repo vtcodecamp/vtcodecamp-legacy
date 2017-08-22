@@ -3,6 +3,7 @@
   "firstName": "Linus",
   "lastName": "Falck-Ytter",
   "_links": {
-    "self": { "href": "/2017/speakers/linus-falck-ytter" }
+    "self": { "href": "/2017/speakers/linus-falck-ytter" },
+    "twitter": { "href": "https://twitter.com/lifayt", "title": "lifayt" }
   }
 }
