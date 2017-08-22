@@ -3,6 +3,9 @@
   "title": "Offline Sync for Progressive Web Apps",
   "_links": {
     "self": { "href": "/2017/sessions/offline-sync-for-progressive-web-apps" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/bradley-holt" }
+    ]
   }
 }

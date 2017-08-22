@@ -3,6 +3,9 @@
   "title": "DevOps: Why You Should Be Doing It and Where to Start",
   "_links": {
     "self": { "href": "/2017/sessions/devops-why-you-should-be-doing-it-and-where-to-start" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/tobin-winters" }
+    ]
   }
 }

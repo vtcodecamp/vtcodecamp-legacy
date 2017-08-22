@@ -3,6 +3,9 @@
   "title": "A Gentle Introduction to Azure",
   "_links": {
     "self": { "href": "/2017/sessions/a-gentle-introduction-to-azure" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/bill-wilder" }
+    ]
   }
 }

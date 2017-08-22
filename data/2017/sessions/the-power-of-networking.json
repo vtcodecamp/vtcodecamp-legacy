@@ -3,6 +3,9 @@
   "title": "The Power of Networking",
   "_links": {
     "self": { "href": "/2017/sessions/the-power-of-networking" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/betsy-weber" }
+    ]
   }
 }

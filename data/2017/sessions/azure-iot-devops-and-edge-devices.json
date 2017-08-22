@@ -3,6 +3,9 @@
   "title": "Azure IoT, DevOps and Edge Devices",
   "_links": {
     "self": { "href": "/2017/sessions/azure-iot-devops-and-edge-devices" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/bob-familiar" }
+    ]
   }
 }

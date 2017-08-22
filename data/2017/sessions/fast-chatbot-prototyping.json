@@ -3,6 +3,9 @@
   "title": "Fast Chatbot Prototyping with Microsoft's Bot Framework & Node.js",
   "_links": {
     "self": { "href": "/2017/sessions/fast-chatbot-prototyping" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/linus-falck-ytter" }
+    ]
   }
 }

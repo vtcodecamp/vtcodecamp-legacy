@@ -3,6 +3,9 @@
   "title": "Urban Legends: What You Code Makes You Who You Are",
   "_links": {
     "self": { "href": "/2017/sessions/urban-legends" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/pj-hagerty" }
+    ]
   }
 }

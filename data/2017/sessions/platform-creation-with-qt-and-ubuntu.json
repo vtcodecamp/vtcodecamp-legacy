@@ -3,6 +3,9 @@
   "title": "Platform Creation with Qt and Ubuntu",
   "_links": {
     "self": { "href": "/2017/sessions/platform-creation-with-qt-and-ubuntu" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/jerome-givens-lamothe" }
+    ]
   }
 }

@@ -3,6 +3,9 @@
   "title": "Adopt and Active Office Lifestyle",
   "_links": {
     "self": { "href": "/2017/sessions/adopt-and-active-office-lifestyle" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/kendra-goudreau" }
+    ]
   }
 }

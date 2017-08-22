@@ -3,6 +3,9 @@
   "title": "Using MySQL Workbench to Design and Build Databases",
   "_links": {
     "self": { "href": "/2017/sessions/using-mysql-workbench-to-design-and-build-databases" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/frank-canovatchel" }
+    ]
   }
 }

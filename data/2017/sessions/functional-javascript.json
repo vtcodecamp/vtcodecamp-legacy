@@ -3,6 +3,9 @@
   "title": "Functional JavaScript",
   "_links": {
     "self": { "href": "/2017/sessions/functional-javascript" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/john-need" }
+    ]
   }
 }

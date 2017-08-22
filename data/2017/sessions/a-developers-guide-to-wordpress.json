@@ -3,6 +3,9 @@
   "title": "A Developer's Guide to WordPress",
   "_links": {
     "self": { "href": "/2017/sessions/a-developers-guide-to-wordpress" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/josh-lee" }
+    ]
   }
 }

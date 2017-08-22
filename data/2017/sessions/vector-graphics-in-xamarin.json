@@ -3,6 +3,9 @@
   "title": "Vector Graphics in Xamarin",
   "_links": {
     "self": { "href": "/2017/sessions/vector-graphics-in-xamarin" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/chris-miller" }
+    ]
   }
 }

@@ -3,6 +3,9 @@
   "title": "Threat Modeling for Secure Software Design",
   "_links": {
     "self": { "href": "/2017/sessions/threat-modeling-for-secure-software-design" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/robert-hurlbut" }
+    ]
   }
 }

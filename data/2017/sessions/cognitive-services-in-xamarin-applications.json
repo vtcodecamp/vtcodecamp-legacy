@@ -3,6 +3,9 @@
   "title": "Cognitive Services in Xamarin Applications",
   "_links": {
     "self": { "href": "/2017/sessions/cognitive-services-in-xamarin-applications" },
-    "event": { "href": "/2017/" }
+    "event": { "href": "/2017/" },
+    "speaker": [
+      { "href": "/2017/speakers/veronika-kolesnikova" }
+    ]
   }
 }
