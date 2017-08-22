@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/how-file-upload-features-a-security-risk-and-what-you-can-do-about-it" },
     "event": { "href": "/2017/" },
+    "timePeriod": { "href": "/2017/time-periods/1615" },
     "speaker": [
       { "href": "/2017/speakers/brian-waters" }
     ]

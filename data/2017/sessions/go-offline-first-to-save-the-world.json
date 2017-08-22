@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/go-offline-first-to-save-the-world" },
     "event": { "href": "/2017/" },
+    "timePeriod": { "href": "/2017/time-periods/1530" },
     "speaker": [
       { "href": "/2017/speakers/maureen-mcelaney" }
     ]

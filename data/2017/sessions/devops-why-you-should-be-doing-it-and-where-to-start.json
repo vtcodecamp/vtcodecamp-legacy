@@ -4,6 +4,7 @@
   "_links": {
     "self": { "href": "/2017/sessions/devops-why-you-should-be-doing-it-and-where-to-start" },
     "event": { "href": "/2017/" },
+    "timePeriod": { "href": "/2017/time-periods/0900" },
     "speaker": [
       { "href": "/2017/speakers/tobin-winters" }
     ]
