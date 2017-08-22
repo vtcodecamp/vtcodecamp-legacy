@@ -1,8 +1,8 @@
 {
-  "slug": "working-with-geo-spatial-data",
-  "title": "Working with Geo-Spatial Data: A Primer",
+  "slug": "working-with-geospatial-data",
+  "title": "Working with Geospatial Data: A Primer",
   "_links": {
-    "self": { "href": "/2017/sessions/working-with-geo-spatial-data" },
+    "self": { "href": "/2017/sessions/working-with-geospatial-data" },
     "event": { "href": "/2017/" },
     "track": { "href": "/2017/tracks/security-and-devops" },
     "space": { "href": "/2017/spaces/room-4" },
