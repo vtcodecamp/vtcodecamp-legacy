@@ -2,6 +2,7 @@
   "slug": "bob-familiar",
   "firstName": "Bob",
   "lastName": "Familiar",
+  "bio": "Bob Familiar is the National Practice Director for Application Services at BlueMetal. As National Director, Bob leads a team of seasoned Principal Architects who are responsible for industry research & development, rapid prototyping and outreach to the technology community. They are responsible for defining BlueMetal's technical direction and offerings and provide strategy and guidance to BlueMetal clients on their most important and challenging projects. Bob is an accomplished software professional, evangelist and author as well as a Microsoft MVP. Bob has been working in the software industry for 30 years, holds a patent in object relational architecture and technology and is author of the books Microservices, IoT and Azure and Business in Real-Time.",
   "_links": {
     "self": { "href": "/2017/speakers/bob-familiar" },
     "twitter": { "href": "https://twitter.com/bobfamiliar", "title": "bobfamiliar" }

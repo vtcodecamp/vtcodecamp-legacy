@@ -2,6 +2,7 @@
   "slug": "ben-glassman",
   "firstName": "Ben",
   "lastName": "Glassman",
+  "bio": "Ben began working with web technology when he first acquired a dial-up Internet connection in the early 90s. His professional career started as a freelance web developer and graphic designer in southern Massachusetts at an internet start-up during the dot com boom. He moved to Vermont in 2001 to pursue a Bachelor’s Degree in Multimedia and Graphic Design from Champlain College. After graduating in 2005, Ben joined the VDW team, bringing his experience in web development and a passion for building accessible, standards-compliant web sites. He is a versatile polyglot programmer and full-stack web developer, combining expertise in front-end JavaScript development with experience in server side technologies using PHP and MySQL. Ben is the CTO at VDW and serves as technical lead for VDW’s most complicated projects, working with clients to help translate their needs into a deliverable solution. He works closely with our design team to prototype functionality and converts visual details into working web applications.",
   "_links": {
     "self": { "href": "/2017/speakers/ben-glassman" }
   }

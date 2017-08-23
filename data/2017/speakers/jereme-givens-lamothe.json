@@ -2,6 +2,7 @@
   "slug": "jereme-givens-lamothe",
   "firstName": "Jereme",
   "lastName": "Givens-Lamothe",
+  "bio": "Jereme is a Senior Software Architect at DocBox, and has been using Qt professionally for more than 9 years. After graduating Saint Michael's College with a BS in Computer Science in 2008, he joined Physician's Computer Company to help create a Pediatrics focused EHR. Since 2013 he has been at DocBox, working on the HMI and clinical app platform, with the goal of enabling data driven healthcare.",
   "_links": {
     "self": { "href": "/2017/speakers/jereme-givens-lamothe" },
     "twitter": { "href": "https://twitter.com/zestymeta", "title": "zestymeta" }

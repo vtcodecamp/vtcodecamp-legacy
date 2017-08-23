@@ -2,6 +2,7 @@
   "slug": "mitch-miller",
   "firstName": "Mitch",
   "lastName": "Miller",
+  "bio": "Mitch Miller has been helping research organization make better use of their data for more than 20 years as an analyst, software developer, tester and technical support specialist.",
   "_links": {
     "self": { "href": "/2017/speakers/mitch-miller" },
     "twitter": { "href": "https://twitter.com/MovingMitch", "title": "MovingMitch" }

@@ -2,6 +2,7 @@
   "slug": "maureen-mcelaney",
   "firstName": "Maureen",
   "lastName": "McElaney",
+  "bio": "Maureen McElaney is a Developer Advocate at IBM Watson Data Platform and enjoys broadening IBM's understanding and involvement in open source communities. Prior to joining the team, she worked as a QA Engineer at Dealer.com and is passionate about building tools that increase developer productivity and joy. She is an experienced community builder, founding her local chapter of Girl Develop It.",
   "_links": {
     "self": { "href": "/2017/speakers/maureen-mcelaney" },
     "twitter": { "href": "https://twitter.com/Mo_Mack", "title": "Mo_Mack" }

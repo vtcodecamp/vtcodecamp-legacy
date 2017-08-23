@@ -2,6 +2,7 @@
   "slug": "jeff-margolis",
   "firstName": "Jeff",
   "lastName": "Margolis",
+  "bio": "Web dev (JavaScript) at Dealer.com, BTVJS coordinator. Formerly wrote Clojure for 2 years for Condé Nast.",
   "_links": {
     "self": { "href": "/2017/speakers/jeff-margolis" }
   }

@@ -2,6 +2,7 @@
   "slug": "chris-miller",
   "firstName": "Chris",
   "lastName": "Miller",
+  "bio": "I am a Microsoft MVP, a Xamarin Certified Mobile Developer for iOS and Android, and the leader of the Tech Valley .NET User Group.\n\nI have been developing on various platforms for way too long to detail, but I currently work and write about C# programming using Microsoft and Xamarin tools. For the last decade or so, I have worked for Tyler Technologies, in the school transportation market.",
   "_links": {
     "self": { "href": "/2017/speakers/chris-miller" },
     "twitter": { "href": "https://twitter.com/anotherlab", "title": "anotherlab" }

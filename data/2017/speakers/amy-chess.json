@@ -2,6 +2,7 @@
   "slug": "amy-chess",
   "firstName": "Amy",
   "lastName": "Chess",
+  "bio": "Amy Chess is a User Experience Researcher at Cox Automotive. Her research focus is on enterprise software for the retail automotive sector. In addition to conducting research, Amy works across 18 release trains to bring user-centered thinking and methodologies to product, design, and engineering teams. In a previous life, Amy conducted neuroscience research and taught undergraduate psychology courses. Amy is a bit of a Luddite, but she believes this is advantageous for doing UX research because it keeps her grounded in the problem space rather than the solution space.",
   "_links": {
     "self": { "href": "/2017/speakers/amy-chess" },
     "twitter": { "href": "https://twitter.com/AmyChess", "title": "AmyChess" }

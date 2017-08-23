@@ -2,6 +2,7 @@
   "slug": "aaron-cummings",
   "firstName": "Aaron",
   "lastName": "Cummings",
+  "bio": "Aaron Cummings focuses on applying functional programming approaches to electronic design automation. He has been interested in FP since beginning to dabble with Clojure four years ago.",
   "_links": {
     "self": { "href": "/2017/speakers/aaron-cummings" },
     "twitter": { "href": "https://twitter.com/btvaaron", "title": "btvaaron" }

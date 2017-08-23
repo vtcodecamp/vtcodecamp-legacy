@@ -2,6 +2,7 @@
   "slug": "robert-hurlbut",
   "firstName": "Robert",
   "lastName": "Hurlbut",
+  "bio": "Robert Hurlbut is an independent software security consultant and trainer based in Enfield, CT. Robert is a Microsoft MVP for Developer Technologies and Security and holds the (ISC)2 CSSLP security certification. Robert has 30 years of industry experience in software security, software architecture, and software development. You can follow Robert on his [blog](https://roberthurlbut.com/blog) and on [Twitter](https://twitter.com/RobertHurlbut) and each week as a co-host of the [Application Security Podcast](https://www.appsecpodcast.org).",
   "_links": {
     "self": { "href": "/2017/speakers/robert-hurlbut" },
     "twitter": { "href": "https://twitter.com/RobertHurlbut", "title": "RobertHurlbut" }

@@ -2,6 +2,7 @@
   "slug": "linus-falck-ytter",
   "firstName": "Linus",
   "lastName": "Falck-Ytter",
+  "bio": "Linus grew up splitting time between Germany and the United States before his family made an exciting life decision by settling in Cleveland, Ohio. He has a degree in Computer Science from 'The' Ohio State University and now lives in Waltham with his roommate and cat.",
   "_links": {
     "self": { "href": "/2017/speakers/linus-falck-ytter" },
     "twitter": { "href": "https://twitter.com/lifayt", "title": "lifayt" }

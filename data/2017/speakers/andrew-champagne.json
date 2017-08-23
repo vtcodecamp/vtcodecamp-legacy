@@ -2,6 +2,7 @@
   "slug": "andrew-champagne",
   "firstName": "Andrew",
   "lastName": "Champagne",
+  "bio": "Passionate Software Developer",
   "_links": {
     "self": { "href": "/2017/speakers/andrew-champagne" }
   }
