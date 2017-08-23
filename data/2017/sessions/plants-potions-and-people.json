@@ -1,6 +1,7 @@
 {
   "slug": "plants-potions-and-people",
   "title": "Plants, Potions and People: Continuing Adventures in Scientific ETL",
+  "description": "This project started when a customer sent us a list of medicinal plants (genus, species and variety). Their users refer to these plants frequently and therefore wanted direct URLs for each species on each of several web sites that provide information about medicinal plants. The goal was to make it as easy as possible for users to reference the latest information across the set of sites. Each site required a different approach. For some, we used XPath expressions to parse web pages returned via simulated searches; other sites provided downloadable data sets that could be parsed directly. This talk describes the approach taken to build the reference to each data source and present the full set of data in a form that could be loaded into the client's in-house database.",
   "_links": {
     "self": { "href": "/2017/sessions/plants-potions-and-people" },
     "event": { "href": "/2017/" },

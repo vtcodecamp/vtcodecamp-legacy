@@ -1,6 +1,7 @@
 {
   "slug": "a-developers-guide-to-wordpress",
   "title": "A Developer's Guide to WordPress",
+  "description": "In this talk we’ll take a peek under the hood at some of the underlying architecture behind the most popular content management system on the planet. We’ll review the database schema and internal APIs, and discuss the pros, cons and caveats to historical decisions that are now \"baked in\" to WordPress, for better or worse.",
   "_links": {
     "self": { "href": "/2017/sessions/a-developers-guide-to-wordpress" },
     "event": { "href": "/2017/" },

@@ -1,6 +1,7 @@
 {
   "slug": "working-with-geospatial-data",
   "title": "Working with Geospatial Data: A Primer",
+  "description": "As our world becomes increasingly information rich, geospatial data is playing an increasingly important role. Understanding Geographical Information Systems (GIS), where open data can be found and how to work with it can help in tackling complex problems in a new way.",
   "_links": {
     "self": { "href": "/2017/sessions/working-with-geospatial-data" },
     "event": { "href": "/2017/" },

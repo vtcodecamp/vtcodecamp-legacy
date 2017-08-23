@@ -1,6 +1,7 @@
 {
   "slug": "my-opinion-of-clean-code",
   "title": "My Opinion of Clean Code",
+  "description": "How to write clean code.",
   "_links": {
     "self": { "href": "/2017/sessions/my-opinion-of-clean-code" },
     "event": { "href": "/2017/" },

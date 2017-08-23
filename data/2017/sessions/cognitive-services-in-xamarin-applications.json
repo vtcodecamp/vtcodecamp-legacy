@@ -1,6 +1,7 @@
 {
   "slug": "cognitive-services-in-xamarin-applications",
   "title": "Cognitive Services in Xamarin Applications",
+  "description": "I’m sure you’ve heard about artificial intelligence because it’s the next big thing and all major tech companies are involved in its development. Now you can implement it too directly in your Xamarin application using Microsoft Cognitive Services. In this session you’ll get basic knowledge about artificial intelligence, machine learning and their applications, go over 6 available groups of Cognitive Services and see individual APIs available in Azure. Also we’ll concentrate on some details and specifics of Cognitive Services implementation in Xamarin and Xamarin.Forms solutions. In the end you’ll see a demo using Computer Vision API in Azure to implement a personal image organizing app.",
   "_links": {
     "self": { "href": "/2017/sessions/cognitive-services-in-xamarin-applications" },
     "event": { "href": "/2017/" },

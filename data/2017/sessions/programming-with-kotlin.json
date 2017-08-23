@@ -1,6 +1,7 @@
 {
   "slug": "programming-with-kotlin",
   "title": "Programming…with Kotlin",
+  "description": "We'll take a historical tour of some important proramming concepts with an eye toward maintanable, scalable programs. And we'll see how they are handled in a 21st century industrial language. Kotlin is designed to replace and interoperate with Java, but its power and brevity make it suitable for illustrating a wide variety of techniques.",
   "_links": {
     "self": { "href": "/2017/sessions/programming-with-kotlin" },
     "event": { "href": "/2017/" },

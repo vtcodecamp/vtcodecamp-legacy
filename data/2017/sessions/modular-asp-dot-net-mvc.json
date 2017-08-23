@@ -1,6 +1,7 @@
 {
   "slug": "modular-asp-dot-net-mvc",
   "title": "Modular ASP.NET MVC",
+  "description": "You have probably heard of Orchard CMS, but did you know it is built upon a framework that you can leverage within any MVC application? In this session we will build an empty .NET Core MVC project, populate it with decoupled modules and investigate the built in multi-tenancy.",
   "_links": {
     "self": { "href": "/2017/sessions/modular-asp-dot-net-mvc" },
     "event": { "href": "/2017/" },

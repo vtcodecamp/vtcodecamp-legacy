@@ -1,6 +1,7 @@
 {
   "slug": "invent-with-code",
   "title": "Invent With Code: Turning Young Inventors into Coders",
+  "description": "This session will feature three different ways to engage young inventors with coding. We'll have hands on stations that use Little Bits, Hummingbirds, and Makey Makeys and share how each of these tools can be used to build confidence with code while creating fun inventions. Whether you're trying to engage your family members, mentor students in your community, or build your own confidence with using code to control physical objects, this session will leave you with some fun ways to invent with code.",
   "_links": {
     "self": { "href": "/2017/sessions/invent-with-code" },
     "event": { "href": "/2017/" },

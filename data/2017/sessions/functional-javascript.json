@@ -1,6 +1,7 @@
 {
   "slug": "functional-javascript",
   "title": "Functional JavaScript",
+  "description": "Quick tips on how get started with curries, maps, filters, folds, recursions, monads and more in your front-end today!\n\nThat convoluted code-base out of control? A little sprinkle of functional JavaScript may be just what you need.",
   "_links": {
     "self": { "href": "/2017/sessions/functional-javascript" },
     "event": { "href": "/2017/" },

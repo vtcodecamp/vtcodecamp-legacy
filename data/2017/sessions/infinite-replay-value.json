@@ -1,6 +1,7 @@
 {
   "slug": "infinite-replay-value",
   "title": "Infinite Replay Value: Air Traffic Control Simulation Software and the Business Value of Event Sourcing",
+  "description": "Understanding design and architecture patterns in software can be challenging when they are presented without real world examples that illustrate both how they work and what benefits they provide. This session will delve into the event sourcing pattern in the context of Air Traffic Control (ATC) simulation software. We'll examine implementation details along with an overview of the value delivered to the end user to show both how the pattern works and what kind of requirements might make it a good architecture choice. Specifically, we will discuss how applications which require replay functionality, auditing or consistent state across multiple clients may benefit from Event Sourcing.",
   "_links": {
     "self": { "href": "/2017/sessions/infinite-replay-value" },
     "event": { "href": "/2017/" },

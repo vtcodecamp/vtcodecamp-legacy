@@ -1,6 +1,7 @@
 {
   "slug": "cloud-migration-at-dealer.com",
   "title": "Cloud (AWS) Migration at Dealer.com",
+  "description": "Dealer.com, along with other businesses within Cox Automotive, is engaged in a multi-year effort to migrate the bulk of our applications, primarily client-facing SaaS applications and large, consumer-facing websites, away from physical datacenters and to AWS. One year into this effort we have learned a significant amount about both the architectural patterns and organizational practices required to be successful. This session will cover both of these aspects, including the need for effective change management, driving consistent solutions across a large organization, and the architectural patterns that support operating our applications in a hybrid on-prem/cloud environment. Examples of this approach will include discussion of AWS technologies such as IAM, Beanstalk, Lambda, and DynamoDB.",
   "_links": {
     "self": { "href": "/2017/sessions/cloud-migration-at-dealer.com" },
     "event": { "href": "/2017/" },

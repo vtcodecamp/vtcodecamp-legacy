@@ -1,6 +1,7 @@
 {
   "slug": "go-offline-first-to-save-the-world",
   "title": "Go Offline First to Save the World",
+  "description": "In Vermont, we don't take great connectivity for granted, so why do we expect great connectivity of the users of our apps? What if you need to access important information in a situation where offline is the reality? From supporting hospitals in Africa to providing electric power to Haiti to supporting families in rural Alaska, the Offline First approach to application development is truly saving the world. This session will uncover the approaches used in successful real world examples of Offline First and show you the tools and techniques that will allow you to build the same kinds of things. Offline often happens much closer to home, in the shadow of skyscrapers for example, so gaining the skills for building offline capable apps will enable you to deliver a robust and reliable mobile web experience wherever your users are. There is a growing community around the Offline First movement. This session will introduce you to this community, as well as popular resources for Offline First development, and show application development teams how you, too, can save the world.",
   "_links": {
     "self": { "href": "/2017/sessions/go-offline-first-to-save-the-world" },
     "event": { "href": "/2017/" },

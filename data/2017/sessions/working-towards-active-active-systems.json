@@ -1,6 +1,7 @@
 {
   "slug": "working-towards-active-active-systems",
   "title": "Working Towards Active-Active Systems",
+  "description": "Cloud services allow for easier multi-regional deployments for scalability and fail-over, however managing the data is largely left up to the application developers. In this talk, we will look at the benefits and problems that come with systems that require state and several architectures to work towards active-active systems across data centers or regions. We will wrap up with a look at CRDTs, what problems they are fit for and how they address certain distributed data problems.",
   "_links": {
     "self": { "href": "/2017/sessions/working-towards-active-active-systems" },
     "event": { "href": "/2017/" },

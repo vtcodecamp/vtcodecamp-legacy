@@ -1,6 +1,7 @@
 {
   "slug": "azure-iot-devops-and-edge-devices",
   "title": "Azure IoT, DevOps and Edge Devices",
+  "description": "This session provides architecture patterns, best practices and running demonstrations that show how to design and implement highly distributed IoT SaaS solutions using Azure. Topics include creating continuous delivery automation for Azure services and custom microservices. Edge device firmware is examined to understand how devices are bootstrapped, configured and implemented to handle both outgoing telemetry as well as incoming events and commands. IoT Hub’s Device Twin is examined and demonstrated to show how over the air configuration and firmware updates can be applied. Work performed with customers is discussed to shed light on the challenges that organizations face when moving to real-time systems that drive business outcomes.",
   "_links": {
     "self": { "href": "/2017/sessions/azure-iot-devops-and-edge-devices" },
     "event": { "href": "/2017/" },

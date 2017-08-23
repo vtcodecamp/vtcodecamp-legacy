@@ -1,6 +1,7 @@
 {
   "slug": "learning-react-redux-step-by-step",
   "title": "Learning React/Redux Step-by-Step: MVPs and Motivation",
+  "description": "In order to learn React and Redux step-by-step, I built an initiative tracker for role playing games. In this talk we’ll look at how to build a complicated interface and application by starting with a single, working component and expanding from there.",
   "_links": {
     "self": { "href": "/2017/sessions/learning-react-redux-step-by-step" },
     "event": { "href": "/2017/" },
