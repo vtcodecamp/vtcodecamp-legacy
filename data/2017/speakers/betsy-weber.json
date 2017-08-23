@@ -1,0 +1,10 @@
+{
+  "slug": "betsy-weber",
+  "firstName": "Betsy",
+  "lastName": "Weber",
+  "bio": "Betsy is a Program Manager Evangelist with the Microsoft MVP Program. Betsy has spoken around the world about a variety of topics around tech, video creation and community. Betsy is a photo nerd, knitter, beer geek, spork expert and a Michigander living in NYC.",
+  "_links": {
+    "self": { "href": "/2017/speakers/betsy-weber" },
+    "twitter": { "href": "https://twitter.com/betsyweber", "title": "betsyweber" }
+  }
+}

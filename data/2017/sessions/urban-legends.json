@@ -1,0 +1,16 @@
+{
+  "slug": "urban-legends",
+  "title": "Urban Legends: What You Code Makes You Who You Are",
+  "description": "If you were a carpenter, would your skills at building be more important than the tools you use to build? Skills, right? Tools are just a means to an end. So why do developers think the language they use defines the problems they solve?\n\nThis talk will take a look at misconceptions across the board, some experiences, both positive and negative, people have had crossing barriers to new languages, and show some of the benefits thinking of one's self as a coder and not a \"Ruby coder\" or a \"PHP dev\" can have on being a better problem solver.",
+  "_links": {
+    "self": { "href": "/2017/sessions/urban-legends" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/soft-skills-and-other" },
+    "space": { "href": "/2017/spaces/room-5" },
+    "timePeriod": { "href": "/2017/time-periods/1300" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/pj-hagerty" }
+    ]
+  }
+}

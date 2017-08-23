@@ -1,0 +1,10 @@
+{
+  "slug": "shane-celis",
+  "firstName": "Shane",
+  "lastName": "Celis",
+  "bio": "I'm an evolutionary robotics researcher turned #gamedev, making fun virtual robot toys that hint at artificial evolution (think: educational trojan horse).",
+  "_links": {
+    "self": { "href": "/2017/speakers/shane-celis" },
+    "twitter": { "href": "https://twitter.com/shanecelis", "title": "shanecelis" }
+  }
+}

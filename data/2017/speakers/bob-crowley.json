@@ -1,0 +1,10 @@
+{
+  "slug": "bob-crowley",
+  "firstName": "Bob",
+  "lastName": "Crowley",
+  "bio": "Bob Crowley is senior software developer for Evo International Portland where he designs and builds mission critical APIs used by integrators like Authorize.Net and Mastercard. When not in meetings or responding to email, Bob enjoys actually writing .NET code in the form of ASP.NET Web API, WCF and sometimes kickin' it old school with legacy SOAP web services. Bob is a vocal advocate for dependency injection, unit testing, automated builds, source controlled databases and Chinese food Friday. He has over 11 years of professional development experience with technologies such as .NET, T-SQL, JavaScript and ASP.NET.",
+  "_links": {
+    "self": { "href": "/2017/speakers/bob-crowley" },
+    "twitter": { "href": "https://twitter.com/contrivedex", "title": "contrivedex" }
+  }
+}

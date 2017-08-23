@@ -1,0 +1,10 @@
+{
+  "slug": "lucie-delabruere",
+  "firstName": "Lucie",
+  "lastName": "deLaBruere",
+  "bio": "Lucie deLaBruere and Shannon Walters are two Vermont educators who work with both in-school and out-of-school activities that encourage more schools and young people to build coding schools.",
+  "_links": {
+    "self": { "href": "/2017/speakers/lucie-delabruere" },
+    "twitter": { "href": "https://twitter.com/techsavvygirl", "title": "techsavvygirl" }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "slug": "vector-graphics-in-xamarin",
+  "title": "Vector Graphics in Xamarin",
+  "description": "We'll be discussing how to use vector graphic resources in Xamarin applications as a replacement for bitmap images.",
+  "_links": {
+    "self": { "href": "/2017/sessions/vector-graphics-in-xamarin" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/client-mobile-web-and-more" },
+    "space": { "href": "/2017/spaces/room-3" },
+    "timePeriod": { "href": "/2017/time-periods/1300" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/chris-miller" }
+    ]
+  }
+}

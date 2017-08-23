@@ -1,0 +1,16 @@
+{
+  "slug": "fast-chatbot-prototyping",
+  "title": "Fast Chatbot Prototyping with Microsoft's Bot Framework & Node.js",
+  "description": "From shopping-assistant bots helping you pick out a kayak to Alexa turning on your living room lights, chatbot functionality is all around us. Now, recent framework offerings from Microsoft allow developers to get up and running faster than ever. Leverage Node.js and the Bot Framework to quickly prototype chatbots by combining your own content with enterprise quality cloud services. Use AI services like natural language processing and image recognition without writing the underlying code. Ship faster as a solo developer or small team by taking advantage of plug and play libraries.\n\nThis talk will provide an overview of basic chatbot functionality coupled with its code underpinnings. Additionally, we’ll see how easy it is to integrate cloud services (AI and otherwise) as well as deploy to multiple channels.",
+  "_links": {
+    "self": { "href": "/2017/sessions/fast-chatbot-prototyping" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/cloud-data-and-iot" },
+    "space": { "href": "/2017/spaces/room-1" },
+    "timePeriod": { "href": "/2017/time-periods/1015" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/linus-falck-ytter" }
+    ]
+  }
+}

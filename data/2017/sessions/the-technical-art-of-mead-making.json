@@ -1,0 +1,16 @@
+{
+  "slug": "the-technical-art-of-mead-making",
+  "title": "The Technical Art of Mead Making (and Other Fine Fermentations)",
+  "description": "A demonstration of how to make mead (honey + water + yeast) – a fermented beverage as old as human civilization itself. We'll chat about mead specifically, and fermented beverages generally. There's an art and a science to it; we'll chat about both.",
+  "_links": {
+    "self": { "href": "/2017/sessions/the-technical-art-of-mead-making" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/soft-skills-and-other" },
+    "space": { "href": "/2017/spaces/room-5" },
+    "timePeriod": { "href": "/2017/time-periods/1615" },
+    "level": { "href": "/2017/levels/100" },
+    "speaker": [
+      { "href": "/2017/speakers/rob-friesel" }
+    ]
+  }
+}
