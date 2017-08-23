@@ -1,0 +1,9 @@
+{
+  "slug": "tobin-winters",
+  "firstName": "Tobin",
+  "lastName": "Winters",
+  "bio": "Tobin worked for many years in Systems Administration, Networking and Database Administration before making the move to Software Development. This experience led to his natural fit and passion for DevOps, combining the experience from all of these disciplines and working to bring traditionally siloed departments together to get quality software out the door faster.\n\nHe currently does this for MyWebGrocer in Winooski, VT as the Software Development Manager for Productization and Automation.",
+  "_links": {
+    "self": { "href": "/2017/speakers/tobin-winters" }
+  }
+}

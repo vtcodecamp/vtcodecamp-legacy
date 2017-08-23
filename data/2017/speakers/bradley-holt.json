@@ -1,0 +1,10 @@
+{
+  "slug": "bradley-holt",
+  "firstName": "Bradley",
+  "lastName": "Holt",
+  "bio": "Bradley Holt is a Developer Advocate and Senior Software Engineer with IBM Watson Data Platform. He is the author of several publications including _Scaling CouchDB_ and _Writing and Querying MapReduce Views in CouchDB_ (both published by O'Reilly Media). He has spoken at numerous conferences including Abstractions , ApacheCon, the O'Reilly Software Architecture Conference, Fluent, ConFoo, CodeMash, Node.js Interactive, That Conference, NoSQL Now!, php[tek], ZendCon, OSCON, the jQuery Conference, and SXSW Interactive. Bradley writes and speaks about topics such as Apache CouchDB, PouchDB, Offline First, PHP, Node.js, and Domain-Driven Design.",
+  "_links": {
+    "self": { "href": "/2017/speakers/bradley-holt" },
+    "twitter": { "href": "https://twitter.com/BradleyHolt", "title": "BradleyHolt" }
+  }
+}

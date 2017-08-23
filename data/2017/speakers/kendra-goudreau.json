@@ -1,0 +1,10 @@
+{
+  "slug": "kendra-goudreau",
+  "firstName": "Kendra",
+  "lastName": "Goudreau",
+  "bio": "Kendra Goudreau currently works at GLOBALFOUNDRIES (formally IBM Microelectronics) in information technology supporting supply chain IT applications. She has held various leadership positions in her local Society of Women Engineers (SWE) section and established the women's group at her company's Vermont location. Her previous roles include semiconductor manufacturing engineer and client-facing engineer. Kendra graduated from the University of New Hampshire with a degree in electrical engineering.",
+  "_links": {
+    "self": { "href": "/2017/speakers/kendra-goudreau" },
+    "twitter": { "href": "https://twitter.com/kkgoudreau", "title": "kkgoudreau" }
+  }
+}

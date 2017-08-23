@@ -1,0 +1,16 @@
+{
+  "slug": "threat-modeling-for-secure-software-design",
+  "title": "Threat Modeling for Secure Software Design",
+  "description": "Threat modeling is a way of thinking about what could go wrong and how to prevent it. Instinctively, we all think this way in regards to our own personal security and safety. When it comes to building software, some software shops either skip the important step of threat modeling in secure software design or they have tried threat modeling before but haven't quite figured out how to connect the threat models to real world software development and its priorities. In this session, you will learn practical strategies in using threat modeling in secure software architecture design and how to apply risk management in dealing with the threats.",
+  "_links": {
+    "self": { "href": "/2017/sessions/threat-modeling-for-secure-software-design" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/client-mobile-web-and-more" },
+    "space": { "href": "/2017/spaces/room-3" },
+    "timePeriod": { "href": "/2017/time-periods/1100" },
+    "level": { "href": "/2017/levels/300" },
+    "speaker": [
+      { "href": "/2017/speakers/robert-hurlbut" }
+    ]
+  }
+}

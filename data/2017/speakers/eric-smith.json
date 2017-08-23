@@ -1,0 +1,10 @@
+{
+  "slug": "eric-smith",
+  "firstName": "Eric",
+  "lastName": "Smith",
+  "bio": "Eric works at pairedIQ, building tools to help make learning more efficient.",
+  "_links": {
+    "self": { "href": "/2017/speakers/eric-smith" },
+    "twitter": { "href": "https://twitter.com/eric_s_smith", "title": "eric_s_smith" }
+  }
+}

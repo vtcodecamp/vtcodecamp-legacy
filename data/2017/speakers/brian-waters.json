@@ -1,0 +1,10 @@
+{
+  "slug": "brian-waters",
+  "firstName": "Brian",
+  "lastName": "Waters",
+  "bio": "Brian Waters is a Security Analyst at Independent Security Evaluators in Baltimore. He specializes in code review and vulnerability hunting, and has helped clients secure apps built on a variety of technologies, ranging from native code to the latest web frameworks.",
+  "_links": {
+    "self": { "href": "/2017/speakers/brian-waters" },
+    "twitter": { "href": "https://twitter.com/int10h", "title": "int10h" }
+  }
+}

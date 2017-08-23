@@ -1,0 +1,16 @@
+{
+  "slug": "the-power-of-networking",
+  "title": "The Power of Networking",
+  "description": "Learn how creating a strong personal and professional network of connections can help you grow your career and business. We'll cover some networking tips, lessons learned and several groups you can join.",
+  "_links": {
+    "self": { "href": "/2017/sessions/the-power-of-networking" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/soft-skills-and-other" },
+    "space": { "href": "/2017/spaces/room-5" },
+    "timePeriod": { "href": "/2017/time-periods/0900" },
+    "level": { "href": "/2017/levels/100" },
+    "speaker": [
+      { "href": "/2017/speakers/betsy-weber" }
+    ]
+  }
+}

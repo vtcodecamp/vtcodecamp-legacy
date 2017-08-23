@@ -1,0 +1,16 @@
+{
+  "slug": "how-file-upload-features-a-security-risk-and-what-you-can-do-about-it",
+  "title": "How File Upload Features a Security Risk and What You Can Do About It",
+  "description": "Most web apps these days have some sort of file upload functionality, whether it's a simple profile image or something more involved. Unfortunately, there are a lot of subtle issues that arise when implementing a feature like this, and many implementations get it wrong. Consequences range from account takeover to server compromise, and users can bear the risks just as much as providers.\n\nIn this talk, we'll cover the most common gotchas. We'll go from root cause to consequences, and wrap it up by discussing how to build a solid file upload feature from the ground up.",
+  "_links": {
+    "self": { "href": "/2017/sessions/how-file-upload-features-a-security-risk-and-what-you-can-do-about-it" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/security-and-devops" },
+    "space": { "href": "/2017/spaces/room-4" },
+    "timePeriod": { "href": "/2017/time-periods/1615" },
+    "level": { "href": "/2017/levels/300" },
+    "speaker": [
+      { "href": "/2017/speakers/brian-waters" }
+    ]
+  }
+}

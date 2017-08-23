@@ -1,0 +1,16 @@
+{
+  "slug": "bring-your-code-to-life",
+  "title": "Bring Your Code to Life: Screencasting 101",
+  "description": "Ever want to demonstrate your app or teach the use of your software's features? Need to enhance your documentation or blog posts with a video? Creating a screencast helps software developers show off their work. Come to this session to learn how to make a screencast video and look like a Rockstar. I will give you 30 tips in 30 minutes.",
+  "_links": {
+    "self": { "href": "/2017/sessions/bring-your-code-to-life" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/soft-skills-and-other" },
+    "space": { "href": "/2017/spaces/room-5" },
+    "timePeriod": { "href": "/2017/time-periods/1530" },
+    "level": { "href": "/2017/levels/100" },
+    "speaker": [
+      { "href": "/2017/speakers/betsy-weber" }
+    ]
+  }
+}

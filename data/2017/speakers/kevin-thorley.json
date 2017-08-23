@@ -1,0 +1,10 @@
+{
+  "slug": "kevin-thorley",
+  "firstName": "Kevin",
+  "lastName": "Thorley",
+  "bio": "Kevin Thorley is an Enterprise Architect at Dealer.com. In his 8 years at Dealer he has held roles as a developer, technical lead, and architect on several different teams. Kevin's primary focus is on cloud computing and the architectures of large scale enterprise and SaaS applications. When he isn't at the office, Kevin can be found enjoying all VT has to offer with his wife, two kids, and two dogs.",
+  "_links": {
+    "self": { "href": "/2017/speakers/kevin-thorley" },
+    "twitter": { "href": "https://twitter.com/kevin.thorley", "title": "kevin.thorley" }
+  }
+}

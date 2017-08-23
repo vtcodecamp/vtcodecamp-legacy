@@ -1,0 +1,16 @@
+{
+  "slug": "the-hickey-halloway-paradigm",
+  "title": "The Hickey Halloway Paradigm",
+  "description": "This talk is a survey of several presentations by Rich Hickey and Stu Halloway. Hickey is the originator of the Clojure programming language, and Halloway leads Cognitect, a consulting firm specializing in Clojure. We'll explore the approach Rich and Stu take toward the design of software and systems, in particular the notions of simplicity, state, value, identity, and time, and how these are embodied within the Clojure language and the Datomic database.",
+  "_links": {
+    "self": { "href": "/2017/sessions/the-hickey-halloway-paradigm" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/languages-and-practices" },
+    "space": { "href": "/2017/spaces/room-2" },
+    "timePeriod": { "href": "/2017/time-periods/1345" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/aaron-cummings" }
+    ]
+  }
+}

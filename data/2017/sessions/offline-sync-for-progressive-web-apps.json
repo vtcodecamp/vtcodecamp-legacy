@@ -1,0 +1,16 @@
+{
+  "slug": "offline-sync-for-progressive-web-apps",
+  "title": "Offline Sync for Progressive Web Apps",
+  "description": "With the introduction of Progressive Web Apps and web platform APIs such as persistent storage, payments, geolocation, and push notifications, the web platform is taking on native apps. One important aspect of Progressive Web Apps is the concept of building your app to be Offline First. With an Offline First approach, you design your app for the most resource-constrained environment first. This approach provides a consistent user experience whether the user's device has no connectivity, limited connectivity, or great connectivity. One of the biggest benefits of Offline First apps is that they can be very fast, as they provide zero-latency access to content and data stored directly on the device. The Service Worker API can do most of the heavy lifting when it comes to storing content and assets for Offline First Progressive Web Apps. A bigger challenge can be storing and sync'ing your app's data. One of the best answers today for offline sync for Progressive Web Apps is a combination of Apache CouchDB (an open source document database), Hoodie (an open source Node.js backend for Offline First apps), and PouchDB (an open source JavaScript database that syncs). This stack can provide you with the starting point for your own Progressive Web App mobile backend and frontend, and it's entirely open source!",
+  "_links": {
+    "self": { "href": "/2017/sessions/offline-sync-for-progressive-web-apps" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/client-mobile-web-and-more" },
+    "space": { "href": "/2017/spaces/room-3" },
+    "timePeriod": { "href": "/2017/time-periods/1615" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/bradley-holt" }
+    ]
+  }
+}

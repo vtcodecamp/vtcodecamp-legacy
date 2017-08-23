@@ -1,0 +1,10 @@
+{
+  "slug": "josh-lee",
+  "firstName": "Josh",
+  "lastName": "Lee",
+  "bio": "With over 15 years of web industry experience, Josh Lee is an expert in Content Management, ecommerce, and SaaS platforms. He is passionate about making the web and web development skills more universally accessible. Josh is a consultant and also the organizer for the Burlington WordPress meetup.",
+  "_links": {
+    "self": { "href": "/2017/speakers/josh-lee" },
+    "twitter": { "href": "https://twitter.com/joshleecreates", "title": "joshleecreates" }
+  }
+}

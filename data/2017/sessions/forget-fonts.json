@@ -1,0 +1,16 @@
+{
+  "slug": "forget-fonts",
+  "title": "Forget Fonts: Why (and How)",
+  "description": "UX Practitioners Should Partner with Back-End Developers. When discussing UX, many people reflexively think of \"UI,\" \"design,\" or—even more myopically—\"fonts.\" Although all of these are components of UX, a narrow focus on visual or interaction design ignores the fact that UX research encompasses a much broader array of activities that can inform user experiences through the lens of engineering. The UX literature itself contains very few references to how UX and backend development teams can work together. Why should we bother strengthening this partnership? In this talk I will cover four areas where this partnership can help us identify key improvements to our software’s usability:\n\n 1. the impact that upstream systems have on the propagation of data to downstream systems;\n 2. user expectations around where data can be added, edited, or deleted and in what time frame;\n 3. management of user permissions (where data becomes available and to whom); and\n 4. strategies to shield the user from the logic that engineering teams have implemented on the backend.\n\nI will conclude this talk with actionable techniques that teams can use in order to uncover these themes during user interviews.",
+  "_links": {
+    "self": { "href": "/2017/sessions/forget-fonts" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/languages-and-practices" },
+    "space": { "href": "/2017/spaces/room-2" },
+    "timePeriod": { "href": "/2017/time-periods/1015" },
+    "level": { "href": "/2017/levels/100" },
+    "speaker": [
+      { "href": "/2017/speakers/amy-chess" }
+    ]
+  }
+}

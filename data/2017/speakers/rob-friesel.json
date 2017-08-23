@@ -1,0 +1,10 @@
+{
+  "slug": "rob-friesel",
+  "firstName": "Rob",
+  "lastName": "Friesel",
+  "bio": "Software engineer by day, science fiction by night, weekend brewer.",
+  "_links": {
+    "self": { "href": "/2017/speakers/rob-friesel" },
+    "twitter": { "href": "https://twitter.com/founddrama", "title": "founddrama" }
+  }
+}

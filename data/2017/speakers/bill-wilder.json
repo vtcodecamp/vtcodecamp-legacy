@@ -1,0 +1,10 @@
+{
+  "slug": "bill-wilder",
+  "firstName": "Bill",
+  "lastName": "Wilder",
+  "bio": "Bill Wilder is a cloud computing veteran and CTO at Finomial, providing SaaS solutions to the global hedge fund industry from the public cloud. Bill is recognized by Microsoft as an 8-time Azure MVP awardee for his cloud expertise and community leadership. Bill is the author of _Cloud Architecture Patterns_ (O’Reilly Media, 2012).",
+  "_links": {
+    "self": { "href": "/2017/speakers/bill-wilder" },
+    "twitter": { "href": "https://twitter.com/codingoutloud", "title": "codingoutloud" }
+  }
+}

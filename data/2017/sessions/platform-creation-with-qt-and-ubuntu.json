@@ -1,0 +1,16 @@
+{
+  "slug": "platform-creation-with-qt-and-ubuntu",
+  "title": "Platform Creation with Qt and Ubuntu",
+  "description": "Using the Ubuntu GNU/Linux distribution and Qt application framework, we will demonstrate a theoretical app platform for an IoT device. This theoretical app platform will be modeled after production systems using open source software in the automotive and medical industries. We’ll explore the rationale for creating such a platform, then briefly introduce the Qt application framework, and create an example app from scratch. Finally, we will package and deploy this app to our theoretical device for a live demo.",
+  "_links": {
+    "self": { "href": "/2017/sessions/platform-creation-with-qt-and-ubuntu" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/soft-skills-and-other" },
+    "space": { "href": "/2017/spaces/room-5" },
+    "timePeriod": { "href": "/2017/time-periods/1015" },
+    "level": { "href": "/2017/levels/300" },
+    "speaker": [
+      { "href": "/2017/speakers/jereme-givens-lamothe" }
+    ]
+  }
+}
