@@ -10,7 +10,8 @@
     "timePeriod": { "href": "/2017/time-periods/1345" },
     "level": { "href": "/2017/levels/100" },
     "speaker": [
-      { "href": "/2017/speakers/kendra-goudreau" }
+      { "href": "/2017/speakers/kendra-goudreau" },
+      { "href": "/2017/speakers/iris-galvez" }
     ]
   }
 }
