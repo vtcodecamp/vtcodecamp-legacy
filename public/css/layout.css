@@ -392,6 +392,12 @@ ul.sponsors li.name-only {
     height: 75px;
     background-image: url(/media/sponsors/btv-ignite-logo-150x75.png);
 }
+.logo.girl-develop-it {
+    width: 200px;
+    height: 41px;
+    margin-top: 15px;
+    background-image: url(/media/sponsors/girl-develop-it-logo-200x41.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
