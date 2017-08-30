@@ -387,6 +387,11 @@ ul.sponsors li.name-only {
     height: 42px;
     background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
 }
+.logo.burlington-code {
+    width: 150px;
+    height: 67px;
+    background-image: url(/media/sponsors/burlington-code-logo-150x67.png);
+}
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
