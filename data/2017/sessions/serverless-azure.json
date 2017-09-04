@@ -1,0 +1,16 @@
+{
+  "slug": "serverless-azure",
+  "title": "Serverless Azure: A Gentle Introduction to Azure through a Serverless Lens",
+  "description": "Looking for a hard-core deep dive into Azure explaining how to combine dozens of services to build applications that are globally scalable, low-latency, use big data, and support Blockchain?\n\nWell, this isn't that talk.\n\nIn this talk we'll take a more measured look at the Azure platform, focusing on Serverless services. We'll explain Serverless as the evolution of PaaS, then jump in to see how to quickly and practically build applications, APIs, and workflows that are easily deployed and managed. In our journey, we'll touch on Azure Functions, Logic Apps, API Apps, and maybe more services as time permits.\n\nBy the end, you'll see Serverless Azure in a highly practical light!",
+  "_links": {
+    "self": { "href": "/2017/sessions/serverless-azure" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/cloud-data-and-iot" },
+    "space": { "href": "/2017/spaces/room-1" },
+    "timePeriod": { "href": "/2017/time-periods/0900" },
+    "level": { "href": "/2017/levels/200" },
+    "speaker": [
+      { "href": "/2017/speakers/bill-wilder" }
+    ]
+  }
+}
