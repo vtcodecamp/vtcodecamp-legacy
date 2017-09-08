@@ -1,0 +1,16 @@
+{
+  "slug": "why-i-hate-your-responsive-website",
+  "title": "Why I Hate Your Responsive Website",
+  "description": "Responsive web design is all the rage today…as it should be: responsive design solves a very significant form factor problem in a mobile-first world.\n\nJust one problem: Too many responsive websites suck. Badly. Many are just a predictable mix of a fancy header bar; a giant, completely useless hero image—just to make it clear that you must scroll; endlessly long pages with just about everything but what you are looking for; promising links that send you back to what you were just looking at; scrolling, scrolling, scrolling, scrolling; and a useless fat footer to signify your scrolling has mercifully come to an end. Oh yeah—and a hamburger menu (regardless of need) just to emphasize that it works on your phone too.\n\nIn this talk, Everett will review what responsive UX design is all about, both good and bad. Next, he will explore why so many responsive sites commit an unpardonable sin—putting appearance over usability and good mobile design. Finally, he will propose some design principles to restore some sanity to responsive design.",
+  "_links": {
+    "self": { "href": "/2017/sessions/why-i-hate-your-responsive-website" },
+    "event": { "href": "/2017/" },
+    "track": { "href": "/2017/tracks/security-and-devops" },
+    "space": { "href": "/2017/spaces/room-4" },
+    "timePeriod": { "href": "/2017/time-periods/1530" },
+    "level": { "href": "/2017/levels/100" },
+    "speaker": [
+      { "href": "/2017/speakers/everett-mckay" }
+    ]
+  }
+}
