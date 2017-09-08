@@ -413,6 +413,10 @@ ul.sponsors li.static-logo-wrapper {
     width: 170px;
     margin: 66px;
 }
+.static-logo.microsoft {
+    width: 240px;
+    margin-bottom: 30px;
+}
 .legal-statement,
 .legal-statement a {
     color: gray;
