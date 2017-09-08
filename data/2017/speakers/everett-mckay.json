@@ -1,0 +1,10 @@
+{
+  "slug": "everett-mckay",
+  "firstName": "Everett",
+  "lastName": "McKay",
+  "bio": "Everett McKay is Principal of UX Design Edge, a user experience design training and consulting company for mobile, web, and desktop applications. Everett's specialty is UX design training for software professionals who aren't experienced designers through onsite and virtual courses and workshops. He has delivered UX design workshops to an international audience that includes Europe, Asia, South America, and Africa.\n\nEverett is author of \"Intuitive Design: Eight Steps to an Intuitive UI\" and \"UI is Communication: How to design intuitive, user-centered user interfaces by focusing on effective communication\". While at Microsoft, he was responsible for writing and evangelizing the Windows User Experience Guidelines. Before joining Microsoft, he was a programmer, specializing in designing and developing Windows and Macintosh user interfaces.",
+  "_links": {
+    "self": { "href": "/2017/speakers/everett-mckay" },
+    "twitter": { "href": "https://twitter.com/REPLACE_TWITTER", "title": "REPLACE_TWITTER" }
+  }
+}
