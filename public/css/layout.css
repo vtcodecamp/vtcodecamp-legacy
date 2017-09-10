@@ -402,6 +402,11 @@ ul.sponsors li.name-only {
     height: 54px;
     background-image: url(/media/sponsors/code-magazine-logo-150x54.png);
 }
+.logo.esri {
+    width: 175px;
+    height: 102px;
+    background-image: url(/media/sponsors/esri-logo-175x102.png);
+}
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
