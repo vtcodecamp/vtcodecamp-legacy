@@ -1,9 +1,9 @@
 {
-  "slug": "room-2",
-  "title": "Room 2",
+  "slug": "room-233",
+  "title": "Room 233",
   "order": 2,
   "_links": {
-    "self": { "href": "/2017/spaces/room-2" },
+    "self": { "href": "/2017/spaces/room-233" },
     "track": { "href": "/2017/tracks/languages-and-practices" }
   }
 }
