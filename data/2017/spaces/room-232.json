@@ -1,9 +1,9 @@
 {
-  "slug": "room-3",
-  "title": "Room 3",
+  "slug": "room-232",
+  "title": "Room 232",
   "order": 3,
   "_links": {
-    "self": { "href": "/2017/spaces/room-3" },
+    "self": { "href": "/2017/spaces/room-232" },
     "track": { "href": "/2017/tracks/client-mobile-web-and-more" }
   }
 }
