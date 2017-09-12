@@ -51,6 +51,20 @@ aside.page a:focus {
 aside.page p {
     margin-top: 0;
 }
+aside.page ul.list-inline,
+aside.page ol.list-inline {
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+}
+aside.page ul.list-inline li,
+aside.page ol.list-inline li {
+    display: inline-block;
+    margin-top: 0;
+    margin-left: 8px;
+    margin-right: 8px;
+    vertical-align: baseline;
+}
 header.page {
     position: relative;
     padding-bottom: 1.6em;

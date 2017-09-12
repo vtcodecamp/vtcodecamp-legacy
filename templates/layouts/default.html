@@ -59,7 +59,11 @@
     </header>
     <aside class="page">
         <div class="inner">
-            <p><a href="{{ path('schedule', {'year': '2017'}) }}"><strong>Attending Vermont Code Camp 2017?</strong> View the schedule. <i class="fa fa-chevron-circle-right"></i></a></p>
+            <ul class="list-inline">
+                <li><a href="https://www.meetup.com/VTCode/events/240096766/"><i class="fa fa-ticket"></i> Register</a></li>
+                <li><a href="{{ path('schedule', {'year': '2017'}) }}"><i class="fa fa-calendar"></i> Schedule</a></li>
+                <li><a href="{{ path('page', {'id': 'media/2017/parking/CCMap.png'}) }}" target="_blank"><i class="fa fa-map-marker"></i> Parking</a></li>
+            </ul>
         </div>
     </aside>
 {% block content %}{% endblock %}
