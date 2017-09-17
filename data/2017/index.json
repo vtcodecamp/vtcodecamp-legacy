@@ -4,6 +4,7 @@
   "description": "The Vermont Code Camp 2017 schedule includes sessions on a variety of software topics, including programming, databases, web and more.",
   "content": "The Vermont Code Camp 2017 schedule includes sessions on a variety of software topics, including programming, databases, web and more. *Please read our [Code of Conduct](/conduct) and [Diversity Statement](/diversity).*",
   "_links": {
-    "self": { "href": "/2017/" }
+    "self": { "href": "/2017/" },
+    "registration": { "href": "https://www.meetup.com/VTCode/events/240096766/" }
   }
 }
