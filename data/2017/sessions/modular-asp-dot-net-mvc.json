@@ -11,6 +11,10 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/bob-crowley" }
+    ],
+    "resource": [
+      { "href": "https://github.com/OrchardCMS/OrchardCore.Samples", "title": "Orchard Core Samples" },
+      { "href": "https://github.com/OrchardCMS/OrchardCore", "title": "Orchard Core Source" }
     ]
   }
 }

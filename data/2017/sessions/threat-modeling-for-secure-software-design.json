@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/300" },
     "speaker": [
       { "href": "/2017/speakers/robert-hurlbut" }
+    ],
+    "resource": [
+      { "href": "https://roberthurlbut.com/Resources/2017/VTCC9/Robert-Hurlbut-VTCC9-Threat-Modeling-For-Secure-Software-Design-09162017.pdf", "title": "Slides" }
     ]
   }
 }

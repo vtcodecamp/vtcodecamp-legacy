@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/eric-smith" }
+    ],
+    "resource": [
+      { "href": "https://github.com/ericssmith/presentations/blob/master/vtcc9/vtcc9_links.md", "title": "Notes" }
     ]
   }
 }

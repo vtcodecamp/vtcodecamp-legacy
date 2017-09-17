@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/tobin-winters" }
+    ],
+    "resource": [
+      { "href": "https://drive.google.com/file/d/0B1gbfXGlqI8eUmdkdUpnU0o4N0E/view?usp=sharing", "title": "Slides" }
     ]
   }
 }
