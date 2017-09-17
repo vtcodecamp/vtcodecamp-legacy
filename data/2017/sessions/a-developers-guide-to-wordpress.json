@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/josh-lee" }
+    ],
+    "resource": [
+      { "href": "http://slides.com/joshlee-1/a-developer-s-guide-to-wordpress#/", "title": "Slides" }
     ]
   }
 }

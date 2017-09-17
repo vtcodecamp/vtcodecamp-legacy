@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/100" },
     "speaker": [
       { "href": "/2017/speakers/amy-chess" }
+    ],
+    "resource": [
+      { "href": "https://docs.google.com/presentation/d/1hfrXFOLLsOBnBKns59QOdNecxjxOxLr4sMYZrelAOuI/edit?usp=sharing", "title": "Slides" }
     ]
   }
 }

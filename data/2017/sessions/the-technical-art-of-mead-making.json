@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/100" },
     "speaker": [
       { "href": "/2017/speakers/rob-friesel" }
+    ],
+    "resource": [
+      { "href": "https://docs.google.com/presentation/d/18DxSSyRWmLk8ilbqnYpWrbuhdVCgl-RYK6oeYZl3p58/edit#slide=id.p", "title": "Slides" }
     ]
   }
 }

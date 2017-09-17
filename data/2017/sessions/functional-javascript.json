@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/john-need" }
+    ],
+    "resource": [
+      { "href": "https://docs.google.com/presentation/d/1iMUnak_cYvnOJLqYwo87v3LbR7JLyPExmfLYIuCVY4M/edit?usp=sharing", "title": "Slides" }
     ]
   }
 }
