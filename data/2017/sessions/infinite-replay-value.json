@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/300" },
     "speaker": [
       { "href": "/2017/speakers/ben-glassman" }
+    ],
+    "resource": [
+      { "href": "https://vermontdesignworks.github.io/infinite-replay-value/", "title": "Slides" }
     ]
   }
 }
