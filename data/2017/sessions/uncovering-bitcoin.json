@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/200" },
     "speaker": [
       { "href": "/2017/speakers/shane-celis" }
+    ],
+    "resource": [
+      { "href": "http://seawisphunter.com/2017/09/18/vt-code-camp-9-uncovering-bitcoin/", "title": "Blog Post" }
     ]
   }
 }
