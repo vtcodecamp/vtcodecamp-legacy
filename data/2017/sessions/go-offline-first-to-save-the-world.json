@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/300" },
     "speaker": [
       { "href": "/2017/speakers/maureen-mcelaney" }
+    ],
+    "resource": [
+      { "href": "https://speakerdeck.com/mmcelaney/vermont-code-camp-9-go-offline-first-to-save-the-world", "title": "Slides" }
     ]
   }
 }
