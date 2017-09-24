@@ -11,6 +11,9 @@
     "level": { "href": "/2017/levels/300" },
     "speaker": [
       { "href": "/2017/speakers/jereme-givens-lamothe" }
+    ],
+    "resource": [
+      { "href": "https://speakerdeck.com/zestymeta/qt-plus-ubuntu", "title": "Slides" }
     ]
   }
 }
