@@ -13,7 +13,8 @@
       { "href": "/2017/speakers/jereme-givens-lamothe" }
     ],
     "resource": [
-      { "href": "https://speakerdeck.com/zestymeta/qt-plus-ubuntu", "title": "Slides" }
+      { "href": "https://speakerdeck.com/zestymeta/qt-plus-ubuntu", "title": "Slides" },
+      { "href": "https://zestymeta.github.io/blog/vermont-code-camp-2017/", "title": "Blog Post" }
     ]
   }
 }
