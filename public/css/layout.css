@@ -438,10 +438,6 @@ ul.sponsors li.static-logo-wrapper {
 .static-logo {
     border-radius: 0;
 }
-.static-logo.ibm {
-    width: 170px;
-    margin: 66px;
-}
 .static-logo.microsoft {
     width: 240px;
     margin-bottom: 30px;
