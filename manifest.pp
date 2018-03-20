@@ -122,16 +122,10 @@ class minimal-centos-60 {
     ],
   }
 
-  exec { "/usr/bin/pecl channel-update pecl.php.net":
-    require => Package["php56u-pear"],
+  package { "php56u-pecl-xdebug":
+    require => Package["php56u"],
+    ensure => latest,
     notify => Service["httpd"],
-    timeout => 0,
-  }
-
-  exec { "/usr/bin/pecl upgrade pecl.php.net/xdebug":
-    require => Exec["/usr/bin/pecl channel-update pecl.php.net"],
-    notify => Service["httpd"],
-    timeout => 0,
   }
 
   exec { "/usr/bin/pear channel-update pear.php.net":
