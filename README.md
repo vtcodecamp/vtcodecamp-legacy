@@ -23,7 +23,7 @@ To run a build manually (with the virtual machine already running):
 2. Change to the vagrant directory:  
 `cd /vagrant`
 3. Run the build command:  
-`/usr/bin/phing -f /vagrant/build.xml build`
+`/usr/bin/php /vagrant/admin.php events:build`
 
 ## Deploying
 
