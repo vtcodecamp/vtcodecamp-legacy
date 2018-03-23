@@ -1,4 +1,4 @@
-class minimal-centos-60 {
+class minimal_centos_60 {
   group { "puppet":
     ensure => "present",
   }
@@ -70,7 +70,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/environment",
     notify => Service["httpd"],
   }
@@ -79,7 +79,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/sysconfig/httpd",
     notify => Service["httpd"],
   }
@@ -89,7 +89,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/php.ini",
     notify => Service["httpd"],
   }
@@ -99,7 +99,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/php.d/xdebug.ini",
     notify => Service["httpd"],
   }
@@ -109,7 +109,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/httpd/conf/httpd.conf",
     notify => Service["httpd"],
   }
@@ -164,4 +164,4 @@ class minimal-centos-60 {
   }
 }
 
-include minimal-centos-60
+include minimal_centos_60
