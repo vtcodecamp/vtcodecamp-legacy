@@ -16,6 +16,15 @@ and [Vagrant](http://vagrantup.com/). To set up your own local development envir
 5. The project should now be available on `localhost` port `2611`:  
 `http://localhost:2611/`
 
+To run a build manually (with the virtual machine already running):
+
+1. SSH in to the virtual machine:  
+`vagrant ssh`
+2. Change to the vagrant directory:  
+`cd /vagrant`
+3. Run the build command:  
+`/usr/bin/phing -f /vagrant/build.xml build`
+
 ## Deploying
 
 This web application is configured for deployment on [Heroku](https://www.heroku.com/).
