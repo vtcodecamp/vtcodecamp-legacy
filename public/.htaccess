@@ -12,6 +12,7 @@ RedirectMatch ^/2017/?$ /2017/schedule
     RewriteEngine On
     #RewriteCond %{HTTPS} off [OR]
     # Specific for Heroku
+    RewriteCond %{HTTP_HOST} !localhost [NC]
     RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]

@@ -1,4 +1,4 @@
-class minimal-centos-60 {
+class minimal_centos_60 {
   group { "puppet":
     ensure => "present",
   }
@@ -13,7 +13,7 @@ class minimal-centos-60 {
     require => Package["epel-release"],
     provider => rpm,
     ensure => installed,
-    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-11.ius.el6.noarch.rpm"
+    source => "http://dl.iuscommunity.org/pub/ius/stable/Redhat/6/x86_64/ius-release-1.0-15.ius.el6.noarch.rpm"
   }
 
   exec { "upgrade-ca-certificates":
@@ -66,25 +66,11 @@ class minimal-centos-60 {
     ensure => latest,
   }
 
-  file { "/etc/yum.repos.d/cloudant.repo":
-    ensure => file,
-    owner => root,
-    group => root,
-    mode => 0644,
-    source => "/vagrant/etc/yum.repos.d/cloudant.repo",
-  }
-
-  package { "bigcouch":
-    require => File["/etc/yum.repos.d/cloudant.repo"],
-    ensure => latest,
-    notify => Service["bigcouch"],
-  }
-
   file { "/etc/environment":
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/environment",
     notify => Service["httpd"],
   }
@@ -93,7 +79,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/sysconfig/httpd",
     notify => Service["httpd"],
   }
@@ -103,7 +89,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/php.ini",
     notify => Service["httpd"],
   }
@@ -113,7 +99,7 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/php.d/xdebug.ini",
     notify => Service["httpd"],
   }
@@ -123,14 +109,9 @@ class minimal-centos-60 {
     ensure => file,
     owner => root,
     group => root,
-    mode => 0644,
+    mode => "0644",
     source => "/vagrant/etc/httpd/conf/httpd.conf",
     notify => Service["httpd"],
-  }
-
-  service { "bigcouch":
-    ensure => running,
-    require => Package["bigcouch"]
   }
 
   service { "httpd":
@@ -141,19 +122,13 @@ class minimal-centos-60 {
     ],
   }
 
-  exec { "/usr/bin/pecl upgrade":
-    require => Package["php56u-pear"],
+  package { "php56u-pecl-xdebug":
+    require => Package["php56u"],
+    ensure => latest,
     notify => Service["httpd"],
-    timeout => 0,
   }
 
-  exec { "/usr/bin/pecl upgrade pecl.php.net/xdebug":
-    require => Exec["/usr/bin/pecl upgrade"],
-    notify => Service["httpd"],
-    timeout => 0,
-  }
-
-  exec { "/usr/bin/pear upgrade":
+  exec { "/usr/bin/pear channel-update pear.php.net":
     require => Package["php56u-pear"],
     timeout => 0,
   }
@@ -161,14 +136,14 @@ class minimal-centos-60 {
   exec { "/usr/bin/pear config-set auto_discover 1":
     require => [
       Package["php56u-pear"],
-      Exec["/usr/bin/pear upgrade"]
+      Exec["/usr/bin/pear channel-update pear.php.net"]
     ],
     timeout => 0,
   }
 
   exec { "/usr/bin/pear upgrade pear.phing.info/phing":
     require => [
-      Exec["/usr/bin/pear upgrade"],
+      Exec["/usr/bin/pear channel-update pear.php.net"],
       Exec["/usr/bin/pear config-set auto_discover 1"]
     ],
     timeout => 0,
@@ -189,4 +164,4 @@ class minimal-centos-60 {
   }
 }
 
-include minimal-centos-60
+include minimal_centos_60
