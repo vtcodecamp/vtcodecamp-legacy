@@ -361,6 +361,12 @@ ul.sponsors li.name-only {
     height: 58px;
     background-image: url(/media/sponsors/champlain-college-logo-250x58.png);
 }
+.logo.tek-systems {
+    width: 225px;
+    height: 73px;
+    background-image: url(/media/sponsors/tek-systems-2154x695.jpg);
+    background-size: contain;
+}
 .logo.cox-automotive {
     width: 200px;
     height: 80px;
