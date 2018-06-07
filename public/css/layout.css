@@ -355,6 +355,7 @@ ul.sponsors li.name-only {
     background-repeat: no-repeat;
     background-position: center center;
     text-indent: -999em;
+    background-size: contain;
 }
 .logo.champlain-college {
     width: 250px;
@@ -365,7 +366,6 @@ ul.sponsors li.name-only {
     width: 225px;
     height: 73px;
     background-image: url(/media/sponsors/tek-systems-2154x695.jpg);
-    background-size: contain;
 }
 .logo.cox-automotive {
     width: 200px;
@@ -398,9 +398,9 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
 }
 .logo.competitive-computing {
-    width: 100px;
-    height: 68px;
-    background-image: url(/media/sponsors/competitive-computing-logo-100x68.png);
+    width: 115px;
+    height: 115px;
+    background-image: url(/media/sponsors/competetive-computing-logo-25years-220x224.png);
 }
 .logo.logic-supply {
     width: 150px;
