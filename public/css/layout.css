@@ -355,17 +355,17 @@ ul.sponsors li.name-only {
     background-repeat: no-repeat;
     background-position: center center;
     text-indent: -999em;
+    background-size: contain;
 }
 .logo.champlain-college {
     width: 250px;
     height: 58px;
-    background-image: url(/media/sponsors/champlain-college-logo-250x58.png);
+    background-image: url(/media/sponsors/champlain-college-logo-500x116.png);
 }
 .logo.tek-systems {
     width: 225px;
     height: 73px;
-    background-image: url(/media/sponsors/tek-systems-2154x695.jpg);
-    background-size: contain;
+    background-image: url(/media/sponsors/tek-systems-450x122.png);
 }
 .logo.cox-automotive {
     width: 200px;
@@ -375,7 +375,7 @@ ul.sponsors li.name-only {
 .logo.burlington-telecom {
     width: 225px;
     height: 57px;
-    background-image: url(/media/sponsors/burlington-telecom-logo-225x57.png);
+    background-image: url(/media/sponsors/burlington-telecom-logo-450x114.png);
 }
 .logo.vermont-information-processing {
     width: 110px;
@@ -385,7 +385,7 @@ ul.sponsors li.name-only {
 .logo.the-university-of-vermont-medical-center {
     width: 225px;
     height: 66px;
-    background-image: url(/media/sponsors/the-university-of-vermont-medical-center-logo-225x66.png);
+    background-image: url(/media/sponsors/the-university-of-vermont-medical-center-logo-450x131.png);
 }
 .logo.mywebgrocer {
     width: 225px;
@@ -398,9 +398,9 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
 }
 .logo.competitive-computing {
-    width: 100px;
-    height: 68px;
-    background-image: url(/media/sponsors/competitive-computing-logo-100x68.png);
+    width: 110px;
+    height: 112px;
+    background-image: url(/media/sponsors/competetive-computing-logo-25years-220x224.png);
 }
 .logo.logic-supply {
     width: 150px;
@@ -420,7 +420,7 @@ ul.sponsors li.name-only {
 .logo.code-magazine {
     width: 150px;
     height: 54px;
-    background-image: url(/media/sponsors/code-magazine-logo-150x54.png);
+    background-image: url(/media/sponsors/code-magazine-logo-300x108.png);
 }
 .logo.esri {
     width: 175px;
@@ -430,7 +430,7 @@ ul.sponsors li.name-only {
 .logo.btv-ignite {
     width: 150px;
     height: 75px;
-    background-image: url(/media/sponsors/btv-ignite-logo-150x75.png);
+    background-image: url(/media/sponsors/btv-ignite-300x139.png);
 }
 .logo.girl-develop-it {
     width: 200px;
