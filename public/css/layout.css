@@ -367,6 +367,11 @@ ul.sponsors li.name-only {
     height: 73px;
     background-image: url(/media/sponsors/tek-systems-450x122.png);
 }
+.logo.allscripts {
+    width: 225px;
+    height: 73px;
+    background-image: url(/media/sponsors/allscripts-logo-450x98.png);
+}
 .logo.cox-automotive {
     width: 200px;
     height: 80px;
