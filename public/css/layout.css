@@ -392,6 +392,11 @@ ul.sponsors li.name-only {
     height: 66px;
     background-image: url(/media/sponsors/the-university-of-vermont-medical-center-logo-450x131.png);
 }
+.logo.jetbrains {
+    width: 125px;
+    height: 135px;
+    background-image: url(/media/sponsors/jetbrains-logo.svg);
+}
 .logo.mywebgrocer {
     width: 225px;
     height: 108px;
