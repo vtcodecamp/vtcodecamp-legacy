@@ -407,6 +407,11 @@ ul.sponsors li.name-only {
     height: 42px;
     background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
 }
+.logo.aerie-consulting {
+    width: 145px;
+    height: 145px;
+    background-image: url(/media/sponsors/aerie-consulting-logo-o365-330x330.png);
+}
 .logo.competitive-computing {
     width: 110px;
     height: 112px;
