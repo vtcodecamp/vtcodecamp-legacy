@@ -397,6 +397,11 @@ ul.sponsors li.name-only {
     height: 135px;
     background-image: url(/media/sponsors/jetbrains-logo.svg);
 }
+.logo.symbiotic-labs {
+    width: 145px;
+    height: 135px;
+    background-image: url(/media/sponsors/symbiotic-labs-logo.svg);
+}
 .logo.mywebgrocer {
     width: 225px;
     height: 108px;
