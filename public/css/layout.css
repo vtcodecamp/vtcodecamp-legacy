@@ -458,6 +458,24 @@ ul.sponsors li.name-only {
     margin-top: 15px;
     background-image: url(/media/sponsors/girl-develop-it-logo-200x41.png);
 }
+.logo.usability-kitty {
+    width: 200px;
+    height: 41px;
+    margin-top: 15px;
+    background-image: url(/media/sponsors/usability-kitty.png);
+}
+.logo.owlfeather {
+    width: 200px;
+    height: 41px;
+    margin-top: 15px;
+    background-image: url(/media/sponsors/owlfeather.png);
+}
+.logo.manning {
+    width: 200px;
+    height: 41px;
+    margin-top: 15px;
+    background-image: url(/media/sponsors/manning.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
