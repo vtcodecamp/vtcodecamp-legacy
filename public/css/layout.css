@@ -476,6 +476,21 @@ ul.sponsors li.name-only {
     margin-top: 15px;
     background-image: url(/media/sponsors/manning.png);
 }
+.logo.ddc {
+    width: 405px;
+    height: 70px;
+    background-image: url(/media/sponsors/dealerdotcom-1000x172.png);
+}
+.logo.dealerpolicy {
+    width: 200px;
+    height: 100px;
+    background-image: url(/media/sponsors/dealerpolicy.svg);
+}
+.logo.vermontsystems {
+    width: 200px;
+    height: 100px;
+    background-image: url(/media/sponsors/vermont-systems.png);
+}
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
 }
