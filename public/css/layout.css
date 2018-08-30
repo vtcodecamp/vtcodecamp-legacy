@@ -107,8 +107,7 @@ header.page nav ul {
 }
 header.page nav li {
     display: inline;
-    margin-left: 1em;
-    margin-right: 1em;
+    margin: 0 .4em;
     list-style: none;
 }
 header.page nav li a {
@@ -212,7 +211,7 @@ header.page .meta .location small.school {
     }
     header.page nav,
     header.page .meta {
-        width: 45%;
+        width: 95%;
     }
     header.page nav li {
         font-size: 1.3em;
@@ -241,6 +240,9 @@ header.page .meta .location small.school {
     }
     header.page .meta {
         font-size: 0.9em;
+    }
+    header.page nav li {
+        margin: 0 .6em;
     }
 }
 @media all and (min-width: 900px) {
@@ -477,7 +479,7 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/manning.png);
 }
 .logo.ddc {
-    width: 405px;
+    width: 270px;
     height: 70px;
     background-image: url(/media/sponsors/dealerdotcom-1000x172.png);
 }
@@ -565,6 +567,9 @@ ul.sponsors li.static-logo-wrapper {
         margin-top: 1.2em;
         margin-left: 1.8em;
     }
+    .logo.ddc {
+        width: 300px;
+    }
 }
 @media all and (min-width: 600px) {
     #event {
@@ -609,4 +614,13 @@ article.resource p {
         padding-bottom: 4em;
         font-size: 1.8em;
     }
+}
+
+
+#sessionize .sz-gridtable.sz-gridtable td, 
+#sessionize .sz-gridtable.sz-gridtable th {
+    padding: 8px 8px;
+}
+#sessionize .sz-day__title.sz-day__title {
+    display: none;
 }

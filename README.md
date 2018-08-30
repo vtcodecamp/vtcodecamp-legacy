@@ -16,6 +16,14 @@ and [Vagrant](http://vagrantup.com/). To set up your own local development envir
 5. The project should now be available on `localhost` port `2611`:  
 `http://localhost:2611/`
 
+If localhost says "Site Can't be Reached", check that Apache is running
+1. ssh into vagrant 
+`vagrant ssh`
+2. Check httpd status
+`sudo service httpd status`
+3. If httpd is stopped, start it:
+`sudo service httpd start`
+
 To run a build manually (with the virtual machine already running):
 
 1. SSH in to the virtual machine:  
