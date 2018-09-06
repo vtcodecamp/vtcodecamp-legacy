@@ -454,6 +454,16 @@ ul.sponsors li.name-only {
     height: 75px;
     background-image: url(/media/sponsors/btv-ignite-300x139.png);
 }
+.logo.mabl {
+    width: 150px;
+    height: 75px;
+    background-image: url(/media/sponsors/mabl-logo-300x124.png);
+}
+.logo.pluralsight {
+    width: 220px;
+    height: 75px;
+    background-image: url(/media/sponsors/pluralsight-logo.svg);
+}
 .logo.girl-develop-it {
     width: 200px;
     height: 41px;
@@ -482,6 +492,11 @@ ul.sponsors li.name-only {
     width: 270px;
     height: 70px;
     background-image: url(/media/sponsors/dealerdotcom-1000x172.png);
+}
+.logo.sessionize {
+    width: 270px;
+    height: 70px;
+    background-image: url(/media/sponsors/sessionize-logo-540x88.png);
 }
 .logo.dealerpolicy {
     width: 200px;
