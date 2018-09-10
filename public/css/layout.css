@@ -410,9 +410,9 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/mywebgrocer-logo-225x108.png);
 }
 .logo.galen-healthcare-solutions {
-    width: 175px;
-    height: 42px;
-    background-image: url(/media/sponsors/galen-healthcare-solutions-logo-175x42.png);
+    width: 412px;
+    height: 120px;
+    background-image: url(/media/sponsors/galen-412x120.png);
 }
 .logo.aerie-consulting {
     width: 145px;
@@ -474,19 +474,19 @@ ul.sponsors li.name-only {
     width: 200px;
     height: 41px;
     margin-top: 15px;
-    background-image: url(/media/sponsors/usability-kitty.png);
+    background-image: url(/media/sponsors/usability-kitty-250x58.png);
 }
 .logo.owlfeather {
     width: 200px;
     height: 41px;
     margin-top: 15px;
-    background-image: url(/media/sponsors/owlfeather.png);
+    background-image: url(/media/sponsors/owlfeather-250x61.png);
 }
 .logo.manning {
     width: 200px;
     height: 41px;
     margin-top: 15px;
-    background-image: url(/media/sponsors/manning.png);
+    background-image: url(/media/sponsors/manning-600x77.png);
 }
 .logo.ddc {
     width: 270px;
@@ -506,7 +506,12 @@ ul.sponsors li.name-only {
 .logo.vermontsystems {
     width: 200px;
     height: 100px;
-    background-image: url(/media/sponsors/vermont-systems.png);
+    background-image: url(/media/sponsors/vermont-systems-300x104.png);
+}
+.logo.twilio {
+    width: 325px;
+    height: 150px;
+    background-image: url(/media/sponsors/twilio-325x150.png);
 }
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
