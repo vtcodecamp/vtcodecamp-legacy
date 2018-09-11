@@ -33,6 +33,8 @@ class BuildEvents extends Command
         $this->buildSchedule();
         $this->buildSessions();
         $this->buildSpeakers();
+
+        $this->buildSessionizeData();
     }
 
     private function buildSchedule()
@@ -533,4 +535,119 @@ class BuildEvents extends Command
             }
         }
     }
+
+    private function buildSessionizeData()
+    {
+        $eventPath = '2018';
+        $eventHref = '/2018/';
+        $sessionsPath = $eventPath . '/sessions/';
+
+        $sessionizeScheduleJson = file_get_contents('https://sessionize.com/api/v2/bm8zoh0m/view/gridtable');
+        $sessionizeSchedule = json_decode($sessionizeScheduleJson);
+
+        $rooms = $sessionizeSchedule[0]->rooms;
+
+        $order = 0;
+        $spaces = [];
+        foreach ($rooms as $room) {
+            if ($room->name == 'Main Hall') {
+                continue;
+            }
+            $spaceSessions = [];
+            foreach ($room->sessions as $session) {
+                $speakers = [];
+                foreach ($session->speakers as $speaker) {
+                    $speakers[] = [
+                        'slug' => $speaker->id,
+                        'firstName' => $speaker->name,
+                        'lastName' => $speaker->name,
+                    ];
+                }
+                $level = '';
+                foreach ($session->categories as $category) {
+                    if ($category->name == 'Level') {
+                        $level = $category->categoryItems[0]->name;
+                    }
+                }
+                $spaceSessions[] = [
+                    'slug' => $session->id,
+                    'title' => $session->title,
+                    'description' => $session->description,
+                    '_embedded' => [
+                        'timePeriod' => [
+                            'slug' => $session->startsAt,
+                            'start' => $session->startsAt,
+                            'end' => $session->endsAt,
+                        ],
+                        'level' => [
+                            'slug' => $level,
+                            'title' => $level,
+                            'description' => $level,
+                        ],
+                        'speaker' => $speakers,
+                    ],
+                ];
+            }
+            $order++;
+            $spaces[] = [
+                '_links' => [
+                    'self' => [
+                        'href' => $eventHref . 'spaces/' . $room->id
+                    ]
+                ],
+                'slug' => $room->id,
+                'title' => $room->name,
+                'order' => $order,
+                '_embedded' => [
+                    'track' => [
+                        'slug' => $room->id,
+                        'title' => $room->name,
+                    ],
+                    'session' => $spaceSessions,
+                ]
+            ];
+
+        }
+
+
+        $dataConfig = include APPLICATION_ROOT . '/config/data.php';
+
+
+        $sessionData = [
+            '_links' => [
+                'self' => [
+                    'href' => $eventHref . 'sessions',
+                ]
+            ],
+            'title' => 'Sessions',
+            '_embedded' => [
+                'event' => [
+                    "_links" => [
+                        "self" => [
+                            "href" => $eventHref,
+                        ],
+                    ],
+                    "slug" => $eventPath,
+                    "title" => "Vermont Code Camp 2017",
+                    "description" => "The Vermont Code Camp 2017 schedule included sessions on a variety of software topics, including programming, databases, web and more.",
+                    "content" => "The Vermont Code Camp 2017 schedule included sessions on a variety of software topics, including programming, databases, web and more. *Please read our [Code of Conduct](\/conduct) and [Diversity Statement](\/diversity).*"
+                ],
+                'space' => $spaces,
+            ],
+        ];
+
+        $sessionsDataPath = $dataConfig['cache'] . $eventHref . 'sessions/index.json';
+        if (!is_dir($dataConfig['cache'])) {
+            mkdir($dataConfig['cache']);
+        }
+        if (!is_dir($dataConfig['cache'] . $eventHref)) {
+            mkdir($dataConfig['cache'] . $eventHref);
+        }
+        if (!is_dir($dataConfig['cache'] . $eventHref . 'sessions')) {
+            mkdir($dataConfig['cache'] . $eventHref . 'sessions');
+        }
+        file_put_contents($sessionsDataPath, json_encode($sessionData) . PHP_EOL);
+    }
+
+
 }
