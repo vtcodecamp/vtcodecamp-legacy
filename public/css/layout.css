@@ -410,8 +410,8 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/mywebgrocer-logo-225x108.png);
 }
 .logo.galen-healthcare-solutions {
-    width: 412px;
-    height: 120px;
+    width: 250px;
+    height: 80px;
     background-image: url(/media/sponsors/galen-412x120.png);
 }
 .logo.aerie-consulting {
@@ -506,7 +506,7 @@ ul.sponsors li.name-only {
 .logo.dealerpolicy {
     width: 200px;
     height: 100px;
-    background-image: url(/media/sponsors/dealerpolicy.svg);
+    background-image: url(/media/sponsors/dealerpolicy-logo-400.png);
 }
 .logo.vermontsystems {
     width: 200px;
@@ -514,9 +514,9 @@ ul.sponsors li.name-only {
     background-image: url(/media/sponsors/vermont-systems-300x104.png);
 }
 .logo.twilio {
-    width: 325px;
-    height: 150px;
-    background-image: url(/media/sponsors/twilio-325x150.png);
+    width: 225px;
+    height: 74px;
+    background-image: url(/media/sponsors/twilio-450x141.png);
 }
 ul.sponsors li.static-logo-wrapper {
     margin: 0;
@@ -593,7 +593,7 @@ ul.sponsors li.static-logo-wrapper {
         margin-left: 1.8em;
     }
     .logo.ddc {
-        width: 300px;
+        width: 290px;
     }
 }
 @media all and (min-width: 600px) {
