@@ -424,6 +424,11 @@ ul.sponsors li.name-only {
     height: 112px;
     background-image: url(/media/sponsors/competetive-computing-logo-25years-220x224.png);
 }
+.logo.burlington-code-academy {
+    width: 235px;
+    height: 77px;
+    background-image: url(/media/sponsors/burlington-code-academy-470.png);
+}
 .logo.logic-supply {
     width: 150px;
     height: 64px;
