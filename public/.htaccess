@@ -13,10 +13,16 @@ RedirectMatch ^/2017/?$ /2017/schedule
     #RewriteCond %{HTTPS} off [OR]
     # Specific for Heroku
     RewriteCond %{HTTP_HOST} !localhost [NC]
+    RewriteCond %{HTTP_HOST} !2018.vtcodecamp.org [NC]
+    RewriteCond %{HTTP_HOST} !archive.vtcodecamp.org [NC]
     RewriteCond %{HTTP:X-Forwarded-Proto} !https [OR]
     RewriteCond %{HTTP_HOST} !^www\. [NC]
     RewriteCond %{HTTP_HOST} ^(?:www\.)?(.+)$ [NC]
     RewriteRule ^ https://www.%1%{REQUEST_URI} [L,NE,R=301]
+    
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteRule ^ https://%{HTTP_HOST}{REQUEST_URI} [L,NE,R=301]
+
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
